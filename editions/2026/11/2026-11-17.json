@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-17",
+  "kind": "weekday",
+  "generatedAt": "2026-11-17T12:35:00Z",
+  "frontPage": [
+    {
+      "headline": "SAMPLE: The day's biggest story takes the lead slot in large type",
+      "summary": "This is placeholder text, not real news. The lead story gets three or four sentences that state what happened, who said it, and what comes next. It reports facts only, in plain language, so you can stop here and still know the story.",
+      "whyItMatters": "One line connecting the story to the companies you follow or the systems you build.",
+      "url": "https://example.com/?sample=sample-lead",
+      "source": "The Wall Street Journal",
+      "tags": ["NVDA", "AVGO"]
+    },
+    {
+      "headline": "SAMPLE: A security story that touches cloud providers",
+      "summary": "Placeholder summary. Two or three sentences on the incident or disclosure, with the affected products and the fix.",
+      "whyItMatters": "What a security architect should take from it.",
+      "url": "https://example.com/?sample=sample-2",
+      "source": "The Record",
+      "tags": ["CRWD"]
+    },
+    {
+      "headline": "SAMPLE: A policy decision in Washington with market consequences",
+      "summary": "Placeholder summary. What was decided, when it takes effect, and which industries it reaches.",
+      "whyItMatters": "The link to chips, cloud or trade.",
+      "url": "https://example.com/?sample=sample-3",
+      "source": "Reuters",
+      "tags": []
+    },
+    {
+      "headline": "SAMPLE: A data-center or power announcement",
+      "summary": "Placeholder summary. Who is building what, where, how many megawatts, and who supplies it.",
+      "whyItMatters": "Where it lands in the AI infrastructure supply chain.",
+      "url": "https://example.com/?sample=sample-4",
+      "source": "Data Center Dynamics",
+      "tags": ["VST", "ANET"]
+    },
+    {
+      "headline": "SAMPLE: A world story of the first rank",
+      "summary": "Placeholder summary. The event, the parties, and the immediate consequence.",
+      "whyItMatters": "Why it reaches beyond the region.",
+      "url": "https://example.com/?sample=sample-5",
+      "source": "The New York Times",
+      "tags": []
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 16 close",
+    "movers": [
+      { "ticker": "APLD", "changePct": -9.0, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=apld" },
+      { "ticker": "IONQ", "changePct": -9.1, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=ionq" },
+      { "ticker": "HOOD", "changePct": -7.9, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=hood" },
+      { "ticker": "MU", "changePct": -7.4, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=mu" },
+      { "ticker": "MARA", "changePct": -6.3, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=mara" },
+      { "ticker": "ANET", "changePct": -5.7, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=anet" },
+      { "ticker": "AMD", "changePct": -5.6, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=amd" },
+      { "ticker": "ASML", "changePct": -5.5, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=asml" },
+      { "ticker": "NVDA", "changePct": -4.7, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=nvda" },
+      { "ticker": "PLTR", "changePct": -4.3, "reason": "Sample one-line cause.", "url": "https://example.com/?sample=pltr" }
+    ],
+    "earnings": [
+      { "ticker": "NVDA", "date": "2026-11-17", "note": "after the close" },
+      { "ticker": "PANW", "date": "2026-11-18", "note": "after the close" },
+      { "ticker": "RBRK", "date": "2026-11-30", "note": "" },
+      { "ticker": "CRWD", "date": "2026-12-01", "note": "" },
+      { "ticker": "PATH", "date": "2026-12-03", "note": "" }
+    ],
+    "analystAndInsider": [
+      { "ticker": "NET", "note": "Sample: a notable rating change or insider sale.", "url": "https://example.com/?sample=net" }
+    ],
+    "macro": [
+      { "date": "2026-11-18", "event": "Sample data release", "note": "what to watch" },
+      { "date": "2026-11-19", "event": "Sample central-bank minutes", "note": "" }
+    ],
+    "bearCase": {
+      "subject": "AI capital spending",
+      "summary": "Sample: one sceptical argument, stated fairly in two sentences, to test the prevailing view.",
+      "url": "https://example.com/?sample=bear",
+      "source": "The Diff"
+    }
+  },
+  "sections": [
+    { "id": "markets", "items": [
+      { "headline": "SAMPLE: Markets item one", "summary": "Placeholder: two sentences on what moved and why.", "url": "https://example.com/?sample=m1", "source": "Reuters" },
+      { "headline": "SAMPLE: Markets item two", "summary": "Placeholder: two sentences on a deal, filing or earnings report.", "whyItMatters": "A short view, kept apart from the facts.", "url": "https://example.com/?sample=m2", "source": "Money Stuff" }
+    ]},
+    { "id": "ai-datacenter", "items": [
+      { "headline": "SAMPLE: A model release or research result", "summary": "Placeholder: what it does and how it was measured.", "url": "https://example.com/?sample=a1", "source": "Simon Willison" },
+      { "headline": "SAMPLE: GPU cluster networking news", "summary": "Placeholder: the technology and who is adopting it.", "whyItMatters": "A short view.", "url": "https://example.com/?sample=a2", "source": "The Next Platform" },
+      { "headline": "SAMPLE: Agent sandboxing technique", "summary": "Placeholder: the isolation approach and its limits.", "url": "https://example.com/?sample=a3", "source": "Embrace the Red" }
+    ]},
+    { "id": "security", "items": [
+      { "headline": "SAMPLE: A supply-chain compromise", "summary": "Placeholder: how it entered, what it reached, how it was caught.", "whyItMatters": "A short view.", "url": "https://example.com/?sample=s1", "source": "tl;dr sec" },
+      { "headline": "SAMPLE: An actively exploited flaw", "summary": "Placeholder: product, severity and patch status.", "url": "https://example.com/?sample=s2", "source": "CISA" }
+    ]},
+    { "id": "engineering", "items": [
+      { "headline": "SAMPLE: A postmortem worth reading", "summary": "Placeholder: the trigger, the cascade and the fix.", "whyItMatters": "The design lesson.", "url": "https://example.com/?sample=e1", "source": "Hacker News" },
+      { "headline": "SAMPLE: A distributed-systems paper", "summary": "Placeholder: the claim and the evidence.", "url": "https://example.com/?sample=e2", "source": "Marc Brooker" }
+    ]},
+    { "id": "health-tech", "items": [
+      { "headline": "SAMPLE: A health-records or interoperability story", "summary": "Placeholder: the rule or product and who it affects.", "url": "https://example.com/?sample=h1", "source": "HIStalk" }
+    ]},
+    { "id": "seattle", "items": [
+      { "headline": "SAMPLE: A Seattle-area tech story", "summary": "Placeholder: a local company, funding round or hiring move.", "url": "https://example.com/?sample=se1", "source": "GeekWire" },
+      { "headline": "SAMPLE: A regional business story", "summary": "Placeholder: two sentences.", "url": "https://example.com/?sample=se2", "source": "The Seattle Times" }
+    ]},
+    { "id": "world", "items": [
+      { "headline": "SAMPLE: China, Taiwan and chips", "summary": "Placeholder: two sentences.", "url": "https://example.com/?sample=w1", "source": "Reuters" },
+      { "headline": "SAMPLE: Europe and the global economy", "summary": "Placeholder: two sentences.", "url": "https://example.com/?sample=w2", "source": "BBC" }
+    ]},
+    { "id": "india", "items": [
+      { "headline": "SAMPLE: A major India story", "summary": "Placeholder: policy, economy or technology, major stories only.", "url": "https://example.com/?sample=i1", "source": "Mint" }
+    ]},
+    { "id": "career", "items": [] }
+  ],
+  "learn": {
+    "track": "Security",
+    "format": "explainer",
+    "title": "SAMPLE: One concept, explained in about 300 words",
+    "body": "This is placeholder text. The daily learning piece explains a single idea from this weekday's track, with one concrete example and no filler.\n\nA second paragraph works through the example: what the mechanism is, why it was designed that way, and where it breaks.\n\nA closing paragraph says what to take into your own designs.",
+    "url": "https://example.com/?sample=learn"
+  },
+  "liveWell": {
+    "health": { "tip": "Sample: one evidence-based tip for people who sit at a desk all day.", "url": "https://example.com/?sample=health" },
+    "eating": { "tip": "Sample: one practical nutrition tip that works with vegetarian and Indian home cooking.", "url": "https://example.com/?sample=eating" },
+    "productivity": { "tip": "Sample: one focus or planning technique, in a sentence or two.", "url": "https://example.com/?sample=productivity" }
+  },
+  "calendar": [
+    { "date": "2026-11-17", "note": "NVDA reports after the close" },
+    { "date": "2026-11-18", "note": "PANW reports after the close" },
+    { "date": "2026-12-09", "note": "ORCL and AVGO report" }
+  ],
+  "runReport": { "sourcesReached": 0, "fetchesFailed": [], "sectionsShort": ["career"], "fullReads": 0 }
+}

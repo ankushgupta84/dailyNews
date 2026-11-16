@@ -1,0 +1,58 @@
+name: Publish
+
+# The gate between the editor and the public page. The newest edition must pass
+# Validate (schema, privacy words, numbers against the brief, live links) or nothing
+# is deployed and the previous page stays up.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "editions/**"
+      - "site/**"
+      - "schema/**"
+      - "tools/**"
+      - "profile.json"
+      - ".github/workflows/publish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+      - name: Test the tools
+        run: mvn -q -f tools/pom.xml test
+      - name: Validate the newest edition
+        run: mvn -q -f tools/pom.xml exec:java -Dexec.mainClass=news.Validate -Dexec.args="--root . --check-urls"
+      - name: Assemble the site
+        run: sh tools/assemble.sh
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

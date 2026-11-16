@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#f7f4ec">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>The Morning Edition</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-top">
+    <span id="edition-meta" class="meta"></span>
+    <button id="theme-toggle" class="plain-button" type="button" aria-label="Switch between light and dark">Light / Dark</button>
+  </div>
+  <h1>The Morning Edition</h1>
+  <div class="masthead-bottom">
+    <button id="prev" class="plain-button" type="button">&lsaquo; Previous</button>
+    <span id="edition-date" class="edition-date"></span>
+    <span class="nav-right">
+      <label class="visually-hidden" for="archive">Archive</label>
+      <select id="archive"></select>
+      <button id="next" class="plain-button" type="button">Next &rsaquo;</button>
+    </span>
+  </div>
+  <nav id="jump" class="jump" aria-label="Sections"></nav>
+</header>
+
+<p id="notice" class="notice" hidden></p>
+<p id="error" class="error" hidden></p>
+
+<main id="paper"></main>
+
+<footer id="footer" class="footer"></footer>
+
+<script src="app.js"></script>
+</body>
+</html>

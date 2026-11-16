@@ -1,0 +1,23 @@
+{
+  "tickers": {
+    "focus": ["AAPL", "AMD", "AMZN", "ANET", "APLD", "ASML", "AVGO", "CRWD", "DRAM", "GOOG", "GOOGL", "HOOD", "IMSR", "INFQ", "IONQ", "MARA", "META", "MSFT", "MU", "NET", "NFLX", "NVDA", "OKLO", "ONDS", "ORCL", "PANW", "PATH", "PLTR", "RBRK", "SMCI", "SOFI", "TSLA", "VST", "WDC"],
+    "general": ["CBRS", "CRCL", "DEFT", "DOCN", "INTC", "LKNCY", "MP", "NVTS", "QBTS", "QUBT", "RELY", "RGTI", "SKHY", "SNDK", "SPCX", "STX", "UBER", "USAR", "VOO"]
+  },
+  "learnRotation": {
+    "monday": "Distributed systems",
+    "tuesday": "Security",
+    "wednesday": "AI and agents",
+    "thursday": "System design",
+    "friday": "Leadership",
+    "saturday": "Paper or postmortem of the week",
+    "sunday": "The long view"
+  },
+  "libraryLinks": {
+    "The Wall Street Journal": "https://access-proxy.sno-isle.org/login?url=https://partner.wsj.com/p/1148200010/enter-redemption-code/P2954402G657",
+    "The New York Times": "https://www.sno-isle.org/magazines-newspapers/",
+    "The Washington Post": "https://access-proxy.sno-isle.org/login?url=https://www.proquest.com/usnews/publication/10327?accountid=1168",
+    "Los Angeles Times": "https://access-proxy.sno-isle.org/login?url=https://search.proquest.com/latimes/publicationbrowse?accountid=1168",
+    "The Seattle Times": "https://www.sno-isle.org/magazines-newspapers/",
+    "The Atlantic": "https://www.sno-isle.org/magazines-newspapers/"
+  }
+}

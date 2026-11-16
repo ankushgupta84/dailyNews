@@ -1,0 +1,24 @@
+{
+  "note": "Hand-maintained from official schedules. Sources: federalreserve.gov/monetarypolicy/fomccalendars.htm (as updated 2026-11-12; meeting dates are tentative until confirmed), bls.gov/schedule/news_release/cpi.htm, bls.gov/schedule/news_release/empsit.htm. Covers through June 2027; extend before then.",
+  "events": [
+    { "date": "2026-12-04", "event": "Jobs report for November (8:30 a.m. ET)" },
+    { "date": "2026-12-09", "event": "Fed rate decision, with economic projections" },
+    { "date": "2026-12-10", "event": "Consumer Price Index for November (8:30 a.m. ET)" },
+    { "date": "2027-01-08", "event": "Jobs report for December (8:30 a.m. ET)" },
+    { "date": "2027-01-13", "event": "Consumer Price Index for December (8:30 a.m. ET)" },
+    { "date": "2027-01-27", "event": "Fed rate decision" },
+    { "date": "2027-02-05", "event": "Jobs report for January (8:30 a.m. ET)" },
+    { "date": "2027-02-11", "event": "Consumer Price Index for January (8:30 a.m. ET)" },
+    { "date": "2027-03-05", "event": "Jobs report for February (8:30 a.m. ET)" },
+    { "date": "2027-03-10", "event": "Consumer Price Index for February (8:30 a.m. ET)" },
+    { "date": "2027-03-17", "event": "Fed rate decision" },
+    { "date": "2027-04-02", "event": "Jobs report for March (8:30 a.m. ET)" },
+    { "date": "2027-04-13", "event": "Consumer Price Index for March (8:30 a.m. ET)" },
+    { "date": "2027-04-28", "event": "Fed rate decision" },
+    { "date": "2027-05-07", "event": "Jobs report for April (8:30 a.m. ET)" },
+    { "date": "2027-05-12", "event": "Consumer Price Index for April (8:30 a.m. ET)" },
+    { "date": "2027-06-04", "event": "Jobs report for May (8:30 a.m. ET)" },
+    { "date": "2027-06-09", "event": "Fed rate decision" },
+    { "date": "2027-06-10", "event": "Consumer Price Index for May (8:30 a.m. ET)" }
+  ]
+}

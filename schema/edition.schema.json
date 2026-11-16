@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Daily edition",
+  "description": "One day's newspaper. Written by the editor model, checked by tools/Validate.java, rendered by site/app.js. Nothing here may state or imply which tickers the reader owns.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "kind", "generatedAt", "frontPage", "watchlist", "sections", "learn", "liveWell", "calendar", "runReport"],
+  "properties": {
+    "date": { "$ref": "#/$defs/isoDate", "description": "Must equal the file name." },
+    "kind": { "enum": ["weekday", "saturday", "sunday"] },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "frontPage": {
+      "type": "array", "minItems": 3, "maxItems": 5,
+      "items": { "$ref": "#/$defs/story", "required": ["headline", "summary", "whyItMatters", "url", "source"] }
+    },
+    "watchlist": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["asOf", "movers", "earnings", "analystAndInsider", "macro"],
+      "properties": {
+        "asOf": { "$ref": "#/$defs/text", "description": "Copied from the brief, e.g. 'Nov 16 close'." },
+        "movers": {
+          "type": "array", "maxItems": 12,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["ticker", "changePct", "reason", "url"],
+            "properties": {
+              "ticker": { "$ref": "#/$defs/ticker" },
+              "changePct": { "type": "number", "description": "Copied from the brief. Never computed by the editor." },
+              "reason": { "$ref": "#/$defs/text" },
+              "url": { "$ref": "#/$defs/url" }
+            }
+          }
+        },
+        "earnings": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["ticker", "date", "note"],
+            "properties": {
+              "ticker": { "$ref": "#/$defs/ticker" },
+              "date": { "$ref": "#/$defs/isoDate" },
+              "note": { "type": "string", "maxLength": 120 }
+            }
+          }
+        },
+        "analystAndInsider": {
+          "type": "array", "maxItems": 4,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["ticker", "note", "url"],
+            "properties": {
+              "ticker": { "$ref": "#/$defs/ticker" },
+              "note": { "$ref": "#/$defs/text" },
+              "url": { "$ref": "#/$defs/url" }
+            }
+          }
+        },
+        "macro": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["date", "event", "note"],
+            "properties": {
+              "date": { "$ref": "#/$defs/isoDate" },
+              "event": { "$ref": "#/$defs/text" },
+              "note": { "type": "string", "maxLength": 200 }
+            }
+          }
+        },
+        "bearCase": {
+          "type": "object", "additionalProperties": false,
+          "required": ["subject", "summary", "url", "source"],
+          "properties": {
+            "subject": { "$ref": "#/$defs/text" },
+            "summary": { "$ref": "#/$defs/text" },
+            "url": { "$ref": "#/$defs/url" },
+            "source": { "$ref": "#/$defs/text" }
+          }
+        },
+        "earningsDeepDive": {
+          "type": "object", "additionalProperties": false,
+          "required": ["ticker", "results", "guidance", "quotes", "url"],
+          "properties": {
+            "ticker": { "$ref": "#/$defs/ticker" },
+            "results": { "$ref": "#/$defs/text" },
+            "guidance": { "$ref": "#/$defs/text" },
+            "quotes": { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/text" } },
+            "url": { "$ref": "#/$defs/url" }
+          }
+        }
+      }
+    },
+    "sections": {
+      "description": "All nine sections, in this order. A quiet section has an empty items array.",
+      "type": "array", "minItems": 9, "maxItems": 9,
+      "prefixItems": [
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "markets" } } },
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "ai-datacenter" } } },
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "security" } } },
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "engineering" } } },
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "health-tech" } } },
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "seattle" } } },
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "world" } } },
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "india" } } },
+        { "$ref": "#/$defs/section", "properties": { "id": { "const": "career" } } }
+      ]
+    },
+    "learn": {
+      "type": "object", "additionalProperties": false,
+      "required": ["track", "format", "title", "body", "url"],
+      "properties": {
+        "track": { "$ref": "#/$defs/text", "description": "Copied from the brief." },
+        "format": { "enum": ["explainer", "paper", "postmortem"] },
+        "title": { "$ref": "#/$defs/text" },
+        "body": { "type": "string", "minLength": 200, "maxLength": 4000, "description": "Paragraphs separated by a blank line." },
+        "url": { "$ref": "#/$defs/url" }
+      }
+    },
+    "liveWell": {
+      "type": "object", "additionalProperties": false,
+      "required": ["health", "eating", "productivity"],
+      "properties": {
+        "health": { "$ref": "#/$defs/tip" },
+        "eating": { "$ref": "#/$defs/tip" },
+        "productivity": { "$ref": "#/$defs/tip" }
+      }
+    },
+    "calendar": {
+      "description": "Public events only: earnings, data releases, conferences.",
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["date", "note"],
+        "properties": { "date": { "$ref": "#/$defs/isoDate" }, "note": { "$ref": "#/$defs/text" } }
+      }
+    },
+    "weekend": {
+      "description": "Saturday and Sunday editions only.",
+      "type": "object", "additionalProperties": false,
+      "required": ["weekInReview", "longReads"],
+      "properties": {
+        "weekInReview": { "type": "string", "minLength": 1, "maxLength": 2500 },
+        "longReads": { "type": "array", "maxItems": 5, "items": { "$ref": "#/$defs/story" } },
+        "listen": {
+          "type": "object", "additionalProperties": false,
+          "required": ["title", "summary", "url"],
+          "properties": {
+            "title": { "$ref": "#/$defs/text" },
+            "summary": { "$ref": "#/$defs/text" },
+            "url": { "$ref": "#/$defs/url" }
+          }
+        }
+      }
+    },
+    "runReport": {
+      "type": "object", "additionalProperties": false,
+      "required": ["sourcesReached", "fetchesFailed", "sectionsShort", "fullReads"],
+      "properties": {
+        "sourcesReached": { "type": "integer", "minimum": 0 },
+        "fetchesFailed": { "type": "array", "items": { "$ref": "#/$defs/text" } },
+        "sectionsShort": { "type": "array", "items": { "$ref": "#/$defs/text" } },
+        "fullReads": { "type": "integer", "minimum": 0 }
+      }
+    }
+  },
+  "$defs": {
+    "isoDate": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "url": { "type": "string", "pattern": "^https://", "maxLength": 2000 },
+    "text": { "type": "string", "minLength": 1, "maxLength": 600 },
+    "ticker": { "type": "string", "pattern": "^[A-Z]{1,6}$" },
+    "story": {
+      "type": "object", "additionalProperties": false,
+      "required": ["headline", "summary", "url", "source"],
+      "properties": {
+        "headline": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "summary": { "$ref": "#/$defs/text", "description": "Facts only." },
+        "whyItMatters": { "type": "string", "minLength": 1, "maxLength": 300, "description": "The only place for a view." },
+        "url": { "$ref": "#/$defs/url" },
+        "source": { "type": "string", "minLength": 1, "maxLength": 60, "description": "Outlet name, spelled as in sources.json." },
+        "tags": { "type": "array", "maxItems": 4, "items": { "$ref": "#/$defs/ticker" } }
+      }
+    },
+    "section": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "items"],
+      "properties": {
+        "id": { "type": "string" },
+        "items": { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/story" } }
+      }
+    },
+    "tip": {
+      "type": "object", "additionalProperties": false,
+      "required": ["tip", "url"],
+      "properties": { "tip": { "type": "string", "minLength": 1, "maxLength": 400 }, "url": { "$ref": "#/$defs/url" } }
+    }
+  }
+}

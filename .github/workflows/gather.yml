@@ -1,0 +1,41 @@
+name: Gather brief
+
+# Builds brief/DATE.json for the editor: feeds, prices, earnings and archive state.
+# Runs an hour before the editor's scheduled routine. Uses no Claude tokens.
+on:
+  schedule:
+    - cron: "30 11 * * *" # 3:30 a.m. Pacific in winter, 4:30 a.m. in summer (cron is UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gather
+  cancel-in-progress: false
+
+jobs:
+  gather:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+      - name: Build the brief
+        run: mvn -q -f tools/pom.xml -DskipTests compile exec:java -Dexec.mainClass=news.Gather -Dexec.args="--root ."
+      - name: Commit the brief
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add brief
+          if git diff --cached --quiet; then
+            echo "Gather wrote no brief." >&2
+            exit 1
+          fi
+          git commit -m "Brief $(TZ=America/Los_Angeles date +%F)"
+          git pull --rebase
+          git push
