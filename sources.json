@@ -94,6 +94,10 @@
 
     { "name": "The New York Times", "beat": "live-well", "feed": "https://rss.nytimes.com/services/xml/rss/nyt/Well.xml", "schedule": "daily", "max": 4, "lookbackDays": 30 },
     { "name": "Peter Attia", "beat": "live-well", "feed": "https://peterattiamd.com/feed/", "schedule": "daily", "max": 2, "lookbackDays": 30 },
-    { "name": "Cal Newport", "beat": "live-well", "feed": "https://calnewport.com/feed/", "schedule": "daily", "max": 1, "lookbackDays": 30 }
+    { "name": "Cal Newport", "beat": "live-well", "feed": "https://calnewport.com/feed/", "schedule": "daily", "max": 1, "lookbackDays": 30 },
+    { "name": "NutritionFacts.org", "beat": "live-well", "feed": "https://nutritionfacts.org/feed/", "schedule": "daily", "max": 3, "lookbackDays": 30 },
+    { "name": "The Conversation", "beat": "live-well", "feed": "https://theconversation.com/us/health/articles.atom", "schedule": "daily", "max": 3, "lookbackDays": 30 },
+    { "name": "Farnam Street", "beat": "live-well", "feed": "https://fs.blog/feed/", "schedule": "daily", "max": 3, "lookbackDays": 30 },
+    { "name": "Zen Habits", "beat": "live-well", "feed": "https://zenhabits.net/feed/", "schedule": "daily", "max": 3, "lookbackDays": 30 }
   ]
 }

@@ -93,9 +93,31 @@ class FeedsTest {
 
     @Test
     void truncatesExcerptOnAWordBoundary() {
-        String cleaned = Feeds.clean("<p>" + "alpha ".repeat(100) + "</p>", 240);
-        assertTrue(cleaned.length() <= 241, "length " + cleaned.length());
+        String cleaned = Feeds.clean("<p>" + "alpha ".repeat(200) + "</p>", Feeds.EXCERPT_CHARS);
+        assertTrue(cleaned.length() <= Feeds.EXCERPT_CHARS + 1, "length " + cleaned.length());
         assertTrue(cleaned.endsWith("alpha…"));
+    }
+
+    @Test
+    void usesFullContentOnlyWhenTheDescriptionIsAShortTeaser() throws IOException {
+        String full = "Full text of the post. ".repeat(10);
+        String thin = "<item><title>Thin</title><link>https://a.example/1</link><pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate>"
+                + "<description>Short teaser.</description><content:encoded><![CDATA[<p>" + full + "</p>]]></content:encoded></item>";
+        String good = "<item><title>Good</title><link>https://a.example/2</link><pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>"
+                + "<description>" + "A proper description. ".repeat(6) + "</description>"
+                + "<content:encoded>Other full text that must not win.</content:encoded></item>";
+        String noContent = "<item><title>Bare</title><link>https://a.example/3</link><pubDate>Mon, 16 Nov 2026 08:00:00 GMT</pubDate>"
+                + "<description>Tiny.</description></item>";
+        List<Feeds.Item> items = Feeds.parse("<rss xmlns:content=\"http://purl.org/rss/1.0/modules/content/\"><channel>"
+                + thin + good + noContent + "</channel></rss>", SINCE, 10);
+        assertTrue(items.get(0).excerpt().startsWith("Full text of the post."));
+        assertTrue(items.get(0).excerpt().length() > Feeds.THIN_CHARS);
+        assertTrue(items.get(1).excerpt().startsWith("A proper description."));
+        assertEquals("Tiny.", items.get(2).excerpt());
+
+        String atom = "<feed xmlns=\"http://www.w3.org/2005/Atom\"><entry><title>Post</title><link href=\"https://a.example/p\"/>"
+                + "<published>2026-11-16T08:00:00Z</published><summary>Short</summary><content type=\"html\">" + full + "</content></entry></feed>";
+        assertTrue(Feeds.parse(atom, SINCE, 5).get(0).excerpt().startsWith("Full text of the post."));
     }
 
     @Test

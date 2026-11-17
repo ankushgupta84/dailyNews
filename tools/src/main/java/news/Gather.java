@@ -41,8 +41,6 @@ public final class Gather {
     /** A focus ticker whose close moved at least this many percent is a mover. */
     static final BigDecimal MOVER_PCT = new BigDecimal("3.0");
     private static final ObjectMapper JSON = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
-    /** How far back mover headlines may reach. */
-    static final int MOVER_NEWS_DAYS = 3;
     private static final Duration DAILY_LOOKBACK = Duration.ofHours(36);
     private static final Duration WEEKLY_LOOKBACK = Duration.ofDays(8);
 
@@ -137,13 +135,16 @@ public final class Gather {
             priceNodes.addObject().put("ticker", p.ticker()).put("tier", tier).put("close", p.close()).put("changePct", p.changePct());
             if (tier.equals("focus") && p.changePct().abs().compareTo(MOVER_PCT) >= 0) {
                 movers.addObject().put("ticker", p.ticker()).put("changePct", p.changePct());
-                addMoverNews(moverNews, problems, market, p.ticker(), date);
+                addMoverNews(moverNews, problems, market, p.ticker(), asOf);
             }
         }
         if (asOf == null) {
             problems.add("No prices could be fetched. Leave watchlist.movers empty and set asOf to \"unavailable\".");
         }
         brief.put("asOf", asOf == null ? "unavailable" : asOf.format(DateTimeFormatter.ofPattern("MMM d", Locale.US)) + " close");
+        if (asOf != null) {
+            brief.put("asOfDate", asOf.toString()); // absent, not null, when prices are unavailable
+        }
         brief.set("movers", movers);
         brief.set("moverNews", moverNews);
         brief.set("prices", priceNodes);
@@ -176,12 +177,15 @@ public final class Gather {
         brief.set("reportedYesterday", reported);
     }
 
-    /** Recent headlines for one mover. A lookup that fails costs that ticker its headlines, not the brief. */
-    private static void addMoverNews(ArrayNode moverNews, ArrayNode problems, Market market, String ticker, LocalDate date) {
+    /**
+     * Headlines for one mover published on or after the session date, so they are about that session
+     * or later. A lookup that fails costs that ticker its headlines, not the brief.
+     */
+    private static void addMoverNews(ArrayNode moverNews, ArrayNode problems, Market market, String ticker, LocalDate session) {
         ObjectNode entry = moverNews.addObject().put("ticker", ticker);
         ArrayNode headlines = entry.putArray("headlines");
         try {
-            for (Market.Headline h : market.headlines(ticker, date.minusDays(MOVER_NEWS_DAYS))) {
+            for (Market.Headline h : market.headlines(ticker, session)) {
                 ObjectNode node = headlines.addObject().put("title", h.title()).put("url", h.url()).put("published", h.published().toString());
                 if (!h.publisher().isEmpty()) {
                     node.put("publisher", h.publisher());

@@ -2,40 +2,120 @@
   "date" : "2026-11-16",
   "kind" : "weekday",
   "learnTrack" : "Distributed systems",
-  "asOf" : "Nov 13 close",
+  "asOf" : "Nov 16 close",
+  "asOfDate" : "2026-11-16",
   "movers" : [ {
-    "ticker" : "AMD",
-    "changePct" : -8.8
+    "ticker" : "APLD",
+    "changePct" : -8.7
+  }, {
+    "ticker" : "ONDS",
+    "changePct" : -8.7
   }, {
     "ticker" : "IONQ",
-    "changePct" : -6.4
+    "changePct" : -8.3
   }, {
-    "ticker" : "APLD",
-    "changePct" : -5.8
+    "ticker" : "MU",
+    "changePct" : -7.6
+  }, {
+    "ticker" : "HOOD",
+    "changePct" : -7.5
+  }, {
+    "ticker" : "DRAM",
+    "changePct" : -7.3
+  }, {
+    "ticker" : "SMCI",
+    "changePct" : -6.9
+  }, {
+    "ticker" : "INFQ",
+    "changePct" : -6.7
+  }, {
+    "ticker" : "IMSR",
+    "changePct" : -6.5
+  }, {
+    "ticker" : "ASML",
+    "changePct" : -5.9
+  }, {
+    "ticker" : "AMD",
+    "changePct" : -5.6
+  }, {
+    "ticker" : "ANET",
+    "changePct" : -5.2
+  }, {
+    "ticker" : "MARA",
+    "changePct" : -5.0
+  }, {
+    "ticker" : "ORCL",
+    "changePct" : -5.0
   }, {
     "ticker" : "WDC",
     "changePct" : -5.0
   }, {
-    "ticker" : "AVGO",
-    "changePct" : -4.8
-  }, {
-    "ticker" : "ANET",
+    "ticker" : "PLTR",
     "changePct" : -4.5
   }, {
-    "ticker" : "IMSR",
-    "changePct" : 4.4
+    "ticker" : "GOOGL",
+    "changePct" : -4.1
   }, {
-    "ticker" : "HOOD",
-    "changePct" : -4.3
+    "ticker" : "NVDA",
+    "changePct" : -4.1
   }, {
     "ticker" : "NET",
     "changePct" : -4.0
   }, {
-    "ticker" : "ONDS",
-    "changePct" : -3.0
+    "ticker" : "AVGO",
+    "changePct" : -3.9
+  }, {
+    "ticker" : "GOOG",
+    "changePct" : -3.9
+  }, {
+    "ticker" : "OKLO",
+    "changePct" : -3.7
+  }, {
+    "ticker" : "SOFI",
+    "changePct" : -3.7
+  }, {
+    "ticker" : "RBRK",
+    "changePct" : -3.5
+  }, {
+    "ticker" : "AMZN",
+    "changePct" : -3.3
   } ],
   "moverNews" : [ {
-    "ticker" : "AMD",
+    "ticker" : "APLD",
+    "headlines" : [ {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Settle Mostly Lower as Chipmakers Slide",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-mostly-lower-chipmakers-slide",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    } ]
+  }, {
+    "ticker" : "ONDS",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "IONQ",
+    "headlines" : [ {
+      "title" : "RGTI's Chiplet Strategy, $100M Funding Boost Quantum Computing Roadmap",
+      "url" : "https://www.nasdaq.com/articles/rgtis-chiplet-strategy-100m-funding-boost-quantum-computing-roadmap",
+      "published" : "2026-11-16",
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "MU",
     "headlines" : [ {
       "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
       "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
@@ -56,129 +136,6 @@
       "url" : "https://www.nasdaq.com/articles/4-chip-stocks-down-much-36-their-highs-buy-and-hold-next-decade",
       "published" : "2026-11-16",
       "publisher" : "The Motley Fool"
-    } ]
-  }, {
-    "ticker" : "IONQ",
-    "headlines" : [ {
-      "title" : "RGTI's Chiplet Strategy, $100M Funding Boost Quantum Computing Roadmap",
-      "url" : "https://www.nasdaq.com/articles/rgtis-chiplet-strategy-100m-funding-boost-quantum-computing-roadmap",
-      "published" : "2026-11-16",
-      "publisher" : "Zacks"
-    }, {
-      "title" : "Prediction: This Quantum Computing Stock Will Be Worth More Than IonQ 5 Years From Now",
-      "url" : "https://www.nasdaq.com/articles/prediction-quantum-computing-stock-will-be-worth-more-ionq-5-years-now",
-      "published" : "2026-11-14",
-      "publisher" : "The Motley Fool"
-    }, {
-      "title" : "Can D-Wave's Liquidity Position Mitigate Rising Cash Burn?",
-      "url" : "https://www.nasdaq.com/articles/can-d-waves-liquidity-position-mitigate-rising-cash-burn",
-      "published" : "2026-11-13",
-      "publisher" : "Zacks"
-    }, {
-      "title" : "IonQ CFO Inder Singh Steps Down, Names Gary Merrill CFO",
-      "url" : "https://www.nasdaq.com/articles/ionq-cfo-inder-singh-steps-down-names-gary-merrill-cfo",
-      "published" : "2026-11-13",
-      "publisher" : "RTTNews"
-    } ]
-  }, {
-    "ticker" : "APLD",
-    "headlines" : [ {
-      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
-      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Stock Indexes Settle Mostly Lower as Chipmakers Slide",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-mostly-lower-chipmakers-slide",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    } ]
-  }, {
-    "ticker" : "WDC",
-    "headlines" : [ {
-      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
-      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Top Stock Picks for Week of November 16, 2026",
-      "url" : "https://www.nasdaq.com/articles/top-stock-picks-week-november-16-2026",
-      "published" : "2026-11-16",
-      "publisher" : "Zacks"
-    } ]
-  }, {
-    "ticker" : "AVGO",
-    "headlines" : [ {
-      "title" : "Why Broadcom Stock Got Mashed on Monday",
-      "url" : "https://www.nasdaq.com/articles/why-broadcom-stock-got-mashed-monday",
-      "published" : "2026-11-16",
-      "publisher" : "The Motley Fool"
-    }, {
-      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
-      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    } ]
-  }, {
-    "ticker" : "ANET",
-    "headlines" : [ {
-      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
-      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    }, {
-      "title" : "Stock Indexes Settle Mostly Lower as Chipmakers Slide",
-      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-mostly-lower-chipmakers-slide",
-      "published" : "2026-11-16",
-      "publisher" : "Barchart"
-    } ]
-  }, {
-    "ticker" : "IMSR",
-    "headlines" : [ {
-      "title" : "All You Need to Know About Terrestrial Energy Inc. (IMSR) Rating Upgrade to Buy",
-      "url" : "https://www.nasdaq.com/articles/all-you-need-know-about-terrestrial-energy-inc-imsr-rating-upgrade-buy",
-      "published" : "2026-11-13",
-      "publisher" : "Zacks"
     } ]
   }, {
     "ticker" : "HOOD",
@@ -204,297 +161,601 @@
       "publisher" : "The Motley Fool"
     } ]
   }, {
-    "ticker" : "NET",
+    "ticker" : "DRAM",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "SMCI",
     "headlines" : [ {
-      "title" : "PAYC or NET: Which Is the Better Value Stock Right Now?",
-      "url" : "https://www.nasdaq.com/articles/payc-or-net-which-better-value-stock-right-now",
-      "published" : "2026-11-13",
-      "publisher" : "Zacks"
+      "title" : "Could Nvidia Be the Next Super Micro?",
+      "url" : "https://www.nasdaq.com/articles/could-nvidia-be-next-super-micro",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
     }, {
-      "title" : "These 6 Data Software Stocks Help Companies Put AI to Work",
-      "url" : "https://www.nasdaq.com/articles/these-6-data-software-stocks-help-companies-put-ai-work",
-      "published" : "2026-11-13",
+      "title" : "Here’s the 1 Number From Super Micro’s Earnings That Matters Most",
+      "url" : "https://www.nasdaq.com/articles/heres-1-number-super-micros-earnings-matters-most",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "The Resignation of CEO Jensen Huang Isn't Nvidia's Only Problem. Where the Stock Could Fall to by the End of 2027.",
+      "url" : "https://www.nasdaq.com/articles/resignation-ceo-jensen-huang-isnt-nvidias-only-problem-where-stock-could-fall-end-2027",
+      "published" : "2026-11-16",
       "publisher" : "The Motley Fool"
     } ]
   }, {
-    "ticker" : "ONDS",
+    "ticker" : "INFQ",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "IMSR",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "ASML",
     "headlines" : [ {
-      "title" : "ONDS Q3 Earnings Call Highlights Growth Targets and Margin Pressures",
-      "url" : "https://www.nasdaq.com/articles/onds-q3-earnings-call-highlights-growth-targets-and-margin-pressures",
-      "published" : "2026-11-13",
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "4 Chip Stocks Down as Much as 36% From Their Highs to Buy and Hold for the Next Decade",
+      "url" : "https://www.nasdaq.com/articles/4-chip-stocks-down-much-36-their-highs-buy-and-hold-next-decade",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "AMD",
+    "headlines" : [ {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "4 Chip Stocks Down as Much as 36% From Their Highs to Buy and Hold for the Next Decade",
+      "url" : "https://www.nasdaq.com/articles/4-chip-stocks-down-much-36-their-highs-buy-and-hold-next-decade",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "ANET",
+    "headlines" : [ {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Settle Mostly Lower as Chipmakers Slide",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-mostly-lower-chipmakers-slide",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    } ]
+  }, {
+    "ticker" : "MARA",
+    "headlines" : [ {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "MARA Holdings, Inc. Subsidiary MARA USA Commences Private Offering of $185 million Senior Secured Notes",
+      "url" : "https://www.nasdaq.com/articles/mara-holdings-inc-subsidiary-mara-usa-commences-private-offering-185-million-senior",
+      "published" : "2026-11-16",
+      "publisher" : "Fintel"
+    } ]
+  }, {
+    "ticker" : "ORCL",
+    "headlines" : [ {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Here's Why Oracle (ORCL) Fell More Than Broader Market",
+      "url" : "https://www.nasdaq.com/articles/heres-why-oracle-orcl-fell-more-broader-market-1",
+      "published" : "2026-11-16",
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "WDC",
+    "headlines" : [ {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Top Stock Picks for Week of November 16, 2026",
+      "url" : "https://www.nasdaq.com/articles/top-stock-picks-week-november-16-2026",
+      "published" : "2026-11-16",
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "PLTR",
+    "headlines" : [ {
+      "title" : "Top Analyst Reports for Taiwan Semiconductor, Johnson & Johnson and Palantir",
+      "url" : "https://www.nasdaq.com/articles/top-analyst-reports-taiwan-semiconductor-johnson-johnson-and-palantir",
+      "published" : "2026-11-16",
       "publisher" : "Zacks"
     }, {
-      "title" : "Can Ondas Convert Its $835M Backlog Into Sustainable Growth?",
-      "url" : "https://www.nasdaq.com/articles/can-ondas-convert-its-835m-backlog-sustainable-growth",
-      "published" : "2026-11-13",
+      "title" : "Why Does Palantir Stock Keep Going Down?",
+      "url" : "https://www.nasdaq.com/articles/why-does-palantir-stock-keep-going-down",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "ServiceNow vs. Palantir Technologies: Comparing Steady Sales Scale Against Rapid Revenue Acceleration",
+      "url" : "https://www.nasdaq.com/articles/servicenow-vs-palantir-technologies-comparing-steady-sales-scale-against-rapid-revenue",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "PLTR Raises 2026 Guidance as Q3 AI Demand Drives 96% Revenue Growth",
+      "url" : "https://www.nasdaq.com/articles/pltr-raises-2026-guidance-q3-ai-demand-drives-96-revenue-growth",
+      "published" : "2026-11-16",
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "GOOGL",
+    "headlines" : [ {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Tokenized Equities Hit Another Record High of $3.8 Billion. Is This the Biggest Bull Market in Crypto Right Now?",
+      "url" : "https://www.nasdaq.com/articles/tokenized-equities-hit-another-record-high-38-billion-biggest-bull-market-crypto-right-now",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "AI Spending Accelerates: 3 Hyperscaler Stocks for Strong 2027 Returns",
+      "url" : "https://www.nasdaq.com/articles/ai-spending-accelerates-3-hyperscaler-stocks-strong-2027-returns",
+      "published" : "2026-11-16",
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "NVDA",
+    "headlines" : [ {
+      "title" : "Prediction: Nov. 18 Will Be a Huge Day for AI Power Stocks. Here’s Why.",
+      "url" : "https://www.nasdaq.com/articles/prediction-nov-18-will-be-huge-day-ai-power-stocks-heres-why",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Broadcom vs. Nvidia: Which Semiconductor Stock Is the Better AI Buy over the Next 3 Years?",
+      "url" : "https://www.nasdaq.com/articles/broadcom-vs-nvidia-which-semiconductor-stock-better-ai-buy-over-next-3-years",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "NET",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "AVGO",
+    "headlines" : [ {
+      "title" : "Why Broadcom Stock Got Mashed on Monday",
+      "url" : "https://www.nasdaq.com/articles/why-broadcom-stock-got-mashed-monday",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url" : "https://www.nasdaq.com/articles/weakness-chipmakers-and-ai-stocks-weighs-stock-indexes",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    } ]
+  }, {
+    "ticker" : "GOOG",
+    "headlines" : [ {
+      "title" : "NVIDIA After Jensen: What's Next for the AI Trade?",
+      "url" : "https://www.nasdaq.com/articles/nvidia-after-jensen-whats-next-ai-trade",
+      "published" : "2026-11-16",
       "publisher" : "Zacks"
     }, {
-      "title" : "Ondas Q3 Earnings Show Wider Loss, Revenues Beat Estimates",
-      "url" : "https://www.nasdaq.com/articles/ondas-q3-earnings-show-wider-loss-revenues-beat-estimates",
-      "published" : "2026-11-13",
+      "title" : "Tokenized Equities Hit Another Record High of $3.8 Billion. Is This the Biggest Bull Market in Crypto Right Now?",
+      "url" : "https://www.nasdaq.com/articles/tokenized-equities-hit-another-record-high-38-billion-biggest-bull-market-crypto-right-now",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "SPYM, AVGO, GOOG, INTC: ETF Inflow Alert",
+      "url" : "https://www.nasdaq.com/articles/spym-avgo-goog-intc-etf-inflow-alert",
+      "published" : "2026-11-16",
+      "publisher" : "BNK Invest"
+    }, {
+      "title" : "1 No-Brainer AI Infrastructure Stock to Buy Hand Over Fist in November",
+      "url" : "https://www.nasdaq.com/articles/1-no-brainer-ai-infrastructure-stock-buy-hand-over-fist-november",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "OKLO",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "SOFI",
+    "headlines" : [ {
+      "title" : "SoFi Technologies vs. Toast: Which Financial Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/sofi-technologies-vs-toast-which-financial-stock-better-buy-2027",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "SoFi Wants 5 Billion-Dollar Businesses by 2030. Here’s the Road Map",
+      "url" : "https://www.nasdaq.com/articles/sofi-wants-5-billion-dollar-businesses-2030-heres-road-map",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Nu Holdings Stock Soars After Q3 Earnings: Is the Rally Worth Chasing?",
+      "url" : "https://www.nasdaq.com/articles/nu-holdings-stock-soars-after-q3-earnings-rally-worth-chasing",
+      "published" : "2026-11-16",
       "publisher" : "Zacks"
+    }, {
+      "title" : "3 Beaten-Down Stocks That Could Soar in 2027",
+      "url" : "https://www.nasdaq.com/articles/3-beaten-down-stocks-could-soar-2027",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "RBRK",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "AMZN",
+    "headlines" : [ {
+      "title" : "Stock Indexes Settle Sharply Lower on Big Tech Drubbing",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indexes Retreat as Chipmakers and AI Stocks Fall",
+      "url" : "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall",
+      "published" : "2026-11-16",
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Should You Buy Alibaba Stock Before the Huge Investor Update?",
+      "url" : "https://www.nasdaq.com/articles/should-you-buy-alibaba-stock-huge-investor-update",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "If I Could Buy and Hold Only 1 AI Hyperscaler Through 2030, It Would Be This One",
+      "url" : "https://www.nasdaq.com/articles/if-i-could-buy-and-hold-only-1-ai-hyperscaler-through-2030-it-would-be-one",
+      "published" : "2026-11-16",
+      "publisher" : "The Motley Fool"
     } ]
   } ],
   "prices" : [ {
-    "ticker" : "CBRS",
+    "ticker" : "USAR",
     "tier" : "general",
-    "close" : 108.72,
-    "changePct" : 11.2
-  }, {
-    "ticker" : "AMD",
-    "tier" : "focus",
-    "close" : 534.06,
-    "changePct" : -8.8
-  }, {
-    "ticker" : "DEFT",
-    "tier" : "general",
-    "close" : 0.3249,
-    "changePct" : 7.0
-  }, {
-    "ticker" : "RGTI",
-    "tier" : "general",
-    "close" : 9.62,
-    "changePct" : -6.9
-  }, {
-    "ticker" : "IONQ",
-    "tier" : "focus",
-    "close" : 28.88,
-    "changePct" : -6.4
+    "close" : 7.13,
+    "changePct" : -12.6
   }, {
     "ticker" : "NVTS",
     "tier" : "general",
-    "close" : 8.95,
-    "changePct" : -6.4
-  }, {
-    "ticker" : "APLD",
-    "tier" : "focus",
-    "close" : 15.97,
-    "changePct" : -5.8
-  }, {
-    "ticker" : "SNDK",
-    "tier" : "general",
-    "close" : 885.01,
-    "changePct" : -5.6
-  }, {
-    "ticker" : "WDC",
-    "tier" : "focus",
-    "close" : 295.65,
-    "changePct" : -5.0
-  }, {
-    "ticker" : "AVGO",
-    "tier" : "focus",
-    "close" : 347.01,
-    "changePct" : -4.8
-  }, {
-    "ticker" : "ANET",
-    "tier" : "focus",
-    "close" : 197.29,
-    "changePct" : -4.5
-  }, {
-    "ticker" : "QUBT",
-    "tier" : "general",
-    "close" : 5.56,
-    "changePct" : -4.5
-  }, {
-    "ticker" : "IMSR",
-    "tier" : "focus",
-    "close" : 2.61,
-    "changePct" : 4.4
-  }, {
-    "ticker" : "HOOD",
-    "tier" : "focus",
-    "close" : 77.86,
-    "changePct" : -4.3
-  }, {
-    "ticker" : "SKHY",
-    "tier" : "general",
-    "close" : 131.79,
-    "changePct" : -4.3
-  }, {
-    "ticker" : "DOCN",
-    "tier" : "general",
-    "close" : 86.32,
-    "changePct" : -4.2
-  }, {
-    "ticker" : "NET",
-    "tier" : "focus",
-    "close" : 305.81,
-    "changePct" : -4.0
-  }, {
-    "ticker" : "MP",
-    "tier" : "general",
-    "close" : 38.76,
-    "changePct" : 3.5
-  }, {
-    "ticker" : "STX",
-    "tier" : "general",
-    "close" : 528.29,
-    "changePct" : -3.1
-  }, {
-    "ticker" : "ONDS",
-    "tier" : "focus",
-    "close" : 5.16,
-    "changePct" : -3.0
-  }, {
-    "ticker" : "DRAM",
-    "tier" : "focus",
-    "close" : 42.40,
-    "changePct" : -2.9
-  }, {
-    "ticker" : "INFQ",
-    "tier" : "focus",
-    "close" : 8.48,
-    "changePct" : -2.9
-  }, {
-    "ticker" : "MARA",
-    "tier" : "focus",
-    "close" : 6.99,
-    "changePct" : -2.9
-  }, {
-    "ticker" : "META",
-    "tier" : "focus",
-    "close" : 641.69,
-    "changePct" : 2.9
+    "close" : 7.88,
+    "changePct" : -12.0
   }, {
     "ticker" : "QBTS",
     "tier" : "general",
-    "close" : 9.56,
-    "changePct" : -2.8
+    "close" : 8.67,
+    "changePct" : -9.3
   }, {
-    "ticker" : "CRCL",
-    "tier" : "general",
-    "close" : 62.20,
-    "changePct" : -2.5
+    "ticker" : "APLD",
+    "tier" : "focus",
+    "close" : 14.58,
+    "changePct" : -8.7
   }, {
-    "ticker" : "INTC",
+    "ticker" : "ONDS",
+    "tier" : "focus",
+    "close" : 4.71,
+    "changePct" : -8.7
+  }, {
+    "ticker" : "DOCN",
     "tier" : "general",
-    "close" : 59.66,
-    "changePct" : -2.5
+    "close" : 78.86,
+    "changePct" : -8.6
+  }, {
+    "ticker" : "SNDK",
+    "tier" : "general",
+    "close" : 809.11,
+    "changePct" : -8.6
+  }, {
+    "ticker" : "IONQ",
+    "tier" : "focus",
+    "close" : 26.48,
+    "changePct" : -8.3
   }, {
     "ticker" : "MU",
     "tier" : "focus",
-    "close" : 778.31,
-    "changePct" : -2.5
+    "close" : 719.02,
+    "changePct" : -7.6
   }, {
-    "ticker" : "OKLO",
+    "ticker" : "HOOD",
     "tier" : "focus",
-    "close" : 23.92,
-    "changePct" : -2.2
+    "close" : 72.06,
+    "changePct" : -7.5
   }, {
-    "ticker" : "PLTR",
-    "tier" : "focus",
-    "close" : 167.99,
-    "changePct" : -2.1
-  }, {
-    "ticker" : "NVDA",
-    "tier" : "focus",
-    "close" : 162.85,
-    "changePct" : -2.0
-  }, {
-    "ticker" : "TSLA",
-    "tier" : "focus",
-    "close" : 390.22,
-    "changePct" : -1.8
-  }, {
-    "ticker" : "CRWD",
-    "tier" : "focus",
-    "close" : 226.61,
-    "changePct" : -1.4
-  }, {
-    "ticker" : "ORCL",
-    "tier" : "focus",
-    "close" : 125.35,
-    "changePct" : -1.4
-  }, {
-    "ticker" : "PATH",
-    "tier" : "focus",
-    "close" : 13.27,
-    "changePct" : 1.3
-  }, {
-    "ticker" : "SOFI",
-    "tier" : "focus",
-    "close" : 15.42,
-    "changePct" : -1.3
-  }, {
-    "ticker" : "RELY",
+    "ticker" : "CRCL",
     "tier" : "general",
-    "close" : 22.55,
-    "changePct" : -1.1
+    "close" : 57.67,
+    "changePct" : -7.3
   }, {
-    "ticker" : "USAR",
+    "ticker" : "DRAM",
+    "tier" : "focus",
+    "close" : 39.29,
+    "changePct" : -7.3
+  }, {
+    "ticker" : "SKHY",
     "tier" : "general",
-    "close" : 8.16,
-    "changePct" : 1.1
+    "close" : 122.18,
+    "changePct" : -7.3
   }, {
-    "ticker" : "VST",
-    "tier" : "focus",
-    "close" : 133.01,
-    "changePct" : -1.1
-  }, {
-    "ticker" : "GOOG",
-    "tier" : "focus",
-    "close" : 292.52,
-    "changePct" : -1.0
-  }, {
-    "ticker" : "GOOGL",
-    "tier" : "focus",
-    "close" : 295.77,
-    "changePct" : -1.0
-  }, {
-    "ticker" : "NFLX",
-    "tier" : "focus",
-    "close" : 62.15,
-    "changePct" : -0.9
-  }, {
-    "ticker" : "UBER",
+    "ticker" : "CBRS",
     "tier" : "general",
-    "close" : 69.69,
-    "changePct" : 0.8
+    "close" : 100.99,
+    "changePct" : -7.1
   }, {
-    "ticker" : "SPCX",
+    "ticker" : "INTC",
     "tier" : "general",
-    "close" : 139.11,
-    "changePct" : -0.6
+    "close" : 55.442,
+    "changePct" : -7.1
   }, {
-    "ticker" : "RBRK",
-    "tier" : "focus",
-    "close" : 109.88,
-    "changePct" : -0.5
+    "ticker" : "MP",
+    "tier" : "general",
+    "close" : 36.10,
+    "changePct" : -6.9
   }, {
     "ticker" : "SMCI",
     "tier" : "focus",
-    "close" : 26.865,
-    "changePct" : -0.5
+    "close" : 25.025,
+    "changePct" : -6.9
   }, {
-    "ticker" : "AAPL",
+    "ticker" : "INFQ",
     "tier" : "focus",
-    "close" : 356.27,
-    "changePct" : 0.4
+    "close" : 7.91,
+    "changePct" : -6.7
   }, {
-    "ticker" : "VOO",
+    "ticker" : "IMSR",
+    "tier" : "focus",
+    "close" : 2.44,
+    "changePct" : -6.5
+  }, {
+    "ticker" : "DEFT",
     "tier" : "general",
-    "close" : 693.38,
-    "changePct" : -0.4
-  }, {
-    "ticker" : "AMZN",
-    "tier" : "focus",
-    "close" : 266.66,
-    "changePct" : -0.3
-  }, {
-    "ticker" : "MSFT",
-    "tier" : "focus",
-    "close" : 523.88,
-    "changePct" : 0.2
+    "close" : 0.3051,
+    "changePct" : -6.1
   }, {
     "ticker" : "ASML",
     "tier" : "focus",
-    "close" : 1495.16,
-    "changePct" : -0.1
+    "close" : 1406.785,
+    "changePct" : -5.9
+  }, {
+    "ticker" : "RGTI",
+    "tier" : "general",
+    "close" : 9.06,
+    "changePct" : -5.8
+  }, {
+    "ticker" : "AMD",
+    "tier" : "focus",
+    "close" : 504.28,
+    "changePct" : -5.6
+  }, {
+    "ticker" : "QUBT",
+    "tier" : "general",
+    "close" : 5.25,
+    "changePct" : -5.6
+  }, {
+    "ticker" : "STX",
+    "tier" : "general",
+    "close" : 499.00,
+    "changePct" : -5.5
+  }, {
+    "ticker" : "ANET",
+    "tier" : "focus",
+    "close" : 187.11,
+    "changePct" : -5.2
+  }, {
+    "ticker" : "MARA",
+    "tier" : "focus",
+    "close" : 6.64,
+    "changePct" : -5.0
+  }, {
+    "ticker" : "ORCL",
+    "tier" : "focus",
+    "close" : 119.05,
+    "changePct" : -5.0
+  }, {
+    "ticker" : "WDC",
+    "tier" : "focus",
+    "close" : 280.93,
+    "changePct" : -5.0
+  }, {
+    "ticker" : "PLTR",
+    "tier" : "focus",
+    "close" : 160.39,
+    "changePct" : -4.5
+  }, {
+    "ticker" : "GOOGL",
+    "tier" : "focus",
+    "close" : 283.72,
+    "changePct" : -4.1
+  }, {
+    "ticker" : "NVDA",
+    "tier" : "focus",
+    "close" : 156.14,
+    "changePct" : -4.1
+  }, {
+    "ticker" : "NET",
+    "tier" : "focus",
+    "close" : 293.70,
+    "changePct" : -4.0
+  }, {
+    "ticker" : "AVGO",
+    "tier" : "focus",
+    "close" : 333.40,
+    "changePct" : -3.9
+  }, {
+    "ticker" : "GOOG",
+    "tier" : "focus",
+    "close" : 281.26,
+    "changePct" : -3.9
+  }, {
+    "ticker" : "OKLO",
+    "tier" : "focus",
+    "close" : 23.04,
+    "changePct" : -3.7
+  }, {
+    "ticker" : "SOFI",
+    "tier" : "focus",
+    "close" : 14.85,
+    "changePct" : -3.7
+  }, {
+    "ticker" : "RBRK",
+    "tier" : "focus",
+    "close" : 106.04,
+    "changePct" : -3.5
+  }, {
+    "ticker" : "AMZN",
+    "tier" : "focus",
+    "close" : 257.75,
+    "changePct" : -3.3
+  }, {
+    "ticker" : "RELY",
+    "tier" : "general",
+    "close" : 21.93,
+    "changePct" : -2.8
+  }, {
+    "ticker" : "TSLA",
+    "tier" : "focus",
+    "close" : 379.74,
+    "changePct" : -2.7
+  }, {
+    "ticker" : "META",
+    "tier" : "focus",
+    "close" : 626.41,
+    "changePct" : -2.4
+  }, {
+    "ticker" : "NFLX",
+    "tier" : "focus",
+    "close" : 60.75,
+    "changePct" : -2.3
+  }, {
+    "ticker" : "VST",
+    "tier" : "focus",
+    "close" : 129.98,
+    "changePct" : -2.3
   }, {
     "ticker" : "PANW",
     "tier" : "focus",
-    "close" : 322.24,
-    "changePct" : -0.1
+    "close" : 316.09,
+    "changePct" : -1.9
+  }, {
+    "ticker" : "VOO",
+    "tier" : "general",
+    "close" : 680.22,
+    "changePct" : -1.9
+  }, {
+    "ticker" : "CRWD",
+    "tier" : "focus",
+    "close" : 223.21,
+    "changePct" : -1.5
+  }, {
+    "ticker" : "SPCX",
+    "tier" : "general",
+    "close" : 137.36,
+    "changePct" : -1.3
+  }, {
+    "ticker" : "MSFT",
+    "tier" : "focus",
+    "close" : 517.99,
+    "changePct" : -1.1
+  }, {
+    "ticker" : "PATH",
+    "tier" : "focus",
+    "close" : 13.13,
+    "changePct" : -1.1
+  }, {
+    "ticker" : "AAPL",
+    "tier" : "focus",
+    "close" : 352.78,
+    "changePct" : -1.0
+  }, {
+    "ticker" : "UBER",
+    "tier" : "general",
+    "close" : 69.99,
+    "changePct" : 0.4
   } ],
   "pricesMissing" : [ "LKNCY" ],
   "earnings" : [ {
@@ -510,9 +771,23 @@
     "date" : "2026-11-18",
     "time" : "after the close"
   } ],
-  "reportedYesterday" : [ ],
+  "reportedYesterday" : [ "INFQ" ],
   "macro" : [ ],
   "candidates" : [ {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Running coding agents without handing them my credentials",
+    "url" : "https://blog.antonio.cx/running-agents-with-lend",
+    "published" : "2026-11-17T01:18:56Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Doom on the Nikon Z 6II camera",
+    "url" : "https://arnebaeyens.com/blog/2026/doom-on-nikon-z6ii/",
+    "published" : "2026-11-17T00:21:46Z",
+    "excerpt" : ""
+  }, {
     "beat" : "engineering",
     "source" : "Hacker News",
     "title" : "Show HN: Sutra-OS – A self-hosted ontology platform",
@@ -546,13 +821,6 @@
     "title" : "United Airlines experiencing a widespread system outage, airline says",
     "url" : "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
     "published" : "2026-11-16T22:14:38Z",
-    "excerpt" : ""
-  }, {
-    "beat" : "engineering",
-    "source" : "Hacker News",
-    "title" : "Spamhaus new email sender requirements in November",
-    "url" : "https://www.spamhaus.org/sender-guidelines/",
-    "published" : "2026-11-16T21:47:19Z",
     "excerpt" : ""
   }, {
     "beat" : "engineering",
@@ -591,46 +859,39 @@
     "excerpt" : ""
   }, {
     "beat" : "engineering",
-    "source" : "Hacker News",
-    "title" : "Chemistry is Actually Geometry",
-    "url" : "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
-    "published" : "2026-11-16T20:22:18Z",
-    "excerpt" : ""
-  }, {
-    "beat" : "engineering",
     "source" : "InfoQ",
     "title" : "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
     "url" : "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "published" : "2026-11-16T15:25:00Z",
-    "excerpt" : "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release…"
+    "excerpt" : "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernate ORM and Hibernate Reactive; fourth milestone release of GlassFish; and the second milestone release of Apache TomEE. By Michael Redlich"
   }, {
     "beat" : "engineering",
     "source" : "InfoQ",
     "title" : "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
     "url" : "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "published" : "2026-11-16T14:37:00Z",
-    "excerpt" : "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average…"
+    "excerpt" : "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring agentic harnesses, skills, legal ontologies, and knowledge graphs. By Leela Kumili"
   }, {
     "beat" : "engineering",
     "source" : "InfoQ",
     "title" : "Airbnb Introduces CASTLE for Training Natural Language Search Models with Synthetic Data",
     "url" : "https://www.infoq.com/news/2026/11/airbnb-castle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "published" : "2026-11-16T12:25:00Z",
-    "excerpt" : "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models (LLMs) to jointly generate synthetic…"
+    "excerpt" : "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models (LLMs) to jointly generate synthetic search queries and relevance labels, enabling model training before sufficient real search traffic is available. By Robert Krzaczyński"
   }, {
     "beat" : "engineering",
     "source" : "InfoQ",
     "title" : "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
     "url" : "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "published" : "2026-11-16T11:00:00Z",
-    "excerpt" : "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, with human approval where required. It…"
+    "excerpt" : "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, with human approval where required. It covers an AWS reference implementation, grounding in runbooks, governed prediction, outcome validation, audit evidence, and phased autonomy. By Purnang Borah"
   }, {
     "beat" : "engineering",
     "source" : "AWS Architecture Blog",
     "title" : "Announcing updates to the AWS Well-Architected Framework",
     "url" : "https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/",
     "published" : "2026-11-16T20:03:26Z",
-    "excerpt" : "Updates to the AWS Well-Architected Framework reorganize it into Well-Architected Cloud Foundations and Well-Architected Cloud Workloads, add new best practices, and bring the general availability of the AWS Well-Architected Agent for…"
+    "excerpt" : "Updates to the AWS Well-Architected Framework reorganize it into Well-Architected Cloud Foundations and Well-Architected Cloud Workloads, add new best practices, and bring the general availability of the AWS Well-Architected Agent for analyzing workloads and guiding remediation."
   }, {
     "beat" : "engineering",
     "source" : "AWS Architecture Blog",
@@ -644,14 +905,21 @@
     "title" : "Modular regression testing framework built on AWS for large-scale systems",
     "url" : "https://aws.amazon.com/blogs/architecture/modular-regression-testing-framework-built-on-aws-for-large-scale-systems/",
     "published" : "2026-11-12T21:51:43Z",
-    "excerpt" : "Regression testing must catch behavior changes before they reach production, yet synthetic tests miss real-world edge cases. This post walks through a modular framework, built on AWS, that replays a sample of production traffic against new…"
+    "excerpt" : "Regression testing must catch behavior changes before they reach production, yet synthetic tests miss real-world edge cases. This post walks through a modular framework, built on AWS, that replays a sample of production traffic against new code and automatically gates deployments on the fraction of results that match production."
   }, {
     "beat" : "engineering",
     "source" : "All Things Distributed",
     "title" : "AWS Emulator and the engineer's job when agents write the code",
     "url" : "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html?utm_campaign=inbound&utm_source=rss",
     "published" : "2026-11-11T14:30:00Z",
-    "excerpt" : "AWS Emulator, launched today and written and tested entirely by agents, gives you a local copy of more than 200 AWS services to test against. Swami Sivasubramanian recalls the high-fidelity simulation his team built to test one of Amazon's…"
+    "excerpt" : "AWS Emulator, launched today and written and tested entirely by agents, gives you a local copy of more than 200 AWS services to test against. Swami Sivasubramanian recalls the high-fidelity simulation his team built to test one of Amazon's earliest distributed systems, and writes about how the engineer's work changes when agents write the code."
+  }, {
+    "beat" : "security",
+    "source" : "The Record",
+    "title" : "Uber says nearly 150,000 impacted by third-party breach",
+    "url" : "https://therecord.media/uber-says-150000-impacted-third-party-breach",
+    "published" : "2026-11-18T01:20:00Z",
+    "excerpt" : "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber’s account."
   }, {
     "beat" : "security",
     "source" : "The Record",
@@ -672,7 +940,7 @@
     "title" : "Italian regulator fines Meta $886 million for violating data privacy law",
     "url" : "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
     "published" : "2026-11-16T18:05:00Z",
-    "excerpt" : "The crackdown on Meta’s Facebook platform involved the company’s alleged use of its “camera roll” suggestions option, launched in 2023, to browse Android users’ photo galleries to recommend posts they could enhance with personal photos and…"
+    "excerpt" : "The crackdown on Meta’s Facebook platform involved the company’s alleged use of its “camera roll” suggestions option, launched in 2023, to browse Android users’ photo galleries to recommend posts they could enhance with personal photos and videos."
   }, {
     "beat" : "security",
     "source" : "The Record",
@@ -682,18 +950,11 @@
     "excerpt" : "A building near the Lancashire village of Samlesbury in northwest England is officially the headquarters for the secretive unit that runs the Britain's offensive cyber operations."
   }, {
     "beat" : "security",
-    "source" : "The Record",
-    "title" : "Russia denies intercepting Romanian government emails",
-    "url" : "https://therecord.media/romania-russia-cyberattack-espionage",
-    "published" : "2026-11-16T17:00:00Z",
-    "excerpt" : "Russia has denied accusations that its state-backed hackers targeted a Romanian government institution in an attempt to intercept emails exchanged with NATO and the European Union."
-  }, {
-    "beat" : "security",
     "source" : "BleepingComputer",
     "title" : "Gemini AI agents repeatedly bypassed safeguards to attack real website",
     "url" : "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
     "published" : "2026-11-16T22:54:00Z",
-    "excerpt" : "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems.…"
+    "excerpt" : "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]"
   }, {
     "beat" : "security",
     "source" : "BleepingComputer",
@@ -707,7 +968,7 @@
     "title" : "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
     "url" : "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
     "published" : "2026-11-16T20:59:44Z",
-    "excerpt" : "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated…"
+    "excerpt" : "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]"
   }, {
     "beat" : "security",
     "source" : "BleepingComputer",
@@ -735,35 +996,35 @@
     "title" : "Usable Security at Luxury Hotels",
     "url" : "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
     "published" : "2026-11-16T12:04:42Z",
-    "excerpt" : "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why &#8220;just…"
+    "excerpt" : "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why &#8220;just don’t click on links&#8221; is bad advice. It can’t work when answering strangers’ emails is the job. Even worse, in this case the guest-first culture punishes hesitation. More interesting, the case study shows that splitting security between owner, operator,…"
   }, {
     "beat" : "ai-datacenter",
     "source" : "Simon Willison",
     "title" : "llm 0.37.3",
     "url" : "https://simonwillison.net/2026/Nov/16/llm/",
     "published" : "2026-11-16T23:57:26Z",
-    "excerpt" : "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short…"
+    "excerpt" : "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {\"a\":[1]} But in 3.54.1 the same query returns this: {\"a\":\"[1]\"} According to D. Richard Hipp : That was a bug fix. Per the documentation, (SELECT…"
   }, {
     "beat" : "ai-datacenter",
     "source" : "Simon Willison",
     "title" : "datasette-maplibre 0.1a0",
     "url" : "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
     "published" : "2026-11-15T23:58:36Z",
-    "excerpt" : "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt…"
+    "excerpt" : "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and…"
   }, {
     "beat" : "ai-datacenter",
     "source" : "Simon Willison",
     "title" : "datasette 1.0a43",
     "url" : "https://simonwillison.net/2026/Nov/15/datasette/",
     "published" : "2026-11-15T23:20:27Z",
-    "excerpt" : "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV…"
+    "excerpt" : "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub…"
   }, {
     "beat" : "ai-datacenter",
     "source" : "Simon Willison",
     "title" : "datasette 0.65.6",
     "url" : "https://simonwillison.net/2026/Nov/15/datasette-2/",
     "published" : "2026-11-15T23:18:17Z",
-    "excerpt" : "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from…"
+    "excerpt" : "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette"
   }, {
     "beat" : "ai-datacenter",
     "source" : "OpenAI News",
@@ -826,14 +1087,14 @@
     "title" : "Infoblox customer and staff data exposed in Sharepoint breach",
     "url" : "https://www.theregister.com/security/2026/11/16/infoblox-customer-and-staff-data-exposed-in-sharepoint-breach/5310280",
     "published" : "2026-11-16T21:53:28Z",
-    "excerpt" : "The company is investigating"
+    "excerpt" : "Networking and security firm Infoblox is investigating a third-party breach that allowed crims to access sensitive customer and staff data. \"Infoblox is investigating a security event involving unauthorized access to certain company information through a compromised third-party data migration vendor,” a company spokesperson confirmed to The Register . According to sources, the compromised third-party data migration vendor had trusted access to Infoblox's SharePoint system, and the intruders used…"
   }, {
     "beat" : "ai-datacenter",
     "source" : "The Register",
     "title" : "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
     "url" : "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
     "published" : "2026-11-16T19:52:00Z",
-    "excerpt" : "Critical orgs around the globe under seige"
+    "excerpt" : "Attackers are using open source AI penetration testing framework ARTEX to automate their attacks on banks, governments, energy and healthcare providers, and other critical sectors around the globe, according to security alerts from the FBI and Amazon Threat Intelligence. Between October 3 and November 5, Amazon’s MadPot honeypot threat sensors detected two ARTEX campaigns: one that allowed thieves to steal AI credentials at “industrial scale” to gain free access to models, and a second that…"
   }, {
     "beat" : "ai-datacenter",
     "source" : "The Register",
@@ -868,21 +1129,21 @@
     "title" : "Over court objections, DOE issues 7th order to keep Michigan coal plant online",
     "url" : "https://www.utilitydive.com/news/over-court-objections-doe-issues-order-campbell-coal-plant/874733/",
     "published" : "2026-11-16T13:56:20Z",
-    "excerpt" : "Environmental groups say they are &ldquo;evaluating all legal options&rdquo; after a federal appeals court vacated a previous order for the same plant, ruling DOE exceeded its authority. The plant&rsquo;s owner says it has spent more than…"
+    "excerpt" : "Environmental groups say they are &ldquo;evaluating all legal options&rdquo; after a federal appeals court vacated a previous order for the same plant, ruling DOE exceeded its authority. The plant&rsquo;s owner says it has spent more than $300 million keeping it open."
   }, {
     "beat" : "ai-datacenter",
     "source" : "The Quantum Insider",
     "title" : "GenQ Emerges From Stealth to Commercialize Quantum Measurement Technology",
     "url" : "https://thequantuminsider.com/2026/11/16/genq-emerges-from-stealth-to-commercialize-quantum-measurement-technology/",
     "published" : "2026-11-16T20:48:53Z",
-    "excerpt" : "Insider Brief PRESS RELEASE &#8212; &#8212; For decades, practical, scalable applications of quantum technology have been purely aspirational. Now, Generation Quantum (“GenQ”) is taking a different approach to create quantum capabilities…"
+    "excerpt" : "Insider Brief PRESS RELEASE &#8212; &#8212; For decades, practical, scalable applications of quantum technology have been purely aspirational. Now, Generation Quantum (“GenQ”) is taking a different approach to create quantum capabilities that work today. “GenQ completely changed the way I think about quantum computing and its near-term potential,” says Valentina Rodriguez of Wonder Ventures, who [&#8230;]"
   }, {
     "beat" : "ai-datacenter",
     "source" : "The Quantum Insider",
     "title" : "From First-Timers to PhDs: 1,000+ Builders Take on Quantum at the Qollab × IonQ Hackathon",
     "url" : "https://thequantuminsider.com/2026/11/16/from-first-timers-to-phds-1000-builders-take-on-quantum-at-the-qollab-x-ionq-hackathon/",
     "published" : "2026-11-16T18:21:45Z",
-    "excerpt" : "Insider Brief Last month, more than 1,000 students, researchers and professionals in 37 countries spent a weekend writing quantum software, competing at 22 university sites from Finland to Argentina. Some of the best work came from people…"
+    "excerpt" : "Insider Brief Last month, more than 1,000 students, researchers and professionals in 37 countries spent a weekend writing quantum software, competing at 22 university sites from Finland to Argentina. Some of the best work came from people who had never written a line of quantum code. An avionics engineer in Argentina taught himself from online [&#8230;]"
   }, {
     "beat" : "markets",
     "source" : "The Wall Street Journal",
@@ -1141,7 +1402,7 @@
     "title" : "The Elasticity Business",
     "url" : "https://www.thediff.co/archive/the-elasticity-business/",
     "published" : "2026-11-16T16:25:04Z",
-    "excerpt" : "Plus! Jensen!?; Elasticity, Illustrated; Hiring; Strategy; Opsec and Romance"
+    "excerpt" : "In this issue: The Elasticity Business&#x2014;Over long periods, it&apos;s astonishing how much the elasticity of supply and demand can change. Indispensable goods become free, impossible-to-create ones get manufactured, and elasticity is only limited by effort, ingenuity, and capital. Jensen!?&#x2014;The case for either keeping him out or giving him super-voting stock; if he can&apos;t be fired, make it official. Elasticity, Illustrated&#x2014;China can reduce global emissions, but not because…"
   }, {
     "beat" : "health-tech",
     "source" : "STAT",
@@ -1176,7 +1437,7 @@
     "title" : "Morning Headlines 11/17/26",
     "url" : "https://histalk2.com/2026/11/16/morning-headlines-11-17-26/",
     "published" : "2026-11-16T23:26:04Z",
-    "excerpt" : "Credo Health Acquires Affineon, Launches Pajama.ai to End Doctors’ &#8220;Pajama Time&#8221; Medical record retrieval company Credo Health acquires physician inbox management software startup Affineon Health and rebrands as Pajama.ai.…"
+    "excerpt" : "Credo Health Acquires Affineon, Launches Pajama.ai to End Doctors’ &#8220;Pajama Time&#8221; Medical record retrieval company Credo Health acquires physician inbox management software startup Affineon Health and rebrands as Pajama.ai. Beyond Large Language Models: Knit Health ..."
   }, {
     "beat" : "health-tech",
     "source" : "HIStalk",
@@ -1218,14 +1479,14 @@
     "title" : "Former UW AI researchers Yejin Choi and Carlos Guestrin raise $110M for AI startup Noeri",
     "url" : "https://www.geekwire.com/2026/former-uw-ai-researchers-yejin-choi-and-carlos-guestrin-raise-110m-for-ai-startup-noeri/",
     "published" : "2026-11-16T18:37:57Z",
-    "excerpt" : "Noeri, an AI startup co-founded by Stanford professors Yejin Choi and Carlos Guestrin, has raised $110 million in a round led by Menlo Ventures. Its software studies a company's data and workflows and proposes changes to the instructions,…"
+    "excerpt" : "Noeri, an AI startup co-founded by Stanford professors Yejin Choi and Carlos Guestrin, has raised $110 million in a round led by Menlo Ventures. Its software studies a company's data and workflows and proposes changes to the instructions, tools and models behind its AI systems, with a person reviewing each proposed change. Read More"
   }, {
     "beat" : "seattle",
     "source" : "GeekWire",
     "title" : "Study: 403 U.S. hyperscale data centers rival Denmark’s emissions; Oregon ranked No. 2 in power use",
     "url" : "https://www.geekwire.com/2026/study-403-u-s-hyperscale-data-centers-rival-denmarks-emissions-oregon-ranked-no-2-in-power-use/",
     "published" : "2026-11-16T18:01:13Z",
-    "excerpt" : "A Harvard-led study estimates that 403 U.S. hyperscale data centers have a combined carbon footprint roughly comparable to Denmark’s. Oregon ranked second in electricity use among the facilities studied, adding context to the region’s…"
+    "excerpt" : "A Harvard-led study estimates that 403 U.S. hyperscale data centers have a combined carbon footprint roughly comparable to Denmark’s. Oregon ranked second in electricity use among the facilities studied, adding context to the region’s growing debate over data center development. Read More"
   }, {
     "beat" : "seattle",
     "source" : "GeekWire",
@@ -1239,21 +1500,21 @@
     "title" : "What went wrong with Outlook: Microsoft blames ‘thundering herds’ and a bug unnoticed for months",
     "url" : "https://www.geekwire.com/2026/what-went-wrong-with-outlook-microsoft-blames-thundering-herds-and-a-bug-unnoticed-for-months/",
     "published" : "2026-11-16T15:31:47Z",
-    "excerpt" : "Microsoft says a bug in a fix it began rolling out in July caused last week's global Outlook outage, and that testing on less powerful hardware missed it. Safeguards meant to contain the failure didn't stop it from spreading worldwide, and…"
+    "excerpt" : "Microsoft says a bug in a fix it began rolling out in July caused last week's global Outlook outage, and that testing on less powerful hardware missed it. Safeguards meant to contain the failure didn't stop it from spreading worldwide, and Exchange email couldn't switch to a backup gateway because of its scale. Read More"
   }, {
     "beat" : "seattle",
     "source" : "GeekWire",
     "title" : "Why Microsoft is aiming to make Copilot the ‘OS for work’",
     "url" : "https://www.geekwire.com/2026/why-microsoft-is-aiming-to-make-copilot-the-os-for-work/",
     "published" : "2026-11-16T13:44:41Z",
-    "excerpt" : "Microsoft is pitching Copilot as “a new OS for work,” a theme expected to run through its Ignite conference. Mary Jo Foley explains the bet behind the metaphor: that AI at work will be won by whoever controls the data, permissions and…"
+    "excerpt" : "Microsoft is pitching Copilot as “a new OS for work,” a theme expected to run through its Ignite conference. Mary Jo Foley explains the bet behind the metaphor: that AI at work will be won by whoever controls the data, permissions and security layer that businesses already run on Microsoft software. Read More"
   }, {
     "beat" : "seattle",
     "source" : "GeekWire",
     "title" : "Amazon loses 40 Leo satellites in ULA Vulcan launch failure — a new setback for its Starlink rival",
     "url" : "https://www.geekwire.com/2026/amazon-loses-40-leo-satellites-as-ula-vulcan-launch-failure-deals-setback-to-tech-giants-starlink-rival/",
     "published" : "2026-11-15T21:41:28Z",
-    "excerpt" : "ULA's Vulcan rocket failed about 10 minutes into flight Sunday, the company's first total mission failure, losing 40 satellites for Amazon's Leo internet service and disrupting Amazon's plans for a second Vulcan launch within weeks. Read…"
+    "excerpt" : "ULA's Vulcan rocket failed about 10 minutes into flight Sunday, the company's first total mission failure, losing 40 satellites for Amazon's Leo internet service and disrupting Amazon's plans for a second Vulcan launch within weeks. Read More"
   }, {
     "beat" : "seattle",
     "source" : "The Seattle Times",
@@ -1428,7 +1689,7 @@
     "title" : "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
     "url" : "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
     "published" : "2026-11-16T18:04:50Z",
-    "excerpt" : "Countries are meeting in Geneva to negotiate rules on weapons that can select and kill targets without human intervention. But with the U.S., Russia and Israel resisting legally binding controls, campaigners fear the window to act is…"
+    "excerpt" : "Countries are meeting in Geneva to negotiate rules on weapons that can select and kill targets without human intervention. But with the U.S., Russia and Israel resisting legally binding controls, campaigners fear the window to act is closing."
   }, {
     "beat" : "world",
     "source" : "NPR",
@@ -1467,6 +1728,13 @@
   }, {
     "beat" : "world",
     "source" : "Semafor",
+    "title" : "OpenAI CFO says latest funding round was unplanned, prompted by news report",
+    "url" : "https://www.semafor.com/article/11/16/2026/openai-cfo-says-latest-funding-round-was-unplanned-prompted-by-news-report",
+    "published" : "2026-11-17T01:24:10Z",
+    "excerpt" : "Sarah Friar said at Semafor’s Silicon Valley & The World that the frontier lab’s latest fundraise was “opportunistic.”"
+  }, {
+    "beat" : "world",
+    "source" : "Semafor",
     "title" : "Trump cyber director: FAA, other outages not a cyberattack",
     "url" : "https://www.semafor.com/article/11/16/2026/trump-cyber-director-ai-labs-extremely-good-about-sharing-models",
     "published" : "2026-11-17T01:11:52Z",
@@ -1479,40 +1747,33 @@
     "published" : "2026-11-17T01:06:06Z",
     "excerpt" : "CEO KR Sridhar said at Semafor’s Silicon Valley & The World that “AI happens to be a catalyst.”"
   }, {
-    "beat" : "world",
-    "source" : "Semafor",
-    "title" : "Democrats dig in for grueling leadership fight",
-    "url" : "https://www.semafor.com/article/11/16/2026/democrats-dig-in-for-grueling-leadership-fight-schumer-van-hollen",
-    "published" : "2026-11-17T00:49:14Z",
-    "excerpt" : "Chuck Schumer faces a challenge from within his party despite their mammoth election wins."
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Cyclone Akvan brews over Bay of Bengal: What you need to know",
+    "url" : "https://www.thehindu.com/news/national/cyclone-akvan-what-you-need-to-know-about-the-third-bay-of-bengal-storm-in-three-weeks/article71706612.ece",
+    "published" : "2026-11-17T01:27:18Z",
+    "excerpt" : "Cyclone Akvan, a severe storm developing in the Bay of Bengal, is expected to intensify from a depression into a cyclonic storm this week; what to know."
   }, {
     "beat" : "india",
     "source" : "The Hindu",
-    "title" : "BJP holds key party meeting in Mathura for Assembly polls",
-    "url" : "https://www.thehindu.com/news/national/uttar-pradesh/bjp-holds-key-party-meeting-in-mathura-for-assembly-polls/article71709422.ece",
-    "published" : "2026-11-16T23:27:22Z",
-    "excerpt" : "The party announced the meeting to discuss organisational programmes, booth empowerment, and public welfare benefits, while also outlining electoral strategy and caste-based outreach"
+    "title" : "No proof from ECI to show SIR was a ‘unanimous’ decision, Rahul Gandhi to Supreme Court",
+    "url" : "https://www.thehindu.com/news/national/no-proof-from-eci-to-show-sir-was-a-unanimous-decision-rahul-gandhi-to-sc/article71707772.ece",
+    "published" : "2026-11-17T01:13:16Z",
+    "excerpt" : "The ECI’s October 26 affidavit, in response to a petition filed by INDIA bloc leaders led by Mr. Gandhi, denied any differences of opinion between the CEC and the Election Commissioners over the SIR process"
   }, {
     "beat" : "india",
     "source" : "The Hindu",
-    "title" : "Tribute to Kartar Singh Sarabha, Punjab free from drugs and unemployment, says CM Mann",
-    "url" : "https://www.thehindu.com/news/national/punjab/tribute-to-kartar-singh-sarabha-punjab-free-from-drugs-and-unemployment-says-cm-mann/article71709559.ece",
-    "published" : "2026-11-16T22:57:18Z",
-    "excerpt" : "The Chief Minister said his government is working to build the progressive Punjab they envision"
+    "title" : "Six Liangmai Naga civilians laid to rest in Manipur 187 days after abduction, killing",
+    "url" : "https://www.thehindu.com/news/national/manipur/six-months-after-abduction-bodies-of-six-naga-men-interred-in-manipur/article71708214.ece",
+    "published" : "2026-11-17T01:12:45Z",
+    "excerpt" : "United Naga Council president N.G. Lorho said May 13, 2026, would remain the darkest day in Manipur’s history"
   }, {
     "beat" : "india",
     "source" : "The Hindu",
-    "title" : "Kishtwar killings aftermath: Remarks by Congress’ Karra, BJP’s Parihar spark protests in J&K",
-    "url" : "https://www.thehindu.com/news/national/jammu-and-kashmir/kishtwar-killings-aftermath-remarks-by-congress-karra-bjps-parihar-spark-protests-in-jk/article71709551.ece",
-    "published" : "2026-11-16T22:06:43Z",
-    "excerpt" : "Mr. Karra said that “two SPOs were killed by the Army in a mistaken-identity case on November 11”, while senior BJP leader Sharma said, “Congress is spreading misleading information to shift blame from terrorists to security forces”"
-  }, {
-    "beat" : "india",
-    "source" : "The Hindu",
-    "title" : "Christian community seeks West Bengal CM’s intervention over targeted attacks ahead of Christmas",
-    "url" : "https://www.thehindu.com/news/national/west-bengal/christian-community-seeks-west-bengal-cms-intervention-over-targeted-attacks-ahead-of-christmas/article71708936.ece",
-    "published" : "2026-11-16T21:36:56Z",
-    "excerpt" : "Bishop of Calcutta Reverend Paritosh Canning ruled out claims of religious conversion by institutions affiliated with the Churches of North India"
+    "title" : "Bilkis Bano case: Supreme Court suspends sentence, grants bail to two convicts",
+    "url" : "https://www.thehindu.com/news/national/bilkis-bano-case-supreme-court-suspends-sentence-grants-bail-to-two-convicts/article71707334.ece",
+    "published" : "2026-11-17T01:12:18Z",
+    "excerpt" : "The order published on the court website reasoned that the two men had already been imprisoned for more than 17 years and one of them suffers a severe handicap"
   }, {
     "beat" : "india",
     "source" : "The Hindu",
@@ -1565,10 +1826,17 @@
   }, {
     "beat" : "india",
     "source" : "Mint",
+    "title" : "Major US banks face online outages; JPMorgan Chase, Bank of America, Wells Fargo affected - Here’s what happened",
+    "url" : "https://www.livemint.com/news/us-news/major-us-banks-face-online-outages-jpmorgan-chase-bank-of-america-wells-fargo-affected-here-s-what-happened-11794878457722.html",
+    "published" : "2026-11-17T01:38:48Z",
+    "excerpt" : "Thousands of customers faced banking disruptions across the US after major banks, including JPMorgan Chase, Bank of America and Wells Fargo, reported service outages. The incident followed recent disruptions affecting Microsoft services and the country's aviation network."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
     "title" : "Petrobras eyes Andaman oil hunt in Brazil’s India energy push",
     "url" : "https://www.livemint.com/news/brazil-petrobras-andamans-oil-gas-reserves-11794824521836.html",
     "published" : "2026-11-17T00:30:58Z",
-    "excerpt" : "Petrobras plans to join deep-sea oil and gas exploration in the Andaman basin, even as it sharply increases crude oil shipments to India. With global conflicts rattling energy markets, India is leaning into the partnership to diversify its…"
+    "excerpt" : "Petrobras plans to join deep-sea oil and gas exploration in the Andaman basin, even as it sharply increases crude oil shipments to India. With global conflicts rattling energy markets, India is leaning into the partnership to diversify its suppliers and ease its 90% reliance on foreign oil."
   }, {
     "beat" : "india",
     "source" : "Mint",
@@ -1578,18 +1846,11 @@
     "excerpt" : "The Delhi government is in talks with the World Bank on an airshed-based approach that would coordinate pollution-control efforts across neighbouring states, moving away from city-centric curbs towards targeted regional action."
   }, {
     "beat" : "india",
-    "source" : "Mint",
-    "title" : "Trump Rejected by Supreme Court in Bid to End ‘DEI’ Grants",
-    "url" : "https://www.livemint.com/news/us-news/trump-rejected-by-supreme-court-in-bid-to-end-dei-grants-11794860057756.html",
-    "published" : "2026-11-16T20:14:17Z",
-    "excerpt" : "The US Supreme Court dealt President Donald Trump a setback in his drive to cancel billions of dollars in federal grants, leaving intact a ruling that the administration was probably acting illegally by targeting research projects he said…"
-  }, {
-    "beat" : "india",
     "source" : "Finshots",
-    "title" : "Has the RBI really stabilised the rupee?",
-    "url" : "https://finshots.in/archive/has-rbi-stabilised-rupee/",
-    "published" : "2026-11-16T01:30:58Z",
-    "excerpt" : "An explainer on why the rupee has been gaining against the dollar."
+    "title" : "The 86-year carbon debt in your cooking oil",
+    "url" : "https://finshots.in/archive/the-86-year-carbon-debt-in-your-cooking-oil-1/",
+    "published" : "2026-11-17T01:30:27Z",
+    "excerpt" : "An explainer on how Indonesia was recognised for reducing deforestation-linked emissions despite forest fires, and what India has to do with it."
   }, {
     "beat" : "india",
     "source" : "Inc42",
@@ -1631,21 +1892,21 @@
     "title" : "Self-reinforcing quality / adopting verification pattern",
     "url" : "https://lethain.com/adopting-verification-pattern/",
     "published" : "2026-10-30T12:00:00Z",
-    "excerpt" : "After implementing the small-change pattern, Imprint Engineering&rsquo;s next focus in improving our development loop has been implementing a verification loop for our software development. This is an increasingly common pattern,…"
+    "excerpt" : "After implementing the small-change pattern, Imprint Engineering&rsquo;s next focus in improving our development loop has been implementing a verification loop for our software development. This is an increasingly common pattern, particularly popularized by poteto&rsquo;s pstack , but you&rsquo;ll find similar ideas emerging in other places as well, e.g. Niko Matsakis&rsquo; post on the correctness ratchet , among others. This captures some of the confusion I&rsquo;ve seen in our initial…"
   }, {
     "beat" : "career",
     "source" : "Martin Fowler",
     "title" : "Bliki: Generated Glossary",
     "url" : "https://martinfowler.com/bliki/GeneratedGlossary.html",
     "published" : "2026-11-12T14:15:00Z",
-    "excerpt" : "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its…"
+    "excerpt" : "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain. One technique to aid this is to use an LLM to generate a glossary of the terminology in that domain, and make this glossary available for any LLMs doing work in those…"
   }, {
     "beat" : "career",
     "source" : "Martin Fowler",
     "title" : "Tests as data: ensuring AI-generated code does what we want",
     "url" : "https://martinfowler.com/articles/tests-as-data.html",
     "published" : "2026-11-11T15:17:00Z",
-    "excerpt" : "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three…"
+    "excerpt" : "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three claims: (1) when AI writes the code, developers become its customers; (2) therefore customer tests, not developer tests, become the primary contract between humans and AI; (3) moving that contract into test data rather than test code makes it easier to…"
   }, {
     "beat" : "career",
     "source" : "LeadDev",
@@ -1673,14 +1934,14 @@
     "title" : "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
     "url" : "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
     "published" : "2026-11-16T15:25:00Z",
-    "excerpt" : "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release…"
+    "excerpt" : "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernate ORM and Hibernate Reactive; fourth milestone release of GlassFish; and the second milestone release of Apache TomEE. By Michael Redlich"
   }, {
     "beat" : "career",
     "source" : "InfoQ Architecture",
     "title" : "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
     "url" : "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
     "published" : "2026-11-16T14:37:00Z",
-    "excerpt" : "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average…"
+    "excerpt" : "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring agentic harnesses, skills, legal ontologies, and knowledge graphs. By Leela Kumili"
   }, {
     "beat" : "live-well",
     "source" : "The New York Times",
@@ -1715,7 +1976,7 @@
     "title" : "#416 ‒ The science of mitochondria: their role in health, aging, and disease, and what the evidence says about drugs and supplements aimed at improving their function | Navdeep Chandel, Ph.D. ",
     "url" : "https://peterattiamd.com/navchandel2/",
     "published" : "2026-11-16T05:15:00Z",
-    "excerpt" : "“If mitochondrial dysfunction is related to aging, it isn't simply about running out of ATP or running out of metabolites. It could be this miscommunication.”‒ Nav Chandel The post #416 ‒ The science of mitochondria: their role in health,…"
+    "excerpt" : "“If mitochondrial dysfunction is related to aging, it isn't simply about running out of ATP or running out of metabolites. It could be this miscommunication.”‒ Nav Chandel The post #416 ‒ The science of mitochondria: their role in health, aging, and disease, and what the evidence says about drugs and supplements aimed at improving their function | Navdeep Chandel, Ph.D.  appeared first on Peter Attia MD ."
   }, {
     "beat" : "live-well",
     "source" : "Peter Attia",
@@ -1730,8 +1991,92 @@
     "url" : "https://calnewport.com/in-search-of-the-deep-life/",
     "published" : "2026-11-16T11:00:00Z",
     "excerpt" : "Early in the coronavirus pandemic, as I sat at home channeling my anxiety into publishing daily essays on this newsletter (a streak I kept up ... Read more The post In Search of the Deep Life appeared first on Cal Newport ."
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Do Meat-Eaters Have More Antibiotic Resistance in Their Guts?",
+    "url" : "https://nutritionfacts.org/blog/do-meat-eaters-have-more-antibiotic-resistance-in-their-guts/",
+    "published" : "2026-11-12T13:00:27Z",
+    "excerpt" : "Those eating plant-based have a reduced load of antibiotic resistance genes in their gut. There are nearly one million Salmonella and Campylobacter infections in children [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Are Rare Sugars Like Allulose Actually Healthy?",
+    "url" : "https://nutritionfacts.org/blog/are-rare-sugars-like-allulose-actually-healthy/",
+    "published" : "2026-11-10T13:00:44Z",
+    "excerpt" : "Are rare sugars like allulose a healthy alternative to traditional sweeteners? Allulose is a kind of low-calorie sugar that exists naturally in very small quantities [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Can Allulose Replace Sugar?",
+    "url" : "https://nutritionfacts.org/blog/can-allulose-replace-sugar/",
+    "published" : "2026-11-05T13:00:52Z",
+    "excerpt" : "How safe are fourth-generation sweeteners, such as the rare sugar allulose? First, there was sugar and high-fructose corn syrup, the original industrial sweeteners. They were [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "US loses measles elimination status – an epidemiologist explains what it will take to regain it",
+    "url" : "https://theconversation.com/us-loses-measles-elimination-status-an-epidemiologist-explains-what-it-will-take-to-regain-it-296664",
+    "published" : "2026-11-16T13:37:50Z",
+    "excerpt" : "Americans forgot how serious measles can be – and misinformation on the dangers of vaccines proliferated."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Why does your body store fat in your butt?",
+    "url" : "https://theconversation.com/why-does-your-body-store-fat-in-your-butt-294331",
+    "published" : "2026-11-16T13:36:41Z",
+    "excerpt" : "Having a lot of fat is rare among mammals. For people, it may be an evolutionary advantage to help get through the tough times."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Prostate cancer testing now urged for men in their 50s and 60s – a lead author of the new screening guidelines explains why",
+    "url" : "https://theconversation.com/prostate-cancer-testing-now-urged-for-men-in-their-50s-and-60s-a-lead-author-of-the-new-screening-guidelines-explains-why-296645",
+    "published" : "2026-11-15T14:00:41Z",
+    "excerpt" : "The American Cancer Society has found that the benefits of the PSA blood test outweigh its harms. Black men and those with a family history of prostate cancer may especially benefit from screening."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "Jon McNeill: How Elon Musk Makes Decisions",
+    "url" : "https://fs.blog/knowledge-project-podcast/jon-mcneill/",
+    "published" : "2026-11-05T10:55:00Z",
+    "excerpt" : "Jon McNeill is the former President of Tesla and the co-founder and CEO of DVx Ventures. Elon Musk believes speed creates a competitive advantage, whether it’s speed of decision, speed of cash, or speed of response. But what does that look like day to day, and how do you build a company around it? Jon &#8230; The post Jon McNeill: How Elon Musk Makes Decisions appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "[Outliers] K.C. Irving: Competing with Giants",
+    "url" : "https://fs.blog/knowledge-project-podcast/outliers-kc-irving/",
+    "published" : "2026-10-29T09:50:00Z",
+    "excerpt" : "K.C. Irving refused to be stopped. When a railway raised his shipping costs, he bought a ship. When oil suppliers tried to squeeze him, he built a refinery. When a plant went on strike, he pulled up to the picket line, took off his coat, and challenged the much larger union boss to a fight. &#8230; The post [Outliers] K.C. Irving: Competing with Giants appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "The Science of Doing Your Best Work | Steven Kotler",
+    "url" : "https://fs.blog/knowledge-project-podcast/steven-kotler/",
+    "published" : "2026-10-22T09:50:00Z",
+    "excerpt" : "Steven Kotler is a bestselling author and the executive director of the Flow Research Collective, where he studies the science of peak performance. Most of us have felt it. Hours disappear, everything else fades away, and the work seems to do itself. But what’s actually happening in those moments, and can you make them happen &#8230; The post The Science of Doing Your Best Work | Steven Kotler appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Sacred Bow: My Yearly Intentional Ritual",
+    "url" : "https://zenhabits.net/sacred-bow/",
+    "published" : "2026-11-16T00:00:00Z",
+    "excerpt" : "By Leo Babauta Every year for the last 7 years, I’ve done a year-end ritual called Sacred Bow … and I’ve invited members of my Fearless Living Academy to do it with me every year. It’s one of the most powerful things we do. And it’s a beautiful way to close out the year. I share a process with everyone that I do personally … it’s about four things, and we do it over four weeks in December: Review : We start by reviewing our year … what did we accomplish, what challenges did we face, what did we…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Do Less, But Care More",
+    "url" : "https://zenhabits.net/less-more/",
+    "published" : "2026-11-13T00:00:00Z",
+    "excerpt" : "By Leo Babauta Most of us feel spread too thin, overwhelmed, with not enough time for all the things we care about. It might be that we’re spreading our care too thin — we’re trying to care about everything. We say yes to so many things, so that everything then gets a thin layer of our attention. And that’s tough to sustain for long. Let’s talk about simplifying — but not just as a way to off-load our commitments … and instead focus on ways to make room to actually care more about what we choose…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "You Don’t Have to Earn Your Rest",
+    "url" : "https://zenhabits.net/earn-rest/",
+    "published" : "2026-11-06T00:00:00Z",
+    "excerpt" : "By Leo Babauta Something I’ve noticed is that a lot of us have an ingrained belief that we can take some time off to rest if we’ve worked hard enough. Or often it’s like, “I’ll rest now so I can be more productive tomorrow.” The mindset we have ingrained in us is that rest has to be justified by how productive it will help us to be . This is so deeply ingrained in us that we don’t even notice it. It comes from the mindset that we need to be more productive, and that our lives have to be built…"
   } ],
-  "sourcesReached" : 59,
+  "sourcesReached" : 63,
   "sourcesFailed" : [ ],
   "recentHeadlines" : [ ],
   "learnTitlesUsed" : [ "SAMPLE: One concept, explained in about 300 words" ],

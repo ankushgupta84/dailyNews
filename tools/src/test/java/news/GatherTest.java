@@ -92,6 +92,7 @@ class GatherTest {
     void picksMoversFromFocusTickersAtOrBeyondThreePercent() throws IOException {
         JsonNode brief = build(MONDAY);
         assertEquals("Nov 13 close", brief.path("asOf").asText());
+        assertEquals("2026-11-13", brief.path("asOfDate").asText());
         // CCC -8.0, AAA +3.0 (exactly on the threshold); BBB -2.9 is below it; GEN +50 is not a focus ticker.
         assertEquals(List.of("CCC", "AAA"), texts(brief.path("movers"), "ticker"));
         assertEquals("-8.0", brief.path("movers").get(0).path("changePct").asText());
@@ -112,6 +113,7 @@ class GatherTest {
         web.keySet().removeIf(k -> k.startsWith("/quote/"));
         JsonNode brief = build(MONDAY);
         assertEquals("unavailable", brief.path("asOf").asText());
+        assertTrue(brief.path("asOfDate").isMissingNode());
         assertEquals(0, brief.path("movers").size());
         assertTrue(brief.path("problems").get(0).asText().contains("No prices"));
     }
@@ -323,15 +325,42 @@ class GatherTest {
         web.put("articlebysymbol?q=CCC%7CSTOCKS", news(
                 "CCC falls on guidance", "/articles/ccc-falls", "Nov 16, 2026", "Barchart",
                 "CCC older note", "/articles/ccc-old", "Nov 13, 2026", "Fool",
-                "CCC too old", "/articles/ccc-ancient", "Nov 12, 2026", "Fool"));
+                "CCC before the session", "/articles/ccc-ancient", "Nov 12, 2026", "Fool"));
         web.put("articlebysymbol?q=AAA%7CSTOCKS", news("AAA jumps", "/articles/aaa", "Nov 14, 2026", "Fool"));
         JsonNode news = build(MONDAY).path("moverNews");
         assertEquals(List.of("CCC", "AAA"), texts(news, "ticker"));
         JsonNode ccc = news.get(0).path("headlines");
-        assertEquals(List.of("CCC falls on guidance", "CCC older note"), texts(ccc, "title")); // 3-day window: Nov 13 on
+        // The session is Nov 13 (the fixtures' close date): headlines from that day on, not the days before.
+        assertEquals(List.of("CCC falls on guidance", "CCC older note"), texts(ccc, "title"));
         assertEquals("https://www.nasdaq.com/articles/ccc-falls", ccc.get(0).path("url").asText());
         assertEquals("2026-11-16", ccc.get(0).path("published").asText());
         assertEquals("Barchart", ccc.get(0).path("publisher").asText());
+    }
+
+    @Test
+    void moverNewsStartsAtTheSessionDateNotAFixedNumberOfDaysBack() throws IOException {
+        // Tuesday's brief still describes Friday's session; three days back would be Saturday and drop Friday's wrap.
+        web.put("articlebysymbol?q=CCC%7CSTOCKS", news(
+                "Friday wrap", "/articles/fri", "Nov 13, 2026", "Barchart",
+                "Thursday note", "/articles/thu", "Nov 12, 2026", "Fool"));
+        JsonNode brief = build(LocalDate.of(2026, 11, 17));
+        assertEquals("2026-11-13", brief.path("asOfDate").asText());
+        assertEquals(List.of("Friday wrap"), texts(brief.path("moverNews").get(0).path("headlines"), "title"));
+    }
+
+    @Test
+    void usesTheOfficialCloseFromTheQuoteEndpointWhenItIsAvailable() throws IOException {
+        // History still shows the prior session (-8.0%); the quote already carries Monday's close.
+        web.put("/quote/CCC/info", MarketTest.info("$91.00|-9.00%|Nov 16, 2026 7:59 PM ET", "$92.00|-8.04%|Closed at Nov 16, 2026 4:00 PM ET"));
+        for (String t : List.of("AAA", "BBB", "GEN")) {
+            web.put("/quote/" + t + "/info", MarketTest.info("$1.00|+1.00%|Closed at Nov 16, 2026 4:00 PM ET", null));
+        }
+        web.put("/quote/OLD/info", MarketTest.info("$1.00|+1.00%|Closed at Nov 16, 2026 4:00 PM ET", null));
+        JsonNode brief = build(MONDAY);
+        assertEquals("Nov 16 close", brief.path("asOf").asText());
+        assertEquals("2026-11-16", brief.path("asOfDate").asText());
+        assertEquals(List.of("CCC"), texts(brief.path("movers"), "ticker"));
+        assertEquals("-8.0", brief.path("movers").get(0).path("changePct").asText());
     }
 
     @Test

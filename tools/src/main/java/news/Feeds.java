@@ -29,7 +29,9 @@ public final class Feeds {
 
     public record Item(String title, String url, Instant published, String excerpt) {}
 
-    static final int EXCERPT_CHARS = 240;
+    static final int EXCERPT_CHARS = 500;
+    /** A description shorter than this is a teaser; the full-content element, if present, says more. */
+    static final int THIN_CHARS = 80;
 
     private Feeds() {}
 
@@ -58,6 +60,11 @@ public final class Feeds {
         for (int i = 0; i < nodes.getLength(); i++) {
             Element e = (Element) nodes.item(i);
             String body = firstNonBlank(childText(e, "description"), childText(e, "summary"), childText(e, "content"));
+            // RSS "content:encoded" and Atom "content" hold the full text. Prefer them only when the
+            // description is a one-line teaser, so feeds with good descriptions keep their own words.
+            if (clean(body, EXCERPT_CHARS).length() < THIN_CHARS) {
+                body = firstNonBlank(childText(e, "content:encoded"), childText(e, "content"), body);
+            }
             String title = clean(childText(e, "title"), 300);
             out.add(new Item(
                     title,

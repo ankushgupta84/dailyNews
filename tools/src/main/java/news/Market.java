@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /** Prices and earnings dates from Nasdaq's public data API. */
 public final class Market {
@@ -39,12 +41,26 @@ public final class Market {
     }
 
     /**
-     * Latest daily close on or before {@code day} and its change from the close before it.
-     * Tries the ticker as a stock, then as an ETF. Throws if neither is known or fewer than
-     * two closes come back.
+     * Official close on or before {@code day} and its percentage change. Reads Nasdaq's quote endpoint,
+     * which carries the session's close as soon as the market shuts; the historical endpoint can lag
+     * by hours. Falls back to the historical endpoint when the quote has no "Closed at" block.
+     * Tries the ticker as a stock, then as an ETF. Throws if neither source gives a usable price.
      */
     public Price price(String ticker, LocalDate day) throws IOException {
         IOException last = null;
+        for (String assetClass : List.of("stocks", "etf")) {
+            try {
+                Price close = parseClose(ticker, day, fetcher.get(API + "/quote/" + ticker + "/info?assetclass=" + assetClass));
+                if (close != null) {
+                    return close;
+                }
+            } catch (IOException e) {
+                if (e instanceof BadClose) {
+                    throw e; // a close was reported but cannot be trusted: do not paper over it with older data
+                }
+                last = e; // quote endpoint down or symbol unknown here: try the next class, then history
+            }
+        }
         for (String assetClass : List.of("stocks", "etf")) {
             String url = API + "/quote/" + ticker + "/historical?assetclass=" + assetClass
                     + "&fromdate=" + day.minusDays(12) + "&todate=" + day + "&limit=5";
@@ -55,6 +71,46 @@ public final class Market {
             }
         }
         throw last;
+    }
+
+    /** The quote reported a close that is unreadable or dated after the requested day. */
+    private static final class BadClose extends IOException {
+        BadClose(String message) {
+            super(message);
+        }
+    }
+
+    private static final Pattern CLOSED_AT = Pattern.compile("^Closed at (\\w{3} \\d{1,2}, \\d{4}) .*");
+
+    /**
+     * The official close from a quote response, or null if it has no "Closed at" block. Which of
+     * primaryData and secondaryData holds the block depends on the time of day (after hours, the
+     * close moves to secondaryData). Throws IOException if the symbol is unknown to this asset class.
+     */
+    static Price parseClose(String ticker, LocalDate day, String body) throws IOException {
+        JsonNode data = JSON.readTree(body).path("data");
+        if (!data.isObject()) { // an unknown symbol answers HTTP 200 with "data": null
+            throw new IOException("no quote for " + ticker);
+        }
+        for (String block : List.of("primaryData", "secondaryData")) {
+            JsonNode quote = data.path(block); // secondaryData may be null
+            Matcher closed = CLOSED_AT.matcher(quote.path("lastTradeTimestamp").asText());
+            if (!closed.matches()) {
+                continue;
+            }
+            try {
+                LocalDate date = LocalDate.parse(closed.group(1), NEWS_DATE);
+                if (date.isAfter(day)) {
+                    throw new BadClose("close for " + ticker + " is dated " + date + ", after " + day);
+                }
+                BigDecimal changePct = new BigDecimal(quote.path("percentageChange").asText()
+                        .replace("%", "").replace("+", "").replace(",", "").strip()).setScale(1, RoundingMode.HALF_UP);
+                return new Price(ticker, date, money(quote.path("lastSalePrice").asText()), changePct);
+            } catch (RuntimeException e) { // NumberFormatException, DateTimeParseException
+                throw new BadClose("unreadable quote for " + ticker + ": " + e.getMessage());
+            }
+        }
+        return null;
     }
 
     static Price parsePrice(String ticker, String body) throws IOException {
