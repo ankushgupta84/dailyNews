@@ -2,7 +2,7 @@ name: Publish
 
 # The gate between the editor and the public page. The newest edition must pass
 # Validate (schema, privacy words, numbers against the brief, live links) or nothing
-# is deployed and the previous page stays up.
+# is deployed and the previous page stays up. Pages source must be "GitHub Actions".
 on:
   push:
     branches: [main]
