@@ -96,6 +96,7 @@ public final class Validate {
         checkLinks(problems, edition, fetcher);
         checkSourceSpelling(problems, root, edition);
         checkAgainstBrief(problems, root, edition, date);
+        checkGrounding(problems, root, edition, date);
         return problems;
     }
 
@@ -220,6 +221,15 @@ public final class Validate {
             out.add(node.path("url").asText());
         }
         node.forEach(child -> collectUrls(child, out));
+    }
+
+    /** Links, headlines and figures must trace to the brief; see {@link Grounding}. A missing brief is reported elsewhere. */
+    private static void checkGrounding(List<String> problems, Path root, JsonNode edition, String date) throws IOException {
+        Path briefFile = root.resolve("brief").resolve(date + ".json");
+        if (Files.isRegularFile(briefFile)) {
+            String text = Files.readString(briefFile);
+            Grounding.check(problems, edition, JSON.readTree(text), text);
+        }
     }
 
     /** Every number and date the editor was told to copy must match what the gather program computed. */

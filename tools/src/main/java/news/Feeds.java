@@ -36,11 +36,12 @@ public final class Feeds {
     private Feeds() {}
 
     /**
-     * Items from the feed that are dated at or after {@code since} and link to an https page,
+     * Items from the feed that are dated from {@code since} to {@code until} and link to an https page,
      * newest first, at most {@code max}. Undated items are dropped: without a date they would
-     * reappear as "new" every day.
+     * reappear as "new" every day. Items dated after {@code until} are dropped too: some feeds stamp
+     * items with wrong future dates, and those would outrank every real story.
      */
-    public static List<Item> parse(String xml, Instant since, int max) throws IOException {
+    public static List<Item> parse(String xml, Instant since, Instant until, int max) throws IOException {
         Document doc = parseXml(xml);
         List<Item> items = new ArrayList<>();
         collect(doc.getElementsByTagName("item"), items);   // RSS
@@ -49,7 +50,7 @@ public final class Feeds {
             throw new IOException("not a feed: no <item> or <entry> elements");
         }
         return items.stream()
-                .filter(i -> i.published() != null && !i.published().isBefore(since))
+                .filter(i -> i.published() != null && !i.published().isBefore(since) && !i.published().isAfter(until))
                 .filter(i -> i.url().startsWith("https://") && !i.title().isBlank())
                 .sorted(Comparator.comparing(Item::published).reversed())
                 .limit(max)

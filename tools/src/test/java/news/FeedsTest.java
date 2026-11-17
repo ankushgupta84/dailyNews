@@ -17,6 +17,7 @@ import org.junit.jupiter.api.Test;
 class FeedsTest {
 
     private static final Instant SINCE = Instant.parse("2026-11-15T00:00:00Z");
+    private static final Instant UNTIL = Instant.parse("2026-11-17T00:00:00Z");
 
     private static String rss(String items) {
         return "<?xml version=\"1.0\"?><rss version=\"2.0\"><channel><title>t</title>" + items + "</channel></rss>";
@@ -32,7 +33,7 @@ class FeedsTest {
     void parsesRssNewestFirstAndStripsMarkup() throws IOException {
         List<Feeds.Item> items = Feeds.parse(rss(
                 item("Older", "https://a.example/1", "Sun, 15 Nov 2026 08:00:00 GMT")
-                        + item("Newer", "https://a.example/2", "Mon, 16 Nov 2026 18:31:30 +0000")), SINCE, 10);
+                        + item("Newer", "https://a.example/2", "Mon, 16 Nov 2026 18:31:30 +0000")), SINCE, UNTIL, 10);
         assertEquals(List.of("Newer", "Older"), items.stream().map(Feeds.Item::title).toList());
         assertEquals("Hello world & more", items.get(0).excerpt());
         assertEquals(Instant.parse("2026-11-16T18:31:30Z"), items.get(0).published());
@@ -46,8 +47,17 @@ class FeedsTest {
                         + item("Garbage date", "https://a.example/garbage", "yesterday-ish")
                         + item("Plain http", "http://a.example/http", "Mon, 16 Nov 2026 10:00:00 GMT")
                         + item("Script", "javascript:alert(1)", "Mon, 16 Nov 2026 10:00:00 GMT")
-                        + item("Boundary", "https://a.example/edge", "Sun, 15 Nov 2026 00:00:00 GMT")), SINCE, 10);
+                        + item("Boundary", "https://a.example/edge", "Sun, 15 Nov 2026 00:00:00 GMT")), SINCE, UNTIL, 10);
         assertEquals(List.of("Boundary"), items.stream().map(Feeds.Item::title).toList());
+    }
+
+    @Test
+    void dropsItemsDatedAfterTheUpperBound() throws IOException {
+        List<Feeds.Item> items = Feeds.parse(rss(
+                item("Edge", "https://a.example/edge", "Tue, 17 Nov 2026 00:00:00 GMT")
+                        + item("Future", "https://a.example/future", "Tue, 17 Nov 2026 00:00:01 GMT")
+                        + item("Far future", "https://a.example/far", "Fri, 01 Jan 2027 00:00:00 GMT")), SINCE, UNTIL, 10);
+        assertEquals(List.of("Edge"), items.stream().map(Feeds.Item::title).toList());
     }
 
     @Test
@@ -58,7 +68,7 @@ class FeedsTest {
                 + "<description>Same words</description></item>";
         String real = "<item><title>Real</title><link>https://a.example/3</link><pubDate>Mon, 16 Nov 2026 08:00:00 GMT</pubDate>"
                 + "<description>Comments on the new design</description></item>";
-        List<Feeds.Item> items = Feeds.parse(rss(comments + echo + real), SINCE, 10);
+        List<Feeds.Item> items = Feeds.parse(rss(comments + echo + real), SINCE, UNTIL, 10);
         assertEquals(List.of("", "", "Comments on the new design"), items.stream().map(Feeds.Item::excerpt).toList());
     }
 
@@ -68,7 +78,7 @@ class FeedsTest {
         for (int i = 10; i < 40; i++) {
             many.append(item("T" + i, "https://a.example/" + i, "Mon, 16 Nov 2026 10:" + i + ":00 GMT"));
         }
-        List<Feeds.Item> items = Feeds.parse(rss(many.toString()), SINCE, 4);
+        List<Feeds.Item> items = Feeds.parse(rss(many.toString()), SINCE, UNTIL, 4);
         assertEquals(List.of("T39", "T38", "T37", "T36"), items.stream().map(Feeds.Item::title).toList());
     }
 
@@ -78,7 +88,7 @@ class FeedsTest {
                 + "<link rel=\"self\" href=\"https://a.example/self\"/><link rel=\"alternate\" href=\"https://a.example/post\"/>"
                 + "<updated>2026-11-16T09:00:00Z</updated><published>2026-11-16T08:00:00-08:00</published>"
                 + "<summary>Short</summary></entry></feed>";
-        Feeds.Item item = Feeds.parse(atom, SINCE, 5).get(0);
+        Feeds.Item item = Feeds.parse(atom, SINCE, UNTIL, 5).get(0);
         assertEquals("https://a.example/post", item.url());
         assertEquals(Instant.parse("2026-11-16T16:00:00Z"), item.published());
         assertEquals("Short", item.excerpt());
@@ -109,7 +119,7 @@ class FeedsTest {
         String noContent = "<item><title>Bare</title><link>https://a.example/3</link><pubDate>Mon, 16 Nov 2026 08:00:00 GMT</pubDate>"
                 + "<description>Tiny.</description></item>";
         List<Feeds.Item> items = Feeds.parse("<rss xmlns:content=\"http://purl.org/rss/1.0/modules/content/\"><channel>"
-                + thin + good + noContent + "</channel></rss>", SINCE, 10);
+                + thin + good + noContent + "</channel></rss>", SINCE, UNTIL, 10);
         assertTrue(items.get(0).excerpt().startsWith("Full text of the post."));
         assertTrue(items.get(0).excerpt().length() > Feeds.THIN_CHARS);
         assertTrue(items.get(1).excerpt().startsWith("A proper description."));
@@ -117,14 +127,14 @@ class FeedsTest {
 
         String atom = "<feed xmlns=\"http://www.w3.org/2005/Atom\"><entry><title>Post</title><link href=\"https://a.example/p\"/>"
                 + "<published>2026-11-16T08:00:00Z</published><summary>Short</summary><content type=\"html\">" + full + "</content></entry></feed>";
-        assertTrue(Feeds.parse(atom, SINCE, 5).get(0).excerpt().startsWith("Full text of the post."));
+        assertTrue(Feeds.parse(atom, SINCE, UNTIL, 5).get(0).excerpt().startsWith("Full text of the post."));
     }
 
     @Test
     void rejectsMalformedXmlAndNonFeeds() {
-        assertThrows(IOException.class, () -> Feeds.parse("<rss><channel><item>", SINCE, 5));
-        assertThrows(IOException.class, () -> Feeds.parse("<!DOCTYPE html><html><body>Blocked</body></html>", SINCE, 5));
-        assertThrows(IOException.class, () -> Feeds.parse("", SINCE, 5));
+        assertThrows(IOException.class, () -> Feeds.parse("<rss><channel><item>", SINCE, UNTIL, 5));
+        assertThrows(IOException.class, () -> Feeds.parse("<!DOCTYPE html><html><body>Blocked</body></html>", SINCE, UNTIL, 5));
+        assertThrows(IOException.class, () -> Feeds.parse("", SINCE, UNTIL, 5));
     }
 
     @Test
@@ -133,7 +143,7 @@ class FeedsTest {
                 + "<rss><channel><item><title>&xxe;</title><link>https://a.example/x</link>"
                 + "<pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate></item></channel></rss>";
         try {
-            List<Feeds.Item> items = Feeds.parse(evil, SINCE, 5);
+            List<Feeds.Item> items = Feeds.parse(evil, SINCE, UNTIL, 5);
             // If the parser accepts the document, the entity must have expanded to nothing,
             // which leaves a blank title and so no item.
             assertEquals(List.of(), items);
@@ -149,7 +159,7 @@ class FeedsTest {
             big.append(item("Title " + i + " " + "x".repeat(400), "https://a.example/" + i, "Mon, 16 Nov 2026 10:00:00 GMT"));
         }
         assertTrue(big.length() > 150_000);
-        assertEquals(400, Feeds.parse(rss(big.toString()), SINCE, 1000).size());
+        assertEquals(400, Feeds.parse(rss(big.toString()), SINCE, UNTIL, 1000).size());
     }
 
     @Test

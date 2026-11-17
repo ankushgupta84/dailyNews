@@ -173,7 +173,7 @@
       "type": "object", "additionalProperties": false,
       "required": ["headline", "summary", "url", "source"],
       "properties": {
-        "headline": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "headline": { "type": "string", "minLength": 1, "maxLength": 300, "description": "The source's own headline, copied exactly from the brief candidate's title." },
         "summary": { "$ref": "#/$defs/text", "description": "Facts only." },
         "whyItMatters": { "type": "string", "minLength": 1, "maxLength": 300, "description": "The only place for a view." },
         "url": { "$ref": "#/$defs/url" },

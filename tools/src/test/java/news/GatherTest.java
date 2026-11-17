@@ -287,6 +287,16 @@ class GatherTest {
     }
 
     @Test
+    void dropsItemsStampedMoreThanAnHourAfterNow() throws IOException {
+        web.put("feeds.test/daily", "<rss><channel>"
+                + "<item><title>Within slack</title><link>https://n.test/ok</link><pubDate>Mon, 16 Nov 2026 12:30:00 GMT</pubDate></item>"
+                + "<item><title>Wrong year</title><link>https://n.test/late</link><pubDate>Mon, 16 Nov 2026 12:31:00 GMT</pubDate></item>"
+                + "<item><title>Next week</title><link>https://n.test/next</link><pubDate>Mon, 23 Nov 2026 09:00:00 GMT</pubDate></item>"
+                + "</channel></rss>");
+        assertEquals(List.of("Within slack"), texts(build(MONDAY).path("candidates"), "title"));
+    }
+
+    @Test
     void lookbackDaysOverridesTheDefaultWindow() throws IOException {
         write("sources.json", """
                 {"sources":[

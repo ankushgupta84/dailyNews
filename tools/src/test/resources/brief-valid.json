@@ -85,12 +85,333 @@
       "event": "Sample central-bank minutes"
     }
   ],
-  "candidates": [],
+  "candidates": [
+    {
+      "beat": "world",
+      "source": "The Wall Street Journal",
+      "title": "SAMPLE: The day's biggest story takes the lead slot in large type",
+      "url": "https://example.com/sample-lead",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "This is placeholder text, not real news. The company said 1,200 jobs will go. The lead story gets three or four sentences that state what happened, who said it, and what comes next. It reports facts only, in plain language, so you can stop here and still know the story."
+    },
+    {
+      "beat": "world",
+      "source": "The Record",
+      "title": "SAMPLE: A security story that touches cloud providers",
+      "url": "https://example.com/sample-2",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder summary. Two or three sentences on the incident or disclosure, with the affected products and the fix."
+    },
+    {
+      "beat": "world",
+      "source": "Reuters",
+      "title": "SAMPLE: A policy decision in Washington with market consequences",
+      "url": "https://example.com/sample-3",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder summary. What was decided, when it takes effect, and which industries it reaches."
+    },
+    {
+      "beat": "world",
+      "source": "Data Center Dynamics",
+      "title": "SAMPLE: A data-center or power announcement",
+      "url": "https://example.com/sample-4",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder summary. Who is building what, where, how many megawatts, and who supplies it."
+    },
+    {
+      "beat": "world",
+      "source": "The New York Times",
+      "title": "SAMPLE: A world story of the first rank",
+      "url": "https://example.com/sample-5",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder summary. The event, the parties, and the immediate consequence."
+    },
+    {
+      "beat": "markets",
+      "source": "Reuters",
+      "title": "SAMPLE: Markets item one",
+      "url": "https://example.com/m1",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: two sentences on what moved and why."
+    },
+    {
+      "beat": "markets",
+      "source": "Money Stuff",
+      "title": "SAMPLE: Markets item two",
+      "url": "https://example.com/m2",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: two sentences on a deal, filing or earnings report."
+    },
+    {
+      "beat": "ai-datacenter",
+      "source": "Simon Willison",
+      "title": "SAMPLE: A model release or research result",
+      "url": "https://example.com/a1",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: what it does and how it was measured."
+    },
+    {
+      "beat": "ai-datacenter",
+      "source": "The Next Platform",
+      "title": "SAMPLE: GPU cluster networking news",
+      "url": "https://example.com/a2",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: the technology and who is adopting it."
+    },
+    {
+      "beat": "ai-datacenter",
+      "source": "Embrace the Red",
+      "title": "SAMPLE: Agent sandboxing technique",
+      "url": "https://example.com/a3",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: the isolation approach and its limits."
+    },
+    {
+      "beat": "security",
+      "source": "tl;dr sec",
+      "title": "SAMPLE: A supply-chain compromise",
+      "url": "https://example.com/s1",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: how it entered, what it reached, how it was caught."
+    },
+    {
+      "beat": "security",
+      "source": "CISA",
+      "title": "SAMPLE: An actively exploited flaw",
+      "url": "https://example.com/s2",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: product, severity and patch status."
+    },
+    {
+      "beat": "engineering",
+      "source": "Hacker News",
+      "title": "SAMPLE: A postmortem worth reading",
+      "url": "https://example.com/e1",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: the trigger, the cascade and the fix."
+    },
+    {
+      "beat": "engineering",
+      "source": "Marc Brooker",
+      "title": "SAMPLE: A distributed-systems paper",
+      "url": "https://example.com/e2",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: the claim and the evidence."
+    },
+    {
+      "beat": "health-tech",
+      "source": "HIStalk",
+      "title": "SAMPLE: A health-records or interoperability story",
+      "url": "https://example.com/h1",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: the rule or product and who it affects."
+    },
+    {
+      "beat": "seattle",
+      "source": "GeekWire",
+      "title": "SAMPLE: A Seattle-area tech story",
+      "url": "https://example.com/se1",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: a local company, funding round or hiring move."
+    },
+    {
+      "beat": "seattle",
+      "source": "The Seattle Times",
+      "title": "SAMPLE: A regional business story",
+      "url": "https://example.com/se2",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: two sentences."
+    },
+    {
+      "beat": "world",
+      "source": "Reuters",
+      "title": "SAMPLE: China, Taiwan and chips",
+      "url": "https://example.com/w1",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: two sentences."
+    },
+    {
+      "beat": "world",
+      "source": "BBC",
+      "title": "SAMPLE: Europe and the global economy",
+      "url": "https://example.com/w2",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: two sentences."
+    },
+    {
+      "beat": "india",
+      "source": "Mint",
+      "title": "SAMPLE: A major India story",
+      "url": "https://example.com/i1",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Placeholder: policy, economy or technology, major stories only."
+    },
+    {
+      "beat": "world",
+      "source": "Sample",
+      "title": "SAMPLE: Analyst note on NET",
+      "url": "https://example.com/net",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Sample: a notable rating change or insider sale."
+    },
+    {
+      "beat": "world",
+      "source": "The Diff",
+      "title": "SAMPLE: A sceptical view",
+      "url": "https://example.com/bear",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Sample: one sceptical argument, stated fairly in two sentences, to test the prevailing view."
+    },
+    {
+      "beat": "world",
+      "source": "Sample",
+      "title": "SAMPLE: The page behind the learning piece",
+      "url": "https://example.com/learn",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Source page for the learning piece."
+    },
+    {
+      "beat": "world",
+      "source": "Sample",
+      "title": "SAMPLE: health advice",
+      "url": "https://example.com/health",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Sample: one evidence-based tip for people who sit at a desk all day."
+    },
+    {
+      "beat": "world",
+      "source": "Sample",
+      "title": "SAMPLE: eating advice",
+      "url": "https://example.com/eating",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Sample: one practical nutrition tip that works with vegetarian and Indian home cooking."
+    },
+    {
+      "beat": "world",
+      "source": "Sample",
+      "title": "SAMPLE: productivity advice",
+      "url": "https://example.com/productivity",
+      "published": "2026-11-17T01:00:00Z",
+      "excerpt": "Sample: one focus or planning technique, in a sentence or two."
+    }
+  ],
   "recentHeadlines": [],
   "learnTitlesUsed": [],
   "sourcesReached": 0,
   "sourcesFailed": [],
   "problems": [
     "Sample brief written by hand to match the sample edition."
+  ],
+  "moverNews": [
+    {
+      "ticker": "APLD",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about APLD",
+          "url": "https://example.com/apld",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "IONQ",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about IONQ",
+          "url": "https://example.com/ionq",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "HOOD",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about HOOD",
+          "url": "https://example.com/hood",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about MU",
+          "url": "https://example.com/mu",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "MARA",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about MARA",
+          "url": "https://example.com/mara",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about ANET",
+          "url": "https://example.com/anet",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about AMD",
+          "url": "https://example.com/amd",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "ASML",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about ASML",
+          "url": "https://example.com/asml",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about NVDA",
+          "url": "https://example.com/nvda",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "headlines": [
+        {
+          "title": "SAMPLE: News about PLTR",
+          "url": "https://example.com/pltr",
+          "published": "2026-11-16",
+          "publisher": "Barchart"
+        }
+      ]
+    }
   ]
 }

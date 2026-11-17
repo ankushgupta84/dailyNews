@@ -228,6 +228,9 @@ public final class Gather {
         return Duration.ofDays(days.asInt());
     }
 
+    /** Clock skew allowed between a feed's timestamps and ours; anything later is a bad date. */
+    private static final Duration FUTURE_SLACK = Duration.ofHours(1);
+
     private record Result(JsonNode source, List<Feeds.Item> items, String failure) {}
 
     private static void addCandidates(ObjectNode brief, JsonNode sources, String weekday, Instant now, Fetcher fetcher)
@@ -242,12 +245,13 @@ public final class Gather {
                     continue;
                 }
                 Instant since = now.minus(lookback);
+                Instant until = now.plus(FUTURE_SLACK);
                 pending.add(pool.submit(() -> {
                     IOException failure = null;
                     for (int attempt = 0; attempt < 2; attempt++) { // feeds hiccup; one retry, then report
                         try {
                             String xml = fetcher.get(source.path("feed").asText());
-                            return new Result(source, Feeds.parse(xml, since, source.path("max").asInt(3)), null);
+                            return new Result(source, Feeds.parse(xml, since, until, source.path("max").asInt(3)), null);
                         } catch (IOException e) {
                             failure = e;
                         }

@@ -169,6 +169,7 @@ function renderRail(edition) {
   learn.append(el("h2", null, edition.learn.title));
   for (const para of edition.learn.body.split("\n\n")) learn.append(el("p", null, para));
   learn.append(sourceLine({ source: "Go deeper", url: edition.learn.url }));
+  learn.append(el("div", "source", "Explainer written by a model from the linked source."));
 
   const live = labelled("Live well", "live-well");
   // Each tip is optional: a category with no sourced tip is simply absent.
@@ -351,7 +352,13 @@ async function init() {
   const [index, profile] = await Promise.all([getJson("editions/index.json"), getJson("profile.json")]);
   dates = index.dates;
   libraryLinks = profile.libraryLinks;
-  if (!dates.length) throw new Error("editions/index.json lists no editions.");
+  if (!dates.length) {
+    // Not an error: nothing has been published yet. Show a notice and render nothing else.
+    const notice = document.getElementById("notice");
+    notice.textContent = "No edition has been published yet.";
+    notice.hidden = false;
+    return;
+  }
 
   const archive = document.getElementById("archive");
   for (const date of dates) {
