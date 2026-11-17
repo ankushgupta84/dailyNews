@@ -6,8 +6,8 @@ A personal daily newspaper. A program gathers the raw material, a language model
 
 | Step | When (Pacific) | What | Where |
 |---|---|---|---|
-| 1. Gather | about 3:30 a.m. | `tools` → `brief/DATE.json`: feed items, closing prices, earnings dates, macro events, what recent editions already covered | GitHub Actions, `gather.yml` |
-| 2. Edit | about 4:30 a.m. | The model follows `EDITOR.md`, reads the brief, writes `editions/YYYY/MM/DATE.json` and updates `editions/index.json` | Scheduled Claude routine |
+| 1. Gather | about 5:35 a.m. | `tools` → `brief/DATE.json`: feed items, closing prices, earnings dates, macro events, what recent editions already covered | GitHub Actions, `gather.yml` |
+| 2. Edit | about 6:35 a.m. | The model follows `EDITOR.md`, reads the brief, writes `editions/YYYY/MM/DATE.json` and updates `editions/index.json` | Scheduled Claude routine |
 | 3. Validate and publish | on that push | `Validate` checks the edition; if it passes, the site deploys | GitHub Actions, `publish.yml` |
 
 If step 3 fails, nothing deploys and yesterday's page stays up. GitHub emails the failure.
@@ -49,16 +49,18 @@ sh tools/assemble.sh && python3 -m http.server 8765 --bind 127.0.0.1 --directory
 - Every `url` in the edition is a `url` in that day's brief, under `candidates` or `moverNews`. A link found any other way is rejected.
 - Each front-page, section and long-read `headline`, and the `listen` title, equals the `title` of the brief candidate with the same URL, exactly (outer whitespace aside). The headline is the source's own, not the editor's.
 - Every figure written in digits in a story, mover, analyst note, bear case, deep dive, tip, long read or listen pick appears in the title and excerpt of that URL's candidate (for a mover, in the linked `moverNews` headline). "1,200" and "1200" count as the same figure. Deep-dive quotes must be verbatim substrings of that text. Figures in notes without a link (earnings, macro, calendar, week in review) must appear somewhere in the brief. The Learn piece is exempt from the figure check, since it explains its linked page, but its link must still be in the brief.
+- A mover's `url` is one of that ticker's own `moverNews` headlines in the brief, not another ticker's and not a feed candidate.
 - Movers, their percentages, earnings dates, macro events, the as-of date and the learning track all equal the brief.
-- No story appears twice; tagged tickers are on the watchlist; the edition is under 3,200 words.
+- No story appears twice, and the Learn piece's link is not a front-page or section story; tagged tickers are on the watchlist; the edition is under 6,500 words.
 - With `--check-urls`: no link returns 404 or 410 or points at an unreachable host.
 
 ## Caveats
 
 - **Summaries are machine-written.** The checks cannot tell whether a summary restates its excerpt correctly, and numbers written as words ("two million") are not checked. Each item links to its source; read the original before relying on it.
 - **Learn is model-written.** The Learn piece is an explainer written by a model from its linked source, and the reader says so. Its figures are not checked against the brief.
-- **Mover headlines** come from the same Nasdaq data API (up to 4 published on or after the session date `asOfDate`, each naming the ticker) and appear in the brief as `moverNews`, so the editor can state why a stock moved. They are dated by day only. A failed lookup gives that ticker an empty list and a `problems` entry; it never fails the brief.
+- **Mover headlines** come from the same Nasdaq data API (up to 4 published on or after the session date `asOfDate`, each naming the ticker, with `primary` true when Nasdaq files the article under that ticker and false when the ticker is only a related symbol) and appear in the brief as `moverNews`, so the editor can state why a stock moved. They are dated by day only. A failed lookup gives that ticker an empty list and a `problems` entry; it never fails the brief.
 - **Live Well tips are optional.** The editor writes a tip only when a candidate supports it. The page shows the tips present, or "No sourced tips today." when there are none.
+- **A brief is never regenerated once its edition exists.** `Gather` checks for the day's edition file first and, if found, leaves `brief/DATE.json` alone, because `Validate` checks an edition against its brief.
 - **Future-dated feed items are dropped.** `Gather` ignores items stamped more than one hour after the run time, because some feeds carry wrong dates.
 - **Prices are the official close of the latest session**, from Nasdaq's quote endpoint, which reports the close and its percentage change as soon as the market shuts. If the quote has no close, the price comes from the history endpoint, with the change computed from the two latest closes. The brief's `asOfDate` names the session. Tickers Nasdaq does not list (some over-the-counter names) have no price and are reported in the brief's `pricesMissing`.
 - **The data API and many feeds are unofficial or unguaranteed.** Any of them can change or start refusing automated requests. A failed feed is listed in the brief and in the edition's footer; a failed price or earnings lookup becomes a `problems` entry and the edition omits that data instead of guessing.

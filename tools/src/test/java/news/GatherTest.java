@@ -1,6 +1,7 @@
 package news;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -345,6 +346,26 @@ class GatherTest {
         assertEquals("https://www.nasdaq.com/articles/ccc-falls", ccc.get(0).path("url").asText());
         assertEquals("2026-11-16", ccc.get(0).path("published").asText());
         assertEquals("Barchart", ccc.get(0).path("publisher").asText());
+        assertFalse(ccc.get(0).path("primary").asBoolean(true)); // the fixture names CCC only as a related symbol
+    }
+
+    @Test
+    void writesMoverHeadlinesAsPrimaryWhenTheTickerIsTheArticlesOwn() throws IOException {
+        web.put("articlebysymbol?q=CCC%7CSTOCKS", "{\"data\":{\"rows\":[{\"title\":\"CCC falls\",\"url\":\"/articles/c\","
+                + "\"created\":\"Nov 16, 2026\",\"primarysymbol\":\"ccc\",\"related_symbols\":[\"ccc|stocks\"]}]}}");
+        JsonNode h = build(MONDAY).path("moverNews").get(0).path("headlines").get(0);
+        assertTrue(h.path("primary").asBoolean(false));
+    }
+
+    @Test
+    void doesNotRegenerateABriefWhoseEditionExists() throws IOException {
+        LocalDate day = LocalDate.of(2026, 11, 16);
+        assertFalse(Gather.editionExists(root, day));
+        Path edition = new Editions(root).file(day.toString());
+        Files.createDirectories(edition.getParent());
+        Files.writeString(edition, "{}");
+        assertTrue(Gather.editionExists(root, day));
+        assertFalse(Gather.editionExists(root, day.plusDays(1)));
     }
 
     @Test

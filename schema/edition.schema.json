@@ -10,7 +10,7 @@
     "kind": { "enum": ["weekday", "saturday", "sunday"] },
     "generatedAt": { "type": "string", "format": "date-time" },
     "frontPage": {
-      "type": "array", "minItems": 3, "maxItems": 5,
+      "type": "array", "minItems": 3, "maxItems": 8,
       "items": { "$ref": "#/$defs/story", "required": ["headline", "summary", "whyItMatters", "url", "source"] }
     },
     "watchlist": {
@@ -20,7 +20,7 @@
       "properties": {
         "asOf": { "$ref": "#/$defs/text", "description": "Copied from the brief, e.g. 'Nov 16 close'." },
         "movers": {
-          "type": "array", "maxItems": 12,
+          "type": "array", "maxItems": 16,
           "items": {
             "type": "object", "additionalProperties": false,
             "required": ["ticker", "changePct", "reason", "url"],
@@ -141,7 +141,7 @@
       "required": ["weekInReview", "longReads"],
       "properties": {
         "weekInReview": { "type": "string", "minLength": 1, "maxLength": 2500 },
-        "longReads": { "type": "array", "maxItems": 5, "items": { "$ref": "#/$defs/story" } },
+        "longReads": { "type": "array", "maxItems": 8, "items": { "$ref": "#/$defs/story" } },
         "listen": {
           "type": "object", "additionalProperties": false,
           "required": ["title", "summary", "url"],
@@ -186,7 +186,7 @@
       "required": ["id", "items"],
       "properties": {
         "id": { "type": "string" },
-        "items": { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/story" } }
+        "items": { "type": "array", "maxItems": 6, "items": { "$ref": "#/$defs/story" } }
       }
     },
     "tip": {

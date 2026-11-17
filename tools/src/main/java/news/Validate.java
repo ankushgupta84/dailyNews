@@ -28,7 +28,7 @@ import java.util.regex.Pattern;
  */
 public final class Validate {
 
-    static final int MAX_WORDS = 3200;
+    static final int MAX_WORDS = 6500;
 
     /** Second-person ownership phrases. The paper must never say or imply what the reader owns. */
     private static final Pattern OWNERSHIP = Pattern.compile(
@@ -199,6 +199,10 @@ public final class Validate {
                 problems.add("the same story appears twice: " + item.path("url").asText());
             }
         }
+        // The Learn piece may not retell a story already in the paper. The same event under another URL is the editor's rule to keep.
+        if (stories.contains(edition.path("learn").path("url").asText())) {
+            problems.add("learn.url repeats a front-page or section story: " + edition.path("learn").path("url").asText());
+        }
         if (fetcher == null) {
             return;
         }
@@ -260,6 +264,10 @@ public final class Validate {
             } else if (new BigDecimal(mover.path("changePct").asText()).compareTo(new BigDecimal(source.path("changePct").asText())) != 0) {
                 problems.add("mover " + ticker + " changePct " + mover.path("changePct").asText() + " differs from the brief's " + source.path("changePct").asText());
             }
+            // The reason must rest on a headline fetched for this ticker, not another ticker's or a feed candidate.
+            if (!moverHeadlineUrls(brief, ticker).contains(mover.path("url").asText())) {
+                problems.add("mover " + ticker + " links " + mover.path("url").asText() + ", which is not one of the brief's moverNews headlines for " + ticker);
+            }
         }
         for (JsonNode earning : watchlist.path("earnings")) {
             JsonNode source = find(brief.path("earnings"), "ticker", earning.path("ticker").asText());
@@ -296,6 +304,16 @@ public final class Validate {
                 problems.add("ticker " + ticker + " is not on the watchlist in profile.json");
             }
         }
+    }
+
+    private static Set<String> moverHeadlineUrls(JsonNode brief, String ticker) {
+        Set<String> urls = new HashSet<>();
+        for (JsonNode entry : brief.path("moverNews")) {
+            if (entry.path("ticker").asText().equals(ticker)) {
+                entry.path("headlines").forEach(h -> urls.add(h.path("url").asText()));
+            }
+        }
+        return urls;
     }
 
     private static JsonNode find(JsonNode array, String field, String value) {

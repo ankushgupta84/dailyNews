@@ -23,8 +23,12 @@ public final class Market {
 
     public record Earning(String ticker, LocalDate date, String time) {}
 
-    /** A news headline about a ticker. {@code published} is a day: the API gives no time. */
-    public record Headline(String title, String url, LocalDate published, String publisher) {}
+    /**
+     * A news headline about a ticker. {@code published} is a day: the API gives no time. {@code primary} is
+     * true when Nasdaq files the article under this ticker, false when the ticker is only among its related
+     * symbols (the article is then usually about another company).
+     */
+    public record Headline(String title, String url, LocalDate published, String publisher, boolean primary) {}
 
     static final int MAX_HEADLINES = 4;
 
@@ -197,7 +201,8 @@ public final class Market {
         for (JsonNode row : rows) {
             // For a symbol Nasdaq does not know under that asset class, the API answers with the
             // day's general news instead of an error. Keep only articles that name this ticker.
-            if (!mentions(row, symbol)) {
+            boolean primary = row.path("primarysymbol").asText().equalsIgnoreCase(symbol);
+            if (!primary && !related(row, symbol)) {
                 continue;
             }
             LocalDate published;
@@ -212,15 +217,12 @@ public final class Market {
             if (published.isBefore(since) || title.isEmpty() || !url.startsWith("https://")) {
                 continue;
             }
-            out.add(new Headline(title, url, published, row.path("publisher").asText().strip()));
+            out.add(new Headline(title, url, published, row.path("publisher").asText().strip(), primary));
         }
         return out.stream().sorted(Comparator.comparing(Headline::published).reversed()).limit(MAX_HEADLINES).toList();
     }
 
-    private static boolean mentions(JsonNode row, String symbol) {
-        if (row.path("primarysymbol").asText().equalsIgnoreCase(symbol)) {
-            return true;
-        }
+    private static boolean related(JsonNode row, String symbol) {
         for (JsonNode related : row.path("related_symbols")) {
             if (related.asText().toLowerCase(Locale.ROOT).startsWith(symbol + "|")) {
                 return true;

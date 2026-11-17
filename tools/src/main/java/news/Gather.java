@@ -56,6 +56,10 @@ public final class Gather {
                 default -> throw new IllegalArgumentException("unknown argument: " + args[i]);
             }
         }
+        if (editionExists(root, date)) {
+            System.out.println("Edition " + date + " already exists; leaving brief/" + date + ".json unchanged.");
+            return;
+        }
         ObjectNode brief = build(root, date, Instant.now(), Fetcher.http());
         Path out = root.resolve("brief").resolve(date + ".json");
         Files.createDirectories(out.getParent());
@@ -63,6 +67,13 @@ public final class Gather {
         System.out.printf("Wrote %s: %d candidates, %d sources reached, %d failed, %d problems%n", out,
                 brief.path("candidates").size(), brief.path("sourcesReached").asInt(),
                 brief.path("sourcesFailed").size(), brief.path("problems").size());
+    }
+
+    /**
+     * Validate checks an edition against its brief, so a brief must not change once its edition is written.
+     */
+    static boolean editionExists(Path root, LocalDate date) {
+        return Files.exists(new Editions(root).file(date.toString()));
     }
 
     /** Pure of clock and network: both are passed in, so tests are deterministic. */
@@ -186,7 +197,8 @@ public final class Gather {
         ArrayNode headlines = entry.putArray("headlines");
         try {
             for (Market.Headline h : market.headlines(ticker, session)) {
-                ObjectNode node = headlines.addObject().put("title", h.title()).put("url", h.url()).put("published", h.published().toString());
+                ObjectNode node = headlines.addObject().put("title", h.title()).put("url", h.url()).put("published", h.published().toString())
+                        .put("primary", h.primary());
                 if (!h.publisher().isEmpty()) {
                     node.put("publisher", h.publisher());
                 }

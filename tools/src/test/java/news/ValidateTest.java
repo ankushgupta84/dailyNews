@@ -234,6 +234,29 @@ class ValidateTest {
     }
 
     @Test
+    void acceptsAMoverLinkedToItsOwnHeadline() throws IOException {
+        assertEquals("https://example.com/apld", watchlist().path("movers").get(0).path("url").asText());
+        assertEquals(List.of(), check(null));
+    }
+
+    @Test
+    void rejectsAMoverLinkedToAnotherTickersHeadline() throws IOException {
+        rejects("mover APLD links https://example.com/ionq",
+                e -> ((ObjectNode) e.path("watchlist").path("movers").get(0)).put("url", "https://example.com/ionq"));
+    }
+
+    @Test
+    void rejectsAMoverLinkedToAPlainCandidate() throws IOException {
+        rejects("mover APLD links " + LEAD,
+                e -> ((ObjectNode) e.path("watchlist").path("movers").get(0)).put("url", LEAD));
+    }
+
+    @Test
+    void rejectsLearnPieceThatRepeatsAStoryUrl() throws IOException {
+        rejects("learn.url repeats", e -> ((ObjectNode) e.path("learn")).put("url", firstStory().path("url").asText()));
+    }
+
+    @Test
     void acceptsTheSampleEdition() throws IOException {
         assertEquals(List.of(), check(null));
     }
@@ -309,18 +332,31 @@ class ValidateTest {
 
     @Test
     void rejectsOverLongEdition() throws IOException {
+        // Fills every list to its schema cap with maximum-length prose: the most the schema allows.
         rejects("words; the limit is", e -> {
             String long600 = "word ".repeat(110).strip(); // under the 600-character field cap
+            ArrayNode front = (ArrayNode) e.path("frontPage");
+            while (front.size() < 8) {
+                front.add(front.get(0).deepCopy());
+            }
+            for (var story : front) {
+                ((ObjectNode) story).put("summary", long600);
+            }
             for (var section : e.path("sections")) {
-                for (var item : section.path("items")) {
+                ArrayNode items = (ArrayNode) section.path("items");
+                while (items.size() < 6) {
+                    items.add(front.get(0).deepCopy());
+                }
+                for (var item : items) {
                     ((ObjectNode) item).put("summary", long600);
                 }
             }
             ((ObjectNode) e.path("learn")).put("body", "word ".repeat(790).strip());
-            for (var story : e.path("frontPage")) {
-                ((ObjectNode) story).put("summary", long600);
+            ArrayNode movers = (ArrayNode) e.path("watchlist").path("movers");
+            while (movers.size() < 16) {
+                movers.add(movers.get(0).deepCopy());
             }
-            for (var mover : e.path("watchlist").path("movers")) {
+            for (var mover : movers) {
                 ((ObjectNode) mover).put("reason", long600);
             }
         });

@@ -229,6 +229,16 @@ class MarketTest {
     }
 
     @Test
+    void headlinesSayWhetherTheTickerIsThePrimarySymbol() throws IOException {
+        String body = "{\"data\":{\"rows\":["
+                + "{\"title\":\"Own\",\"url\":\"/articles/own\",\"created\":\"Nov 16, 2026\",\"primarysymbol\":\"NVDA\",\"related_symbols\":[\"nvda|stocks\"]},"
+                + "{\"title\":\"Other\",\"url\":\"/articles/other\",\"created\":\"Nov 15, 2026\",\"primarysymbol\":\"avgo\",\"related_symbols\":[\"avgo|stocks\",\"nvda|stocks\"]}"
+                + "]}}";
+        List<Market.Headline> found = Market.parseHeadlines("NVDA", LocalDate.of(2026, 11, 13), body);
+        assertEquals(List.of(true, false), found.stream().map(Market.Headline::primary).toList());
+    }
+
+    @Test
     void headlinesIgnoreArticlesThatDoNotNameTheTicker() throws IOException {
         String body = "{\"data\":{\"rows\":[{\"title\":\"General\",\"url\":\"/articles/g\",\"created\":\"Nov 16, 2026\","
                 + "\"primarysymbol\":\"avgo\",\"related_symbols\":[\"avgo|stocks\",\"nvdax|stocks\"]}]}}";

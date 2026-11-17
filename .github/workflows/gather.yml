@@ -4,7 +4,7 @@ name: Gather brief
 # Runs an hour before the editor's scheduled routine. Uses no Claude tokens.
 on:
   schedule:
-    - cron: "30 11 * * *" # 3:30 a.m. Pacific in winter, 4:30 a.m. in summer (cron is UTC)
+    - cron: "35 13 * * *" # 5:35 a.m. Pacific in winter, 6:35 a.m. in summer (cron is UTC)
   workflow_dispatch:
 
 permissions:
@@ -33,8 +33,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add brief
           if git diff --cached --quiet; then
-            echo "Gather wrote no brief." >&2
-            exit 1
+            # Gather leaves the brief alone when that day's edition exists, so nothing staged is legitimate.
+            # A Java failure already failed the build step above.
+            echo "No brief change to commit."
+            exit 0
           fi
           git commit -m "Brief $(TZ=America/Los_Angeles date +%F)"
           git pull --rebase
