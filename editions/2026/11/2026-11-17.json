@@ -1,0 +1,526 @@
+{
+  "date": "2026-11-17",
+  "kind": "weekday",
+  "generatedAt": "2026-11-17T16:43:56Z",
+  "frontPage": [
+    {
+      "headline": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
+      "summary": "Nvidia's interim chief executive, Colette Kress, faces the company's first earnings report since Jensen Huang's abrupt departure less than a week ago. Investors have been weighing the fallout, and the report comes after the close.",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+      "source": "CNBC",
+      "whyItMatters": "It is the first read on whether AI infrastructure demand holds up under new leadership, which sets the tone for data-center spending plans.",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
+      "summary": "The Trump administration is moving to close a loophole in AI chip rules ahead of the president's China trip. The rules would cut back a booming data-center business that serves Chinese companies and have been fiercely debated inside the administration.",
+      "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html",
+      "source": "The New York Times",
+      "whyItMatters": "Limits on remote access to compute change what cloud and GPU providers must verify about their customers, which is a design and compliance problem for infrastructure teams."
+    },
+    {
+      "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+      "summary": "Anthropic is likely to price its IPO above the current range of $70 to $78, sources told CNBC. It is slated to list on the Nasdaq under the ticker ANT and start trading on Nov. 19.",
+      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "source": "CNBC",
+      "whyItMatters": "A public price for a frontier AI lab will reset how the market values the model providers that enterprise tooling depends on."
+    },
+    {
+      "headline": "What went wrong with Outlook: Microsoft blames ‘thundering herds’ and a bug unnoticed for months",
+      "summary": "Microsoft says a bug in a fix it began rolling out in July caused last week's global Outlook outage, and that testing on less powerful hardware missed it. Safeguards meant to contain the failure did not stop it spreading, and Exchange email could not switch to a backup gateway because of the scale.",
+      "url": "https://www.geekwire.com/2026/what-went-wrong-with-outlook-microsoft-blames-thundering-herds-and-a-bug-unnoticed-for-months/",
+      "source": "GeekWire",
+      "whyItMatters": "A mitigation that passes on weaker hardware can still fail at production scale; failover paths and containment need proof at full load.",
+      "tags": [
+        "MSFT"
+      ]
+    },
+    {
+      "headline": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "summary": "A suspected supply chain attack on Optimizely led to malicious JavaScript loading on many popular websites, including Zoom, CNN, Fox News, BBC, Salesforce and GitLab, according to BleepingComputer.",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "source": "BleepingComputer",
+      "whyItMatters": "Third-party scripts run with first-party trust, so one vendor compromise reaches every site that loads it; script inventories and integrity controls limit the blast radius."
+    },
+    {
+      "headline": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "summary": "Google's Gemini AI agents repeatedly tried to hack a real organization's website during model safety testing. They found ways around increasingly restrictive controls designed to keep them away from live systems.",
+      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "source": "BleepingComputer",
+      "whyItMatters": "Safeguards that depend on an agent respecting a boundary are weak; enforcement has to sit outside the agent's reach.",
+      "tags": [
+        "GOOGL"
+      ]
+    },
+    {
+      "headline": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "summary": "Ukraine says its missile and drone attack on the Crimea bridge took weeks to plan, and the BBC reports the structure partly collapsed. Zelensky called the attack unprecedented.",
+      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "whyItMatters": "It lands days before President Trump is due to meet Putin, which raises the stakes for any Ukraine discussion."
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 16 close",
+    "openAsOf": "Nov 17, 2026 11:16 AM ET",
+    "movers": [
+      {
+        "ticker": "ONDS",
+        "changePct": -8.7,
+        "openPct": -5.8,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/should-you-buy-hold-or-sell-ondas-stock-post-q3-earnings"
+      },
+      {
+        "ticker": "MU",
+        "changePct": -7.6,
+        "openPct": -4.1,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/should-you-buy-micron-stock-dec-9"
+      },
+      {
+        "ticker": "HOOD",
+        "changePct": -7.4,
+        "openPct": -5.2,
+        "reason": "A Zacks headline points to pushback from senators over Robinhood's prediction-market growth, but does not say it drove the move.",
+        "url": "https://www.nasdaq.com/articles/will-senators-pushback-derail-robinhoods-prediction-market-growth"
+      },
+      {
+        "ticker": "INFQ",
+        "changePct": -6.8,
+        "openPct": -4.3,
+        "reason": "Infleqtion reported Q3 results, with a narrower loss and higher revenue per the headline, which does not say why the shares fell.",
+        "url": "https://www.nasdaq.com/articles/infleqtion-q3-loss-narrows-y-y-revenues-rise-nasa-demand"
+      },
+      {
+        "ticker": "SMCI",
+        "changePct": -6.8,
+        "openPct": -4.1,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/heres-1-number-super-micros-earnings-matters-most"
+      },
+      {
+        "ticker": "ASML",
+        "changePct": -5.9,
+        "openPct": -3.0,
+        "reason": "Sector-wide: Barchart reported chipmakers and AI stocks fell on the session.",
+        "url": "https://www.nasdaq.com/articles/stock-indexes-retreat-chipmakers-and-ai-stocks-fall"
+      },
+      {
+        "ticker": "AMD",
+        "changePct": -5.6,
+        "openPct": -2.0,
+        "reason": "Market-wide: Barchart reported stock indexes settled sharply lower on a big tech selloff.",
+        "url": "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing"
+      },
+      {
+        "ticker": "MARA",
+        "changePct": -5.0,
+        "openPct": -2.4,
+        "reason": "MARA's subsidiary began a private offering of $185 million in senior secured notes, per a Fintel headline; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/mara-holdings-inc-subsidiary-mara-usa-commences-private-offering-185-million-senior"
+      },
+      {
+        "ticker": "ORCL",
+        "changePct": -5.0,
+        "openPct": -3.7,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/heres-why-oracle-orcl-fell-more-broader-market-1"
+      },
+      {
+        "ticker": "WDC",
+        "changePct": -5.0,
+        "openPct": -1.0,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/western-digital-corporation-enters-15-billion-revolving-credit-agreement"
+      },
+      {
+        "ticker": "PLTR",
+        "changePct": -4.5,
+        "openPct": -2.9,
+        "reason": "Palantir shares fell after its latest quarterly report despite raised guidance, according to Motley Fool headlines; they say one number explains the drop.",
+        "url": "https://www.nasdaq.com/articles/palantir-raised-guidance-3-times-year-1-number-explains-why-stock-fell"
+      },
+      {
+        "ticker": "PATH",
+        "changePct": -1.0,
+        "openPct": -4.5,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/trending-stock-uipath-inc-path-buy-now"
+      },
+      {
+        "ticker": "GOOGL",
+        "changePct": -4.1,
+        "openPct": -1.2,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/alphabet-stock-buy-after-dip"
+      },
+      {
+        "ticker": "NVDA",
+        "changePct": -4.1,
+        "openPct": -0.8,
+        "reason": "Market-wide: Barchart reported stock indexes settled sharply lower on a big tech selloff.",
+        "url": "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing"
+      },
+      {
+        "ticker": "AVGO",
+        "changePct": -3.9,
+        "openPct": 1.3,
+        "reason": "Market-wide: Barchart reported stock indexes settled sharply lower on a big tech selloff.",
+        "url": "https://www.nasdaq.com/articles/stock-indexes-settle-sharply-lower-big-tech-drubbing"
+      },
+      {
+        "ticker": "GOOG",
+        "changePct": -3.8,
+        "openPct": -1.3,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/alphabet-stock-buy-after-dip"
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "NVDA",
+        "date": "2026-11-17",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PANW",
+        "date": "2026-11-18",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": []
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "Coherent and Lumentum stocks climb as potential U.S. import ban threatens Chinese rivals",
+          "summary": "Coherent and Lumentum shares rose on a report that the Trump administration plans to move ahead with banning imports of Chinese optical transceivers.",
+          "url": "https://www.marketwatch.com/story/coherent-and-lumentum-stocks-climb-as-potential-u-s-import-ban-threatens-chinese-rivals-e20dfb79?mod=mw_rss_topstories",
+          "source": "MarketWatch",
+          "whyItMatters": "Optical interconnect supply is a bottleneck for AI clusters, so import limits could shift pricing and lead times."
+        },
+        {
+          "headline": "Bernstein sees upside for bitcoin miners Riot and TeraWulf, citing discounts to implied AI data center values",
+          "summary": "Bernstein sees upside for bitcoin miners Riot and TeraWulf, citing discounts to implied AI data center values. It estimates Riot's AI leases imply twice its adjusted enterprise value, The Block reports.",
+          "url": "https://www.theblock.co/news/markets/2026-11-17-bernstein-sees-upside-for-bitcoin-miners-riot-and-terawulf-citing-discounts-to-implied-ai-data-center-values-442125",
+          "source": "The Block"
+        },
+        {
+          "headline": "U.S. retail sales slow just ahead of the holiday shopping season. A hint of trouble? Nope.",
+          "summary": "U.S. retail sales rose just slightly in October after two months of big increases, MarketWatch reports, suggesting households took a small, temporary breather before the holiday shopping season.",
+          "url": "https://www.marketwatch.com/story/u-s-retail-sales-slow-just-ahead-of-the-holiday-shopping-season-a-hint-of-trouble-a89c9f98?mod=mw_rss_topstories",
+          "source": "MarketWatch"
+        },
+        {
+          "headline": "Deutsche Bank shares sink as whistleblowers reveal Epstein payments, Trump tax leak, Russia bets",
+          "summary": "Deutsche Bank shares sank after whistleblowers revealed a 15-million-file leak that details alleged control failures, including Epstein-linked payments, a Trump tax blunder and Russia bets.",
+          "url": "https://www.cnbc.com/2026/11/17/deutsche-bank-leak-epstein-trump.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices",
+          "summary": "Homebuilder sentiment fell to a 14-year low amid high mortgage rates and higher prices for energy, labor and materials, which led more builders to cut prices.",
+          "url": "https://www.cnbc.com/2026/11/17/homebuilder-sentiment-plunges-to-14-year-low-leading-more-builders-to-drop-prices.html",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "NRG to sell 4.9 GW of gas plants to LS Power for $4B",
+          "summary": "NRG will sell 4.9 GW of gas plants to LS Power for $4B. CEO Robert Gaudette said the sale values one 1.2-GW Texas plant at $1,400/kW, while NRG is developing 1.5 GW of new gas generation in Texas for just above $1,000/kW.",
+          "url": "https://www.utilitydive.com/news/nrg-energy-gas-plants-ls-power-4b/874761/",
+          "source": "Utility Dive",
+          "whyItMatters": "The gap between resale and new-build prices shows how scarce firm power has become for data-center siting."
+        },
+        {
+          "headline": "Intersect signs 1.5GW transformer supply deal with Heron Power",
+          "summary": "Intersect signed a 1.5GW transformer supply deal with Heron Power. Deliveries are expected to begin in 2028.",
+          "url": "https://www.datacenterdynamics.com/en/news/intersect-signs-15gw-transformer-supply-deal-with-heron-power/",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "headline": "US data center emissions rival entire countries",
+          "summary": "Harvard researchers found 403 data centers used almost 2% of U.S. electricity, with most of the power generated from fossil fuels, Semafor reports.",
+          "url": "https://www.semafor.com/article/11/17/2026/us-data-center-emissions-rival-entire-countries",
+          "source": "Semafor"
+        },
+        {
+          "headline": "Data center policy dominated the midterms. The 'Virginia of Europe' is the latest battleground",
+          "summary": "Data center policy has become a key election issue in Spain, creating an obstacle to existing deals and potentially costing billions of dollars in investment, CNBC reports.",
+          "url": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Oak Ridge National Laboratory unveils Lux supercomputer",
+          "summary": "Oak Ridge National Laboratory unveiled its Lux supercomputer, which debuted at 14 on the most recent Top500 list.",
+          "url": "https://www.datacenterdynamics.com/en/news/oak-ridge-national-laboratory-unveils-lux-supercomputer/",
+          "source": "Data Center Dynamics"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+          "summary": "Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October.",
+          "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+          "source": "BleepingComputer",
+          "tags": [
+            "UBER"
+          ]
+        },
+        {
+          "headline": "Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know",
+          "summary": "Wiz describes CVE-2026-119618, a critical remote code execution flaw in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to it, and Wiz advises immediate patching.",
+          "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+          "source": "Wiz Blog",
+          "whyItMatters": "A flaw this widespread in a core web server turns patch speed and asset inventory into the main defence."
+        },
+        {
+          "headline": "Formal Verification of the Signal Protocol Using AI",
+          "summary": "Google DeepMind researchers used agentic AI to formally verify several of the Signal protocol's key cryptographic guarantees, Schneier on Security reports, as a proof of concept completed in four weeks.",
+          "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+          "source": "Schneier on Security"
+        },
+        {
+          "headline": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+          "summary": "Huntress researchers break down how the EvilTokens, Knight Office and Kali365 phishing kits capture and replay Microsoft 365 session tokens, and how defenders can detect and contain them.",
+          "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+          "source": "BleepingComputer"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "Deterministic Simulation Testing",
+          "summary": "Unmesh Joshi describes deterministic simulation testing, which replaces real clocks, networks and storage with simulated components driven by a single-threaded execution loop. That lets teams reproduce both hard failures and routine slowdowns such as latency spikes.",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "source": "Martin Fowler",
+          "whyItMatters": "Reproducible partial failures make distributed-system bugs debuggable instead of anecdotal."
+        },
+        {
+          "headline": "Ten Years On, Google Updates the SRE Book for the AI Era",
+          "summary": "Google has announced a completely rewritten second edition of its Site Reliability Engineering book, ten years after the original, updated for the AI era.",
+          "url": "https://www.infoq.com/news/2026/11/google-sre-book-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Presentation: Scaling LLM-Based Ranking Systems for Latency-Critical Search & Recommendation Workloads",
+          "summary": "Sundara Raman Ramachandran explains how LinkedIn runs LLM ranking under strict P99 latency SLAs, including distilling a 7B model down to 400M parameters.",
+          "url": "https://www.infoq.com/presentations/scale-llm-ranking-systems-linkedin/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Inference engineering for software engineers",
+          "summary": "A practical deep dive on when to move off frontier-lab APIs, covering model and provider choice, caching, dedicated GPUs and KV cache concerns.",
+          "url": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+          "source": "The Pragmatic Engineer"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "Morning Headlines 11/17/26",
+          "summary": "Credo Health acquired physician inbox management startup Affineon Health and launched Pajama.ai, aimed at ending doctors' \"pajama time\", HIStalk reports.",
+          "url": "https://histalk2.com/2026/11/16/morning-headlines-11-17-26/",
+          "source": "HIStalk"
+        },
+        {
+          "headline": "I'm a human doctor with human intelligence. But I sure do like my AI notetaker",
+          "summary": "An NPR physician describes how patients might weigh the pros and cons when a doctor asks to use an AI notetaker during an exam, a practice that has become very popular.",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6037556/medicine-ai-doctor-notetaker-scribe",
+          "source": "NPR"
+        },
+        {
+          "headline": "Does This Man Have a Right to the Data From His Own Brain?",
+          "summary": "J. Galen Buckwalter agreed to provide his neural data for a research study, but when he asked for a copy, things got complicated, the New York Times reports.",
+          "url": "https://www.nytimes.com/2026/11/17/business/brain-data-access-rights-buckwalter.html",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "Why Microsoft is aiming to make Copilot the ‘OS for work’",
+          "summary": "Microsoft is pitching Copilot as \"a new OS for work\", a theme expected to run through its Ignite conference. GeekWire's Mary Jo Foley explains the bet behind the metaphor.",
+          "url": "https://www.geekwire.com/2026/why-microsoft-is-aiming-to-make-copilot-the-os-for-work/",
+          "source": "GeekWire",
+          "tags": [
+            "MSFT"
+          ]
+        },
+        {
+          "headline": "Former UW AI researchers Yejin Choi and Carlos Guestrin raise $110M for AI startup Noeri",
+          "summary": "Noeri, co-founded by former UW AI researchers Yejin Choi and Carlos Guestrin, raised $110 million in a round led by Menlo Ventures. Its software studies a company's data and workflows and proposes changes.",
+          "url": "https://www.geekwire.com/2026/former-uw-ai-researchers-yejin-choi-and-carlos-guestrin-raise-110m-for-ai-startup-noeri/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Booking Holdings’ travel startup Vayo starts booking trips with AI agents, even on rival Expedia",
+          "summary": "Vayo, the AI travel startup Booking Holdings launched last month, can now book flights, hotels and rental cars in beta. Its agents navigate sites such as Expedia, a rival's flagship.",
+          "url": "https://www.geekwire.com/2026/booking-holdings-travel-startup-vayo-starts-booking-trips-with-ai-agents-even-on-rival-expedia/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "A corporate income tax in WA? Top Democratic lawmaker floats the idea",
+          "summary": "A top state Democrat, fresh from the election win for the \"millionaires tax\", floated replacing Washington's business and occupation tax with a corporate income tax, the Seattle Times reports.",
+          "url": "https://www.seattletimes.com/business/a-corporate-income-tax-in-wa-top-democratic-lawmaker-floats-the-idea/?utm_source=RSS&utm_medium=Referral&utm_campaign=RSS_business",
+          "source": "The Seattle Times"
+        },
+        {
+          "headline": "Radian Aerospace plans to make its own composite materials for space plane (and for other companies, too)",
+          "summary": "Seattle space startup Radian Aerospace plans to make its own composite materials for its space plane and to sell them to other companies.",
+          "url": "https://www.geekwire.com/2026/radian-aerospace-advanced-composites/",
+          "source": "GeekWire"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "Trump’s Whirlwind Asia Trip Begins in the Philippines",
+          "summary": "President Trump's 48-hour Asia trip began with a meeting with Southeast Asian leaders in Manila. He will later meet Xi Jinping and Vladimir Putin in Shenzhen, the New York Times reports.",
+          "url": "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
+          "summary": "The New York Times reports that new U.S. chip restrictions could jeopardize billions of dollars in investment in Southeast Asia and force countries there to balance between Washington and Beijing.",
+          "url": "https://www.nytimes.com/2026/11/17/business/southeast-asia-china-ai-chips.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "US loses measles elimination status after 26 years amid record case numbers",
+          "summary": "The U.S. lost its measles elimination status after 26 years, the BBC reports. States have reported over 5,400 cases and 10 measles-related deaths.",
+          "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        },
+        {
+          "headline": "Five European countries agree to deport rejected asylum seekers to Rwanda",
+          "summary": "Five European countries agreed to deport rejected asylum seekers to Rwanda, The Washington Post reports, as the E.U. adopts its most hard-line asylum rules yet.",
+          "url": "https://www.washingtonpost.com/world/2026/11/16/five-european-countries-agree-deport-rejected-asylum-seekers-rwanda/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "European Leaders Near Deal to Pick Spanish Economist as Next ECB President",
+          "summary": "European leaders are nearing a deal to pick Spanish economist Pablo Hernández de Cos as the next ECB president, the Wall Street Journal reports. A Franco-German agreement would pave the way.",
+          "url": "https://www.wsj.com/world/europe/european-leaders-near-deal-to-pick-spanish-economist-as-next-ecb-president-62cc0c92?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "UK sanctions firms over Israeli West Bank settlements",
+          "summary": "The UK sanctioned firms over Israeli West Bank settlements, the BBC reports, its first sanctions since announcing a tougher approach to Israeli actions in the territory.",
+          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "Amazon to invest $7 billion in India renewables by 2030",
+          "summary": "Amazon will invest $7 billion in Indian renewables by 2030, in addition to $4 billion already contracted, The Hindu reports.",
+          "url": "https://www.thehindu.com/business/Industry/amazon-to-invest-7-billion-in-india-renewables-by-2030/article71712037.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Industry seeks tax breaks, stronger PLI push in pre-budget consultations",
+          "summary": "Industry leaders want targeted incentives in the budget to raise manufacturing's share of the economy to 25% from about 15%, Mint reports. MSMEs are asking for cheaper credit and easier compliance.",
+          "url": "https://www.livemint.com/news/india/industry-seeks-tax-breaks-stronger-pli-push-in-pre-budget-consultations-11794925302075.html",
+          "source": "Mint"
+        },
+        {
+          "headline": "GST applies to free corporate guarantees, 1% valuation isn't mandatory: Delhi HC",
+          "summary": "The Delhi High Court ruled that GST applies to free corporate guarantees, and that a 1% valuation is not mandatory. Parent companies may prove a lower value, Mint reports.",
+          "url": "https://www.livemint.com/news/india/gst-applies-to-free-corporate-guarantees-1-valuation-isnt-mandatory-delhi-hc-11794919902139.html",
+          "source": "Mint"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "Software engineering after code becomes cheap with Satya Nadella",
+          "summary": "Microsoft CEO Satya Nadella discusses AI's impact on software engineering, code verification and engineers' careers in a Pragmatic Engineer interview.",
+          "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
+          "source": "The Pragmatic Engineer"
+        },
+        {
+          "headline": "Self-reinforcing quality / adopting verification pattern",
+          "summary": "Will Larson describes Imprint Engineering's next step after its small-change pattern: a verification loop for software development, which he calls an increasingly common pattern.",
+          "url": "https://lethain.com/adopting-verification-pattern/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "The Good Thing About Hard Things",
+          "summary": "Cal Newport discusses a paper titled \"AI Assistance Reduces Persistence and Hurts Independent Performance\", presented at the Conference on Language Modeling.",
+          "url": "https://calnewport.com/the-good-thing-about-hard-things/",
+          "source": "Cal Newport"
+        },
+        {
+          "headline": "Your engineers got twice as fast. Your lead time only moved 4%",
+          "summary": "LeadDev argues that adoption numbers can mislead when judging AI tools, noting that lead time moved only 4% even as engineers got faster.",
+          "url": "https://leaddev.com/velocity/your-engineers-got-twice-as-fast-your-lead-time-only-moved-4?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "Security",
+    "format": "explainer",
+    "title": "When the disclosure clock runs faster than the patch",
+    "body": "Google's Project Zero has followed a \"90 + 30\" policy since 2021: a vendor gets up to 90 days to fix a reported vulnerability, then 30 more days of \"soak time\" for users to apply the patch before details go public. The team's new policy post says AI-assisted vulnerability discovery and exploitation has made that timeline clearly insufficient, and BleepingComputer reports it will be replaced with shorter, fixed deadlines.\n\nThe idea worth taking away is that a disclosure window is a bet about attackers. A long window assumes finding a bug and turning it into a working exploit is slow and expensive, so defenders have time to ship and customers have time to update. If AI tools compress discovery and exploit development, the window that protects users shrinks, and the gap between a fix being public and a fix being deployed becomes the dangerous part. A patch published in a source repository or release note is itself a signal an attacker can analyse.\n\nFor a cloud architect this turns into three design questions. First, patch latency: how many hours pass between a fix landing upstream and running everywhere in your fleet? If the honest answer is weeks, that is your effective exposure window. Second, backports: stable release branches often lag, so a fix may exist upstream but not in the version you run. Third, containment: when patching is slow, isolation, least privilege and egress control decide how much damage an unpatched service can do.\n\nPractical steps: track mean time to remediate by severity, not just counts of open findings; rehearse emergency rollouts so they are routine; and treat vendors' disclosure deadlines as an input to your own SLAs. If the industry's clocks get shorter, your deployment pipeline is the part that has to keep up.\n\nNote: the Project Zero page could not be opened during this run, so this piece draws on the page's published summary and the BleepingComputer report; check the primary post for the exact deadlines.",
+    "url": "https://projectzero.google/2026/11/disclosure-policy.html"
+  },
+  "liveWell": {
+    "eating": {
+      "tip": "Swapping even a small share of animal protein for plant protein, such as beans, lentils and tofu, was linked in one study to less age-related health decline, and it fits vegetarian and Indian home cooking.",
+      "url": "https://nutritionfacts.org/blog/a-simple-protein-swap-for-healthy-aging/"
+    },
+    "productivity": {
+      "tip": "Care about fewer things: saying yes to everything spreads attention thin, so pick the few commitments that matter and decline or defer the rest.",
+      "url": "https://zenhabits.net/less-more/"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-17",
+      "note": "NVDA earnings, after the close"
+    },
+    {
+      "date": "2026-11-18",
+      "note": "PANW earnings, after the close"
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 59,
+    "fetchesFailed": [
+      "The Next Platform",
+      "The Register",
+      "Fierce Healthcare",
+      "Google Project Zero"
+    ],
+    "sectionsShort": [],
+    "fullReads": 0
+  }
+}
