@@ -420,6 +420,58 @@ class ValidateTest {
         rejects("mover ZZZZ is not in the brief", e -> ((ObjectNode) watchlist().path("movers").get(0)).put("ticker", "ZZZZ"));
     }
 
+    private void briefOpens() {
+        brief.put("openAsOf", "Nov 17, 2026 9:35 AM ET");
+        ((ObjectNode) brief.path("movers").get(0)).put("openPct", 1.2);
+    }
+
+    @Test
+    void acceptsOpeningFieldsCopiedFromTheBrief() throws IOException {
+        briefOpens();
+        watchlist().put("openAsOf", "Nov 17, 2026 9:35 AM ET"); // digits in openAsOf are not figures to ground
+        ((ObjectNode) watchlist().path("movers").get(0)).put("openPct", 1.20);
+        assertEquals(List.of(), check(null));
+    }
+
+    @Test
+    void acceptsOmittingAMoverThatHasAnOpenMove() throws IOException {
+        briefOpens();
+        watchlist().put("openAsOf", "Nov 17, 2026 9:35 AM ET");
+        ((ArrayNode) watchlist().path("movers")).remove(0); // no supporting headline: the editor leaves the whole mover out
+        assertEquals(List.of(), check(null));
+    }
+
+    @Test
+    void rejectsOpenAsOfThatIsMissingWrongOrInventedAndOpenPctLikewise() throws IOException {
+        briefOpens();
+        ((ObjectNode) watchlist().path("movers").get(0)).put("openPct", 1.2);
+        rejects("watchlist.openAsOf is missing", e -> {});
+        watchlist().put("openAsOf", "Nov 17, 2026 9:40 AM ET");
+        List<String> problems = check(null);
+        assertTrue(problems.stream().anyMatch(p -> p.contains("watchlist.openAsOf \"Nov 17, 2026 9:40 AM ET\" differs")), problems.toString());
+        ((ObjectNode) watchlist().path("movers").get(0)).put("openPct", 1.3);
+        problems = check(null);
+        assertTrue(problems.stream().anyMatch(p -> p.contains("openPct 1.3 differs from the brief's 1.2")), problems.toString());
+        ((ObjectNode) watchlist().path("movers").get(0)).remove("openPct");
+        problems = check(null);
+        assertTrue(problems.stream().anyMatch(p -> p.contains("mover APLD openPct is missing")), problems.toString());
+    }
+
+    @Test
+    void rejectsOpeningFieldsTheBriefDoesNotHave() throws IOException {
+        watchlist().put("openAsOf", "Nov 17, 2026 9:35 AM ET");
+        ((ObjectNode) watchlist().path("movers").get(0)).put("openPct", 1.2);
+        List<String> problems = check(null);
+        assertTrue(problems.stream().anyMatch(p -> p.contains("watchlist.openAsOf") && p.contains("no counterpart")), problems.toString());
+        assertTrue(problems.stream().anyMatch(p -> p.contains("mover APLD openPct 1.2 has no counterpart")), problems.toString());
+    }
+
+    @Test
+    void rejectsAnOverlongOpenAsOfAndANonNumericOpenPct() throws IOException {
+        rejects("schema", e -> ((ObjectNode) e.path("watchlist")).put("openAsOf", "x".repeat(61)));
+        rejects("schema", e -> ((ObjectNode) e.path("watchlist").path("movers").get(0)).put("openPct", "1.2"));
+    }
+
     @Test
     void rejectsAsOfAndTrackThatDifferFromBrief() throws IOException {
         watchlist().put("asOf", "Nov 15 close");

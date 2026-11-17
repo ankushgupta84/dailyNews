@@ -11,9 +11,10 @@ A senior software architect in the Seattle area who works on cloud security and 
 1. `profile.json`: ticker tiers and library links.
 2. `brief/<today>.json`: everything a program gathered for today. Its fields:
    - `date`, `kind` (`weekday`, `saturday`, `sunday`), `learnTrack`, `asOf`, `asOfDate` (the ISO date of the trading session the prices describe; absent when prices are unavailable)
-   - `movers`: focus tickers that moved beyond ±3%, with `changePct`
+   - `openAsOf`: the time label of the opening quotes, e.g. "Nov 16, 2026 9:35 AM ET". Absent when the market was not open at gather time
+   - `movers`: focus tickers whose close or opening move was beyond ±3%, with `changePct` (the previous session's close) and, when there is an opening quote, `openPct` (the move at the open, measured from that close)
    - `moverNews`: for each mover, up to 4 headlines published on or after `asOfDate` (`title`, `url`, `published`, `primary`, sometimes `publisher`); the list may be empty. `primary` is true when the article is filed under that ticker and false when the ticker is only one of its related symbols
-   - `prices`: last close and change for every ticker
+   - `prices`: last close and change for every ticker; also `openPrice` and `openPct` when there is an opening quote
    - `pricesMissing`: tickers with no usable price; say nothing about them
    - `earnings`: focus tickers reporting within 7 days, and `reportedYesterday`
    - `macro`: scheduled data releases and central-bank events
@@ -37,7 +38,7 @@ Touch no other file. Never edit `site/`, `schema/`, `tools/`, `profile.json`, `s
 
 These are checked by a program after you finish. An edition that breaks one is not published.
 
-1. **Numbers come from the brief.** Everything in `watchlist` (`changePct`, `asOf`, earnings dates, macro events) and `learn.track` must be copied exactly from the brief. Never compute, round differently, recall or estimate them. Every figure written in digits in a summary, why-it-matters line, mover reason, tip or bear case must appear in that same candidate's `title` or `excerpt`. For a mover, it must appear in the linked `moverNews` headline. If a figure is not there, leave it out. Do not convert between forms in a way that changes the digits: write "$110 million" only if the source text has "110". Figures in notes without a link (calendar, earnings, macro, week in review) must appear somewhere in the brief. The Learn piece is exempt: it is written from the page it links.
+1. **Numbers come from the brief.** Everything in `watchlist` (`changePct`, `openPct`, `asOf`, `openAsOf`, earnings dates, macro events) and `learn.track` must be copied exactly from the brief. Never compute, round differently, recall or estimate them. Every figure written in digits in a summary, why-it-matters line, mover reason, tip or bear case must appear in that same candidate's `title` or `excerpt`. For a mover, it must appear in the linked `moverNews` headline. If a figure is not there, leave it out. Do not convert between forms in a way that changes the digits: write "$110 million" only if the source text has "110". Figures in notes without a link (calendar, earnings, macro, week in review) must appear somewhere in the brief. The Learn piece is exempt: it is written from the page it links.
 2. **Every link comes from the brief.** Every link in the edition must be a `url` from the brief's `candidates` or `moverNews`. Links to pages found any other way are rejected. All URLs start with `https://`. Never write a URL from memory. `headline` is the candidate's `title`, copied character for character. Do not rewrite, shorten or fix it, even when it contains punctuation you would not otherwise use. This covers front-page stories, section items and long reads; a `listen` pick copies its `title` the same way. (`learn.title` is the editor's own.)
 3. **No ownership language.** The paper never says or implies what the reader owns. Do not write "portfolio", "holdings", "your position", "your shares", "you own" or "your stock". Never address the reader's relationship to a stock: do not write "your watchlist" or "names you follow" inside a story. Write about the company. The words may appear only inside a company's proper name or in their ordinary sense about a company ("its product portfolio"). Treat every focus ticker the same way.
 4. **Public events only in `calendar`.** Dated earnings and data releases from the brief. Nothing personal.
@@ -61,12 +62,14 @@ Work in this order. After each step, write what you have to the edition file bef
 
 1. **Skim** all candidates once. Mark the 70 or so worth using. Drop anything that matches the filter list below, and anything already in `recentHeadlines` unless it reports a real new development. A candidate's `beat` is only a hint from its source's usual subject: file each story in the section where it belongs, and drop off-topic items. Many candidates describe the same event; treat them as one story and pick one link.
 2. **Watchlist.**
-   - `movers`: one entry per qualifying ticker in the brief's `movers`.
+   - `openAsOf`: copy the brief's `openAsOf`. If the brief has none, omit it.
+   - `movers`: one entry per qualifying ticker in the brief's `movers`. Copy `changePct` exactly, and copy `openPct` exactly when the brief's mover has one; otherwise omit it.
      - Write the reason from the text of a `moverNews` headline for that ticker, and link that headline. The link must be one of that ticker's own `moverNews` headlines.
      - A headline supports a mover's reason only if it is about that company (normally `primary` is true, or the title names the company) or is a market or sector wrap. A headline about a different company is not support. If a ticker has no supporting headline, omit the mover.
      - A market or sector wrap headline supports only what its words say (for example "chipmakers and AI stocks fell"). The reason must say it is sector-wide.
      - A rating change by an analyst firm is not a cause unless the headline says the stock moved on it.
-     - List at most 16. When more than 16 qualify, take first every mover with a company-specific supporting headline, then fill the remaining places by size of move. Order the final list by size of move, largest first.
+     - List at most 16. When more than 16 qualify, take first every mover with a company-specific supporting headline, then fill the remaining places by size of move. Order the final list by size of move, largest first, taking the larger of the close and the open move.
+     - Say which move the reason explains, yesterday's session or this morning's open, when the headline makes that clear. Opening prices are minutes old and jumpy: never describe an opening move as the day's move.
      - Use "No clear catalyst reported." only when a company-specific headline exists but states no reason. Link the most relevant one.
      - Never link an unrelated article as a stand-in.
    - `earnings`: copy from the brief. `note` may say "before the open" or "after the close" if the brief says so; otherwise leave it empty.

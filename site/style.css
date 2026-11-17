@@ -74,6 +74,8 @@ h1, h2, h3, p { margin: 0; }
 .row .tk { font-family: var(--sans); font-weight: 700; font-size: 0.82rem; }
 .row .pct { font-family: var(--sans); font-weight: 600; font-size: 0.82rem; font-variant-numeric: tabular-nums; margin-left: 4px; }
 .row .when { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); margin-left: 4px; }
+.asof + .asof { margin-left: 6px; }
+.row .moves .pct { margin-left: 3px; }
 .row + .row { margin-top: 6px; }
 .movers .row + .row { margin-top: 0; }
 .subhead { margin-top: 14px; }
@@ -127,7 +129,7 @@ h1, h2, h3, p { margin: 0; }
   body { font-size: 16px; }
   .masthead-top .meta { text-align: left; }
   .edition-date { display: none; }
-  .watchlist, .top, .sections, .front-rest { grid-template-columns: 1fr; }
+  .watchlist, .top, .sections, .front-rest, .movers.has-open { grid-template-columns: 1fr; }
   .watchlist > section, .watchlist > section:nth-child(odd) { border-left: 0; padding: 14px 0; border-top: 1px solid var(--rule); }
   .watchlist > section:first-child { border-top: 0; }
   .front { padding-right: 0; }

@@ -1,10 +1,14 @@
 name: Gather brief
 
 # Builds brief/DATE.json for the editor: feeds, prices, earnings and archive state.
-# Runs an hour before the editor's scheduled routine. Uses no Claude tokens.
+# Runs a few minutes after the US market opens (9:30 a.m. New York) so the brief carries opening quotes,
+# and about 40 minutes before the editor's scheduled routine. Uses no Claude tokens.
+# Cron is UTC, so two hours cover daylight saving: 9:35 a.m. New York is 13:35 UTC in summer and 14:35 in winter.
+# With --scheduled, the run before the open and the run after a brief exists stop by themselves.
 on:
   schedule:
-    - cron: "35 13 * * *" # 5:35 a.m. Pacific in winter, 6:35 a.m. in summer (cron is UTC)
+    - cron: "35 13 * * *" # 9:35 a.m. New York in summer; 8:35 in winter, where Gather stops
+    - cron: "35 14 * * *" # 9:35 a.m. New York in winter; 10:35 in summer, where the brief exists and Gather stops
   workflow_dispatch:
 
 permissions:
@@ -26,7 +30,8 @@ jobs:
           java-version: "21"
           cache: maven
       - name: Build the brief
-        run: mvn -q -f tools/pom.xml -DskipTests compile exec:java -Dexec.mainClass=news.Gather -Dexec.args="--root ."
+        # --scheduled only for the cron runs: a manual run always builds (unless the edition exists).
+        run: mvn -q -f tools/pom.xml -DskipTests compile exec:java -Dexec.mainClass=news.Gather -Dexec.args="--root . ${{ github.event_name == 'schedule' && '--scheduled' || '' }}"
       - name: Commit the brief
         run: |
           git config user.name "github-actions[bot]"

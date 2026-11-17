@@ -253,6 +253,8 @@ public final class Validate {
         if (!watchlist.path("asOf").asText().equals(brief.path("asOf").asText())) {
             problems.add("watchlist.asOf \"" + watchlist.path("asOf").asText() + "\" differs from the brief's \"" + brief.path("asOf").asText() + "\"");
         }
+        checkOpen(problems, watchlist.has("openAsOf"), watchlist.path("openAsOf").asText(),
+                brief.has("openAsOf"), brief.path("openAsOf").asText(), "watchlist.openAsOf");
         if (!edition.path("learn").path("track").asText().equals(brief.path("learnTrack").asText())) {
             problems.add("learn.track \"" + edition.path("learn").path("track").asText() + "\" differs from the brief's \"" + brief.path("learnTrack").asText() + "\"");
         }
@@ -263,6 +265,9 @@ public final class Validate {
                 problems.add("mover " + ticker + " is not in the brief's movers");
             } else if (new BigDecimal(mover.path("changePct").asText()).compareTo(new BigDecimal(source.path("changePct").asText())) != 0) {
                 problems.add("mover " + ticker + " changePct " + mover.path("changePct").asText() + " differs from the brief's " + source.path("changePct").asText());
+            }
+            if (source != null) {
+                checkOpenPct(problems, mover, source, ticker);
             }
             // The reason must rest on a headline fetched for this ticker, not another ticker's or a feed candidate.
             if (!moverHeadlineUrls(brief, ticker).contains(mover.path("url").asText())) {
@@ -303,6 +308,29 @@ public final class Validate {
             if (!known.contains(ticker)) {
                 problems.add("ticker " + ticker + " is not on the watchlist in profile.json");
             }
+        }
+    }
+
+    /** An opening-quote field is copied when the brief has it and omitted when it does not. */
+    private static void checkOpen(List<String> problems, boolean inEdition, String edition, boolean inBrief, String brief, String name) {
+        if (inBrief && !inEdition) {
+            problems.add(name + " is missing; the brief has \"" + brief + "\"");
+        } else if (!inBrief && inEdition) {
+            problems.add(name + " \"" + edition + "\" has no counterpart in the brief");
+        } else if (inBrief && !edition.equals(brief)) {
+            problems.add(name + " \"" + edition + "\" differs from the brief's \"" + brief + "\"");
+        }
+    }
+
+    private static void checkOpenPct(List<String> problems, JsonNode mover, JsonNode source, String ticker) {
+        String name = "mover " + ticker + " openPct";
+        boolean inBrief = source.has("openPct");
+        if (inBrief && !mover.has("openPct")) {
+            problems.add(name + " is missing; the brief has " + source.path("openPct").asText());
+        } else if (!inBrief && mover.has("openPct")) {
+            problems.add(name + " " + mover.path("openPct").asText() + " has no counterpart in the brief");
+        } else if (inBrief && new BigDecimal(mover.path("openPct").asText()).compareTo(new BigDecimal(source.path("openPct").asText())) != 0) {
+            problems.add(name + " " + mover.path("openPct").asText() + " differs from the brief's " + source.path("openPct").asText());
         }
     }
 

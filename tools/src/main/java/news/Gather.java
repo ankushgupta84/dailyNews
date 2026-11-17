@@ -10,9 +10,12 @@ import java.math.BigDecimal;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
+import java.time.Clock;
 import java.time.Instant;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.ZoneId;
+import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
 import java.util.ArrayList;
@@ -33,13 +36,15 @@ import java.util.concurrent.Future;
  * Builds brief/DATE.json: everything the editor model needs for one edition.
  * Numbers and state are computed here so the model never has to produce them.
  *
- * Usage: Gather [--root DIR] [--date YYYY-MM-DD]
+ * Usage: Gather [--root DIR] [--date YYYY-MM-DD] [--scheduled]
  */
 public final class Gather {
 
     static final ZoneId ZONE = ZoneId.of("America/Los_Angeles");
-    /** A focus ticker whose close moved at least this many percent is a mover. */
+    /** A focus ticker whose close or opening move reached at least this many percent is a mover. */
     static final BigDecimal MOVER_PCT = new BigDecimal("3.0");
+    private static final ZoneId NEW_YORK = Market.NEW_YORK;
+    private static final LocalTime MARKET_OPEN = LocalTime.of(9, 30);
     private static final ObjectMapper JSON = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
     private static final Duration DAILY_LOOKBACK = Duration.ofHours(36);
     private static final Duration WEEKLY_LOOKBACK = Duration.ofDays(8);
@@ -49,10 +54,12 @@ public final class Gather {
     public static void main(String[] args) throws Exception {
         Path root = Path.of(".");
         LocalDate date = LocalDate.now(ZONE);
+        boolean scheduled = false;
         for (int i = 0; i < args.length; i++) {
             switch (args[i]) {
                 case "--root" -> root = Path.of(args[++i]);
                 case "--date" -> date = LocalDate.parse(args[++i]);
+                case "--scheduled" -> scheduled = true;
                 default -> throw new IllegalArgumentException("unknown argument: " + args[i]);
             }
         }
@@ -60,8 +67,14 @@ public final class Gather {
             System.out.println("Edition " + date + " already exists; leaving brief/" + date + ".json unchanged.");
             return;
         }
-        ObjectNode brief = build(root, date, Instant.now(), Fetcher.http());
+        Instant now = Instant.now();
         Path out = root.resolve("brief").resolve(date + ".json");
+        String skip = scheduledSkip(scheduled, now, Files.exists(out));
+        if (skip != null) {
+            System.out.println(skip);
+            return;
+        }
+        ObjectNode brief = build(root, date, now, Fetcher.http());
         Files.createDirectories(out.getParent());
         Files.writeString(out, JSON.writeValueAsString(brief) + "\n");
         System.out.printf("Wrote %s: %d candidates, %d sources reached, %d failed, %d problems%n", out,
@@ -74,6 +87,24 @@ public final class Gather {
      */
     static boolean editionExists(Path root, LocalDate date) {
         return Files.exists(new Editions(root).file(date.toString()));
+    }
+
+    /**
+     * Why a scheduled run should do nothing, or null if it should build the brief. The workflow fires at
+     * two UTC hours so one of them is 9:35 a.m. New York in either season; only the first run at or after
+     * the open builds the brief. Without {@code --scheduled} (a manual run) neither rule applies.
+     */
+    static String scheduledSkip(boolean scheduled, Instant now, boolean briefExists) {
+        if (!scheduled) {
+            return null;
+        }
+        if (now.atZone(NEW_YORK).toLocalTime().isBefore(MARKET_OPEN)) {
+            return "Scheduled run before the 9:30 a.m. New York open; writing nothing.";
+        }
+        if (briefExists) {
+            return "Scheduled run, but the brief already exists; writing nothing.";
+        }
+        return null;
     }
 
     /** Pure of clock and network: both are passed in, so tests are deterministic. */
@@ -93,7 +124,7 @@ public final class Gather {
         }
         brief.put("learnTrack", track.asText());
 
-        addMarket(brief, problems, profile, date, new Market(fetcher));
+        addMarket(brief, problems, profile, date, new Market(fetcher, Clock.fixed(now, ZoneOffset.UTC)));
         addMacro(brief, root, date);
         addCandidates(brief, sources, weekday, now, fetcher);
 
@@ -119,10 +150,19 @@ public final class Gather {
         profile.path("tickers").path("general").forEach(t -> tiers.put(t.asText(), "general"));
 
         List<Market.Price> prices = new ArrayList<>();
+        Map<String, Market.OpenQuote> opens = new HashMap<>();
         ArrayNode missing = JSON.createArrayNode();
         for (String ticker : tiers.keySet()) {
             try {
-                prices.add(market.price(ticker, date));
+                Market.Reading reading = market.read(ticker, date);
+                prices.add(reading.close());
+                if (reading.open() != null) {
+                    opens.put(ticker, reading.open());
+                }
+                if (reading.openProblem() != null) {
+                    problems.add("Opening quote for " + ticker + " unreadable (" + reading.openProblem()
+                            + "). Say nothing about " + ticker + "'s move at the open.");
+                }
             } catch (IOException e) {
                 missing.add(ticker);
             }
@@ -133,9 +173,16 @@ public final class Gather {
         prices.forEach(p -> counts.merge(p.date(), 1, Integer::sum));
         LocalDate asOf = counts.entrySet().stream().max(Map.Entry.comparingByValue()).map(Map.Entry::getKey).orElse(null);
 
+        // The label comes from the first opening quote (in profile order) that the page will show.
+        String openAsOf = null;
+        for (Market.Price p : prices) {
+            if (openAsOf == null && p.date().equals(asOf) && opens.containsKey(p.ticker())) {
+                openAsOf = opens.get(p.ticker()).timestamp();
+            }
+        }
+
         ArrayNode priceNodes = JSON.createArrayNode();
-        ArrayNode movers = JSON.createArrayNode();
-        ArrayNode moverNews = JSON.createArrayNode();
+        List<Market.Price> moved = new ArrayList<>();
         prices.sort(Comparator.comparing((Market.Price p) -> p.changePct().abs()).reversed().thenComparing(Market.Price::ticker));
         for (Market.Price p : prices) {
             if (!p.date().equals(asOf)) {
@@ -143,11 +190,25 @@ public final class Gather {
                 continue;
             }
             String tier = tiers.get(p.ticker());
-            priceNodes.addObject().put("ticker", p.ticker()).put("tier", tier).put("close", p.close()).put("changePct", p.changePct());
-            if (tier.equals("focus") && p.changePct().abs().compareTo(MOVER_PCT) >= 0) {
-                movers.addObject().put("ticker", p.ticker()).put("changePct", p.changePct());
-                addMoverNews(moverNews, problems, market, p.ticker(), asOf);
+            ObjectNode node = priceNodes.addObject().put("ticker", p.ticker()).put("tier", tier).put("close", p.close()).put("changePct", p.changePct());
+            Market.OpenQuote open = opens.get(p.ticker());
+            if (open != null) {
+                node.put("openPrice", open.price()).put("openPct", open.changePct());
             }
+            if (tier.equals("focus") && biggestMove(p, open).compareTo(MOVER_PCT) >= 0) {
+                moved.add(p);
+            }
+        }
+        // Largest move first, by the larger of the close and the open; ties by ticker.
+        moved.sort(Comparator.comparing((Market.Price p) -> biggestMove(p, opens.get(p.ticker()))).reversed().thenComparing(Market.Price::ticker));
+        ArrayNode movers = JSON.createArrayNode();
+        ArrayNode moverNews = JSON.createArrayNode();
+        for (Market.Price p : moved) {
+            ObjectNode mover = movers.addObject().put("ticker", p.ticker()).put("changePct", p.changePct());
+            if (opens.containsKey(p.ticker())) {
+                mover.put("openPct", opens.get(p.ticker()).changePct());
+            }
+            addMoverNews(moverNews, problems, market, p.ticker(), asOf);
         }
         if (asOf == null) {
             problems.add("No prices could be fetched. Leave watchlist.movers empty and set asOf to \"unavailable\".");
@@ -155,6 +216,9 @@ public final class Gather {
         brief.put("asOf", asOf == null ? "unavailable" : asOf.format(DateTimeFormatter.ofPattern("MMM d", Locale.US)) + " close");
         if (asOf != null) {
             brief.put("asOfDate", asOf.toString()); // absent, not null, when prices are unavailable
+        }
+        if (openAsOf != null) {
+            brief.put("openAsOf", openAsOf); // absent, not null, when no opening quote exists
         }
         brief.set("movers", movers);
         brief.set("moverNews", moverNews);
@@ -186,6 +250,12 @@ public final class Gather {
         }
         brief.set("earnings", earnings);
         brief.set("reportedYesterday", reported);
+    }
+
+    /** The larger absolute move, in percent, of the close and the opening quote (if any). */
+    private static BigDecimal biggestMove(Market.Price p, Market.OpenQuote open) {
+        BigDecimal close = p.changePct().abs();
+        return open == null ? close : close.max(open.changePct().abs());
     }
 
     /**

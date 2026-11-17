@@ -19,6 +19,7 @@
       "required": ["asOf", "movers", "earnings", "analystAndInsider", "macro"],
       "properties": {
         "asOf": { "$ref": "#/$defs/text", "description": "Copied from the brief, e.g. 'Nov 16 close'." },
+        "openAsOf": { "type": "string", "maxLength": 60, "description": "Copied from the brief's openAsOf. Omitted when the brief has none." },
         "movers": {
           "type": "array", "maxItems": 16,
           "items": {
@@ -27,6 +28,7 @@
             "properties": {
               "ticker": { "$ref": "#/$defs/ticker" },
               "changePct": { "type": "number", "description": "Copied from the brief. Never computed by the editor." },
+              "openPct": { "type": "number", "description": "The move at the open, copied from the brief. Omitted when the brief has none." },
               "reason": { "$ref": "#/$defs/text" },
               "url": { "$ref": "#/$defs/url" }
             }

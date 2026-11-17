@@ -7,7 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.time.Clock;
+import java.time.Instant;
 import java.time.LocalDate;
+import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.Test;
@@ -83,7 +86,7 @@ class MarketTest {
         if (spec == null) {
             return "null";
         }
-        String[] f = spec.split("\\|");
+        String[] f = spec.split("\\|", -1);
         return "{\"lastSalePrice\":\"" + f[0] + "\",\"percentageChange\":\"" + f[1] + "\",\"lastTradeTimestamp\":\"" + f[2] + "\"}";
     }
 
@@ -178,6 +181,83 @@ class MarketTest {
     void priceFailsForAnUnknownSymbolEverywhere() {
         Market market = new Market(new FakeFetcher(url -> UNKNOWN_QUOTE));
         assertThrows(IOException.class, () -> market.price("LKNCY", MONDAY));
+    }
+
+    // ---------- opening quote ----------
+
+    private static final Clock MONDAY_935_ET = Clock.fixed(Instant.parse("2026-11-16T14:35:00Z"), ZoneOffset.UTC);
+    private static final String LIVE = "$150.00|+1.23%|Nov 16, 2026 9:35 AM ET";
+
+    /** A quote response with a marketStatus; a null status leaves the field out. */
+    static String infoWithStatus(String status, String primary, String secondary) {
+        String body = info(primary, secondary);
+        return status == null ? body : body.replace("\"symbol\":\"X\",", "\"symbol\":\"X\",\"marketStatus\":\"" + status + "\",");
+    }
+
+    /** History as Nasdaq answers mid-session: a partial row for today on top of the finished sessions. */
+    private static final String HISTORY_WITH_TODAY = history("11/16/2026", "$150.00", "11/13/2026", "$162.85", "11/12/2026", "$166.19");
+
+    private Market marketWith(List<String> asked, String quote, String history) {
+        return new Market(new FakeFetcher(url -> {
+            asked.add(url);
+            return url.contains("/info?") ? quote : history;
+        }), MONDAY_935_ET);
+    }
+
+    @Test
+    void whileOpenReadsTheLiveQuoteAndTakesThePreviousCloseFromHistoryIgnoringTodaysRow() throws IOException {
+        List<String> asked = new ArrayList<>();
+        Market.Reading r = marketWith(asked, infoWithStatus("Open", LIVE, null), HISTORY_WITH_TODAY).read("NVDA", MONDAY);
+        assertEquals(new Market.OpenQuote(new BigDecimal("150.00"), new BigDecimal("1.2"), "Nov 16, 2026 9:35 AM ET"), r.open());
+        assertNull(r.openProblem());
+        assertEquals(LocalDate.of(2026, 11, 13), r.close().date());
+        assertEquals(new BigDecimal("162.85"), r.close().close());
+        assertEquals(new BigDecimal("-2.0"), r.close().changePct()); // 11/13 against 11/12, not against today's partial row
+        assertEquals(2, asked.stream().filter(u -> u.contains("/info?")).count()); // stocks then ETF; one response per class serves both readings
+    }
+
+    @Test
+    void whileOpenACloseDatedTodayIsNotThePreviousClose() throws IOException {
+        String quote = infoWithStatus("open", LIVE, "$150.00|+1.23%|Closed at Nov 16, 2026 9:35 AM ET");
+        Market.Reading r = marketWith(new ArrayList<>(), quote, HISTORY_WITH_TODAY).read("NVDA", MONDAY);
+        assertEquals(LocalDate.of(2026, 11, 13), r.close().date()); // "open" matches ignoring case
+        assertEquals(new BigDecimal("150.00"), r.open().price());
+    }
+
+    @Test
+    void whileClosedThereIsNoOpenQuoteAndTheCloseIsUnchanged() throws IOException {
+        List<String> asked = new ArrayList<>();
+        Market.Reading r = marketWith(asked, infoWithStatus("Closed", AFTER_HOURS, CLOSE), "unused").read("NVDA", MONDAY);
+        assertNull(r.open());
+        assertNull(r.openProblem());
+        assertEquals(new BigDecimal("-4.1"), r.close().changePct());
+        assertEquals(1, asked.size());
+    }
+
+    @Test
+    void aClosedMarketKeepsATodayRowInHistory() throws IOException {
+        // Weekend or holiday status "Closed": the newest history row is a finished session even if dated "today".
+        Market.Reading r = marketWith(new ArrayList<>(), infoWithStatus("Closed", AFTER_HOURS, null), HISTORY_WITH_TODAY).read("NVDA", MONDAY);
+        assertEquals(LocalDate.of(2026, 11, 16), r.close().date());
+        assertNull(r.open());
+    }
+
+    @Test
+    void aMissingMarketStatusMeansNoOpenQuote() throws IOException {
+        Market.Reading r = marketWith(new ArrayList<>(), infoWithStatus(null, LIVE, null), history("11/13/2026", "162.85", "11/12/2026", "166.19")).read("NVDA", MONDAY);
+        assertNull(r.open());
+        assertNull(r.openProblem());
+        assertEquals(LocalDate.of(2026, 11, 13), r.close().date());
+    }
+
+    @Test
+    void anUnreadableLiveQuoteIsAProblemNotAGuessAndDoesNotCostTheClose() throws IOException {
+        for (String bad : List.of("$150.00|UNCH|Nov 16, 2026 9:35 AM ET", "N/A|+1.0%|Nov 16, 2026 9:35 AM ET", "$150.00|+1.0%|")) {
+            Market.Reading r = marketWith(new ArrayList<>(), infoWithStatus("Open", bad, null), HISTORY_WITH_TODAY).read("NVDA", MONDAY);
+            assertNull(r.open(), bad);
+            assertTrue(r.openProblem().contains("unreadable opening quote for NVDA"), r.openProblem());
+            assertEquals(new BigDecimal("-2.0"), r.close().changePct());
+        }
     }
 
     @Test

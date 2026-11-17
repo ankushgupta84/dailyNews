@@ -5,8 +5,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.time.Clock;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
@@ -20,6 +22,15 @@ import java.util.regex.Pattern;
 public final class Market {
 
     public record Price(String ticker, LocalDate date, BigDecimal close, BigDecimal changePct) {}
+
+    /** A live quote taken while the market is open. {@code changePct} is measured from the previous close. */
+    public record OpenQuote(BigDecimal price, BigDecimal changePct, String timestamp) {}
+
+    /**
+     * Everything one info lookup yields. {@code open} is null when the market is not open or the live
+     * quote is unreadable; in the second case {@code openProblem} says why, so the brief can record it.
+     */
+    public record Reading(Price close, OpenQuote open, String openProblem) {}
 
     public record Earning(String ticker, LocalDate date, String time) {}
 
@@ -38,25 +49,57 @@ public final class Market {
     private static final String API = "https://api.nasdaq.com/api";
     private static final String NASDAQ = "https://www.nasdaq.com";
 
+    static final ZoneId NEW_YORK = ZoneId.of("America/New_York");
+    /** The brief shows this label to the reader, which must fit the edition schema's openAsOf limit. */
+    static final int MAX_TIMESTAMP = 60;
+
     private final Fetcher fetcher;
+    private final Clock clock;
+
+    public Market(Fetcher fetcher, Clock clock) {
+        this.fetcher = fetcher;
+        this.clock = clock;
+    }
 
     public Market(Fetcher fetcher) {
-        this.fetcher = fetcher;
+        this(fetcher, Clock.systemUTC());
+    }
+
+    /** The official close alone; see {@link #read}. */
+    public Price price(String ticker, LocalDate day) throws IOException {
+        return read(ticker, day).close();
     }
 
     /**
-     * Official close on or before {@code day} and its percentage change. Reads Nasdaq's quote endpoint,
-     * which carries the session's close as soon as the market shuts; the historical endpoint can lag
-     * by hours. Falls back to the historical endpoint when the quote has no "Closed at" block.
+     * Official close on or before {@code day}, its percentage change, and the live quote if the market
+     * is open. One quote response serves both. The quote endpoint carries the session's close as soon as
+     * the market shuts; the historical endpoint can lag by hours. Falls back to the historical endpoint
+     * when the quote has no "Closed at" block. While the market is open, a history row or close dated
+     * today (New York) is a partial session, never the previous close, and is ignored.
      * Tries the ticker as a stock, then as an ETF. Throws if neither source gives a usable price.
      */
-    public Price price(String ticker, LocalDate day) throws IOException {
+    public Reading read(String ticker, LocalDate day) throws IOException {
         IOException last = null;
+        LocalDate today = LocalDate.now(clock.withZone(NEW_YORK));
+        boolean marketOpen = false;
+        boolean quoted = false;
+        OpenQuote open = null;
+        String openProblem = null;
         for (String assetClass : List.of("stocks", "etf")) {
             try {
-                Price close = parseClose(ticker, day, fetcher.get(API + "/quote/" + ticker + "/info?assetclass=" + assetClass));
-                if (close != null) {
-                    return close;
+                String body = fetcher.get(API + "/quote/" + ticker + "/info?assetclass=" + assetClass);
+                Price close = parseClose(ticker, day, body);
+                if (!quoted) { // the first asset class that knows the symbol decides
+                    quoted = true;
+                    marketOpen = isOpen(body);
+                    try {
+                        open = parseOpen(ticker, body);
+                    } catch (IOException e) {
+                        openProblem = e.getMessage();
+                    }
+                }
+                if (close != null && !(marketOpen && close.date().equals(today))) {
+                    return new Reading(close, open, openProblem);
                 }
             } catch (IOException e) {
                 if (e instanceof BadClose) {
@@ -69,7 +112,7 @@ public final class Market {
             String url = API + "/quote/" + ticker + "/historical?assetclass=" + assetClass
                     + "&fromdate=" + day.minusDays(12) + "&todate=" + day + "&limit=5";
             try {
-                return parsePrice(ticker, fetcher.get(url));
+                return new Reading(parsePrice(ticker, fetcher.get(url), marketOpen ? today : null), open, openProblem);
             } catch (IOException e) {
                 last = e;
             }
@@ -107,9 +150,8 @@ public final class Market {
                 if (date.isAfter(day)) {
                     throw new BadClose("close for " + ticker + " is dated " + date + ", after " + day);
                 }
-                BigDecimal changePct = new BigDecimal(quote.path("percentageChange").asText()
-                        .replace("%", "").replace("+", "").replace(",", "").strip()).setScale(1, RoundingMode.HALF_UP);
-                return new Price(ticker, date, money(quote.path("lastSalePrice").asText()), changePct);
+                return new Price(ticker, date, money(quote.path("lastSalePrice").asText()),
+                        percent(quote.path("percentageChange").asText()));
             } catch (RuntimeException e) { // NumberFormatException, DateTimeParseException
                 throw new BadClose("unreadable quote for " + ticker + ": " + e.getMessage());
             }
@@ -117,9 +159,53 @@ public final class Market {
         return null;
     }
 
+    /** True when the quote says the regular session is under way. Anything else, or no status, is not open. */
+    static boolean isOpen(String body) throws IOException {
+        return JSON.readTree(body).path("data").path("marketStatus").asText().equalsIgnoreCase("Open");
+    }
+
+    /**
+     * The live quote, or null when the market is not open. While open, primaryData is the live quote and
+     * its change is measured from the previous close. Throws IOException if the market says it is open
+     * but the price, change or timestamp cannot be read. This shape is not documented by Nasdaq.
+     */
+    static OpenQuote parseOpen(String ticker, String body) throws IOException {
+        if (!isOpen(body)) {
+            return null;
+        }
+        JsonNode quote = JSON.readTree(body).path("data").path("primaryData");
+        String timestamp = quote.path("lastTradeTimestamp").asText().strip();
+        try {
+            if (timestamp.isEmpty() || timestamp.length() > MAX_TIMESTAMP) {
+                throw new IllegalArgumentException("timestamp \"" + timestamp + "\" is empty or too long");
+            }
+            return new OpenQuote(money(quote.path("lastSalePrice").asText()), percent(quote.path("percentageChange").asText()), timestamp);
+        } catch (RuntimeException e) { // NumberFormatException from a bad price or change
+            throw new IOException("unreadable opening quote for " + ticker + ": " + e.getMessage());
+        }
+    }
+
+    private static BigDecimal percent(String text) {
+        return new BigDecimal(text.replace("%", "").replace("+", "").replace(",", "").strip()).setScale(1, RoundingMode.HALF_UP);
+    }
+
     static Price parsePrice(String ticker, String body) throws IOException {
-        JsonNode rows = JSON.readTree(body).path("data").path("tradesTable").path("rows");
-        if (!rows.isArray() || rows.size() < 2) {
+        return parsePrice(ticker, body, null);
+    }
+
+    /** Computes the change from the two latest rows, skipping any row dated {@code partialDay} (an unfinished session). */
+    static Price parsePrice(String ticker, String body, LocalDate partialDay) throws IOException {
+        JsonNode all = JSON.readTree(body).path("data").path("tradesTable").path("rows");
+        List<JsonNode> rows = new ArrayList<>();
+        if (all.isArray()) {
+            String skip = partialDay == null ? null : partialDay.format(US_DATE);
+            all.forEach(r -> {
+                if (!r.path("date").asText().equals(skip)) {
+                    rows.add(r);
+                }
+            });
+        }
+        if (rows.size() < 2) {
             throw new IOException("no price history for " + ticker);
         }
         try {

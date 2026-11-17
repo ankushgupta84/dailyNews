@@ -90,6 +90,13 @@ function pct(value) {
   return span;
 }
 
+// "close −4.7% · open +1.2%": each move coloured by its own sign.
+function closeAndOpen(close, open) {
+  const wrap = el("span", "moves");
+  wrap.append(el("span", "when", "close"), pct(close), el("span", "when", "· open"), pct(open));
+  return wrap;
+}
+
 // ---------- rendering ----------
 
 function renderWatchlist(w) {
@@ -98,10 +105,14 @@ function renderWatchlist(w) {
 
   const movers = labelled("Watchlist movers ");
   movers.firstChild.append(el("span", "asof", "· " + w.asOf));
+  if (w.openAsOf) movers.firstChild.append(el("span", "asof", "· Open as of " + w.openAsOf));
   const grid = el("div", "movers");
+  // Two numbers per mover need the full width on a phone.
+  if (w.movers.some(m => typeof m.openPct === "number")) grid.classList.add("has-open");
   for (const m of w.movers) {
     const row = el("div", "row");
-    row.append(link(m.ticker, m.url, "tk"), pct(m.changePct), document.createTextNode(" " + m.reason));
+    const moves = typeof m.openPct === "number" ? closeAndOpen(m.changePct, m.openPct) : pct(m.changePct);
+    row.append(link(m.ticker, m.url, "tk"), moves, document.createTextNode(" " + m.reason));
     grid.append(row);
   }
   if (!w.movers.length) grid.append(el("p", "empty", "No large moves."));

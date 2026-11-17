@@ -2,6 +2,7 @@ package news;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -419,5 +420,67 @@ class GatherTest {
         assertEquals(List.of("CCC fund flows"), texts(brief.path("moverNews").get(0).path("headlines"), "title"));
         assertEquals(0, brief.path("moverNews").get(1).path("headlines").size()); // no news is not a failure
         assertEquals(0, brief.path("problems").size());
+    }
+    @Test
+    void addsOpeningMovesAndCountsAnOpenMoveAsAMover() throws IOException {
+        web.put("/quote/BBB/info", MarketTest.infoWithStatus("Open", "$103.50|+3.45%|Nov 16, 2026 9:35 AM ET", null));
+        web.put("/quote/CCC/info", MarketTest.infoWithStatus("Open", "$91.00|-1.04%|Nov 16, 2026 9:36 AM ET", null));
+        JsonNode brief = build(MONDAY);
+        assertEquals("Nov 13 close", brief.path("asOf").asText());
+        assertEquals("Nov 16, 2026 9:35 AM ET", brief.path("openAsOf").asText()); // first quote in profile order: BBB
+        // CCC 8.0 (close), BBB 3.5 (open; close -2.9 alone would not qualify), AAA 3.0 (close, no open quote).
+        assertEquals(List.of("CCC", "BBB", "AAA"), texts(brief.path("movers"), "ticker"));
+        JsonNode ccc = brief.path("movers").get(0);
+        assertEquals("-8.0", ccc.path("changePct").asText());
+        assertEquals("-1.0", ccc.path("openPct").asText());
+        assertEquals("-2.9", brief.path("movers").get(1).path("changePct").asText());
+        assertEquals("3.5", brief.path("movers").get(1).path("openPct").asText());
+        assertTrue(brief.path("movers").get(2).path("openPct").isMissingNode());
+        assertEquals(List.of("CCC", "BBB", "AAA"), texts(brief.path("moverNews"), "ticker"));
+        JsonNode bbb = null;
+        for (JsonNode p : brief.path("prices")) {
+            if (p.path("ticker").asText().equals("BBB")) bbb = p;
+        }
+        assertEquals("103.50", bbb.path("openPrice").asText());
+        assertEquals("3.5", bbb.path("openPct").asText());
+        assertEquals("-2.9", bbb.path("changePct").asText()); // the close is still the previous session's
+    }
+
+    @Test
+    void omitsOpeningFieldsWhenNoQuoteIsOpen() throws IOException {
+        JsonNode brief = build(MONDAY);
+        assertTrue(brief.path("openAsOf").isMissingNode());
+        brief.path("prices").forEach(p -> assertTrue(p.path("openPct").isMissingNode() && p.path("openPrice").isMissingNode()));
+        brief.path("movers").forEach(m -> assertTrue(m.path("openPct").isMissingNode()));
+    }
+
+    @Test
+    void anUnreadableOpeningQuoteBecomesAProblemAndTheBriefStillBuilds() throws IOException {
+        web.put("/quote/AAA/info", MarketTest.infoWithStatus("Open", "$103.50|UNCH|Nov 16, 2026 9:35 AM ET", null));
+        JsonNode brief = build(MONDAY);
+        assertTrue(brief.path("openAsOf").isMissingNode());
+        assertTrue(texts(brief.path("prices"), "ticker").contains("AAA")); // its close still counts
+        assertTrue(texts(brief.path("problems"), null).stream().anyMatch(p -> p.contains("Opening quote for AAA unreadable")), brief.path("problems").toString());
+    }
+
+    @Test
+    void aScheduledRunBuildsOnlyAfterTheOpenAndOnlyOnce() {
+        // 13:35 UTC is 9:35 a.m. New York in summer (EDT) and 8:35 a.m. in winter (EST).
+        Instant summer = Instant.parse("2026-07-15T13:35:00Z");
+        Instant winter = Instant.parse("2026-11-16T13:35:00Z");
+        Instant winterLater = Instant.parse("2026-11-16T14:35:00Z");
+        assertNull(Gather.scheduledSkip(true, summer, false));
+        assertTrue(Gather.scheduledSkip(true, winter, false).contains("before"));
+        assertNull(Gather.scheduledSkip(true, winterLater, false));
+        assertTrue(Gather.scheduledSkip(true, Instant.parse("2026-07-15T14:35:00Z"), true).contains("already exists"));
+        assertNull(Gather.scheduledSkip(true, Instant.parse("2026-11-16T14:30:00Z"), false)); // 9:30 sharp is open
+        assertTrue(Gather.scheduledSkip(true, Instant.parse("2026-11-16T14:29:59Z"), false).contains("before"));
+    }
+
+    @Test
+    void withoutTheScheduledFlagNeitherTheClockNorAnExistingBriefStopsARun() {
+        Instant early = Instant.parse("2026-11-16T11:30:00Z");
+        assertNull(Gather.scheduledSkip(false, early, false));
+        assertNull(Gather.scheduledSkip(false, early, true));
     }
 }
