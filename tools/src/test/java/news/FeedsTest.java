@@ -51,6 +51,18 @@ class FeedsTest {
     }
 
     @Test
+    void storesNoExcerptWhenItIsCommentsOrJustTheTitle() throws IOException {
+        String comments = "<item><title>HN post</title><link>https://a.example/1</link><pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate>"
+                + "<description><![CDATA[<a href=\"https://news.ycombinator.com/item?id=1\">comments</a>]]></description></item>";
+        String echo = "<item><title>Same words</title><link>https://a.example/2</link><pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>"
+                + "<description>Same words</description></item>";
+        String real = "<item><title>Real</title><link>https://a.example/3</link><pubDate>Mon, 16 Nov 2026 08:00:00 GMT</pubDate>"
+                + "<description>Comments on the new design</description></item>";
+        List<Feeds.Item> items = Feeds.parse(rss(comments + echo + real), SINCE, 10);
+        assertEquals(List.of("", "", "Comments on the new design"), items.stream().map(Feeds.Item::excerpt).toList());
+    }
+
+    @Test
     void respectsMax() throws IOException {
         StringBuilder many = new StringBuilder();
         for (int i = 10; i < 40; i++) {

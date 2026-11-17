@@ -118,8 +118,8 @@
       }
     },
     "liveWell": {
+      "description": "Each tip is optional: a category with no sourced tip is omitted, and an empty object is valid.",
       "type": "object", "additionalProperties": false,
-      "required": ["health", "eating", "productivity"],
       "properties": {
         "health": { "$ref": "#/$defs/tip" },
         "eating": { "$ref": "#/$defs/tip" },
@@ -127,7 +127,7 @@
       }
     },
     "calendar": {
-      "description": "Public events only: earnings, data releases, conferences.",
+      "description": "Public events only: earnings and data releases from the brief.",
       "type": "array",
       "items": {
         "type": "object", "additionalProperties": false,

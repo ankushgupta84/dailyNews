@@ -92,4 +92,44 @@ class MarketTest {
         assertEquals(List.of(), market.earningsOn(LocalDate.of(2026, 11, 14)));
         assertEquals(List.of(), market.earningsOn(LocalDate.of(2026, 11, 15)));
     }
+
+    private static String row(String title, String url, String created) {
+        return "{\"title\":\"" + title + "\",\"url\":\"" + url + "\",\"created\":\"" + created
+                + "\",\"publisher\":\"Pub\",\"primarysymbol\":\"nvda\",\"related_symbols\":[\"nvda|stocks\"]}";
+    }
+
+    @Test
+    void headlinesResolveRelativeLinksAndKeepTheNewestFour() throws IOException {
+        String body = "{\"data\":{\"rows\":[" + String.join(",",
+                row("A", "/articles/a", "Nov 14, 2026"), row("B", "/articles/b", "Nov 16, 2026"), row("C", "/articles/c", "Nov 15, 2026"),
+                row("D", "/articles/d", "Nov 15, 2026"), row("E", "/articles/e", "Nov 13, 2026"), row("F", "/articles/f", "Nov 12, 2026")) + "]}}";
+        List<Market.Headline> found = Market.parseHeadlines("NVDA", LocalDate.of(2026, 11, 13), body);
+        assertEquals(List.of("B", "C", "D", "A"), found.stream().map(Market.Headline::title).toList());
+        assertEquals("https://www.nasdaq.com/articles/b", found.get(0).url());
+        assertEquals(LocalDate.of(2026, 11, 16), found.get(0).published());
+        assertEquals("Pub", found.get(0).publisher());
+    }
+
+    @Test
+    void headlinesDropNonHttpsAbsoluteLinksAndUndatedRows() throws IOException {
+        String body = "{\"data\":{\"rows\":[" + String.join(",",
+                row("Plain", "http://example.com/a", "Nov 16, 2026"), row("Script", "javascript:alert(1)", "Nov 16, 2026"),
+                row("No date", "/articles/x", "yesterday"), row("Absolute", "https://example.com/ok", "Nov 16, 2026")) + "]}}";
+        List<Market.Headline> found = Market.parseHeadlines("NVDA", LocalDate.of(2026, 11, 13), body);
+        assertEquals(List.of("Absolute"), found.stream().map(Market.Headline::title).toList());
+    }
+
+    @Test
+    void headlinesIgnoreArticlesThatDoNotNameTheTicker() throws IOException {
+        String body = "{\"data\":{\"rows\":[{\"title\":\"General\",\"url\":\"/articles/g\",\"created\":\"Nov 16, 2026\","
+                + "\"primarysymbol\":\"avgo\",\"related_symbols\":[\"avgo|stocks\",\"nvdax|stocks\"]}]}}";
+        assertEquals(List.of(), Market.parseHeadlines("NVDA", LocalDate.of(2026, 11, 13), body));
+    }
+
+    @Test
+    void headlinesFailLoudlyOnAnUnreadableResponseInsteadOfReportingNoNews() {
+        assertThrows(IOException.class, () -> Market.parseHeadlines("NVDA", LocalDate.of(2026, 11, 13), "{\"data\":null}"));
+        Market failing = new Market(new FakeFetcher(url -> { throw new IOException("HTTP 503"); }));
+        assertThrows(IOException.class, () -> failing.headlines("NVDA", LocalDate.of(2026, 11, 13)));
+    }
 }

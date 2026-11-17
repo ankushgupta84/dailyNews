@@ -1,7 +1,6 @@
 {
   "sources": [
-    { "name": "Hacker News", "beat": "engineering", "feed": "https://hnrss.org/frontpage?points=150&count=30", "schedule": "daily", "max": 12 },
-    { "name": "Lobsters", "beat": "engineering", "feed": "https://lobste.rs/rss", "schedule": "daily", "max": 5 },
+    { "name": "Hacker News", "beat": "engineering", "feed": "https://news.ycombinator.com/rss", "schedule": "daily", "max": 12 },
     { "name": "Cloudflare Blog", "beat": "engineering", "feed": "https://blog.cloudflare.com/rss/", "schedule": "daily", "max": 3 },
     { "name": "InfoQ", "beat": "engineering", "feed": "https://feed.infoq.com/", "schedule": "daily", "max": 4 },
     { "name": "AWS Architecture Blog", "beat": "engineering", "feed": "https://aws.amazon.com/blogs/architecture/feed/", "schedule": "monday", "max": 3 },
@@ -86,14 +85,15 @@
     { "name": "Finshots", "beat": "india", "feed": "https://finshots.in/rss/", "schedule": "daily", "max": 1 },
     { "name": "Inc42", "beat": "india", "feed": "https://inc42.com/feed/", "schedule": "daily", "max": 3 },
 
-    { "name": "The Pragmatic Engineer", "beat": "career", "feed": "https://newsletter.pragmaticengineer.com/feed", "schedule": "friday", "max": 2 },
-    { "name": "Irrational Exuberance", "beat": "career", "feed": "https://lethain.com/feeds.xml", "schedule": "friday", "max": 2 },
-    { "name": "charity.wtf", "beat": "career", "feed": "https://charity.wtf/feed/", "schedule": "friday", "max": 1 },
-    { "name": "Martin Fowler", "beat": "career", "feed": "https://martinfowler.com/feed.atom", "schedule": "friday", "max": 2 },
-    { "name": "LeadDev", "beat": "career", "feed": "https://leaddev.com/feed", "schedule": "friday", "max": 3 },
+    { "name": "The Pragmatic Engineer", "beat": "career", "feed": "https://newsletter.pragmaticengineer.com/feed", "schedule": "daily", "max": 2, "lookbackDays": 30 },
+    { "name": "Irrational Exuberance", "beat": "career", "feed": "https://lethain.com/feeds.xml", "schedule": "daily", "max": 2, "lookbackDays": 30 },
+    { "name": "charity.wtf", "beat": "career", "feed": "https://charity.wtf/feed/", "schedule": "daily", "max": 1, "lookbackDays": 30 },
+    { "name": "Martin Fowler", "beat": "career", "feed": "https://martinfowler.com/feed.atom", "schedule": "daily", "max": 2, "lookbackDays": 30 },
+    { "name": "LeadDev", "beat": "career", "feed": "https://leaddev.com/feed", "schedule": "daily", "max": 3, "lookbackDays": 30 },
+    { "name": "InfoQ Architecture", "beat": "career", "feed": "https://www.infoq.com/feed/architecture-design/", "schedule": "daily", "max": 2, "lookbackDays": 30 },
 
-    { "name": "The New York Times", "beat": "live-well", "feed": "https://rss.nytimes.com/services/xml/rss/nyt/Well.xml", "schedule": "daily", "max": 4 },
-    { "name": "Peter Attia", "beat": "live-well", "feed": "https://peterattiamd.com/feed/", "schedule": "daily", "max": 2 },
-    { "name": "Cal Newport", "beat": "live-well", "feed": "https://calnewport.com/feed/", "schedule": "daily", "max": 1 }
+    { "name": "The New York Times", "beat": "live-well", "feed": "https://rss.nytimes.com/services/xml/rss/nyt/Well.xml", "schedule": "daily", "max": 4, "lookbackDays": 30 },
+    { "name": "Peter Attia", "beat": "live-well", "feed": "https://peterattiamd.com/feed/", "schedule": "daily", "max": 2, "lookbackDays": 30 },
+    { "name": "Cal Newport", "beat": "live-well", "feed": "https://calnewport.com/feed/", "schedule": "daily", "max": 1, "lookbackDays": 30 }
   ]
 }

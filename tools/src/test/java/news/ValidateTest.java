@@ -32,6 +32,7 @@ class ValidateTest {
         Files.copy(Path.of("../schema/edition.schema.json"), root.resolve("schema/edition.schema.json"));
         Files.writeString(root.resolve("profile.json"),
                 "{\"tickers\":{\"focus\":[\"NVDA\",\"AVGO\",\"CRWD\",\"VST\",\"ANET\",\"NET\"],\"general\":[\"MP\"]}}");
+        Files.writeString(root.resolve("sources.json"), "{\"sources\":[{\"name\":\"The Wall Street Journal\"},{\"name\":\"The Record\"}]}");
         edition = (ObjectNode) JSON.readTree(resource("edition-valid.json"));
         brief = (ObjectNode) JSON.readTree(resource("brief-valid.json"));
         writeIndex("[\"" + DATE + "\"]");
@@ -179,6 +180,26 @@ class ValidateTest {
     @Test
     void allowsCompanyNamesAndOrdinaryUsesOfTheSameWords() throws IOException {
         firstStory().put("summary", "MARA Holdings widened its product portfolio; Berkshire cut its position in the stock.");
+        assertEquals(List.of(), check(null));
+    }
+
+    @Test
+    void acceptsAnEmptyLiveWellAndAPartialOne() throws IOException {
+        edition.putObject("liveWell");
+        assertEquals(List.of(), check(null));
+        ((ObjectNode) edition.path("liveWell")).putObject("eating").put("tip", "t").put("url", "https://example.com/e");
+        assertEquals(List.of(), check(null));
+    }
+
+    @Test
+    void rejectsSourceSpelledDifferentlyFromSourcesJson() throws IOException {
+        rejects("source \"the wall  street journal\" should be spelled \"The Wall Street Journal\"",
+                e -> firstStory().put("source", "the wall  street journal"));
+    }
+
+    @Test
+    void allowsSourceNamesThatMatchNothingInSourcesJson() throws IOException {
+        firstStory().put("source", "Reuters");
         assertEquals(List.of(), check(null));
     }
 

@@ -58,12 +58,21 @@ public final class Feeds {
         for (int i = 0; i < nodes.getLength(); i++) {
             Element e = (Element) nodes.item(i);
             String body = firstNonBlank(childText(e, "description"), childText(e, "summary"), childText(e, "content"));
+            String title = clean(childText(e, "title"), 300);
             out.add(new Item(
-                    clean(childText(e, "title"), 300),
+                    title,
                     link(e),
                     date(firstNonBlank(childText(e, "pubDate"), childText(e, "published"), childText(e, "updated"), childText(e, "dc:date"))),
-                    clean(body, EXCERPT_CHARS)));
+                    excerpt(clean(body, EXCERPT_CHARS), title)));
         }
+    }
+
+    /**
+     * Some feeds fill the description with boilerplate: Hacker News emits a "Comments" link, and some
+     * blogs repeat the title. Either would pass for content, so store nothing instead.
+     */
+    private static String excerpt(String cleaned, String title) {
+        return cleaned.equalsIgnoreCase("Comments") || cleaned.equals(title) ? "" : cleaned;
     }
 
     private static Document parseXml(String xml) throws IOException {

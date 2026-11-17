@@ -266,4 +266,98 @@ class GatherTest {
             assertEquals(51, brief.path("sourcesReached").asInt());
         }
     }
+
+    @Test
+    void keepsOnlyTheFirstCandidateForAUrlAcrossSources() throws IOException {
+        write("sources.json", """
+                {"sources":[
+                 {"name":"First","beat":"world","feed":"https://feeds.test/a","schedule":"daily","max":5},
+                 {"name":"Second","beat":"markets","feed":"https://feeds.test/b","schedule":"daily","max":5}]}""");
+        web.put("feeds.test/a", feed("Shared", "https://n.test/shared", "Mon, 16 Nov 2026 09:00:00 GMT"));
+        web.put("feeds.test/b", "<rss><channel>"
+                + "<item><title>Shared again</title><link>https://n.test/shared</link><pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate></item>"
+                + "<item><title>Only here</title><link>https://n.test/only</link><pubDate>Mon, 16 Nov 2026 08:00:00 GMT</pubDate></item>"
+                + "</channel></rss>");
+        JsonNode brief = build(MONDAY);
+        assertEquals(List.of("Shared", "Only here"), texts(brief.path("candidates"), "title"));
+        assertEquals(List.of("First", "Second"), texts(brief.path("candidates"), "source"));
+        assertEquals(2, brief.path("sourcesReached").asInt());
+    }
+
+    @Test
+    void lookbackDaysOverridesTheDefaultWindow() throws IOException {
+        write("sources.json", """
+                {"sources":[
+                 {"name":"Default","beat":"world","feed":"https://feeds.test/d","schedule":"daily","max":5},
+                 {"name":"Monthly","beat":"live-well","feed":"https://feeds.test/m","schedule":"daily","max":5,"lookbackDays":30}]}""");
+        String tenDaysOld = "Fri, 06 Nov 2026 09:00:00 GMT";
+        web.put("feeds.test/d", feed("Default window", "https://n.test/d", tenDaysOld));
+        web.put("feeds.test/m", feed("Thirty day window", "https://n.test/m", tenDaysOld));
+        assertEquals(List.of("Thirty day window"), texts(build(MONDAY).path("candidates"), "title"));
+    }
+
+    @Test
+    void rejectsANonPositiveOrNonIntegerLookbackNamingTheSource() throws IOException {
+        for (String bad : List.of("0", "-3", "1.5", "\"30\"")) {
+            write("sources.json", "{\"sources\":[{\"name\":\"Bad Source\",\"beat\":\"world\",\"feed\":\"https://feeds.test/daily\","
+                    + "\"schedule\":\"friday\",\"max\":5,\"lookbackDays\":" + bad + "}]}");
+            IOException e = assertThrows(IOException.class, () -> build(MONDAY)); // fails even though it is not Friday
+            assertTrue(e.getMessage().contains("Bad Source") && e.getMessage().contains("lookbackDays"), e.getMessage());
+        }
+    }
+
+    private static String news(String... titleUrlDateAndPublisher) {
+        StringBuilder rows = new StringBuilder();
+        for (int i = 0; i < titleUrlDateAndPublisher.length; i += 4) {
+            rows.append(i == 0 ? "" : ",").append("{\"title\":\"").append(titleUrlDateAndPublisher[i])
+                    .append("\",\"url\":\"").append(titleUrlDateAndPublisher[i + 1])
+                    .append("\",\"created\":\"").append(titleUrlDateAndPublisher[i + 2])
+                    .append("\",\"publisher\":\"").append(titleUrlDateAndPublisher[i + 3])
+                    .append("\",\"primarysymbol\":\"\",\"related_symbols\":[\"ccc|stocks\",\"aaa|stocks\"]}");
+        }
+        return "{\"data\":{\"rows\":[" + rows + "]}}";
+    }
+
+    @Test
+    void attachesRecentHeadlinesToEachMover() throws IOException {
+        web.put("articlebysymbol?q=CCC%7CSTOCKS", news(
+                "CCC falls on guidance", "/articles/ccc-falls", "Nov 16, 2026", "Barchart",
+                "CCC older note", "/articles/ccc-old", "Nov 13, 2026", "Fool",
+                "CCC too old", "/articles/ccc-ancient", "Nov 12, 2026", "Fool"));
+        web.put("articlebysymbol?q=AAA%7CSTOCKS", news("AAA jumps", "/articles/aaa", "Nov 14, 2026", "Fool"));
+        JsonNode news = build(MONDAY).path("moverNews");
+        assertEquals(List.of("CCC", "AAA"), texts(news, "ticker"));
+        JsonNode ccc = news.get(0).path("headlines");
+        assertEquals(List.of("CCC falls on guidance", "CCC older note"), texts(ccc, "title")); // 3-day window: Nov 13 on
+        assertEquals("https://www.nasdaq.com/articles/ccc-falls", ccc.get(0).path("url").asText());
+        assertEquals("2026-11-16", ccc.get(0).path("published").asText());
+        assertEquals("Barchart", ccc.get(0).path("publisher").asText());
+    }
+
+    @Test
+    void oneMoversFailedLookupBecomesAProblemNotAFailedBrief() throws IOException {
+        // CCC has no mocked news URL, so both of its lookups answer HTTP 404.
+        web.put("articlebysymbol?q=AAA%7CSTOCKS", news("AAA jumps", "/articles/aaa", "Nov 14, 2026", "Fool"));
+        JsonNode brief = build(MONDAY);
+        JsonNode news = brief.path("moverNews");
+        assertEquals(0, news.get(0).path("headlines").size());
+        assertEquals(1, news.get(1).path("headlines").size());
+        assertEquals(1, brief.path("problems").size());
+        String problem = brief.path("problems").get(0).asText();
+        assertTrue(problem.contains("CCC") && problem.contains("HTTP 404"), problem);
+    }
+
+    @Test
+    void triesEtfNewsWhenTheStockLookupFindsNothingAboutTheTicker() throws IOException {
+        // For an unknown symbol Nasdaq returns the day's general news; it must be ignored.
+        web.put("articlebysymbol?q=CCC%7CSTOCKS", "{\"data\":{\"rows\":[{\"title\":\"Market wrap\",\"url\":\"/articles/wrap\","
+                + "\"created\":\"Nov 16, 2026\",\"primarysymbol\":\"\",\"related_symbols\":[\"spy|etf\"]}]}}");
+        web.put("articlebysymbol?q=CCC%7CETF", news("CCC fund flows", "/articles/ccc-etf", "Nov 16, 2026", "BNK"));
+        web.put("articlebysymbol?q=AAA%7CSTOCKS", "{\"data\":{\"rows\":[]}}");
+        web.put("articlebysymbol?q=AAA%7CETF", "{\"data\":{\"rows\":[]}}");
+        JsonNode brief = build(MONDAY);
+        assertEquals(List.of("CCC fund flows"), texts(brief.path("moverNews").get(0).path("headlines"), "title"));
+        assertEquals(0, brief.path("moverNews").get(1).path("headlines").size()); // no news is not a failure
+        assertEquals(0, brief.path("problems").size());
+    }
 }

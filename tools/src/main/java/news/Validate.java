@@ -11,9 +11,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Locale;
+import java.util.Map;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -91,6 +94,7 @@ public final class Validate {
         checkArchive(problems, editions, edition, date);
         checkText(problems, edition);
         checkLinks(problems, edition, fetcher);
+        checkSourceSpelling(problems, root, edition);
         checkAgainstBrief(problems, root, edition, date);
         return problems;
     }
@@ -146,6 +150,34 @@ public final class Validate {
         if (words > MAX_WORDS) {
             problems.add("edition has " + words + " words; the limit is " + MAX_WORDS);
         }
+    }
+
+    /**
+     * The reader adds a "Read via library" link by exact source name, so "the wall street journal" for
+     * "The Wall Street Journal" would silently lose it. Only a match that differs in case or spacing is
+     * reported: a name that matches nothing in sources.json is allowed, since the item may not come from a feed.
+     */
+    private static void checkSourceSpelling(List<String> problems, Path root, JsonNode edition) throws IOException {
+        Set<String> names = new HashSet<>();
+        JsonNode sources = JSON.readTree(Files.readString(root.resolve("sources.json"))).path("sources");
+        sources.forEach(s -> names.add(s.path("name").asText()));
+        Map<String, String> byForm = new HashMap<>();
+        names.forEach(n -> byForm.put(normalize(n), n));
+
+        List<JsonNode> items = new ArrayList<>();
+        edition.path("frontPage").forEach(items::add);
+        edition.path("sections").forEach(section -> section.path("items").forEach(items::add));
+        for (JsonNode item : items) {
+            String source = item.path("source").asText();
+            String canonical = byForm.get(normalize(source));
+            if (canonical != null && !names.contains(source)) {
+                problems.add("source \"" + source + "\" should be spelled \"" + canonical + "\" as in sources.json");
+            }
+        }
+    }
+
+    private static String normalize(String name) {
+        return name.strip().replaceAll("\\s+", " ").toLowerCase(Locale.ROOT);
     }
 
     private static void collectStrings(JsonNode node, List<String> out) {

@@ -18,10 +18,12 @@ import java.time.format.TextStyle;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -39,6 +41,8 @@ public final class Gather {
     /** A focus ticker whose close moved at least this many percent is a mover. */
     static final BigDecimal MOVER_PCT = new BigDecimal("3.0");
     private static final ObjectMapper JSON = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
+    /** How far back mover headlines may reach. */
+    static final int MOVER_NEWS_DAYS = 3;
     private static final Duration DAILY_LOOKBACK = Duration.ofHours(36);
     private static final Duration WEEKLY_LOOKBACK = Duration.ofDays(8);
 
@@ -122,6 +126,7 @@ public final class Gather {
 
         ArrayNode priceNodes = JSON.createArrayNode();
         ArrayNode movers = JSON.createArrayNode();
+        ArrayNode moverNews = JSON.createArrayNode();
         prices.sort(Comparator.comparing((Market.Price p) -> p.changePct().abs()).reversed().thenComparing(Market.Price::ticker));
         for (Market.Price p : prices) {
             if (!p.date().equals(asOf)) {
@@ -132,6 +137,7 @@ public final class Gather {
             priceNodes.addObject().put("ticker", p.ticker()).put("tier", tier).put("close", p.close()).put("changePct", p.changePct());
             if (tier.equals("focus") && p.changePct().abs().compareTo(MOVER_PCT) >= 0) {
                 movers.addObject().put("ticker", p.ticker()).put("changePct", p.changePct());
+                addMoverNews(moverNews, problems, market, p.ticker(), date);
             }
         }
         if (asOf == null) {
@@ -139,6 +145,7 @@ public final class Gather {
         }
         brief.put("asOf", asOf == null ? "unavailable" : asOf.format(DateTimeFormatter.ofPattern("MMM d", Locale.US)) + " close");
         brief.set("movers", movers);
+        brief.set("moverNews", moverNews);
         brief.set("prices", priceNodes);
         brief.set("pricesMissing", missing);
 
@@ -169,6 +176,23 @@ public final class Gather {
         brief.set("reportedYesterday", reported);
     }
 
+    /** Recent headlines for one mover. A lookup that fails costs that ticker its headlines, not the brief. */
+    private static void addMoverNews(ArrayNode moverNews, ArrayNode problems, Market market, String ticker, LocalDate date) {
+        ObjectNode entry = moverNews.addObject().put("ticker", ticker);
+        ArrayNode headlines = entry.putArray("headlines");
+        try {
+            for (Market.Headline h : market.headlines(ticker, date.minusDays(MOVER_NEWS_DAYS))) {
+                ObjectNode node = headlines.addObject().put("title", h.title()).put("url", h.url()).put("published", h.published().toString());
+                if (!h.publisher().isEmpty()) {
+                    node.put("publisher", h.publisher());
+                }
+            }
+        } catch (IOException e) {
+            problems.add("Headlines for mover " + ticker + " unavailable (" + e.getMessage()
+                    + "). Do not guess a cause for " + ticker + "; it has no headline to link.");
+        }
+    }
+
     private static void addMacro(ObjectNode brief, Path root, LocalDate date) throws IOException {
         ArrayNode macro = brief.putArray("macro");
         JsonNode events = JSON.readTree(Files.readString(root.resolve("macro.json"))).path("events");
@@ -187,6 +211,19 @@ public final class Gather {
 
     // ---------- news candidates ----------
 
+    /** The source's own "lookbackDays" if it has one, else 36 hours for daily sources and 8 days for weekday ones. */
+    private static Duration lookback(JsonNode source, String schedule) throws IOException {
+        JsonNode days = source.path("lookbackDays");
+        if (days.isMissingNode()) {
+            return schedule.equals("daily") ? DAILY_LOOKBACK : WEEKLY_LOOKBACK;
+        }
+        if (!days.isIntegralNumber() || days.asInt() <= 0) {
+            throw new IOException("sources.json: \"" + source.path("name").asText()
+                    + "\" has lookbackDays " + days + "; it must be a positive integer");
+        }
+        return Duration.ofDays(days.asInt());
+    }
+
     private record Result(JsonNode source, List<Feeds.Item> items, String failure) {}
 
     private static void addCandidates(ObjectNode brief, JsonNode sources, String weekday, Instant now, Fetcher fetcher)
@@ -195,10 +232,12 @@ public final class Gather {
         try (ExecutorService pool = Executors.newFixedThreadPool(8)) {
             for (JsonNode source : sources.path("sources")) {
                 String schedule = source.path("schedule").asText();
+                // Checked before the schedule test so a bad entry fails today, not on its weekday.
+                Duration lookback = lookback(source, schedule);
                 if (!schedule.equals("daily") && !schedule.equals(weekday)) {
                     continue;
                 }
-                Instant since = now.minus(schedule.equals("daily") ? DAILY_LOOKBACK : WEEKLY_LOOKBACK);
+                Instant since = now.minus(lookback);
                 pending.add(pool.submit(() -> {
                     IOException failure = null;
                     for (int attempt = 0; attempt < 2; attempt++) { // feeds hiccup; one retry, then report
@@ -214,6 +253,7 @@ public final class Gather {
             }
             ArrayNode candidates = brief.putArray("candidates");
             ArrayNode failed = JSON.createArrayNode();
+            Set<String> seen = new HashSet<>();
             int reached = 0;
             for (Future<Result> future : pending) {
                 Result r = future.get();
@@ -224,6 +264,11 @@ public final class Gather {
                 }
                 reached++;
                 for (Feeds.Item item : r.items()) {
+                    // Several feeds carry the same story (a wire piece, two NYT sections). The first
+                    // source in sources.json wins, so the editor never sees one link twice.
+                    if (!seen.add(item.url())) {
+                        continue;
+                    }
                     candidates.addObject()
                             .put("beat", r.source().path("beat").asText())
                             .put("source", name)

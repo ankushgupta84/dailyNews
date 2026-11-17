@@ -171,12 +171,15 @@ function renderRail(edition) {
   learn.append(sourceLine({ source: "Go deeper", url: edition.learn.url }));
 
   const live = labelled("Live well", "live-well");
+  // Each tip is optional: a category with no sourced tip is simply absent.
   for (const [name, key] of [["Health", "health"], ["Eating", "eating"], ["Productivity", "productivity"]]) {
+    const entry = edition.liveWell[key];
+    if (!entry) continue;
     const tip = el("div", "tip");
-    tip.append(el("b", null, name), document.createTextNode(edition.liveWell[key].tip + " "),
-      link("Source ↗", edition.liveWell[key].url, "source"));
+    tip.append(el("b", null, name), document.createTextNode(entry.tip + " "), link("Source ↗", entry.url, "source"));
     live.append(tip);
   }
+  if (!live.querySelector(".tip")) live.append(el("p", "empty", "No sourced tips today."));
 
   const calendar = labelled("Calendar", "calendar");
   for (const c of edition.calendar) {

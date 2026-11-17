@@ -18,7 +18,7 @@ The split is deliberate: code produces every number, date and piece of state; th
 
 - `EDITOR.md` – the model's standing instructions.
 - `profile.json` – watchlist tiers, the weekly learning rotation, library links.
-- `sources.json` – feeds by beat. `schedule` is `daily` or a weekday; `max` caps items per run.
+- `sources.json` – feeds by beat. `schedule` is `daily` or a weekday; `max` caps items per run. Optional `lookbackDays` (a positive integer) replaces the default window of 36 hours for `daily` sources and 8 days for weekday ones; a bad value stops the gather and names the source. Items with the same URL appear once, under the first source listed.
 - `macro.json` – Fed and BLS dates, maintained by hand from the official schedules.
 - `schema/edition.schema.json` – the shape of an edition.
 - `site/` – the reader: plain HTML, CSS and JavaScript, no build step.
@@ -44,6 +44,7 @@ sh tools/assemble.sh && python3 -m http.server 8765 --bind 127.0.0.1 --directory
 ## What Validate enforces
 
 - The edition matches the schema; the date matches the file name and weekday; the index is complete, sorted and free of duplicates.
+- Every `source` on a front-page story or section item that matches a `sources.json` name ignoring case and spacing is spelled exactly like it, because the reader finds the "Read via library" link by exact name. Other names pass.
 - No second-person ownership language ("your portfolio", "you own").
 - Movers, their percentages, earnings dates, macro events, the as-of date and the learning track all equal the brief.
 - No story appears twice; tagged tickers are on the watchlist; the edition is under 3,200 words.
@@ -52,6 +53,8 @@ sh tools/assemble.sh && python3 -m http.server 8765 --bind 127.0.0.1 --directory
 ## Caveats
 
 - **Summaries are machine-written.** No check can confirm that a summary states its article correctly. Each item links to its source; read the original before relying on it.
+- **Mover headlines** come from the same Nasdaq data API (up to 4 from the last 3 days, each naming the ticker) and appear in the brief as `moverNews`, so the editor can state why a stock moved. They are dated by day only. A failed lookup gives that ticker an empty list and a `problems` entry; it never fails the brief.
+- **Live Well tips are optional.** The editor writes a tip only when a candidate supports it. The page shows the tips present, or "No sourced tips today." when there are none.
 - **Prices are the prior close**, from Nasdaq's public data API, with the percentage change computed from the two latest closes. Tickers Nasdaq does not list (some over-the-counter names) have no price and are reported in the brief's `pricesMissing`.
 - **The data API and many feeds are unofficial or unguaranteed.** Any of them can change or start refusing automated requests. A failed feed is listed in the brief and in the edition's footer; a failed price or earnings lookup becomes a `problems` entry and the edition omits that data instead of guessing.
 - **Link checks are lenient on purpose.** Many news sites answer 403 to programs, so only "not found", "gone" and unreachable hosts block publication. A link behind a paywall or bot wall still passes.
