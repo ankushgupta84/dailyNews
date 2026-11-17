@@ -210,10 +210,12 @@ public final class Validate {
         collectUrls(edition, urls);
         for (String url : urls) {
             int status = fetcher.status(url);
-            // Many news sites answer 401/403/429 to programs yet work in a browser, so only a
-            // definite "gone" or an unreachable host counts as a dead link.
-            if (status == 404 || status == 410 || status == -1) {
-                problems.add("dead link (" + (status == -1 ? "unreachable" : "HTTP " + status) + "): " + url);
+            // Many news sites answer 401/403/429 to programs, or break off the exchange, yet work in a
+            // browser, so only a definite "gone" or an unreachable host counts as a dead link.
+            if (status == 404 || status == 410 || status == Fetcher.UNREACHABLE) {
+                problems.add("dead link (" + (status == Fetcher.UNREACHABLE ? "unreachable" : "HTTP " + status) + "): " + url);
+            } else if (status == Fetcher.REFUSED) {
+                System.out.println("  note: refused a program (redirect loop or reset) for " + url);
             } else if (status != 200) {
                 System.out.println("  note: HTTP " + status + " for " + url);
             }

@@ -173,4 +173,15 @@ class FeedsTest {
         assertFalse(Fetcher.Http.text("﻿x".getBytes(StandardCharsets.UTF_8)).startsWith("﻿"));
         assertEquals("", Fetcher.Http.text(new byte[0]));
     }
+
+    @Test
+    void fetcherCountsOnlyConnectFailuresAsUnreachable() {
+        assertEquals(Fetcher.UNREACHABLE, Fetcher.Http.statusOf(new java.net.ConnectException()));
+        assertEquals(Fetcher.UNREACHABLE, Fetcher.Http.statusOf(new java.net.UnknownHostException()));
+        assertEquals(Fetcher.UNREACHABLE, Fetcher.Http.statusOf(new java.net.http.HttpConnectTimeoutException("t")));
+        // What histalk2.com (Sucuri redirect loop) and washingtonpost.com (HTTP/2 reset) threw on 2026-11-17.
+        assertEquals(Fetcher.REFUSED, Fetcher.Http.statusOf(new IOException("Invalid redirection")));
+        assertEquals(Fetcher.REFUSED, Fetcher.Http.statusOf(new IOException("Received RST_STREAM: Internal error")));
+        assertEquals(Fetcher.REFUSED, Fetcher.Http.statusOf(new java.net.http.HttpTimeoutException("read")));
+    }
 }

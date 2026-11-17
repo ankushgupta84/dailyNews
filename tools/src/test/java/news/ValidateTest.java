@@ -541,6 +541,7 @@ class ValidateTest {
                 if (url.endsWith("/sample-2")) return -1;
                 if (url.endsWith("/sample-3")) return 403;
                 if (url.endsWith("/sample-4")) return 410;
+                if (url.endsWith("/sample-5")) return Fetcher.REFUSED;
                 return 200;
             }
         };

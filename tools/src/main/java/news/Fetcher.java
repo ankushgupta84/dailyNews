@@ -13,7 +13,12 @@ public interface Fetcher {
     /** Returns the body of a 200 response; throws IOException for anything else. */
     String get(String url) throws IOException;
 
-    /** Status of a URL, for link checking: an HTTP status code, or -1 if the host cannot be reached. */
+    /** A host that does not resolve, refuses the connection, or never answers it. */
+    int UNREACHABLE = -1;
+    /** A host that answered but broke off the exchange (redirect loop, reset stream): a bot block, not a dead page. */
+    int REFUSED = -2;
+
+    /** Status of a URL, for link checking: an HTTP status code, {@link #UNREACHABLE} or {@link #REFUSED}. */
     int status(String url);
 
     static Fetcher http() {
@@ -75,8 +80,19 @@ public interface Fetcher {
             try {
                 return send(url).statusCode();
             } catch (IOException e) {
-                return -1;
+                return statusOf(e);
             }
+        }
+
+        /**
+         * HttpClient throws ConnectException for an unknown host or a refused port, and a connect
+         * timeout when nothing answers. Any other IOException comes from a host that did answer.
+         */
+        static int statusOf(IOException e) {
+            return e instanceof java.net.ConnectException
+                    || e instanceof java.net.UnknownHostException
+                    || e instanceof java.net.http.HttpConnectTimeoutException
+                    ? UNREACHABLE : REFUSED;
         }
     }
 }
