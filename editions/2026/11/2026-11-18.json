@@ -1,0 +1,474 @@
+{
+  "date": "2026-11-18",
+  "kind": "weekday",
+  "generatedAt": "2026-11-18T22:30:00Z",
+  "frontPage": [
+    {
+      "headline": "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC",
+      "summary": "Anthropic priced its initial public offering at $83 per share, above the expected range, a source told CNBC. The shares are set to begin trading on the Nasdaq under the ticker ANT on Thursday.",
+      "whyItMatters": "A priced offering sets a public benchmark for what investors will pay for a frontier-model lab, which feeds into how cloud and chip suppliers are judged.",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "source": "CNBC"
+    },
+    {
+      "headline": "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO",
+      "summary": "Nvidia reported faster growth, and the Wall Street Journal says Jensen Huang will not return as chief executive. Colette Kress, the interim CEO, fielded questions on the company's future without its longtime leader in her first earnings call.",
+      "whyItMatters": "Strong demand alongside a leadership vacuum leaves the main supplier of AI accelerators with a new uncertainty about long-term roadmap and customer deals.",
+      "url": "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=rss_Technology",
+      "source": "The Wall Street Journal",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Vance scraps schedule to address tech outages as Trump admin insists incidents aren't linked",
+      "summary": "Vice President Vance changed his schedule to address a run of technology outages. CNBC lists a nationwide ground stop, a Microsoft Outlook outage and a reported blackout of the National Security Agency's communications network, while the administration says the incidents are not linked.",
+      "whyItMatters": "Several unrelated failures in a week add scrutiny to how critical systems are patched and operated, a point that tends to turn into policy.",
+      "url": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html",
+      "source": "CNBC",
+      "tags": [
+        "MSFT"
+      ]
+    },
+    {
+      "headline": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+      "summary": "BleepingComputer reports that attackers compromised Microsoft's official Agent Framework package on PyPI and published two malicious versions. The versions were built to steal cloud credentials and other sensitive data from developers' systems.",
+      "whyItMatters": "An agent framework runs with the credentials of the environment it is installed in, so a poisoned release reaches cloud accounts directly.",
+      "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+      "source": "BleepingComputer",
+      "tags": [
+        "MSFT"
+      ]
+    },
+    {
+      "headline": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "summary": "A critical OpenJDK flaw dubbed Java4Shell can let unauthenticated attackers run code remotely on popular enterprise applications. BleepingComputer names Jenkins, Atlassian Jira, Confluence and Keycloak among those affected.",
+      "whyItMatters": "Build, identity and collaboration servers sit close to secrets, so a pre-authentication code-execution bug in their shared runtime justifies a quick patch inventory.",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "source": "BleepingComputer"
+    },
+    {
+      "headline": "Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+      "summary": "The Wall Street Journal reports that Palo Alto Networks will buy Applied Compute for $4.5 billion. The startup was founded last year by former OpenAI researchers and specialises in customising open-weight AI models.",
+      "whyItMatters": "The deal suggests a large security vendor wants model-customisation talent in-house rather than only wrapping other labs' models.",
+      "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=rss_Technology",
+      "source": "The Wall Street Journal",
+      "tags": [
+        "PANW"
+      ]
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 18 close",
+    "movers": [
+      {
+        "ticker": "PANW",
+        "changePct": 9.9,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/palo-alto-networks-q1-27-earnings-conference-call-4-30-pm-et"
+      },
+      {
+        "ticker": "NET",
+        "changePct": 5.7,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/can-rising-cyber-threats-accelerate-cloudflares-security-growth"
+      },
+      {
+        "ticker": "IONQ",
+        "changePct": -5.5,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/ionq-stock-plunged-48-six-months-it-bargain-buy"
+      },
+      {
+        "ticker": "ANET",
+        "changePct": 4.1,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/can-arista-strengthen-ai-networking-its-new-etherlink-offerings"
+      },
+      {
+        "ticker": "AMZN",
+        "changePct": 3.8,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/amazon-and-alphabet-will-own-over-28-anthropic-after-its-ipo-heres-what-means-their-stocks"
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "PANW",
+        "date": "2026-11-18",
+        "note": "After the close."
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": []
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "U.S. Stocks Mixed, Nvidia Falls, Ahead of Anthropic IPO",
+          "summary": "U.S. stocks ended mixed ahead of Anthropic's offering, per the Wall Street Journal. Nvidia's effort to move past the Huang scandal did not steady its shares or ease fears about its \"neocloud\" customers.",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-nvidia-falls-ahead-of-anthropic-ipo-c7de4692?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+          "summary": "The Federal Reserve released minutes of its October meeting, at which it held its benchmark rate in a range of 3.75%-4%. CNBC's headline says officials expect more rate hikes and worry about the effect of AI on inflation.",
+          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Copper at Lowest Since April Amid AI Market Turmoil, Chinese Demand Concerns",
+          "summary": "Three-month copper futures on the London Metal Exchange fell 4.6% to $12,471.00 a metric ton, the lowest settlement since April 7, the Wall Street Journal reports. The headline ties the drop to turmoil in AI-related markets and Chinese demand concerns.",
+          "url": "https://www.wsj.com/finance/commodities-futures/copper-at-lowest-since-april-amid-ai-market-turmoil-chinese-demand-concerns-4325361e?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Tencent Profit Flatlines Amid Surging AI Investments, Revenue Growth Slows",
+          "summary": "Tencent's profit was flat in the third quarter, according to the Wall Street Journal, as its capital expenditure rose more than sixfold from a year earlier. Revenue growth slowed.",
+          "whyItMatters": "Capital spending that outruns profit growth is the same tension investors are weighing at U.S. AI spenders.",
+          "url": "https://www.wsj.com/tech/ai/tencent-profit-flatlines-amid-surging-ai-investments-revenue-growth-slows-0c1cfc57?mod=rss_Technology",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "AI Boom Seen as Supporting Dollar in Coming Months",
+          "summary": "The dollar strengthened, and Deutsche Bank analysts said massive AI investment is supporting it, according to the Wall Street Journal.",
+          "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-weighed-by-risk-off-sentiment-d2acd03c?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+          "summary": "OpenAI introduced GPT-6.2 Astra, a frontier model, and GPT-6.2 Sol, a more efficient one, both available in its API. Simon Willison notes Astra costs 80% of the price of the previous Astra, at $8/MTok input and $40/MTok output.",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+          "source": "Simon Willison"
+        },
+        {
+          "headline": "Advancing chip design with OpenAI models",
+          "summary": "OpenAI says its models optimised circuits used in its Jalapeño silicon and improved RISC-V core designs. It presents this as progress in AI-assisted chip design with GPT-6 Astra.",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+          "source": "OpenAI News"
+        },
+        {
+          "headline": "External sandboxes for coding agents",
+          "summary": "Simon Willison describes an external sandbox pattern, built with Prime Radiant, where code an agent executes runs outside the machine. The aim is to make trying local models safer when a mistake or prompt injection could cause damaging actions.",
+          "whyItMatters": "Moving execution out of the developer's machine limits the damage a hijacked agent can do.",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+          "source": "Simon Willison"
+        },
+        {
+          "headline": "Data center slowdown would raise risks for utility investments",
+          "summary": "An estimated 191 GW of planned data center capacity faces new risk after the midterm elections, with exposure concentrated in Texas, Ohio and Georgia, according to a report from analytics firm Orennia cited by Utility Dive.",
+          "url": "https://www.utilitydive.com/news/data-center-slowdown-raises-risks-for-utility-investments/874924/",
+          "source": "Utility Dive"
+        },
+        {
+          "headline": "Cleanview: US data center construction slows in Q3 2026 following record-breaking Q2",
+          "summary": "Cleanview says U.S. data center construction slowed in the third quarter of 2026 after a record second quarter. DCD notes analysis from October implies the fourth quarter will be another record.",
+          "url": "https://www.datacenterdynamics.com/en/news/cleanview-us-data-center-construction-slows-in-q3-2026-following-record-breaking-q2/",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "headline": "Argentum AI and Kyndryl ink $630m AI infrastructure deal",
+          "summary": "Argentum AI and Kyndryl signed a $630m AI infrastructure deal. It will deploy B300s at Kyndryl's data center in Boulder, Colorado.",
+          "url": "https://www.datacenterdynamics.com/en/news/argentum-ai-and-kyndryl-ink-630m-ai-infrastructure-deal/",
+          "source": "Data Center Dynamics"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+          "summary": "Krebs reports at least 178 top websites served malware exploits over 24 hours through a vulnerability involving Optimizely, a firm that helps sites test features. Data-stealing software was injected into sites including the BBC, CNN, Equifax, Ledger and Zoom.",
+          "whyItMatters": "Third-party scripts run with a site's full trust, so strict content-security rules matter more than vendor assurances.",
+          "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+          "source": "Krebs on Security"
+        },
+        {
+          "headline": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+          "summary": "BleepingComputer reports that cloud credentials left in public Docker Hub images are being extracted and exploited within as little as eight seconds of publication.",
+          "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Apache warns of Roller RCE vulnerability exploited in attacks",
+          "summary": "Apache has released updates for a critical Roller flaw that attackers are exploiting to run code on vulnerable servers, BleepingComputer reports.",
+          "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+          "summary": "The Record reports that Google research shows Russian state-backed hackers using information stolen from cloud accounts to impersonate trusted contacts. The messages target people in the victims' professional networks.",
+          "whyItMatters": "Stolen cloud data becomes the raw material for convincing follow-on phishing inside partner organisations.",
+          "url": "https://therecord.media/russia-cyber-espionage-google",
+          "source": "The Record"
+        },
+        {
+          "headline": "Formal Verification of the Signal Protocol Using AI",
+          "summary": "Bruce Schneier highlights work in which Google DeepMind researchers used agentic AI to formally verify several of the Signal protocol's key cryptographic guarantees. The proof-of-concept took four weeks.",
+          "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+          "source": "Schneier on Security"
+        },
+        {
+          "headline": "Lawmakers call on White House to develop defensive AI cyber systems",
+          "summary": "A bipartisan pair of senators urged the White House to launch a national effort against AI-enabled cyber threats, The Record reports, citing recent security incidents involving AI.",
+          "url": "https://therecord.media/ai-cyber-white-house",
+          "source": "The Record"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+          "summary": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, InfoQ reports. Daily shuffle fetch failures fell from approximately 750 to 20, and compute costs fell by 10%.",
+          "url": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+          "summary": "Yelp moved its Cassandra fleet to Amazon EKS by re-pointing existing EBS volumes at new pods rather than streaming data between nodes, InfoQ reports.",
+          "whyItMatters": "Reattaching volumes avoids the long rebalancing that usually makes stateful migrations risky.",
+          "url": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+          "summary": "AWS detailed PrivateLink tunnel endpoints, which give a consumer VPC access to a whole network segment in another account. Consumer-initiated connections only, traffic wrapped in GENEVE, and access logs cannot attribute traffic to a workload behind the endpoint.",
+          "url": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Deterministic Simulation Testing",
+          "summary": "Unmesh Joshi describes deterministic simulation testing, which replaces real clocks, networks and storage with simulated components driven by a single-threaded loop. The approach lets teams simulate hard failures and routine slowdowns repeatably.",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "How Shopify Orchestrates AI-Powered Mobile App Development without Overloading Developers' Machines",
+          "summary": "Shopify built Remote Dev, a remote mobile development environment where AI agents build, test and maintain iOS and Android apps in parallel without exhausting developers' machines, InfoQ reports.",
+          "url": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "Morning Headlines 11/18/26",
+          "summary": "HIStalk's morning roundup reports that the HHS Office for Civil Rights published the final HIPAA Privacy Rule, which is meant to give patients faster access to their medical records.",
+          "url": "https://histalk2.com/2026/11/17/morning-headlines-11-18-26/",
+          "source": "HIStalk"
+        },
+        {
+          "headline": "Heidi Overton’s FDA nomination pulled by White House",
+          "summary": "The White House pulled Heidi Overton's nomination to lead the FDA hours before the Senate was scheduled to vote on her confirmation, Fierce Healthcare reports.",
+          "url": "https://www.fiercehealthcare.com/pharma/overtons-fda-nomination-has-been-pulled-white-house",
+          "source": "Fierce Healthcare"
+        },
+        {
+          "headline": "STAT+: The emerging winners and losers in the AI scribe market",
+          "summary": "STAT's AI Prognosis newsletter looks at how the AI scribe market is shaking out, with news from the HLTH conference.",
+          "url": "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/?utm_campaign=rss",
+          "source": "STAT"
+        },
+        {
+          "headline": "Medicare Shared Savings Program saved $2.5B last year: CMS",
+          "summary": "CMS data show the Medicare Shared Savings Program reached its highest savings in history, Fierce Healthcare reports, at $2.5B last year.",
+          "url": "https://www.fiercehealthcare.com/regulatory/medicare-shared-savings-program-saved-25b-last-year-cms",
+          "source": "Fierce Healthcare"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "Microsoft jabs at OpenAI and Anthropic, touting cheaper, customizable AI models of its own",
+          "summary": "Microsoft pitched Copilot as cheaper than ChatGPT and Claude at its Ignite conference. Its chart put monthly business cost per user at $30 for Copilot, $81 for ChatGPT and $205 for Claude, GeekWire reports; Microsoft invests in both OpenAI and Anthropic.",
+          "url": "https://www.geekwire.com/2026/microsoft-jabs-at-openai-and-anthropic-touting-cheaper-customizable-ai-models-of-its-own/",
+          "source": "GeekWire",
+          "tags": [
+            "MSFT"
+          ]
+        },
+        {
+          "headline": "‘Absurd ambition’: Pulumi expands into software delivery with AI agents that ship and fix code",
+          "summary": "Pulumi launched Pulumi Delivery and Pulumi Agents, which let AI agents release software and fix cloud infrastructure, with teams deciding when people must sign off. The company has about 100 employees, down from 130 last year.",
+          "url": "https://www.geekwire.com/2026/absurd-ambition-pulumi-expands-into-software-delivery-with-ai-agents-that-ship-and-fix-code/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "‘Do not search Amazon’: Meta’s Muse now shops elsewhere by default",
+          "summary": "Meta's Muse AI agent now leaves Amazon out of shopping searches unless asked, according to its instructions. Amazon began blocking Muse from its store in September.",
+          "url": "https://www.geekwire.com/2026/do-not-search-amazon-metas-muse-now-shops-elsewhere-by-default/",
+          "source": "GeekWire",
+          "tags": [
+            "META",
+            "AMZN"
+          ]
+        },
+        {
+          "headline": "Latest findings point to fuel supply, not Blue Origin’s engines, in loss of Amazon Leo satellites",
+          "summary": "United Launch Alliance says preliminary findings show Vulcan's two BE-4 engines did not get enough fuel from the rocket during Sunday's failed launch, and that engine performance was not the problem. Blue Origin's New Glenn uses the same engines.",
+          "url": "https://www.geekwire.com/2026/latest-findings-point-to-fuel-supply-not-blue-origins-engines-in-loss-of-amazon-leo-satellites/",
+          "source": "GeekWire",
+          "tags": [
+            "AMZN"
+          ]
+        },
+        {
+          "headline": "Battery startup Sila lands potential $1B Panasonic deal, plans Central Wash. expansion adding 500 jobs",
+          "summary": "Sila announced a long-term deal to supply Panasonic with silicon-carbon anode materials, potentially worth more than $1 billion. It will require expanding the Moses Lake, Wash., plant.",
+          "url": "https://www.geekwire.com/2026/battery-startup-sila-lands-potential-1b-panasonic-deal-plans-central-wash-expansion-adding-500-jobs/",
+          "source": "GeekWire"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+          "summary": "Trump shook hands with Putin and Xi in China ahead of talks. BBC reports the three leaders will meet together for the first time on Thursday.",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        },
+        {
+          "headline": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+          "summary": "New U.S. rules require data centers in Southeast Asia to seek U.S. approval to buy advanced AI chips, CNBC reports. That threatens to slow a build-out fueled heavily by Chinese demand.",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait",
+          "summary": "The Wall Street Journal reports Iran attacked Kuwait and Bahrain after setting a natural gas tanker ablaze in the Strait of Hormuz, while a quiet campaign of U.S. strikes continues.",
+          "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "summary": "The Israeli military launched a rare ground operation beyond the Yellow Line in Gaza, saying it is dismantling a \"terror tunnel\". Hamas calls it a flagrant ceasefire violation, BBC reports.",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        },
+        {
+          "headline": "New video shows explosions moments before part of Crimea Bridge collapses",
+          "summary": "BBC Verify analysed footage showing explosions moments before part of the Crimea Bridge collapsed.",
+          "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        },
+        {
+          "headline": "Hakeem Jeffries wins big in speaker nomination vote",
+          "summary": "House Democrats nominated Hakeem Jeffries for speaker by a 251-11 vote on Wednesday morning, Semafor reports.",
+          "url": "https://www.semafor.com/article/11/18/2026/hakeem-jeffries-wins-big-in-speaker-nomination-vote",
+          "source": "Semafor"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "India imposes 162.5% duty and tax on bulk Scotch imports amid UK trade pact dispute",
+          "summary": "More than 80 containers belonging to Pernod Ricard, Diageo and Bacardi remain stuck at Indian ports as India imposes a 162.5% duty and tax on bulk Scotch imports, The Hindu reports. The dispute is over customs classification under the UK trade pact.",
+          "url": "https://www.thehindu.com/business/india-imposes-1625-duty-and-tax-on-bulk-scotch-imports-amid-uk-trade-pact-dispute/article71717239.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "India’s Oct. crude import bill soars 87.5% to $19.5-bn amid West Asia tensions, volumes up 11%",
+          "summary": "India's October crude import bill rose 87.5% to $19.5-bn amid West Asia tensions, with volumes up 11%, The Hindu reports.",
+          "url": "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "ACME seals $3.6-billion deal for Odisha green ammonia project",
+          "summary": "ACME sealed a $3.6-billion deal for a green ammonia project in Odisha, The Hindu reports. The facility has an annual capacity of 760,000 tonnes and is expected to be commissioned by 2029.",
+          "url": "https://www.thehindu.com/business/acme-seals-36-billion-deal-for-odisha-green-ammonia-project/article71717139.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Bombay HC sets aside ICICI Bank Board of Directors’ sanction order on Chanda Kochhar",
+          "summary": "The Bombay High Court set aside ICICI Bank's board sanction order on Chanda Kochhar, holding that the Reserve Bank of India is the authority to grant the permission under the Banking Regulation Act, The Hindu reports.",
+          "url": "https://www.thehindu.com/business/Industry/bombay-high-court-quashes-icici-banks-nod-to-prosecute-ex-ceo-chanda-kochhar-in-loan-fraud-case/article71715652.ece",
+          "source": "The Hindu"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "Software engineering after code becomes cheap with Satya Nadella",
+          "summary": "The Pragmatic Engineer interviews Microsoft CEO Satya Nadella on AI's impact on software engineering, code verification and engineers' careers.",
+          "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
+          "source": "The Pragmatic Engineer"
+        },
+        {
+          "headline": "Self-reinforcing quality / adopting verification pattern",
+          "summary": "Will Larson describes Imprint Engineering's move to a verification loop in its development process, a pattern he says is increasingly common.",
+          "url": "https://lethain.com/adopting-verification-pattern/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "Tests as data: ensuring AI-generated code does what we want",
+          "summary": "Matteo Vaccari argues that when AI writes the code, customer tests rather than developer tests become the main contract between humans and AI, and that putting that contract in test data makes it easier to maintain.",
+          "url": "https://martinfowler.com/articles/tests-as-data.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "Inference engineering for software engineers",
+          "summary": "The Pragmatic Engineer covers when to move off frontier labs' APIs, including model and provider choice, caching, dedicated GPUs and KV cache concerns.",
+          "url": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+          "source": "The Pragmatic Engineer"
+        },
+        {
+          "headline": "Microsoft’s outage started with a fix",
+          "summary": "LeadDev looks at Microsoft's outage, which it says started with a fix, and the bug testing never caught.",
+          "url": "https://leaddev.com/technical-direction/microsofts-outage-started-with-a-fix?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "AI and agents",
+    "format": "explainer",
+    "title": "Where an AI coding agent's reach should end",
+    "body": "Coding agents run commands on a developer's machine, so the useful question is not whether the agent can be trusted but what it can reach when it is wrong, confused or manipulated. OpenAI's write-up on the Codex sandbox, which describes how Codex runs commands while enforcing filesystem and network limits the user controls across macOS, Linux and Windows, is a good prompt to think about that boundary. The page itself could not be opened for this edition, so what follows draws on its published summary and on general design reasoning, not on its details.\n\nStart with the two limits the summary names. A filesystem limit decides which directories a command may read and write. Scoping writes to the project directory means a bad command cannot rewrite shell profiles, SSH configuration or other repositories. A network limit decides where a command may connect. Cutting outbound access by default closes the easiest route for a prompt-injected agent to send secrets away, at the cost of blocking package installs unless they are allowed deliberately.\n\nThe second idea is that enforcement belongs below the agent. A rule the model is asked to follow is a suggestion; a restriction applied by the operating system to the process that runs the command holds even if the model is fooled. That is why a cross-platform sandbox has to use each system's own mechanisms rather than one shared check, and why behaviour can differ between macOS, Linux and Windows in ways worth testing.\n\nThe third idea is that the user, not the agent, sets the limits. Approval prompts become the escape hatch: when a command needs more access, a person decides. The weakness is fatigue. If every other command asks for approval, people approve without reading, so a good policy keeps the default boundary wide enough for normal work and narrow enough that exceptions are rare and meaningful.\n\nFor design work, treat an agent like any untrusted workload. Give it the least filesystem scope that finishes the task, deny network by default and list the hosts it needs, keep credentials out of its environment, and log what it ran. Simon Willison's external sandbox pattern, covered in today's AI section, takes the same logic further by running the code off the machine entirely.",
+    "url": "https://openai.com/index/inside-the-codex-sandbox"
+  },
+  "liveWell": {
+    "productivity": {
+      "tip": "When you feel spread too thin, cut the number of things you say yes to so the ones you keep get real attention, rather than giving everything a thin layer of it.",
+      "url": "https://zenhabits.net/less-more/"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-18",
+      "note": "Palo Alto Networks reports earnings after the close."
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 59,
+    "fetchesFailed": [
+      "Import AI",
+      "The Seattle Times",
+      "The Indian Express",
+      "NutritionFacts.org",
+      "OpenAI"
+    ],
+    "sectionsShort": [],
+    "fullReads": 0
+  }
+}
