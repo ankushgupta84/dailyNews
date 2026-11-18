@@ -12,6 +12,8 @@ A personal daily newspaper. A program gathers the raw material, a language model
 
 Steps 1 and 2 are each scheduled at two UTC hours so the local time holds across daylight saving. The earlier or later run stops by itself: Gather writes nothing before the 9:30 a.m. New York open or when the day's brief exists.
 
+GitHub's cron is best effort and has started Gather hours late, so step 2 does not rely on it. When the editor finds no brief after 9:35 a.m. New York, it dispatches `gather.yml` with `scheduled: true` through the GitHub API and waits up to 15 minutes for the brief. The cron runs remain as a free head start.
+
 If step 3 fails, nothing deploys and yesterday's page stays up. GitHub emails the failure.
 
 The split is deliberate: code produces every number, date and piece of state; the model only chooses stories and writes about them.
@@ -68,7 +70,7 @@ sh tools/assemble.sh && python3 -m http.server 8765 --bind 127.0.0.1 --directory
 - **Prices are the official close of the latest session**, from Nasdaq's quote endpoint, which reports the close and its percentage change as soon as the market shuts. If the quote has no close, the price comes from the history endpoint, with the change computed from the two latest closes. The brief's `asOfDate` names the session. Tickers Nasdaq does not list (some over-the-counter names) have no price and are reported in the brief's `pricesMissing`.
 - **The data API and many feeds are unofficial or unguaranteed.** Any of them can change or start refusing automated requests. A failed feed is listed in the brief and in the edition's footer; a failed price or earnings lookup becomes a `problems` entry and the edition omits that data instead of guessing.
 - **Link checks are lenient on purpose.** Many news sites answer 403 to programs, so only "not found", "gone" and unreachable hosts block publication. A link behind a paywall or bot wall still passes.
-- **The schedule is in UTC.** Both jobs run at two UTC hours and the surplus run exits, so local times hold across daylight saving. A manual run of `gather.yml` does not pass `--scheduled` and always builds (unless the edition exists).
+- **The schedule is in UTC.** Both jobs run at two UTC hours and the surplus run exits, so local times hold across daylight saving. A manual run of `gather.yml` passes `--scheduled` only when its `scheduled` input is true; otherwise it always builds (unless the edition exists).
 - **Paywalled outlets** contribute headlines and feed excerpts only. "Read via library" links go to a public library's sign-in page and need a library card.
 - **Everything here is public,** including the watchlist. It deliberately records interests only.
 - **`macro.json` expires.** It lists dates through June 2027 and must be extended by hand.

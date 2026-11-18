@@ -10,6 +10,11 @@ on:
     - cron: "35 13 * * *" # 9:35 a.m. New York in summer; 8:35 in winter, where Gather stops
     - cron: "35 14 * * *" # 9:35 a.m. New York in winter; 10:35 in summer, where the brief exists and Gather stops
   workflow_dispatch:
+    inputs:
+      scheduled:
+        description: "Apply the scheduled rules: stop before the market opens or when a brief exists. The editor routine sets this."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,8 +35,9 @@ jobs:
           java-version: "21"
           cache: maven
       - name: Build the brief
-        # --scheduled only for the cron runs: a manual run always builds (unless the edition exists).
-        run: mvn -q -f tools/pom.xml -DskipTests compile exec:java -Dexec.mainClass=news.Gather -Dexec.args="--root . ${{ github.event_name == 'schedule' && '--scheduled' || '' }}"
+        # --scheduled for the cron runs and for dispatches with scheduled=true (the editor routine's).
+        # A plain manual run always builds (unless the edition exists).
+        run: mvn -q -f tools/pom.xml -DskipTests compile exec:java -Dexec.mainClass=news.Gather -Dexec.args="--root . ${{ (github.event_name == 'schedule' || inputs.scheduled) && '--scheduled' || '' }}"
       - name: Commit the brief
         run: |
           git config user.name "github-actions[bot]"
