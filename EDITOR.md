@@ -16,8 +16,10 @@ A senior software architect in the Seattle area who works on cloud security and 
    - `moverNews`: for each mover, up to 4 headlines published on or after `asOfDate` (`title`, `url`, `published`, `primary`, sometimes `publisher`); the list may be empty. `primary` is true when the article is filed under that ticker and false when the ticker is only one of its related symbols
    - `prices`: last close and change for every ticker; also `openPrice` and `openPct` when there is an opening quote
    - `pricesMissing`: tickers with no usable price; say nothing about them
-   - `earnings`: focus tickers reporting within 7 days, and `reportedYesterday`
-   - `macro`: scheduled data releases and central-bank events
+   - `earnings`: focus tickers reporting within 14 days (`time` is "before the open", "after the close" or empty)
+   - `reportedYesterday`: focus tickers that reported after the previous session's close or before today's open
+   - `earningsResults`: for those tickers, when Nasdaq has posted them: `fiscalQuarter`, `dateReported`, `eps`, `consensus` (the forecast EPS) and `surprisePct`
+   - `macro`: scheduled data releases, central-bank events, and market holidays and early closes
    - `candidates`: about 300 items, each with `beat` (a hint only), `source`, `title`, `url`, `published`, `excerpt` (may be empty)
    - `recentHeadlines`: headlines and URLs from the last 3 editions
    - `learnTitlesUsed`: every past learning title
@@ -65,18 +67,18 @@ Work in this order. After each step, write what you have to the edition file bef
    - `openAsOf`: copy the brief's `openAsOf`. If the brief has none, omit it.
    - `movers`: one entry per qualifying ticker in the brief's `movers`. Copy `changePct` exactly, and copy `openPct` exactly when the brief's mover has one; otherwise omit it.
      - Write the reason from the text of a `moverNews` headline for that ticker, and link that headline. The link must be one of that ticker's own `moverNews` headlines.
-     - A headline supports a mover's reason only if it is about that company (normally `primary` is true, or the title names the company) or is a market or sector wrap. A headline about a different company is not support. If a ticker has no supporting headline, omit the mover.
+     - A headline supports a mover's reason only if it is about that company (normally `primary` is true, or the title names the company) or is a market or sector wrap. A headline about a different company is not support. If a ticker has no supporting headline, keep the mover, omit `url`, and set `reason` to exactly "No headline found."
      - A market or sector wrap headline supports only what its words say (for example "chipmakers and AI stocks fell"). The reason must say it is sector-wide.
      - A rating change by an analyst firm is not a cause unless the headline says the stock moved on it.
-     - List at most 16. When more than 16 qualify, take first every mover with a company-specific supporting headline, then fill the remaining places by size of move. Order the final list by size of move, largest first, taking the larger of the close and the open move.
+     - List the brief's `movers` in the brief's order (largest move first), the first 16 when more qualify. Never drop or reorder one.
      - Say which move the reason explains, yesterday's session or this morning's open, when the headline makes that clear. Opening prices are minutes old and jumpy: never describe an opening move as the day's move.
-     - Use "No clear catalyst reported." only when a company-specific headline exists but states no reason. Link the most relevant one.
+     - When a company-specific headline names an event of the day but not the move (a stake, a product launch, a deal), state the event and say the headline does not tie it to the move. Use "No clear catalyst reported." only when the company's headlines name no such event. Link the most relevant one.
      - Never link an unrelated article as a stand-in.
    - `earnings`: copy from the brief. `note` may say "before the open" or "after the close" if the brief says so; otherwise leave it empty.
    - `macro`: copy from the brief; `note` is one clause on what to watch, or empty.
    - `analystAndInsider`: only notable rating changes, large insider sales or big new stakes in focus names. Often empty.
    - `bearCase`: one sceptical argument about a focus name or theme, taken from a named source and stated fairly. Write it from a candidate's excerpt, and only when the excerpt itself states the sceptical argument; otherwise omit it.
-   - `earningsDeepDive`: only when the brief's `reportedYesterday` lists a focus ticker. Results against expectations, guidance, up to three short quotes.
+   - `earningsDeepDive`: only when the brief's `reportedYesterday` lists a focus ticker. Results against expectations, guidance, up to three short quotes. For results against expectations, use that ticker's `earningsResults` entry when it has one: EPS against the consensus forecast and the surprise, figures copied exactly. When several tickers reported, choose the one with the most material. The deep dive's link may not also be a front-page story: link another candidate on the same report, or keep the story on the front page and omit the deep dive.
 3. **Front page.** The 5 to 8 most important stories of the day across all beats. Each needs a `whyItMatters` line tied to the reader's work or to the companies in the story. Add `tags` only for tickers in `profile.json` (focus or general) of companies the story is actually about, named in it. No tags for inferred exposure.
 4. **Sections**, in schema order, 0 to 6 items each; aim for 4 to 6 where the candidates are good. A front-page story does not repeat in a section.
    - `markets`: market moves, deals, filings, macro. No price targets as news.

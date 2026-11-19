@@ -273,6 +273,21 @@ class MarketTest {
         assertThrows(IOException.class, () -> Market.parseEarnings(day, "{\"data\":null}"));
     }
 
+    static String surprise(String dateReported, String eps, String consensus, String pct) {
+        return "{\"data\":{\"earningsSurpriseTable\":{\"rows\":[{\"fiscalQtrEnd\":\"Oct 2026\",\"dateReported\":\"" + dateReported
+                + "\",\"eps\":" + eps + ",\"consensusForecast\":\"" + consensus + "\",\"percentageSurprise\":\"" + pct + "\"},"
+                + "{\"fiscalQtrEnd\":\"Jul 2025\",\"dateReported\":\"9/1/2025\",\"eps\":0.53,\"consensusForecast\":\"0.51\",\"percentageSurprise\":\"3.92\"}]}}}";
+    }
+
+    @Test
+    void readsTheLatestReportedQuarterAndRejectsGaps() throws IOException {
+        Market.EarningsResult r = Market.parseEarningsResult("PANW", surprise("11/18/2026", "0.46", "0.52", "-11.54"));
+        assertEquals(new Market.EarningsResult("PANW", "Oct 2026", LocalDate.of(2026, 11, 18), new BigDecimal("0.46"),
+                new BigDecimal("0.52"), new BigDecimal("-11.54")), r);
+        assertThrows(IOException.class, () -> Market.parseEarningsResult("X", "{\"data\":null}"));
+        assertThrows(IOException.class, () -> Market.parseEarningsResult("X", surprise("11/18/2026", "0.46", "N/A", "")));
+    }
+
     @Test
     void doesNotAskForWeekendEarnings() throws IOException {
         Market market = new Market(new FakeFetcher(url -> {

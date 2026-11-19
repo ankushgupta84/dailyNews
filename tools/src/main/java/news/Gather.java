@@ -43,6 +43,10 @@ public final class Gather {
     static final ZoneId ZONE = ZoneId.of("America/Los_Angeles");
     /** A focus ticker whose close or opening move reached at least this many percent is a mover. */
     static final BigDecimal MOVER_PCT = new BigDecimal("3.0");
+    /** Earnings are listed this many days ahead, matching the edition calendar's two weeks. */
+    static final int EARNINGS_DAYS = 14;
+    /** How far back to look for the previous trading session: covers a long weekend plus a holiday. */
+    static final int SESSION_LOOKBACK = 5;
     private static final ZoneId NEW_YORK = Market.NEW_YORK;
     private static final LocalTime MARKET_OPEN = LocalTime.of(9, 30);
     private static final ObjectMapper JSON = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
@@ -227,18 +231,22 @@ public final class Gather {
 
         ArrayNode earnings = JSON.createArrayNode();
         ArrayNode reported = JSON.createArrayNode();
+        LocalDate previous = null;
         try {
-            if (asOf != null) {
-                for (Market.Earning e : market.earningsOn(asOf)) {
-                    if ("focus".equals(tiers.get(e.ticker()))) {
-                        reported.add(e.ticker());
-                    }
+            previous = previousSession(market, date);
+            for (Market.Earning e : previous == null ? List.<Market.Earning>of() : market.earningsOn(previous)) {
+                // A report before the open on the previous session was news for that day's edition.
+                if ("focus".equals(tiers.get(e.ticker())) && !e.time().equals("before the open")) {
+                    reported.add(e.ticker());
                 }
             }
-            for (LocalDate day = date; !day.isAfter(date.plusDays(7)); day = day.plusDays(1)) {
+            for (LocalDate day = date; !day.isAfter(date.plusDays(EARNINGS_DAYS)); day = day.plusDays(1)) {
                 for (Market.Earning e : market.earningsOn(day)) {
                     if ("focus".equals(tiers.get(e.ticker()))) {
                         earnings.addObject().put("ticker", e.ticker()).put("date", e.date().toString()).put("time", e.time());
+                        if (day.equals(date) && e.time().equals("before the open")) {
+                            reported.add(e.ticker());
+                        }
                     }
                 }
             }
@@ -250,6 +258,47 @@ public final class Gather {
         }
         brief.set("earnings", earnings);
         brief.set("reportedYesterday", reported);
+        brief.set("earningsResults", earningsResults(problems, market, reported, previous == null ? date : previous));
+    }
+
+    /**
+     * The latest weekday before {@code date} with any company on Nasdaq's earnings calendar, which skips
+     * weekends and market holidays (the calendar is empty on both). It does not depend on {@code asOf},
+     * which moves to {@code date} itself when Gather runs after the close. Null if none of the last
+     * {@link #SESSION_LOOKBACK} days had reports.
+     */
+    static LocalDate previousSession(Market market, LocalDate date) throws IOException {
+        for (int back = 1; back <= SESSION_LOOKBACK; back++) {
+            LocalDate day = date.minusDays(back);
+            if (!market.earningsOn(day).isEmpty()) {
+                return day;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * EPS against consensus for each ticker that just reported. A table whose latest row predates
+     * {@code since} has not been updated for this report yet and is left out rather than shown as current.
+     */
+    private static ArrayNode earningsResults(ArrayNode problems, Market market, ArrayNode reported, LocalDate since) {
+        ArrayNode out = JSON.createArrayNode();
+        for (JsonNode t : reported) {
+            String ticker = t.asText();
+            try {
+                Market.EarningsResult r = market.latestEarnings(ticker);
+                if (r.dateReported().isBefore(since)) {
+                    problems.add("Earnings results for " + ticker + " not posted yet (latest is " + r.dateReported()
+                            + "). Give no EPS figures for " + ticker + ".");
+                    continue;
+                }
+                out.addObject().put("ticker", ticker).put("fiscalQuarter", r.fiscalQuarter()).put("dateReported", r.dateReported().toString())
+                        .put("eps", r.eps()).put("consensus", r.consensus()).put("surprisePct", r.surprisePct());
+            } catch (IOException e) {
+                problems.add("Earnings results for " + ticker + " unavailable (" + e.getMessage() + "). Give no EPS figures for " + ticker + ".");
+            }
+        }
+        return out;
     }
 
     /** The larger absolute move, in percent, of the close and the opening quote (if any). */

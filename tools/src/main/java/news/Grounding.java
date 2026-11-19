@@ -27,6 +27,7 @@ final class Grounding {
     private final Map<String, String> sourceText = new HashMap<>(); // URL -> text the editor may draw on
     private final Map<String, String> candidateTitle = new HashMap<>(); // URL -> exact headline to copy
     private final Set<String> briefNumbers;
+    private final Map<String, String> earningsText = new HashMap<>(); // ticker -> its earningsResults entry
 
     private Grounding(List<String> problems, JsonNode brief, String briefText) {
         this.problems = problems;
@@ -40,6 +41,9 @@ final class Grounding {
                 String publisher = h.path("publisher").asText();
                 add(h.path("url").asText(), h.path("title").asText() + (publisher.isEmpty() ? "" : " " + publisher));
             }
+        }
+        for (JsonNode r : brief.path("earningsResults")) {
+            earningsText.put(r.path("ticker").asText(), r.toString());
         }
         briefNumbers = numbers(briefText);
     }
@@ -77,6 +81,9 @@ final class Grounding {
     private void checkFigures(JsonNode object, String path, String url) {
         String source = sourceText.get(url);
         Set<String> allowed = numbers(source);
+        if (path.equals("watchlist.earningsDeepDive")) { // EPS against consensus comes from the brief, not the article
+            allowed.addAll(numbers(earningsText.getOrDefault(object.path("ticker").asText(), "")));
+        }
         object.fields().forEachRemaining(e -> {
             if (UNCHECKED_FIELDS.contains(e.getKey())) {
                 return;

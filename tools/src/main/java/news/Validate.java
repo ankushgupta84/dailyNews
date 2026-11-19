@@ -29,6 +29,10 @@ import java.util.regex.Pattern;
 public final class Validate {
 
     static final int MAX_WORDS = 6500;
+    /** The schema's cap on watchlist.movers. */
+    static final int MAX_MOVERS = 16;
+    /** The whole reason of a mover that has no supporting headline. */
+    static final String NO_HEADLINE = "No headline found.";
 
     /** Second-person ownership phrases. The paper must never say or imply what the reader owns. */
     private static final Pattern OWNERSHIP = Pattern.compile(
@@ -203,6 +207,13 @@ public final class Validate {
         if (stories.contains(edition.path("learn").path("url").asText())) {
             problems.add("learn.url repeats a front-page or section story: " + edition.path("learn").path("url").asText());
         }
+        // The deep dive already tells the earnings story; the front page should not tell it again from the same article.
+        String deepDive = edition.path("watchlist").path("earningsDeepDive").path("url").asText();
+        for (JsonNode story : edition.path("frontPage")) {
+            if (!deepDive.isEmpty() && story.path("url").asText().equals(deepDive)) {
+                problems.add("the earnings deep dive repeats a front-page story: " + deepDive);
+            }
+        }
         if (fetcher == null) {
             return;
         }
@@ -260,6 +271,19 @@ public final class Validate {
         if (!edition.path("learn").path("track").asText().equals(brief.path("learnTrack").asText())) {
             problems.add("learn.track \"" + edition.path("learn").path("track").asText() + "\" differs from the brief's \"" + brief.path("learnTrack").asText() + "\"");
         }
+        // Every qualifying move is shown, in the brief's order, so a large move never vanishes for lack of a headline.
+        List<String> expected = new ArrayList<>();
+        for (JsonNode m : brief.path("movers")) {
+            if (expected.size() < MAX_MOVERS) {
+                expected.add(m.path("ticker").asText());
+            }
+        }
+        List<String> listed = new ArrayList<>();
+        watchlist.path("movers").forEach(m -> listed.add(m.path("ticker").asText()));
+        if (!listed.equals(expected)) {
+            problems.add("watchlist.movers must list the brief's first " + MAX_MOVERS + " movers in order: expected "
+                    + expected + " but found " + listed);
+        }
         for (JsonNode mover : watchlist.path("movers")) {
             String ticker = mover.path("ticker").asText();
             JsonNode source = find(brief.path("movers"), "ticker", ticker);
@@ -272,7 +296,12 @@ public final class Validate {
                 checkOpenPct(problems, mover, source, ticker);
             }
             // The reason must rest on a headline fetched for this ticker, not another ticker's or a feed candidate.
-            if (!moverHeadlineUrls(brief, ticker).contains(mover.path("url").asText())) {
+            // A mover with no supporting headline carries no link and says so in fixed words.
+            if (!mover.has("url")) {
+                if (!mover.path("reason").asText().equals(NO_HEADLINE)) {
+                    problems.add("mover " + ticker + " has no link, so its reason must be exactly \"" + NO_HEADLINE + "\"");
+                }
+            } else if (!moverHeadlineUrls(brief, ticker).contains(mover.path("url").asText())) {
                 problems.add("mover " + ticker + " links " + mover.path("url").asText() + ", which is not one of the brief's moverNews headlines for " + ticker);
             }
         }

@@ -434,10 +434,39 @@ class ValidateTest {
     }
 
     @Test
-    void acceptsOmittingAMoverThatHasAnOpenMove() throws IOException {
-        briefOpens();
-        watchlist().put("openAsOf", "Nov 17, 2026 9:35 AM ET");
-        ((ArrayNode) watchlist().path("movers")).remove(0); // no supporting headline: the editor leaves the whole mover out
+    void rejectsADroppedMover() throws IOException {
+        rejects("watchlist.movers must list the brief's first 16 movers in order", e -> ((ArrayNode) e.path("watchlist").path("movers")).remove(0));
+    }
+
+    @Test
+    void rejectsAReorderedMover() throws IOException {
+        rejects("watchlist.movers must list the brief's first 16 movers in order", e -> {
+            ArrayNode movers = (ArrayNode) e.path("watchlist").path("movers");
+            movers.add(movers.remove(0));
+        });
+    }
+
+    @Test
+    void acceptsAMoverWithoutALinkOnlyWithTheFixedReason() throws IOException {
+        ObjectNode mover = (ObjectNode) watchlist().path("movers").get(0);
+        mover.remove("url");
+        mover.put("reason", Validate.NO_HEADLINE);
+        assertEquals(List.of(), check(null));
+        mover.put("reason", "Fell on weak guidance.");
+        List<String> problems = check(null);
+        assertTrue(problems.stream().anyMatch(p -> p.contains("mover APLD has no link")), problems.toString());
+    }
+
+    @Test
+    void listsOnlyTheFirstSixteenWhenMoreQualify() throws IOException {
+        ArrayNode briefMovers = (ArrayNode) brief.path("movers");
+        ArrayNode movers = (ArrayNode) watchlist().path("movers");
+        for (int i = 0; briefMovers.size() < 18; i++) {
+            briefMovers.addObject().put("ticker", "X" + (char) ('A' + i)).put("changePct", -3.0);
+            if (movers.size() < 16) {
+                movers.addObject().put("ticker", "X" + (char) ('A' + i)).put("changePct", -3.0).put("reason", Validate.NO_HEADLINE);
+            }
+        }
         assertEquals(List.of(), check(null));
     }
 
@@ -550,5 +579,26 @@ class ValidateTest {
         assertTrue(problems.get(0).contains("dead link (HTTP 404)"));
         assertTrue(problems.stream().anyMatch(p -> p.contains("unreachable") && p.contains("/sample-2")));
         assertTrue(problems.stream().anyMatch(p -> p.contains("HTTP 410")));
+    }
+
+    @Test
+    void acceptsDeepDiveFiguresFromEarningsResults() throws IOException {
+        ObjectNode dd = deepDive();
+        dd.putArray("quotes");
+        brief.putArray("earningsResults").addObject().put("ticker", "NVDA").put("fiscalQuarter", "Oct 2026")
+                .put("dateReported", "2026-11-17").put("eps", new java.math.BigDecimal("2.68"))
+                .put("consensus", new java.math.BigDecimal("2.47")).put("surprisePct", new java.math.BigDecimal("8.5"));
+        dd.put("results", "EPS of $2.68 against a consensus of $2.47, an 8.5% surprise.");
+        assertEquals(List.of(), check(null));
+        dd.put("results", "EPS of $2.69 against a consensus of $2.47.");
+        List<String> problems = check(null);
+        assertTrue(problems.stream().anyMatch(p -> p.contains("ungrounded figure 2.69")), problems.toString());
+    }
+
+    @Test
+    void rejectsADeepDiveThatRepeatsAFrontPageStory() throws IOException {
+        deepDive().put("url", LEAD).putArray("quotes");
+        List<String> problems = check(null);
+        assertTrue(problems.stream().anyMatch(p -> p.contains("the earnings deep dive repeats a front-page story")), problems.toString());
     }
 }

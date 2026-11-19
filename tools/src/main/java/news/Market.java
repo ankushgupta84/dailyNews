@@ -34,6 +34,10 @@ public final class Market {
 
     public record Earning(String ticker, LocalDate date, String time) {}
 
+    /** The latest reported quarter: earnings per share against the consensus forecast, as Nasdaq lists them. */
+    public record EarningsResult(String ticker, String fiscalQuarter, LocalDate dateReported, BigDecimal eps,
+                                 BigDecimal consensus, BigDecimal surprisePct) {}
+
     /**
      * A news headline about a ticker. {@code published} is a day: the API gives no time. {@code primary} is
      * true when Nasdaq files the article under this ticker, false when the ticker is only among its related
@@ -250,6 +254,33 @@ public final class Market {
             out.add(new Earning(row.path("symbol").asText().toUpperCase(Locale.ROOT), day, time));
         }
         return out;
+    }
+
+    /** The most recently reported quarter for {@code ticker}. Throws if the table is missing or unreadable. */
+    public EarningsResult latestEarnings(String ticker) throws IOException {
+        return parseEarningsResult(ticker, fetcher.get(API + "/company/" + ticker + "/earnings-surprise"));
+    }
+
+    static EarningsResult parseEarningsResult(String ticker, String body) throws IOException {
+        JsonNode rows = JSON.readTree(body).path("data").path("earningsSurpriseTable").path("rows");
+        EarningsResult latest = null;
+        for (JsonNode row : rows) {
+            try {
+                EarningsResult r = new EarningsResult(ticker, row.path("fiscalQtrEnd").asText(),
+                        LocalDate.parse(row.path("dateReported").asText(), DateTimeFormatter.ofPattern("M/d/yyyy")),
+                        new BigDecimal(row.path("eps").asText()), new BigDecimal(row.path("consensusForecast").asText()),
+                        new BigDecimal(row.path("percentageSurprise").asText()));
+                if (latest == null || r.dateReported().isAfter(latest.dateReported())) {
+                    latest = r;
+                }
+            } catch (DateTimeParseException | NumberFormatException e) {
+                throw new IOException("unreadable earnings row for " + ticker + ": " + row);
+            }
+        }
+        if (latest == null) {
+            throw new IOException("no earnings results for " + ticker);
+        }
+        return latest;
     }
 
     /**

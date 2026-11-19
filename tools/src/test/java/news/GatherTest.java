@@ -121,18 +121,56 @@ class GatherTest {
     }
 
     @Test
-    void listsFocusEarningsForTheWeekAndThoseJustReported() throws IOException {
+    void listsFocusEarningsForTwoWeeksAndThoseJustReported() throws IOException {
         web.remove("calendar/earnings");
-        web.put("calendar/earnings?date=2026-11-13", "{\"data\":{\"rows\":[{\"time\":\"time-after-hours\",\"symbol\":\"BBB\"},{\"time\":\"\",\"symbol\":\"GEN\"}]}}");
+        // Friday is the previous session: its after-hours report counts, its pre-market one was Friday's news.
+        web.put("calendar/earnings?date=2026-11-13", "{\"data\":{\"rows\":[{\"time\":\"time-after-hours\",\"symbol\":\"BBB\"},"
+                + "{\"time\":\"time-pre-market\",\"symbol\":\"OLD\"},{\"time\":\"\",\"symbol\":\"GEN\"}]}}");
+        // Monday's own pre-market report has happened by the time Gather runs; an after-hours one has not.
+        web.put("calendar/earnings?date=2026-11-16", "{\"data\":{\"rows\":[{\"time\":\"time-pre-market\",\"symbol\":\"CCC\"},"
+                + "{\"time\":\"time-after-hours\",\"symbol\":\"AAA\"}]}}");
         web.put("calendar/earnings?date=2026-11-17", "{\"data\":{\"rows\":[{\"time\":\"time-after-hours\",\"symbol\":\"AAA\"},{\"time\":\"\",\"symbol\":\"ZZZ\"}]}}");
-        web.put("calendar/earnings?date=2026-11-23", "{\"data\":{\"rows\":[{\"time\":\"time-pre-market\",\"symbol\":\"CCC\"}]}}");
-        web.put("calendar/earnings?date=2026-11-24", "{\"data\":{\"rows\":[{\"time\":\"\",\"symbol\":\"AAA\"}]}}"); // day 8: outside the window
+        web.put("calendar/earnings?date=2026-11-30", "{\"data\":{\"rows\":[{\"time\":\"\",\"symbol\":\"BBB\"}]}}"); // day 14: inside
+        web.put("calendar/earnings?date=2026-12-01", "{\"data\":{\"rows\":[{\"time\":\"\",\"symbol\":\"CCC\"}]}}"); // day 15: outside
         web.put("calendar/earnings", "{\"data\":{\"rows\":null}}");
         JsonNode brief = build(MONDAY);
-        assertEquals(List.of("BBB"), texts(brief.path("reportedYesterday"), null));
-        assertEquals(List.of("AAA", "CCC"), texts(brief.path("earnings"), "ticker"));
-        assertEquals(List.of("2026-11-17", "2026-11-23"), texts(brief.path("earnings"), "date"));
-        assertEquals("after the close", brief.path("earnings").get(0).path("time").asText());
+        assertEquals(List.of("BBB", "CCC"), texts(brief.path("reportedYesterday"), null));
+        assertEquals(List.of("CCC", "AAA", "AAA", "BBB"), texts(brief.path("earnings"), "ticker"));
+        assertEquals(List.of("2026-11-16", "2026-11-16", "2026-11-17", "2026-11-30"), texts(brief.path("earnings"), "date"));
+        assertEquals("before the open", brief.path("earnings").get(0).path("time").asText());
+    }
+
+    @Test
+    void findsThePreviousSessionAcrossAHolidayWithoutLookingAtPrices() throws IOException {
+        // Friday 2026-11-27 after Thanksgiving: Thursday's calendar is empty, so Wednesday is the previous session.
+        // The prices are dated Friday itself, as when Gather runs after the close; that must not matter.
+        web.remove("calendar/earnings");
+        web.put("calendar/earnings?date=2026-11-25", "{\"data\":{\"rows\":[{\"time\":\"time-after-hours\",\"symbol\":\"AAA\"}]}}");
+        web.put("calendar/earnings", "{\"data\":{\"rows\":null}}");
+        for (String t : List.of("AAA", "BBB", "CCC", "GEN", "OLD")) {
+            price(t, "11/27/2026", "101.00", "100.00");
+        }
+        assertEquals(List.of("AAA"), texts(build(LocalDate.of(2026, 11, 27)).path("reportedYesterday"), null));
+    }
+
+    @Test
+    void attachesEpsAgainstConsensusOnlyWhenPostedForThisReport() throws IOException {
+        web.remove("calendar/earnings");
+        web.put("calendar/earnings?date=2026-11-13", "{\"data\":{\"rows\":[{\"time\":\"time-after-hours\",\"symbol\":\"BBB\"},"
+                + "{\"time\":\"time-after-hours\",\"symbol\":\"AAA\"},{\"time\":\"time-after-hours\",\"symbol\":\"CCC\"}]}}");
+        web.put("calendar/earnings", "{\"data\":{\"rows\":null}}");
+        web.put("company/BBB/earnings-surprise", MarketTest.surprise("11/13/2026", "0.46", "0.52", "-11.54"));
+        web.put("company/AAA/earnings-surprise", MarketTest.surprise("8/14/2026", "1.10", "1.00", "10")); // last quarter's: stale
+        JsonNode brief = build(MONDAY); // CCC has no table at all
+        assertEquals(List.of("BBB"), texts(brief.path("earningsResults"), "ticker"));
+        JsonNode r = brief.path("earningsResults").get(0);
+        assertEquals("0.46", r.path("eps").asText());
+        assertEquals("0.52", r.path("consensus").asText());
+        assertEquals("-11.54", r.path("surprisePct").asText());
+        assertEquals("2026-11-13", r.path("dateReported").asText());
+        String problems = brief.path("problems").toString();
+        assertTrue(problems.contains("Earnings results for AAA not posted yet"), problems);
+        assertTrue(problems.contains("Earnings results for CCC unavailable"), problems);
     }
 
     @Test

@@ -6,7 +6,7 @@ A personal daily newspaper. A program gathers the raw material, a language model
 
 | Step | When (Pacific) | What | Where |
 |---|---|---|---|
-| 1. Gather | a few minutes after the 6:30 a.m. market open (about 6:35) | `tools` → `brief/DATE.json`: feed items, the previous close and the move at the open, earnings dates, macro events, what recent editions already covered | GitHub Actions, `gather.yml` |
+| 1. Gather | a few minutes after the 6:30 a.m. market open (about 6:35) | `tools` → `brief/DATE.json`: feed items, the previous close and the move at the open, earnings dates for two weeks, EPS against consensus for focus names that just reported, macro events, what recent editions already covered | GitHub Actions, `gather.yml` |
 | 2. Edit | about 7:15 a.m. | The model follows `EDITOR.md`, reads the brief, writes `editions/YYYY/MM/DATE.json` and updates `editions/index.json` | Scheduled Claude routine |
 | 3. Validate and publish | on that push | `Validate` checks the edition; if it passes, the site deploys | GitHub Actions, `publish.yml` |
 
@@ -23,7 +23,7 @@ The split is deliberate: code produces every number, date and piece of state; th
 - `EDITOR.md` – the model's standing instructions.
 - `profile.json` – watchlist tiers, the weekly learning rotation, library links.
 - `sources.json` – feeds by beat. `schedule` is `daily` or a weekday; `max` caps items per run. Optional `lookbackDays` (a positive integer) replaces the default window of 36 hours for `daily` sources and 8 days for weekday ones; a bad value stops the gather and names the source. Items with the same URL appear once, under the first source listed. A feed excerpt is cut at 500 characters; when a description is under 80 characters and the item carries its full text (`content:encoded` or Atom `content`), the excerpt comes from that instead.
-- `macro.json` – Fed and BLS dates, maintained by hand from the official schedules.
+- `macro.json` – Fed, BLS, BEA and Census release dates and NYSE holidays and early closes, maintained by hand from the official schedules. Gather lists those within 14 days.
 - `schema/edition.schema.json` – the shape of an edition.
 - `site/` – the reader: plain HTML, CSS and JavaScript, no build step.
 - `tools/` – Java 21, Maven. `Gather` builds the brief, `Validate` is the gate.
@@ -53,7 +53,8 @@ sh tools/assemble.sh && python3 -m http.server 8765 --bind 127.0.0.1 --directory
 - Every `url` in the edition is a `url` in that day's brief, under `candidates` or `moverNews`. A link found any other way is rejected.
 - Each front-page, section and long-read `headline`, and the `listen` title, equals the `title` of the brief candidate with the same URL, exactly (outer whitespace aside). The headline is the source's own, not the editor's.
 - Every figure written in digits in a story, mover, analyst note, bear case, deep dive, tip, long read or listen pick appears in the title and excerpt of that URL's candidate (for a mover, in the linked `moverNews` headline). "1,200" and "1200" count as the same figure. Deep-dive quotes must be verbatim substrings of that text. Figures in notes without a link (earnings, macro, calendar, week in review) must appear somewhere in the brief. The Learn piece is exempt from the figure check, since it explains its linked page, but its link must still be in the brief.
-- A mover's `url` is one of that ticker's own `moverNews` headlines in the brief, not another ticker's and not a feed candidate.
+- The movers are the brief's first 16, in the brief's order: none is dropped for lack of a headline. A mover's `url` is one of that ticker's own `moverNews` headlines in the brief, not another ticker's and not a feed candidate. A mover with no `url` has the reason "No headline found." and nothing else.
+- Figures in the earnings deep dive may also come from that ticker's `earningsResults` in the brief. The deep dive's link is not also a front-page story.
 - Movers, their percentages (`changePct`, and `openPct` when the brief has one), `watchlist.openAsOf` (present only when the brief has it), earnings dates, macro events, the as-of date and the learning track all equal the brief.
 - No story appears twice, and the Learn piece's link is not a front-page or section story; tagged tickers are on the watchlist; the edition is under 6,500 words.
 - With `--check-urls`: no link returns 404 or 410 or points at an unreachable host.
@@ -62,6 +63,7 @@ sh tools/assemble.sh && python3 -m http.server 8765 --bind 127.0.0.1 --directory
 
 - **Summaries are machine-written.** The checks cannot tell whether a summary restates its excerpt correctly, and numbers written as words ("two million") are not checked. Each item links to its source; read the original before relying on it.
 - **Learn is model-written.** The Learn piece is an explainer written by a model from its linked source, and the reader says so. Its figures are not checked against the brief.
+- **Just reported** means after the close of the previous session or before today's open. Gather finds the previous session as the latest weekday before today with anyone on Nasdaq's earnings calendar, so holidays (an empty calendar) are skipped and a late run, which moves `asOf` to today, changes nothing. A report with no stated time counts on the previous session only. `earningsResults` (EPS, consensus, surprise) come from Nasdaq's earnings-surprise table and are left out, with a `problems` entry, until it lists this report. Guidance is not gathered.
 - **Mover headlines** come from the same Nasdaq data API (up to 4 published on or after the session date `asOfDate`, each naming the ticker, with `primary` true when Nasdaq files the article under that ticker and false when the ticker is only a related symbol) and appear in the brief as `moverNews`, so the editor can state why a stock moved. They are dated by day only. A failed lookup gives that ticker an empty list and a `problems` entry; it never fails the brief.
 - **Live Well tips are optional.** The editor writes a tip only when a candidate supports it. The page shows the tips present, or "No sourced tips today." when there are none.
 - **A brief is never regenerated once its edition exists.** `Gather` checks for the day's edition file first and, if found, leaves `brief/DATE.json` alone, because `Validate` checks an edition against its brief.
@@ -73,4 +75,4 @@ sh tools/assemble.sh && python3 -m http.server 8765 --bind 127.0.0.1 --directory
 - **The schedule is in UTC.** Both jobs run at two UTC hours and the surplus run exits, so local times hold across daylight saving. A manual run of `gather.yml` passes `--scheduled` only when its `scheduled` input is true; otherwise it always builds (unless the edition exists).
 - **Paywalled outlets** contribute headlines and feed excerpts only. "Read via library" links go to a public library's sign-in page and need a library card.
 - **Everything here is public,** including the watchlist. It deliberately records interests only.
-- **`macro.json` expires.** It lists dates through June 2027 and must be extended by hand.
+- **`macro.json` expires.** It lists dates through June 2027 (BEA's through December 2026, all BEA had published) and must be extended by hand. PPI and FOMC minutes are not listed: BLS refuses automated reads, and the Fed gives no minutes dates ahead.
