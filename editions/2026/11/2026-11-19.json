@@ -1,0 +1,599 @@
+{
+  "date": "2026-11-19",
+  "kind": "weekday",
+  "generatedAt": "2026-11-19T18:58:35Z",
+  "frontPage": [
+    {
+      "headline": "Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading",
+      "summary": "Anthropic began trading on Nasdaq with a valuation of $2T, and its shares rose 34% in initial trading, The Register reports. The outlet adds that the company still faces large compute obligations and the threat of open models, neither of which CEO Dario Amodei says worries him.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143",
+      "source": "The Register",
+      "whyItMatters": "The largest AI lab to go public sets a public price on frontier-model economics, and its compute spending now becomes visible to every cloud and chip supplier."
+    },
+    {
+      "headline": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "summary": "CNBC reports that Palo Alto Networks posted better-than-expected first-quarter results and agreed a $4.5 billion deal for AI startup Applied Compute. The headline describes the purchase as a bet on securing open-weight models.",
+      "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+      "source": "CNBC",
+      "whyItMatters": "Buying a model-security team signals that securing the models themselves is becoming a core product line for platform security vendors.",
+      "tags": [
+        "PANW"
+      ]
+    },
+    {
+      "headline": "AMD dives on short-seller report of alleged China exposure",
+      "summary": "CNBC reports that AMD fell after a short seller alleged that the company's firmware showed up at a blacklisted Chinese company. AMD said it complies with U.S. law.",
+      "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+      "source": "CNBC",
+      "whyItMatters": "An unproven allegation, but export-control exposure is the risk that most affects accelerator supply chains.",
+      "tags": [
+        "AMD"
+      ]
+    },
+    {
+      "headline": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "summary": "The BBC reports that Trump, Putin and Xi released a 'peace declaration' after their first trilateral meeting. Earlier meetings between the leaders were one-on-one.",
+      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "whyItMatters": "A symbolic summit; watch whether it changes energy or chip-export policy, which feed straight into data-center costs."
+    },
+    {
+      "headline": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+      "summary": "CNBC reports that Nvidia interim CEO Colette Kress urged staff to move forward at her first all-hands meeting since Jensen Huang's exit, and offered pay raises.",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+      "source": "CNBC",
+      "whyItMatters": "Leadership continuity at the main GPU supplier matters to teams planning AI capacity.",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "European Commission confirms cyberattack, says hackers used AI tool",
+      "summary": "The Record reports that the European Commission confirmed a cyberattack. POLITICO had reported that CERT-EU identified the attackers' use of ARTEX, an open-source AI hacking platform the FBI warned last week was used by both criminals and state-sponsored groups.",
+      "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+      "source": "The Record",
+      "whyItMatters": "AI-driven attack tooling is now showing up in incidents at government institutions, which shortens the time defenders have to detect and contain intrusions."
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 18 close",
+    "openAsOf": "Nov 19, 2026 1:47 PM ET",
+    "movers": [
+      {
+        "ticker": "PANW",
+        "changePct": 9.9,
+        "openPct": 5.6,
+        "reason": "The company reported fiscal first-quarter 2027 results; the linked headline is the earnings-call transcript. It does not say what drove the move at the open.",
+        "url": "https://www.nasdaq.com/articles/palo-alto-panw-q1-2027-earnings-call-transcript"
+      },
+      {
+        "ticker": "RBRK",
+        "changePct": 9.3,
+        "openPct": 4.3,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "AMD",
+        "changePct": 5.3,
+        "openPct": -9.1,
+        "reason": "A Motley Fool headline says the stock was plunging on Thursday, which matches the drop at the open. The headline itself does not give the cause.",
+        "url": "https://www.nasdaq.com/articles/why-amd-stock-was-plunging-thursday"
+      },
+      {
+        "ticker": "CRWD",
+        "changePct": 7.9,
+        "openPct": 2.6,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "NET",
+        "changePct": 5.7,
+        "openPct": 0.4,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "IONQ",
+        "changePct": -5.5,
+        "openPct": -1.3,
+        "reason": "A Motley Fool headline says the stock popped today, which does not match the decline shown here; no headline explains the drop.",
+        "url": "https://www.nasdaq.com/articles/why-ionq-stock-popped-today"
+      },
+      {
+        "ticker": "PATH",
+        "changePct": -5.3,
+        "openPct": -2.6,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "IMSR",
+        "changePct": -2.4,
+        "openPct": -4.8,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "ANET",
+        "changePct": 4.0,
+        "openPct": -1.6,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "AMZN",
+        "changePct": 3.8,
+        "openPct": -2.9,
+        "reason": "A Motley Fool headline names the company a beneficiary of Anthropic's IPO; it does not tie that to the move.",
+        "url": "https://www.nasdaq.com/articles/2-huge-beneficiaries-anthropics-ipo"
+      },
+      {
+        "ticker": "WDC",
+        "changePct": 1.7,
+        "openPct": 3.7,
+        "reason": "Listed among Thursday's sector leaders in computers and peripherals, a sector-wide note with no company-specific cause.",
+        "url": "https://www.nasdaq.com/articles/thursday-sector-leaders-computers-computer-peripherals"
+      },
+      {
+        "ticker": "AVGO",
+        "changePct": 3.6,
+        "openPct": -1.7,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "OKLO",
+        "changePct": -2.5,
+        "openPct": -3.1,
+        "reason": "No headline found."
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "RBRK",
+        "date": "2026-11-30",
+        "note": "after the close"
+      },
+      {
+        "ticker": "CRWD",
+        "date": "2026-12-01",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PATH",
+        "date": "2026-12-03",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": [
+      {
+        "date": "2026-11-25",
+        "event": "GDP for the third quarter, second estimate (8:30 a.m. ET)",
+        "note": ""
+      },
+      {
+        "date": "2026-11-25",
+        "event": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)",
+        "note": ""
+      },
+      {
+        "date": "2026-11-26",
+        "event": "U.S. stock markets closed for Thanksgiving",
+        "note": ""
+      },
+      {
+        "date": "2026-11-27",
+        "event": "U.S. stock markets close early, at 1:00 p.m. ET",
+        "note": ""
+      }
+    ],
+    "earningsDeepDive": {
+      "ticker": "PANW",
+      "results": "Nasdaq data show fiscal quarter Oct 2026 EPS of 0.46 against a consensus of 0.52, a surprise of -11.54%. CNBC describes the quarter as better than expected, so the two reports conflict, possibly because they use different measures.",
+      "guidance": "Guidance is not stated in the gathered material.",
+      "quotes": [],
+      "url": "https://www.nasdaq.com/articles/palo-alto-panw-q1-2027-earnings-call-transcript"
+    }
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "Big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon hit the ETF market",
+          "summary": "CNBC reports that investor fears about AI balance sheets and debt are running high, especially for neoclouds. ETFs targeting the credit default swaps of AI issuers are coming.",
+          "url": "https://www.cnbc.com/2026/11/18/ai-credit-default-swaps-coreweave-debt.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
+          "summary": "According to MarketWatch, CoreWeave co-founder Brian Venturo made a $30 million purchase of the company's bonds rather than its shares, a move aimed at calming AI jitters.",
+          "url": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
+          "source": "MarketWatch"
+        },
+        {
+          "headline": "Intel signs first external customer for advanced 18A chips",
+          "summary": "CNBC reports that Intel CEO Lip-Bu Tan said the company signed its first outside customer for its 18A chips.",
+          "url": "https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html",
+          "source": "CNBC",
+          "tags": [
+            "INTC"
+          ]
+        },
+        {
+          "headline": "Dollar Has Further Scope to Rally as Fed Could Out-Hike Peers",
+          "summary": "The WSJ reports that the DXY dollar index fell after reaching a 19-month high of 103.974 overnight. Danske Bank's Antti Ilvonen says the rally has further to go because the U.S. economy remains on a stronger footing.",
+          "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-face-drag-from-fed-rate-bets-50c20e86?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Gold's bad year is getting worse. Why its price keeps falling",
+          "summary": "CNBC reports that gold has fallen sharply from its January record as higher interest rates and a stronger dollar change the investment case for the metal.",
+          "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "UnitedHealth’s stock keeps plunging after government signals crackdown on Medicare Advantage fraud",
+          "summary": "MarketWatch reports that UnitedHealth's stock has tumbled 20% over the past five days after the government signalled a crackdown on Medicare Advantage fraud.",
+          "url": "https://www.marketwatch.com/story/unitedhealths-stock-keeps-plunging-after-government-signals-crackdown-on-medicare-advantage-fraud-c4770a45?mod=mw_rss_topstories",
+          "source": "MarketWatch"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "Qualcomm offers test drive of its rack-scale Nvidia AI challenger",
+          "summary": "The Register reports that selected customers can now test Qualcomm's Dragonfly AI200 rack-scale system on Cirrascale's cloud. The outlet describes it as a challenger to Nvidia.",
+          "url": "https://www.theregister.com/systems/2026/11/19/qualcomm-offers-test-drive-of-its-rack-scale-nvidia-ai-challenger/5310966",
+          "source": "The Register"
+        },
+        {
+          "headline": "NAND prices tipped to fall as Chinese cloud giants cut SSD orders",
+          "summary": "The Register reports that TrendForce expects NAND prices to fall as Chinese cloud giants cut SSD orders. TrendForce sees supply outpacing demand in 2027, though cheaper flash will not fix the DRAM squeeze.",
+          "url": "https://www.theregister.com/systems/2026/11/19/nand-prices-tipped-to-fall-as-chinese-cloud-giants-cut-ssd-orders/5311116",
+          "source": "The Register",
+          "whyItMatters": "Cheaper flash eases storage budgets for AI clusters, but memory remains the scarce component.",
+          "tags": [
+            "MU",
+            "WDC"
+          ]
+        },
+        {
+          "headline": "Google signs 50-MW superhot geothermal PPA with Quaise Energy",
+          "summary": "Utility Dive reports that Google signed a 50-MW superhot geothermal power purchase agreement with Quaise Energy. It would support Google's Oregon data center operations beginning as early as 2030.",
+          "url": "https://www.utilitydive.com/news/google-signs-50-mw-superhot-geothermal-ppa-with-quaise-energy/875217/",
+          "source": "Utility Dive",
+          "whyItMatters": "Long-dated firm power deals show where hyperscalers expect grid constraints to bite.",
+          "tags": [
+            "GOOGL"
+          ]
+        },
+        {
+          "headline": "PJM urged to delay base capacity auction until data centers cut from forecast",
+          "summary": "Utility Dive reports that state ratepayer advocates and PJM's market monitor want the December base capacity auction delayed until data centers are cut from the demand forecast. They say holding it as planned threatens reliability and could cost consumers billions.",
+          "url": "https://www.utilitydive.com/news/ratepayer-advocates-pjm-market-monitor-capacity-auction/875165/",
+          "source": "Utility Dive"
+        },
+        {
+          "headline": "Everpure revenues surge 51% as AI demand drives more hyperscaler wins",
+          "summary": "Data Center Dynamics reports that Everpure revenues rose 51% as AI demand brought more hyperscaler wins, and that the company raised its full-year forecast again after its third quarter.",
+          "url": "https://www.datacenterdynamics.com/en/news/everpure-revenues-surge-51-as-ai-demand-drives-more-hyperscaler-wins/",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "headline": "llm-gemini 0.38",
+          "summary": "Simon Willison notes that Google introduced Gemini 4 Neon today and says the pricing across the Gemini 4 lineup has become more confusing with it. He released llm-gemini 0.38 to support the model.",
+          "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+          "source": "Simon Willison"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+          "summary": "Cloudflare says Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. It has released six WAF managed rules for paid plans that log matching requests by default, and urges patching Java runtimes now.",
+          "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "headline": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+          "summary": "BleepingComputer reports that two critical NGINX flaws dubbed 'nginx2root' let unauthenticated attackers execute code remotely. Researchers demonstrated chaining them with a Linux kernel bug to gain root access.",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "NVIDIA investigating Gentlemen ransomware breach claims",
+          "summary": "BleepingComputer reports that NVIDIA is investigating claims of a breach after the Gentlemen ransomware group added the company to its dark web leak site. The claims are unverified.",
+          "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+          "source": "BleepingComputer",
+          "tags": [
+            "NVDA"
+          ]
+        },
+        {
+          "headline": "Europe's biggest gas supplier battling cyberattack – with no timeline for recovery",
+          "summary": "The Register reports that Equinor, Europe's largest natural gas supplier, is battling a cyberattack on its IT systems with no recovery timeline. The company says oil and gas production has not been disrupted and it has found no sign that data was stolen.",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/19/europes-biggest-gas-supplier-battling-cyberattack-with-no-timeline-for-recovery/5311026",
+          "source": "The Register"
+        },
+        {
+          "headline": "UK court confirms British government served Apple with secret encryption notice",
+          "summary": "The Record reports that a UK tribunal confirmed the British government served Apple with a secret legal notice targeting its cryptographic protections for iCloud accounts, ending almost two years of official refusal to acknowledge it.",
+          "url": "https://therecord.media/apple-uk-encryption-notice",
+          "source": "The Record",
+          "tags": [
+            "AAPL"
+          ]
+        },
+        {
+          "headline": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+          "summary": "BleepingComputer reports that the Drupal Security Team patched a critical remote code execution flaw and warns exploits may surface quickly.",
+          "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+          "source": "BleepingComputer"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "Throwing Out The Phonebook",
+          "summary": "Fly.io says it rebuilt 6PN, the private network between its Machines, by avoiding a synchronization problem rather than solving it. The post opens by describing the earlier design, in which every Machine gets a private IPv6 address.",
+          "url": "https://fly.io/blog/throwing-out-the-phonebook/",
+          "source": "Fly.io Blog"
+        },
+        {
+          "headline": "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework",
+          "summary": "InfoQ reports that Discord's CTO announced a rewrite of its desktop and mobile clients in Rust, moving away from Electron and React Native. Early results hint at a significant reduction in RAM use and boot time.",
+          "url": "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Producing Healthy Code with Artificial Intelligence Costs Fewer Tokens",
+          "summary": "InfoQ reports a talk arguing that agentic AI gains in velocity vanish within months as code complexity grows, and that healthy code makes AI perform better at lower token cost.",
+          "url": "https://www.infoq.com/news/2026/11/healthy-code-AI-tokens/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Engineering AI Discover",
+          "summary": "Netflix describes the decisions behind the intelligence layer of AI Discover, a new TV-app tab where a small group of members can try new ways to find something to watch.",
+          "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4",
+          "source": "Netflix Tech Blog"
+        },
+        {
+          "headline": ".NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components",
+          "summary": "InfoQ reports that ASP.NET Core in .NET 11 adds C# union type support in JSON bodies and asynchronous validation for Minimal APIs, with OpenAPI 3.2 by default and Zstandard compression on by default.",
+          "url": "https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "STAT+: Epic defends competitive practices; promises AI access to records",
+          "summary": "STAT reports that Epic defended its competitive practices and promised AI access to records.",
+          "url": "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/?utm_campaign=rss",
+          "source": "STAT"
+        },
+        {
+          "headline": "STAT+: Merck, Isomorphic Labs partner to develop oncology drug candidates",
+          "summary": "STAT reports that Merck and Isomorphic Labs are entering a research collaboration to discover small-molecule candidates in oncology.",
+          "url": "https://www.statnews.com/2026/11/19/merck-isomorphic-labs-partner-to-develop-oncology-drug-candidates/?utm_campaign=rss",
+          "source": "STAT"
+        },
+        {
+          "headline": "HLTH 2026: Noom, Hims & Hers roll out peptide offerings",
+          "summary": "Fierce Healthcare reports that Noom and Hims & Hers are launching peptide offerings as the federal government loosens restrictions on compounded treatments.",
+          "url": "https://www.fiercehealthcare.com/health-tech/hlth-2026-hims-hers-noom-launch-peptide-brands",
+          "source": "Fierce Healthcare"
+        },
+        {
+          "headline": "UnitedHealthcare's new care model leans on community pharmacies",
+          "summary": "Fierce Healthcare reports that UnitedHealthcare is teaming up with CPSEN on a pharmacy care hub model that leans on community pharmacists to reach Medicaid patients.",
+          "url": "https://www.fiercehealthcare.com/payers/unitedhealthcare-unveils-new-care-model-leans-community-pharmacies",
+          "source": "Fierce Healthcare"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "Amazon’s $18B bet on Anthropic tops $200B, for a moment, in the Claude maker’s historic market debut",
+          "summary": "GeekWire reports that Anthropic went public in a record $81.3 billion IPO, and Amazon's $18 billion investment was worth about $216 billion on paper at the $111.50 opening price. Microsoft is buying $1 billion in stock, and Anthropic has committed to spend at least $47 billion on Azure.",
+          "url": "https://www.geekwire.com/2026/amazons-18b-bet-on-anthropic-tops-200b-in-the-claude-makers-historic-market-debut/",
+          "source": "GeekWire",
+          "tags": [
+            "AMZN",
+            "MSFT"
+          ]
+        },
+        {
+          "headline": "Amazon threatens to leave NYC again, this time over delivery bill, as it rallies customers to fight it",
+          "summary": "GeekWire reports that Amazon is warning it may move delivery operations out of New York City over a driver bill, and is urging customers to fight it.",
+          "url": "https://www.geekwire.com/2026/amazon-threatens-to-leave-nyc-again-this-time-over-delivery-bill-as-it-rallies-customers-to-fight-it/",
+          "source": "GeekWire",
+          "tags": [
+            "AMZN"
+          ]
+        },
+        {
+          "headline": "Latest findings point to fuel supply, not Blue Origin’s engines, in loss of Amazon Leo satellites",
+          "summary": "GeekWire reports that United Launch Alliance says preliminary findings show Vulcan's two BE-4 engines did not get enough fuel from the rocket during Sunday's failed launch, and that the engines' own performance was not the problem.",
+          "url": "https://www.geekwire.com/2026/latest-findings-point-to-fuel-supply-not-blue-origins-engines-in-loss-of-amazon-leo-satellites/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "‘Absurd ambition’: Pulumi expands into software delivery with AI agents that ship and fix code",
+          "summary": "GeekWire reports that Pulumi launched Pulumi Delivery and Pulumi Agents, which let AI agents release software and fix cloud infrastructure, with teams deciding when people must sign off.",
+          "url": "https://www.geekwire.com/2026/absurd-ambition-pulumi-expands-into-software-delivery-with-ai-agents-that-ship-and-fix-code/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Battery startup Sila lands potential $1B Panasonic deal, plans Central Wash. expansion adding 500 jobs",
+          "summary": "GeekWire reports that battery startup Sila signed a long-term deal to supply Panasonic with silicon-carbon anode materials, potentially worth more than $1 billion and requiring expansion of its Moses Lake, Wash., plant.",
+          "url": "https://www.geekwire.com/2026/battery-startup-sila-lands-potential-1b-panasonic-deal-plans-central-wash-expansion-adding-500-jobs/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Google acquires Seattle startup Howie and its AI scheduling assistant",
+          "summary": "GeekWire reports that Google acquired Seattle startup Howie, an email-based AI scheduling assistant that raised a $6 million seed round last year. It will keep being built inside Google Labs.",
+          "url": "https://www.geekwire.com/2026/google-acquires-seattle-startup-howie-and-its-ai-scheduling-assistant/",
+          "source": "GeekWire",
+          "tags": [
+            "GOOGL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+          "summary": "NPR reports that the International Court of Justice found Myanmar security forces 'acted with genocidal intent' against the Rohingya during 2017 military operations in northern Rakhine state.",
+          "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+          "source": "NPR"
+        },
+        {
+          "headline": "Putin touts Russia’s economy at APEC as Ukraine sends it toward a fuel crisis",
+          "summary": "The Washington Post reports that Ukrainian strikes on oil refineries have knocked out about half of Russia's refining output, according to analysts, darkening an already bleak economic outlook.",
+          "url": "https://www.washingtonpost.com/world/2026/11/18/putin-touts-russias-economy-apec-ukraine-sends-it-toward-fuel-crisis/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "Trump is trying to put the Iran war behind him, but it’s not over",
+          "summary": "The Washington Post reports that turmoil reigns in the Strait of Hormuz as Iran launches fresh attacks on Gulf states.",
+          "url": "https://www.washingtonpost.com/world/2026/11/18/trump-is-trying-put-iran-war-behind-him-its-not-over/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "U.S. Consortium Wins Bid to Prospect at $62 Billion Kenyan Rare-Earth Deposit",
+          "summary": "The WSJ reports that a U.S. consortium won a bid to prospect at a $62 Billion Kenyan rare-earth deposit, part of Washington's effort to challenge China's dominance of critical minerals.",
+          "url": "https://www.wsj.com/world/africa/u-s-consortium-wins-bid-to-prospect-at-62-billion-kenyan-rare-earth-deposit-5700b009?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Poland Nears Construction Deal With U.S. Consortium for $50 Billion Nuclear Plant",
+          "summary": "The WSJ reports that Poland nears a construction deal with a U.S. consortium for a $50 Billion nuclear plant, with signing by early next year looking most likely.",
+          "url": "https://www.wsj.com/world/europe/poland-expects-deal-with-u-s-consortium-for-50-billion-nuclear-power-plant-8cd6a356?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "PM Modi pulls up industry leaders over static wages, employment, manufacturing standards",
+          "summary": "The Hindu reports that Prime Minister Modi criticised industry leaders over static wages, employment and manufacturing standards, saying India Inc has not passed tax benefits on to people.",
+          "url": "https://www.thehindu.com/business/pm-modi-ficci-india-inc-ficci-annual-general-meeting-and-annual-convention-november-19-2026/article71719140.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "OPEC share in India’s crude imports drops to 27.4% in Apr-Oct amid West Asia flare-ups",
+          "summary": "The Hindu reports that OPEC's share in India's crude imports dropped to 27.4% in April-October amid West Asia flare-ups, while total crude imports rose about 2.7% to 146.6 million metric tonnes.",
+          "url": "https://www.thehindu.com/business/Economy/opec-share-in-indias-crude-imports-drops-to-274-in-apr-oct-amid-west-asia-flare-ups/article71720869.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "SEBI, PFRDA call for deeper capital markets to fund Viksit Bharat 2047",
+          "summary": "The Hindu reports that SEBI and PFRDA called for deeper capital markets to fund Viksit Bharat 2047, noting that retail and domestic institutional investors helped Indian markets stay resilient despite foreign portfolio investor outflows.",
+          "url": "https://www.thehindu.com/business/deep-capital-markets-long-term-financing-key-to-funding-indias-growth-says-sebis-murty/article71721459.ece",
+          "source": "The Hindu"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "Software factories and code reviews with Harjot Gill",
+          "summary": "The Pragmatic Engineer interviews CodeRabbit CEO Harjot Gill, who says he shipped over 5,000 pull requests in a month, believes human code review is dead, and spends $250,000 a month on AI.",
+          "url": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+          "source": "The Pragmatic Engineer",
+          "whyItMatters": "A single founder's view; useful mainly as a claim to test against your own review and verification practice."
+        },
+        {
+          "headline": "Data Contracts",
+          "summary": "Martin Fowler's site publishes an article by Simon Harrer and Arif Wider on data contracts, which describe the contents and guarantees of datasets by applying API-design practice to data.",
+          "url": "https://martinfowler.com/articles/data-contracts.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+          "summary": "The Pragmatic Engineer's weekly column asks whether Amazon's writing culture is collapsing because of AI, and also covers Anthropic's IPO and Meta's reversal of a shutdown of its Conductor AI coding harness.",
+          "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+          "source": "The Pragmatic Engineer"
+        },
+        {
+          "headline": "Stop blaming AI tools for flat velocity",
+          "summary": "LeadDev argues that teams should test their own habits before blaming AI tools for flat velocity.",
+          "url": "https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "System design",
+    "format": "explainer",
+    "title": "Why a faster kube-proxy backend is being retired",
+    "body": "Kube-proxy turns Kubernetes Services into packet-forwarding rules on every node. For years it had two main implementations: iptables, and an ipvs backend that started as an experiment in doing the same job faster. The Kubernetes project has now scheduled the removal of ipvs, and its reasoning is a compact lesson in system design.\n\nThe project says ipvs succeeded at its goal: it was faster than iptables. But the kernel IPVS API turned out to be a poor match for the Kubernetes Services API, and the backend was never able to implement all of the Services edge cases correctly. A component that is fast but cannot honour the full contract is a liability, because users choose it for the speed and inherit the gaps.\n\nThe replacement path is already in place. An nftables backend was introduced in Kubernetes 1.29 and became generally available in 1.33. That gave the project a supported alternative before it started announcing a removal, which is the sequencing worth copying: ship the successor, let it reach GA, then retire the old path on a published schedule.\n\nThree things to take into your own designs. First, an optimisation is only as good as its fit with the interface it serves. If the underlying primitive does not map cleanly onto your API's semantics, you will accumulate special cases that never converge. Second, an experiment that ships to users becomes a commitment. Label it clearly, and decide early what evidence would end it. Third, retirement is part of the design: write the migration story at the same time as the replacement.\n\nFor operators the practical step is simple. Check which proxy mode your clusters run, test the nftables backend in a staging cluster, and note where your workloads depend on behaviour that only one backend provides. Read the Kubernetes post for the actual removal timeline before planning the migration; this summary is based on the post's opening text only, because the page could not be opened during editing.",
+    "url": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/"
+  },
+  "liveWell": {
+    "eating": {
+      "tip": "Replacing a small share of animal protein with plant protein, such as lentils, beans or dal, was associated with less age-related deficit accumulation in the study NutritionFacts.org summarises.",
+      "url": "https://nutritionfacts.org/blog/a-simple-protein-swap-for-healthy-aging/"
+    },
+    "productivity": {
+      "tip": "If you feel spread too thin, pick fewer commitments and give those your full attention, rather than giving everything a thin layer of it.",
+      "url": "https://zenhabits.net/less-more/"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-30",
+      "note": "RBRK reports earnings (after the close)"
+    },
+    {
+      "date": "2026-12-01",
+      "note": "CRWD reports earnings (after the close)"
+    },
+    {
+      "date": "2026-12-03",
+      "note": "PATH reports earnings (after the close)"
+    },
+    {
+      "date": "2026-11-25",
+      "note": "GDP for the third quarter, second estimate (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-25",
+      "note": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-26",
+      "note": "U.S. stock markets closed for Thanksgiving"
+    },
+    {
+      "date": "2026-11-27",
+      "note": "U.S. stock markets close early, at 1:00 p.m. ET"
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 62,
+    "fetchesFailed": [
+      "The Chip Letter",
+      "The Seattle Times",
+      "The Indian Express",
+      "Fly.io",
+      "Kubernetes Blog"
+    ],
+    "sectionsShort": [],
+    "fullReads": 0
+  }
+}
