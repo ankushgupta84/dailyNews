@@ -1,0 +1,627 @@
+{
+  "date": "2026-11-20",
+  "kind": "weekday",
+  "generatedAt": "2026-11-20T15:28:57Z",
+  "frontPage": [
+    {
+      "headline": "Anthropic stock falls 9% to open first full day of trading amid AI sell-off",
+      "summary": "CNBC reports that Anthropic opened Thursday at $111.50 a share and closed at $97.17, 17% above its $83 IPO price. The headline says the stock fell 9% at the open on Friday amid a wider AI sell-off.",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+      "source": "CNBC",
+      "whyItMatters": "The largest AI lab to list now gives every cloud and chip supplier a daily public read on frontier-model economics."
+    },
+    {
+      "headline": "Anthropic Stock Slides as Tech Rout Intensifies",
+      "summary": "The Wall Street Journal reports that major indexes fell premarket and were on track for their worst week since the announcement of Trump's so-called Liberation Day tariffs in April 2025. Its headline ties the slide to Anthropic's shares falling as the tech rout intensified.",
+      "url": "https://www.wsj.com/finance/stocks/nasdaq-set-for-fresh-decline-as-ai-selloff-intensifies-e974bbb5?mod=rss_markets_main",
+      "source": "The Wall Street Journal",
+      "whyItMatters": "A sell-off that hits AI infrastructure names and the lab at the centre of demand together is a test of how much of the capex story is already priced."
+    },
+    {
+      "headline": "Cyber Director Cairncross out as White House resets cyber leadership",
+      "summary": "The Record reports that Sean Cairncross is leaving the White House and that Kirsten Davies, the Pentagon's chief information officer, has been named acting cyber czar.",
+      "url": "https://therecord.media/sean-cairncross-out-as-national-cyber-director",
+      "source": "The Record",
+      "whyItMatters": "Leadership turnover at the national cyber office during a run of outages is a reminder that resilience planning cannot lean on federal coordination."
+    },
+    {
+      "headline": "VMware patches vCenter zero-day exploited in attacks since September",
+      "summary": "BleepingComputer reports that Broadcom has released security updates for a critical VMware vCenter Server authentication bypass. Chinese-linked hackers have exploited it in zero-day attacks since September 2026.",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "source": "BleepingComputer",
+      "whyItMatters": "A management-plane authentication bypass that sat exploited for weeks is exactly the class of flaw that turns one patch gap into a fleet-wide compromise.",
+      "tags": [
+        "AVGO"
+      ]
+    },
+    {
+      "headline": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
+      "summary": "InfoQ reports that Google is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation, placing two components of its AI agent infrastructure under vendor-neutral governance.",
+      "url": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "whyItMatters": "Sandboxing for agents is becoming shared infrastructure rather than a vendor feature, which makes isolation choices easier to standardise.",
+      "tags": [
+        "GOOGL"
+      ]
+    },
+    {
+      "headline": "California Attorney General Issues Investigative Subpoena to Nvidia",
+      "summary": "The Wall Street Journal reports that California Attorney General Rob Bonta has issued an investigative subpoena to Nvidia, opening a probe into whether the chip maker misled investors.",
+      "url": "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e?mod=rss_Technology",
+      "source": "The Wall Street Journal",
+      "whyItMatters": "State-level scrutiny of the dominant accelerator supplier adds a disclosure risk alongside export controls.",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "What Trump, Putin and Xi Left on the Table",
+      "summary": "The New York Times reports that a summit among the leaders of the United States, China and Russia produced no treaties on war or nuclear weapons, and that the A.I. race was not on the agenda.",
+      "url": "https://www.nytimes.com/2026/11/20/podcasts/the-daily/trump-putin-xi-summit-ai.html",
+      "source": "The New York Times",
+      "whyItMatters": "No agreement on AI or chips leaves export-control and supply-chain policy uncertain for data-center planning."
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 19 close",
+    "openAsOf": "Nov 20, 2026 10:17 AM ET",
+    "movers": [
+      {
+        "ticker": "APLD",
+        "changePct": -3.3,
+        "openPct": -11.0,
+        "reason": "Open: Barchart's wrap says stock indices plunged amid broad market weakness; this is market-wide and does not name the company.",
+        "url": "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness"
+      },
+      {
+        "ticker": "INFQ",
+        "changePct": -4.1,
+        "openPct": -8.6,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "MU",
+        "changePct": -2.1,
+        "openPct": -8.2,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "WDC",
+        "changePct": 3.0,
+        "openPct": -8.2,
+        "reason": "Yesterday's gain: a Thursday sector wrap lists computers and computer peripherals among sector leaders; it is sector-wide and does not name the company.",
+        "url": "https://www.nasdaq.com/articles/thursday-sector-leaders-computers-computer-peripherals"
+      },
+      {
+        "ticker": "MARA",
+        "changePct": -4.8,
+        "openPct": -8.1,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "ANET",
+        "changePct": -2.2,
+        "openPct": -8.0,
+        "reason": "Open: Barchart's wrap says stock indices plunged amid broad market weakness; this is market-wide and does not name the company.",
+        "url": "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness"
+      },
+      {
+        "ticker": "AMD",
+        "changePct": -7.7,
+        "openPct": -5.9,
+        "reason": "Open: Barchart's wrap says stock indices plunged amid broad market weakness; the headline does not explain yesterday's drop.",
+        "url": "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness"
+      },
+      {
+        "ticker": "NET",
+        "changePct": 0.9,
+        "openPct": -7.5,
+        "reason": "Open: Barchart's wrap says stock indices plunged amid broad market weakness; this is market-wide and does not name the company.",
+        "url": "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness"
+      },
+      {
+        "ticker": "AVGO",
+        "changePct": -2.1,
+        "openPct": -6.8,
+        "reason": "Open: Barchart's wrap says stock indices plunged amid broad market weakness; this is market-wide and does not name the company.",
+        "url": "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness"
+      },
+      {
+        "ticker": "PANW",
+        "changePct": 6.4,
+        "openPct": -3.0,
+        "reason": "Open: Barchart's wrap says stock indices plunged amid broad market weakness; the headline does not explain yesterday's gain.",
+        "url": "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness"
+      },
+      {
+        "ticker": "DRAM",
+        "changePct": -1.8,
+        "openPct": -6.0,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "ONDS",
+        "changePct": -4.3,
+        "openPct": -6.0,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "IMSR",
+        "changePct": -3.8,
+        "openPct": -5.0,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "NVDA",
+        "changePct": -3.3,
+        "openPct": -4.7,
+        "reason": "Open: Barchart's wrap says stock indices plunged amid broad market weakness; this is market-wide and does not name the company.",
+        "url": "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness"
+      },
+      {
+        "ticker": "RBRK",
+        "changePct": 4.1,
+        "openPct": -4.6,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "CRWD",
+        "changePct": 2.7,
+        "openPct": -4.4,
+        "reason": "Open: Barchart's wrap says stock indices plunged amid broad market weakness; this is market-wide and does not name the company.",
+        "url": "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness"
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "RBRK",
+        "date": "2026-11-30",
+        "note": "after the close"
+      },
+      {
+        "ticker": "CRWD",
+        "date": "2026-12-01",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PATH",
+        "date": "2026-12-03",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": [
+      {
+        "date": "2026-11-25",
+        "event": "GDP for the third quarter, second estimate (8:30 a.m. ET)",
+        "note": ""
+      },
+      {
+        "date": "2026-11-25",
+        "event": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)",
+        "note": ""
+      },
+      {
+        "date": "2026-11-26",
+        "event": "U.S. stock markets closed for Thanksgiving",
+        "note": ""
+      },
+      {
+        "date": "2026-11-27",
+        "event": "U.S. stock markets close early, at 1:00 p.m. ET",
+        "note": ""
+      },
+      {
+        "date": "2026-12-04",
+        "event": "Jobs report for November (8:30 a.m. ET)",
+        "note": ""
+      }
+    ],
+    "bearCase": {
+      "subject": "Equity supply and the AI trade",
+      "summary": "CNBC argues that companies are shifting from share buybacks to stock issuance, adding new supply to the market, and that Anthropic's $81 billion IPO puts that demand to the test. It frames the 'smart money' selling as a new problem for the bull market.",
+      "url": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+      "source": "CNBC"
+    }
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "Tech rout drags down global bourses",
+          "summary": "Semafor reports that Asian markets had their worst week since the outbreak of the COVID-19 pandemic as investors bet the AI boom is nearing its end.",
+          "url": "https://www.semafor.com/article/11/20/2026/tech-rout-hits-asian-shares-with-us-market-likely-to-follow",
+          "source": "Semafor"
+        },
+        {
+          "headline": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+          "summary": "CNBC reports that Anthropic raised $93.5 billion in total after underwriters exercised the greenshoe overallotment. The company sold an aggregate of 1,127,000,000 shares at $83 per share.",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+          "summary": "CNBC reports that SoftBank had its worst day in over two years as the AI sell-off hit Asian tech stocks. The Nasdaq Composite had fallen more than 2% overnight.",
+          "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
+          "summary": "MarketWatch reports that TurboTax maker Intuit gave a downbeat outlook, giving investors a fresh reason to worry about legacy software companies.",
+          "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+          "source": "MarketWatch"
+        },
+        {
+          "headline": "Gold, Silver Drop to Lowest Levels in Over a Year",
+          "summary": "The Wall Street Journal reports that gold and silver fell to their lowest levels in over a year, as expectations of tighter monetary policy appeared to outweigh safe-haven demand.",
+          "url": "https://www.wsj.com/finance/commodities-futures/gold-silver-drop-to-lowest-levels-in-over-a-year-c657402c?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "Senate passes bipartisan energy bill amid environmental concerns",
+          "summary": "NPR reports that the Senate passed a bipartisan bill that will speed up the approval process for data centers and power plants, amid rising energy costs and AI-driven demand and concerns from environmental groups.",
+          "url": "https://www.npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill",
+          "source": "NPR",
+          "whyItMatters": "Faster permitting eases one of the slowest steps in standing up new capacity."
+        },
+        {
+          "headline": "Microsoft becomes first company to use Intel’s EMIB packaging technology for Azure hardware",
+          "summary": "Data Center Dynamics reports that Microsoft is the first company to use Intel's EMIB packaging technology for Azure hardware. The agreement also confirms long-term supply of Xeon processors to Microsoft.",
+          "url": "https://www.datacenterdynamics.com/en/news/microsoft-becomes-first-company-to-use-intels-emib-packaging-technology-for-azure-hardware/",
+          "source": "Data Center Dynamics",
+          "tags": [
+            "MSFT",
+            "INTC"
+          ]
+        },
+        {
+          "headline": "PJM plan could cut data center and power plant grid connection times to 12 months",
+          "summary": "Data Center Dynamics reports that PJM has submitted a proposal to FERC that could cut grid connection times for data centers and power plants to 12 months. The regulator may have to foot the bill.",
+          "url": "https://www.datacenterdynamics.com/en/news/pjm-plan-could-cut-data-center-and-power-plant-grid-connection-times-to-12-months/",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "headline": "PJM urged to delay base capacity auction until data centers cut from forecast",
+          "summary": "Utility Dive reports that state ratepayer advocates and the grid operator's market monitor are urging PJM to delay its December capacity auction until data centers are cut from the forecast, saying it could cost consumers billions.",
+          "url": "https://www.utilitydive.com/news/ratepayer-advocates-pjm-market-monitor-capacity-auction/875165/",
+          "source": "Utility Dive"
+        },
+        {
+          "headline": "Data center electricity use could double by 2030, IEA says",
+          "summary": "CNBC reports that global electricity use by data centers could double by 2030 as the AI boom adds pressure to power grids, according to the IEA.",
+          "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Google signs 50-MW superhot geothermal PPA with Quaise Energy",
+          "summary": "Utility Dive reports that Google signed a 50-MW superhot geothermal power purchase agreement with Quaise Energy for its Oregon data center operations, beginning as early as 2030.",
+          "url": "https://www.utilitydive.com/news/google-signs-50-mw-superhot-geothermal-ppa-with-quaise-energy/875217/",
+          "source": "Utility Dive",
+          "tags": [
+            "GOOGL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+          "summary": "BleepingComputer reports that F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to cause denial of service or gain remote code execution.",
+          "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+          "summary": "Cloudflare describes five memory corruption bugs in nginx, named nginx2root, that can let an unauthenticated attacker run code on a server. It says origins behind its proxy are shielded from the most serious of them.",
+          "url": "https://blog.cloudflare.com/nginx2root/",
+          "source": "Cloudflare Blog",
+          "tags": [
+            "NET"
+          ]
+        },
+        {
+          "headline": "Dozens of credit unions hit by supplier breach that went unnoticed for six weeks",
+          "summary": "The Record reports that Ireland's Data Protection Commission has received more than 40 breach notifications from credit unions that used a Belfast-based company as a data processor.",
+          "url": "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach",
+          "source": "The Record"
+        },
+        {
+          "headline": "N-able says recent security breach led to major service outage",
+          "summary": "BleepingComputer reports that N-able says attackers who breached one of its servers caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide.",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "PHP security updates fix 18 flaws, including critical RCE bugs",
+          "summary": "BleepingComputer reports that the PHP team released updates fixing 18 vulnerabilities, including critical flaws that could allow unauthenticated remote code execution.",
+          "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Transport for London breach exposes 265,000 Oyster card users' data",
+          "summary": "BleepingComputer reports that Transport for London says around 265,000 Oyster photocard customers may have had account details exposed in a data breach.",
+          "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+          "source": "BleepingComputer"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency Below 1 MS",
+          "summary": "InfoQ reports that Uber redesigned its Go-based translation cache, cutting its initial memory footprint by more than 90% while keeping a cache hit rate above 99.9% and p99 disk-backed miss latency below 100 microseconds.",
+          "url": "https://www.infoq.com/news/2026/11/uber-go-translation-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "AWS Releases a Free Local Emulator of AWS Built Entirely by Agents",
+          "summary": "InfoQ reports that AWS released a free, CC0-licensed local emulator of more than 200 services, written and maintained by agents. The docs say it does not evaluate IAM, and practitioners are split on trusting it.",
+          "url": "https://www.infoq.com/news/2026/11/aws-emulator-local-testing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "tags": [
+            "AMZN"
+          ]
+        },
+        {
+          "headline": "PostgreSQL 19 Released",
+          "summary": "Simon Willison notes that PostgreSQL 19 shipped two months later than usual, largely because of AI-reported vulnerabilities. He highlights a new WAIT FOR LSN command that adds read-your-writes consistency for applications that send reads to standbys.",
+          "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+          "source": "Simon Willison"
+        },
+        {
+          "headline": "Deterministic Simulation Testing",
+          "summary": "Martin Fowler's site carries Unmesh Joshi's description of deterministic simulation testing, which replaces real clocks, networks and storage with simulated components driven by a single-threaded loop so that failures and slowdowns can be replayed.",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "QCon San Francisco 2026: The Future of Apache Iceberg",
+          "summary": "InfoQ reports from QCon San Francisco that Apache Iceberg V4 proposes a redesign of table metadata to improve scalability and support more frequent writes.",
+          "url": "https://www.infoq.com/news/2026/11/iceberg-v4-metadata/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "STAT+: UnitedHealth sues to reverse downgraded Medicare Advantage quality scores",
+          "summary": "STAT reports that UnitedHealth Group has sued the federal government to reverse lowered Medicare Advantage quality ratings, joining other insurers, with billions at stake.",
+          "url": "https://www.statnews.com/2026/11/20/unitedhealth-cms-medicare-advantage-lawsuit-star-rating/?utm_campaign=rss",
+          "source": "STAT"
+        },
+        {
+          "headline": "Consumers believe AI will be key in making healthcare simpler: survey",
+          "summary": "Fierce Healthcare reports a survey finding that Americans want a simpler, easier-to-understand healthcare experience and see AI as a possible route to it.",
+          "url": "https://www.fiercehealthcare.com/payers/consumers-believe-ai-will-be-key-making-healthcare-simpler-survey",
+          "source": "Fierce Healthcare"
+        },
+        {
+          "headline": "HLTH 2026: Elsevier upgrades ClinicalKey AI with full patient EHR context",
+          "summary": "Fierce Healthcare reports from HLTH 2026 that Elsevier upgraded ClinicalKey AI to combine evidence-based guidance with a patient's EHR context, with San Juan Regional Medical Center using it.",
+          "url": "https://www.fiercehealthcare.com/health-tech/hlth-2026-elsevier-upgrades-clinicalkey-ai-full-patient-ehr-context",
+          "source": "Fierce Healthcare"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "So you got a Microsoft Voluntary Exit Offer? Here’s what to do next",
+          "summary": "GeekWire reports that about 60,000 Microsoft employees have until early December to decide on the company's voluntary exit offer, and carries advice from a former Microsoft general manager.",
+          "url": "https://www.geekwire.com/2026/so-you-got-a-microsoft-voluntary-exit-offer-heres-what-to-do-next/",
+          "source": "GeekWire",
+          "tags": [
+            "MSFT"
+          ]
+        },
+        {
+          "headline": "Amazon threatens to leave NYC again, this time over delivery bill, as it rallies customers to fight it",
+          "summary": "GeekWire reports that Amazon is warning it may move delivery operations out of New York City over a driver bill, and is urging customers to fight it.",
+          "url": "https://www.geekwire.com/2026/amazon-threatens-to-leave-nyc-again-this-time-over-delivery-bill-as-it-rallies-customers-to-fight-it/",
+          "source": "GeekWire",
+          "tags": [
+            "AMZN"
+          ]
+        },
+        {
+          "headline": "Amazon’s $18B bet on Anthropic tops $200B, for a moment, in the Claude maker’s historic market debut",
+          "summary": "GeekWire reports that Amazon's $18 billion investment in Anthropic was worth about $216 billion on paper at the $111.50 opening price. Microsoft is buying $1 billion in stock, and Anthropic has committed to spend at least $47 billion on Azure.",
+          "url": "https://www.geekwire.com/2026/amazons-18b-bet-on-anthropic-tops-200b-in-the-claude-makers-historic-market-debut/",
+          "source": "GeekWire",
+          "tags": [
+            "AMZN",
+            "MSFT"
+          ]
+        },
+        {
+          "headline": "RBC Signals brings in $10M investment to expand strategic frontiers for satellite services",
+          "summary": "GeekWire reports that Seattle-area RBC Signals raised $10M from Washington Harbour Partners to expand into the government market for satellite connectivity.",
+          "url": "https://www.geekwire.com/2026/rbc-signals-10m-investment-satellite-services/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Zeno Power makes progress on an underwater power system that will eventually go nuclear",
+          "summary": "GeekWire reports progress by Zeno Power on an underwater power system that will eventually use a nuclear battery, backed by Pentagon funding.",
+          "url": "https://www.geekwire.com/2026/zeno-power-underwater-power-system-nuclear/",
+          "source": "GeekWire"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "U.S. Has Floated NATO Membership for Ukraine in Recent Meetings",
+          "summary": "The Wall Street Journal reports that U.S. envoys have discussed Ukraine giving up territory in the Donbas in exchange for NATO membership, a reversal of longstanding U.S. policy.",
+          "url": "https://www.wsj.com/world/europe/u-s-has-floated-nato-membership-for-ukraine-in-recent-meetings-d5c8243a?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+          "summary": "The BBC reports that a Russian missile hit Poland during a military exercise by Ukraine's allies, according to Prime Minister Tusk. No one was hurt and no damage was reported; Warsaw called it a provocation.",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        },
+        {
+          "headline": "Britain Announces Brexit Reset Deal at E.U. Summit: What to Know",
+          "summary": "The New York Times reports that Prime Minister Andy Burnham and European leaders announced a deal to remove some barriers introduced by Brexit.",
+          "url": "https://www.nytimes.com/2026/11/20/world/europe/uk-eu-summit-brexit.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "U.S. Auctions 31.5 Million Acres of Pacific Ocean to Deep Sea Mining Company",
+          "summary": "The New York Times reports that the U.S. auctioned 31.5 million acres of Pacific seabed to Wetstone U.S. Ventures, which paid $6 million for mapping and preparation rather than mining, over a federal judge's objections.",
+          "url": "https://www.nytimes.com/2026/11/19/climate/metals-company-seafloor-mining-auction.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "Iran war has worsened U.S. munitions shortage, government watchdog finds",
+          "summary": "The Washington Post reports that a Government Accountability Office report finds the Iran war has worsened the U.S. munitions shortage, contradicting administration assertions.",
+          "url": "https://www.washingtonpost.com/national-security/2026/11/19/gao-report-finds-iran-war-has-worsened-us-munitions-shortage/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+          "summary": "CNBC reports that analysts see few concrete outcomes on U.S.-China trade, Taiwan and tech tensions from the APEC meetings in Shenzhen.",
+          "url": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "SEBI mulls review of additional disclosure norms for FPIs; floats consultation paper",
+          "summary": "The Hindu reports that SEBI has floated a consultation paper on reviewing additional disclosure norms for foreign portfolio investors, with comments invited until December 11.",
+          "url": "https://www.thehindu.com/business/markets/sebi-mulls-review-of-additional-disclosure-norms-for-fpis-floats-consultation-paper/article71724977.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "CEA flags need to align capital markets with India’s development priorities",
+          "summary": "The Hindu reports that the Chief Economic Adviser flagged that equity market capitalisation stands at around 130% of GDP while the corporate bond market is only about 16%.",
+          "url": "https://www.thehindu.com/business/markets/cea-flags-need-to-align-capital-markets-with-indias-development-priorities/article71725057.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "U.S. FDA issues VAI classification to Natco Pharma’s FDF unit in Vizag",
+          "summary": "The Hindu reports that the U.S. FDA gave a VAI classification to Natco Pharma's formulation unit in Vizag, meaning objectionable conditions were found but the regulator is not prepared to take or recommend action.",
+          "url": "https://www.thehindu.com/business/Industry/us-fda-issues-vai-classification-to-natco-pharmas-fdf-unit-in-vizag/article71724838.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "India exposes Pakistani Army’s resource grab at UN: From Asim Munir’s mineral box to political unrest, what’s at stake?",
+          "summary": "Mint reports that India accused Pakistan's Army at the UN of exploiting mineral wealth for personal gain, linking its resource ambitions to political turmoil and the Balochistan insurgency.",
+          "url": "https://www.livemint.com/news/world/india-exposes-pakistani-army-s-resource-grab-at-un-from-asim-munir-s-mineral-box-to-political-unrest-what-s-at-stake-11795178901221.html",
+          "source": "Mint"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
+          "summary": "InfoQ reports from QCon San Francisco that Pinterest's Jordan Cutler described how the staff engineer role changes when every engineer has access to the same AI tools.",
+          "url": "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+          "summary": "The Pragmatic Engineer's weekly Pulse asks whether Amazon's writing culture is collapsing because of AI, and covers Anthropic's IPO and Meta's reversal of a shutdown of the Conductor coding harness.",
+          "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+          "source": "The Pragmatic Engineer"
+        },
+        {
+          "headline": "Tests as data: ensuring AI-generated code does what we want",
+          "summary": "Martin Fowler's site carries Matteo Vaccari's argument that when AI writes both production and test code, customer tests rather than developer tests become the contract between humans and AI, and that keeping them as test data helps.",
+          "url": "https://martinfowler.com/articles/tests-as-data.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "Stop blaming AI tools for flat velocity",
+          "summary": "LeadDev argues that teams should test their own habits before blaming AI tools for flat velocity.",
+          "url": "https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "Leadership",
+    "format": "explainer",
+    "title": "Making verification a loop, not a gate",
+    "body": "Engineering leaders keep hitting the same wall with AI-assisted development: output rises, but confidence in that output does not. Will Larson's post on Imprint Engineering's next step addresses it directly. After adopting what he calls the small-change pattern, the team turned to a verification loop for its software development loop.\n\nAs Larson frames it, this is an increasingly common pattern. He points to poteto's pstack and to Niko Matsakis's post on a correctness ratchet as similar ideas emerging in other places. The shared idea, as the excerpt describes it, is that checking work is a designed loop of its own and not something left to reviewers at the end. His post also notes confusion he saw in Imprint's initial attempt, which is a useful signal in itself: a pattern with a name can still be adopted in quite different ways.\n\nI could not open the full post from this session, so the details below are my reading of the pattern, not claims about what Larson wrote. A verification loop moves the question \"is this correct?\" from a person's judgement at review time to checks that run every time a change is made. A ratchet is the natural companion: once a class of defect has been caught, a check stays in place so that it cannot return.\n\nFor a leader the design questions are organisational. Who owns the checks, and who is accountable when they pass something wrong? How do you stop the loop from slowly accepting weaker evidence as pressure rises? And how do you show the team that small changes and fast verification together reduce risk, instead of presenting verification as a tax on speed?\n\nTo take into your own team: pick one recurring failure from the last quarter, write the check that would have caught it, and make that check part of every change. Then review the checks, not only the code, in retrospectives.",
+    "url": "https://lethain.com/adopting-verification-pattern/"
+  },
+  "liveWell": {
+    "health": {
+      "tip": "Thanksgiving cooking carries real hazards, so follow emergency doctors' basic advice, starting with not deep-frying a frozen turkey.",
+      "url": "https://www.nytimes.com/2026/11/20/well/thanksgiving-emergency-room-er.html"
+    },
+    "eating": {
+      "tip": "For holiday meals, pay attention to your body's fullness cues so you can enjoy favourite foods without overeating.",
+      "url": "https://theconversation.com/a-doctors-guide-to-surviving-and-enjoying-holiday-feasting-while-on-glp-1-medication-295301"
+    },
+    "productivity": {
+      "tip": "When you feel spread too thin, try caring about fewer things rather than trying to care about everything.",
+      "url": "https://zenhabits.net/less-more/"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-25",
+      "note": "GDP for the third quarter, second estimate (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-25",
+      "note": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-26",
+      "note": "U.S. stock markets closed for Thanksgiving"
+    },
+    {
+      "date": "2026-11-27",
+      "note": "U.S. stock markets close early, at 1:00 p.m. ET"
+    },
+    {
+      "date": "2026-11-30",
+      "note": "RBRK reports earnings, after the close"
+    },
+    {
+      "date": "2026-12-01",
+      "note": "CRWD reports earnings, after the close"
+    },
+    {
+      "date": "2026-12-03",
+      "note": "PATH reports earnings, after the close"
+    },
+    {
+      "date": "2026-12-04",
+      "note": "Jobs report for November (8:30 a.m. ET)"
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 59,
+    "fetchesFailed": [
+      "The Seattle Times",
+      "The Indian Express",
+      "Irrational Exuberance"
+    ],
+    "sectionsShort": [],
+    "fullReads": 0
+  }
+}
