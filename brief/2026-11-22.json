@@ -1,0 +1,3249 @@
+{
+  "date" : "2026-11-22",
+  "kind" : "sunday",
+  "learnTrack" : "The long view",
+  "asOf" : "Nov 20 close",
+  "asOfDate" : "2026-11-20",
+  "movers" : [ {
+    "ticker" : "MARA",
+    "changePct" : -18.6
+  }, {
+    "ticker" : "APLD",
+    "changePct" : -17.8
+  }, {
+    "ticker" : "NVDA",
+    "changePct" : -14.0
+  }, {
+    "ticker" : "MU",
+    "changePct" : -13.9
+  }, {
+    "ticker" : "INFQ",
+    "changePct" : -13.4
+  }, {
+    "ticker" : "AMD",
+    "changePct" : -13.2
+  }, {
+    "ticker" : "DRAM",
+    "changePct" : -13.2
+  }, {
+    "ticker" : "AVGO",
+    "changePct" : -12.2
+  }, {
+    "ticker" : "WDC",
+    "changePct" : -12.0
+  }, {
+    "ticker" : "ANET",
+    "changePct" : -11.6
+  }, {
+    "ticker" : "ONDS",
+    "changePct" : -11.1
+  }, {
+    "ticker" : "NET",
+    "changePct" : -9.5
+  }, {
+    "ticker" : "HOOD",
+    "changePct" : -9.4
+  }, {
+    "ticker" : "SMCI",
+    "changePct" : -9.2
+  }, {
+    "ticker" : "IONQ",
+    "changePct" : -8.8
+  }, {
+    "ticker" : "ORCL",
+    "changePct" : -8.5
+  }, {
+    "ticker" : "SOFI",
+    "changePct" : -7.8
+  }, {
+    "ticker" : "TSLA",
+    "changePct" : -7.6
+  }, {
+    "ticker" : "VST",
+    "changePct" : -7.2
+  }, {
+    "ticker" : "RBRK",
+    "changePct" : -6.8
+  }, {
+    "ticker" : "ASML",
+    "changePct" : -6.6
+  }, {
+    "ticker" : "PLTR",
+    "changePct" : -6.6
+  }, {
+    "ticker" : "IMSR",
+    "changePct" : -6.1
+  }, {
+    "ticker" : "META",
+    "changePct" : -5.9
+  }, {
+    "ticker" : "CRWD",
+    "changePct" : -5.8
+  }, {
+    "ticker" : "PANW",
+    "changePct" : -5.1
+  }, {
+    "ticker" : "OKLO",
+    "changePct" : -4.8
+  }, {
+    "ticker" : "AMZN",
+    "changePct" : -4.1
+  }, {
+    "ticker" : "NFLX",
+    "changePct" : -3.0
+  } ],
+  "moverNews" : [ {
+    "ticker" : "MARA",
+    "headlines" : [ {
+      "title" : "Noteworthy Friday Option Activity: CRWV, MARA, RKLB",
+      "url" : "https://www.nasdaq.com/articles/noteworthy-friday-option-activity-crwv-mara-rklb",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "BNK Invest"
+    } ]
+  }, {
+    "ticker" : "APLD",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stocks Sink as Tech Rout Deepens",
+      "url" : "https://www.nasdaq.com/articles/stocks-sink-tech-rout-deepens",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Global Stocks Retreat on Unwind of the AI Trade",
+      "url" : "https://www.nasdaq.com/articles/global-stocks-retreat-unwind-ai-trade",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Noteworthy Friday Option Activity: APLD, TEM, ALAB",
+      "url" : "https://www.nasdaq.com/articles/noteworthy-friday-option-activity-apld-tem-alab",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "BNK Invest"
+    } ]
+  }, {
+    "ticker" : "NVDA",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash.",
+      "url" : "https://www.nasdaq.com/articles/sp-500-and-dow-jones-are-dangerously-close-joining-nasdaq-correction-heres-level-would-put",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028",
+      "url" : "https://www.nasdaq.com/articles/prediction-these-will-be-amds-and-nvidias-stock-prices-2028",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Is Nvidia a Buy at $125? Here's My Honest Take",
+      "url" : "https://www.nasdaq.com/articles/nvidia-buy-125-heres-my-honest-take",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "MU",
+    "headlines" : [ {
+      "title" : "Micron Technology vs. Sandisk: Which Technology Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/micron-technology-vs-sandisk-which-technology-stock-better-buy-2027",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Prediction: Dec. 9 Will Be a Huge Day for the Stock Market",
+      "url" : "https://www.nasdaq.com/articles/prediction-dec-9-will-be-huge-day-stock-market",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Where Will Micron Stock Be in 3 Years?",
+      "url" : "https://www.nasdaq.com/articles/where-will-micron-stock-be-3-years",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "INFQ",
+    "headlines" : [ {
+      "title" : "Got $500? 2 Quantum Computing Stocks to Buy Right Now",
+      "url" : "https://www.nasdaq.com/articles/got-500-2-quantum-computing-stocks-buy-right-now",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "AMD",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028",
+      "url" : "https://www.nasdaq.com/articles/prediction-these-will-be-amds-and-nvidias-stock-prices-2028",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "AMD Stock Just Plunged on a Short-Seller Report. Is This a Golden Buying Opportunity?",
+      "url" : "https://www.nasdaq.com/articles/amd-stock-just-plunged-short-seller-report-golden-buying-opportunity",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Billionaire David Tepper Just Made a Massive AI Chip Rotation — Will It Pay Off?",
+      "url" : "https://www.nasdaq.com/articles/billionaire-david-tepper-just-made-massive-ai-chip-rotation-will-it-pay",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "DRAM",
+    "headlines" : [ {
+      "title" : "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here’s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction.",
+      "url" : "https://www.nasdaq.com/articles/soxx-and-dram-are-down-between-356-and-519-their-highs-heres-even-better-growth-stock-etf",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "DRAM, CRCD: Big ETF Outflows",
+      "url" : "https://www.nasdaq.com/articles/dram-crcd-big-etf-outflows",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "BNK Invest"
+    } ]
+  }, {
+    "ticker" : "AVGO",
+    "headlines" : [ {
+      "title" : "Here's What a $1,000 Investment in Broadcom Stock Could Be Worth By 2035",
+      "url" : "https://www.nasdaq.com/articles/heres-what-1000-investment-broadcom-stock-could-be-worth-2035",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Prediction: Dec. 9 Will Be a Huge Day for the Stock Market",
+      "url" : "https://www.nasdaq.com/articles/prediction-dec-9-will-be-huge-day-stock-market",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Why Broadcom Stock Could Double by 2030",
+      "url" : "https://www.nasdaq.com/articles/why-broadcom-stock-could-double-2030",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "WDC",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Western Digital Corporation Reports Voting Results from its Annual Meeting of Stockholders",
+      "url" : "https://www.nasdaq.com/articles/western-digital-corporation-reports-voting-results-its-annual-meeting-stockholders",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "Fintel"
+    }, {
+      "title" : "Stocks Sink as Tech Rout Deepens",
+      "url" : "https://www.nasdaq.com/articles/stocks-sink-tech-rout-deepens",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Credo Technology Group vs. Western Digital: Which Technology Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/credo-technology-group-vs-western-digital-which-technology-stock-better-buy-2027",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "ANET",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Arista Networks vs. Axon Enterprise: Which Technology Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/arista-networks-vs-axon-enterprise-which-technology-stock-better-buy-2027",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stocks Sink as Tech Rout Deepens",
+      "url" : "https://www.nasdaq.com/articles/stocks-sink-tech-rout-deepens",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Global Stocks Retreat on Unwind of the AI Trade",
+      "url" : "https://www.nasdaq.com/articles/global-stocks-retreat-unwind-ai-trade",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    } ]
+  }, {
+    "ticker" : "ONDS",
+    "headlines" : [ {
+      "title" : "MarketBeat Week in Review – 11/16 - 11/20",
+      "url" : "https://www.nasdaq.com/articles/marketbeat-week-review-11-16-11-20",
+      "published" : "2026-11-21",
+      "primary" : false,
+      "publisher" : "MarketBeat"
+    } ]
+  }, {
+    "ticker" : "NET",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stocks Sink as Tech Rout Deepens",
+      "url" : "https://www.nasdaq.com/articles/stocks-sink-tech-rout-deepens",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Global Stocks Retreat on Unwind of the AI Trade",
+      "url" : "https://www.nasdaq.com/articles/global-stocks-retreat-unwind-ai-trade",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stock Indices Plunge Amid Broad Market Weakness",
+      "url" : "https://www.nasdaq.com/articles/stock-indices-plunge-amid-broad-market-weakness",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    } ]
+  }, {
+    "ticker" : "HOOD",
+    "headlines" : [ {
+      "title" : "Is This Cryptocurrency a Potential Millionaire Maker?",
+      "url" : "https://www.nasdaq.com/articles/cryptocurrency-potential-millionaire-maker-0",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "CME vs. Robinhood Markets: Which Financial Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/cme-vs-robinhood-markets-which-financial-stock-better-buy-2027",
+      "published" : "2026-11-21",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "COIN Lags Industry, Trades at a Premium: Buy, Hold or Sell the Stock?",
+      "url" : "https://www.nasdaq.com/articles/coin-lags-industry-trades-premium-buy-hold-or-sell-stock",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "Robinhood Markets vs. Nu: Which Financial Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/robinhood-markets-vs-nu-which-financial-stock-better-buy-2027",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "SMCI",
+    "headlines" : [ {
+      "title" : "Super Micro: 3 Key Takeaways for Long-Term Investors",
+      "url" : "https://www.nasdaq.com/articles/super-micro-3-key-takeaways-long-term-investors",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Super Micro Computer (SMCI) is a Top-Ranked Value Stock: Should You Buy?",
+      "url" : "https://www.nasdaq.com/articles/super-micro-computer-smci-top-ranked-value-stock-should-you-buy",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "Zacks Industry Outlook Highlights Western Digital, Super Micro Computer and Quantum",
+      "url" : "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-western-digital-super-micro-computer-and-quantum",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "Super Micro Computer, Inc. (SMCI) is Attracting Investor Attention: Here is What You Should Know",
+      "url" : "https://www.nasdaq.com/articles/super-micro-computer-inc-smci-attracting-investor-attention-here-what-you-should-know",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "IONQ",
+    "headlines" : [ {
+      "title" : "Is IonQ Stock a Buy Right Now?",
+      "url" : "https://www.nasdaq.com/articles/ionq-stock-buy-right-now",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "QNT & QBTS: 2 Quantum Stocks to Buy for Triple-Digit Growth in 2027",
+      "url" : "https://www.nasdaq.com/articles/qnt-qbts-2-quantum-stocks-buy-triple-digit-growth-2027",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "3 Quantum Computing Stocks That Could Help Set You Up for Life",
+      "url" : "https://www.nasdaq.com/articles/3-quantum-computing-stocks-could-help-set-you-life",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "IonQ’s Platform Revenue Grew 127%. Is the Stock a Buy?",
+      "url" : "https://www.nasdaq.com/articles/ionqs-platform-revenue-grew-127-stock-buy",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "ORCL",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Should You Invest $1,000 in Bloom Energy Right Now?",
+      "url" : "https://www.nasdaq.com/articles/should-you-invest-1000-bloom-energy-right-now",
+      "published" : "2026-11-21",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Intuit vs. Oracle: Which Technology Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/intuit-vs-oracle-which-technology-stock-better-buy-2027",
+      "published" : "2026-11-21",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Oracle Corporation Reports Results of 2026 Annual Meeting of Stockholders",
+      "url" : "https://www.nasdaq.com/articles/oracle-corporation-reports-results-2026-annual-meeting-stockholders",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "Fintel"
+    } ]
+  }, {
+    "ticker" : "SOFI",
+    "headlines" : [ {
+      "title" : "PayPal vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/paypal-vs-sofi-technologies-which-financial-stock-better-buy-2027",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Robinhood Markets vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/robinhood-markets-vs-sofi-technologies-which-financial-stock-better-buy-2027",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "TSLA",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "J.P. Morgan Says Tesla’s Robotaxi Fleet Could Match Waymo’s Miles by Late 2027 With 18,000 Cars. The Number That Matters Is How Much Each Car Earns.",
+      "url" : "https://www.nasdaq.com/articles/jp-morgan-says-teslas-robotaxi-fleet-could-match-waymos-miles-late-2027-18000-cars-number",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Not Lucid. Not Ford. The EV Stock Most Likely to Catch Every Refunded Cybertruck Buyer.",
+      "url" : "https://www.nasdaq.com/articles/not-lucid-not-ford-ev-stock-most-likely-catch-every-refunded-cybertruck-buyer",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Elon Musk's Tesla and SpaceX Each Formed a Special Committee to Explore a Merger as His AI Spending Accelerates. Here's Why Combining Them Could Reshape How Investors Value Tesla's Robotaxi Business.",
+      "url" : "https://www.nasdaq.com/articles/elon-musks-tesla-and-spacex-each-formed-special-committee-explore-merger-his-ai-spending",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "VST",
+    "headlines" : [ {
+      "title" : "1 Compelling Reason to Buy Vistra Stock Before November Ends",
+      "url" : "https://www.nasdaq.com/articles/1-compelling-reason-buy-vistra-stock-november-ends",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "3 Data Center Power Stocks Down More Than a Third From Their Records to Buy Now and Hold Through 2030",
+      "url" : "https://www.nasdaq.com/articles/3-data-center-power-stocks-down-more-third-their-records-buy-now-and-hold-through-2030",
+      "published" : "2026-11-21",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "RBRK",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "ASML",
+    "headlines" : [ {
+      "title" : "The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash.",
+      "url" : "https://www.nasdaq.com/articles/sp-500-and-dow-jones-are-dangerously-close-joining-nasdaq-correction-heres-level-would-put",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Nvidia Just Delivered Incredible Results. Buy This Artificial Intelligence (AI) Stock Instead If You’re Still Worried About the Semiconductor Giant’s Future",
+      "url" : "https://www.nasdaq.com/articles/nvidia-just-delivered-incredible-results-buy-artificial-intelligence-ai-stock-instead-if",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "ASML vs. SK Hynix: Which Artificial Intelligence Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/asml-vs-sk-hynix-which-artificial-intelligence-stock-better-buy-2027",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "ASML vs. Broadcom: Which Tech Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/asml-vs-broadcom-which-tech-stock-better-buy-2027",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "PLTR",
+    "headlines" : [ {
+      "title" : "Palantir Stock Could Finish 2026 Lower. Its Only 2 Losing Years Ended Very Differently.",
+      "url" : "https://www.nasdaq.com/articles/palantir-stock-could-finish-2026-lower-its-only-2-losing-years-ended-very-differently",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "UiPath vs. Palantir Technologies: Which AI Automation Platform Makes a Better Stock Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/uipath-vs-palantir-technologies-which-ai-automation-platform-makes-better-stock-buy-2027",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Cathie Wood's Ark Has Been Selling Palantir Stock. Under $160, I'd Buy It Now.",
+      "url" : "https://www.nasdaq.com/articles/cathie-woods-ark-has-been-selling-palantir-stock-under-160-id-buy-it-now",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Investors Heavily Search Palantir Technologies Inc. (PLTR): Here is What You Need to Know",
+      "url" : "https://www.nasdaq.com/articles/investors-heavily-search-palantir-technologies-inc-pltr-here-what-you-need-know",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "IMSR",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "META",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Alphabet vs. Meta Platforms: Which Media Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/alphabet-vs-meta-platforms-which-media-stock-better-buy-2027",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Billionaire Tech Investor Philippe Laffont Just Loaded Up on These 4 AI Stocks",
+      "url" : "https://www.nasdaq.com/articles/billionaire-tech-investor-philippe-laffont-just-loaded-these-4-ai-stocks",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Mark Zuckerberg’s Meta Platforms Is Pouring Up to $145 Billion Into AI This Year. Investors Should Watch This 1 Number.",
+      "url" : "https://www.nasdaq.com/articles/mark-zuckerbergs-meta-platforms-pouring-145-billion-ai-year-investors-should-watch-1",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "CRWD",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Crowd Pleaser….Crowdstrike  Wants to Buy Zscaler",
+      "url" : "https://www.nasdaq.com/articles/crowd-pleasercrowdstrike-wants-buy-zscaler",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stocks Sink as Tech Rout Deepens",
+      "url" : "https://www.nasdaq.com/articles/stocks-sink-tech-rout-deepens",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Global Stocks Retreat on Unwind of the AI Trade",
+      "url" : "https://www.nasdaq.com/articles/global-stocks-retreat-unwind-ai-trade",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    } ]
+  }, {
+    "ticker" : "PANW",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Worried About a Market Crash? This AI Stock Should Bounce Back Fastest.",
+      "url" : "https://www.nasdaq.com/articles/worried-about-market-crash-ai-stock-should-bounce-back-fastest",
+      "published" : "2026-11-21",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stocks Sink as Tech Rout Deepens",
+      "url" : "https://www.nasdaq.com/articles/stocks-sink-tech-rout-deepens",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Global Stocks Retreat on Unwind of the AI Trade",
+      "url" : "https://www.nasdaq.com/articles/global-stocks-retreat-unwind-ai-trade",
+      "published" : "2026-11-20",
+      "primary" : false,
+      "publisher" : "Barchart"
+    } ]
+  }, {
+    "ticker" : "OKLO",
+    "headlines" : [ {
+      "title" : "Oklo vs. NuScale Power: Which Nuclear Stock Is a Better Buy?",
+      "url" : "https://www.nasdaq.com/articles/oklo-vs-nuscale-power-which-nuclear-stock-better-buy",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Wall Street Thinks Oklo Is a Buy. Here’s Why I’m Not So Sure.",
+      "url" : "https://www.nasdaq.com/articles/wall-street-thinks-oklo-buy-heres-why-im-not-so-sure",
+      "published" : "2026-11-20",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "AMZN",
+    "headlines" : [ {
+      "title" : "Stocks Meltdown as AI Trade Unravels",
+      "url" : "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Amazon.com vs. Home Depot: Which Consumer Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/amazoncom-vs-home-depot-which-consumer-stock-better-buy-2027",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here’s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction.",
+      "url" : "https://www.nasdaq.com/articles/soxx-and-dram-are-down-between-356-and-519-their-highs-heres-even-better-growth-stock-etf",
+      "published" : "2026-11-22",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "ULA Vulcan Launch Ends in Disaster for Amazon's Satellite Internet Ambitions",
+      "url" : "https://www.nasdaq.com/articles/ula-vulcan-launch-ends-disaster-amazons-satellite-internet-ambitions",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "NFLX",
+    "headlines" : [ {
+      "title" : "What's Going On With Netflix's Stock?",
+      "url" : "https://www.nasdaq.com/articles/whats-going-netflixs-stock",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Is Netflix a Buy in November? The Bull and Bear Cases.",
+      "url" : "https://www.nasdaq.com/articles/netflix-buy-november-bull-and-bear-cases",
+      "published" : "2026-11-22",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Netflix Falls Below $60. Bill Ackman Explains Why That’s an Incredible Investment Opportunity.",
+      "url" : "https://www.nasdaq.com/articles/netflix-falls-below-60-bill-ackman-explains-why-thats-incredible-investment-opportunity",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Michael Burry Says He's Looking at Netflix Stock in the High $30s. I'd Consider It Now, Well Above That.",
+      "url" : "https://www.nasdaq.com/articles/michael-burry-says-hes-looking-netflix-stock-high-30s-id-consider-it-now-well-above",
+      "published" : "2026-11-21",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    } ]
+  } ],
+  "prices" : [ {
+    "ticker" : "MARA",
+    "tier" : "focus",
+    "close" : 5.085,
+    "changePct" : -18.6
+  }, {
+    "ticker" : "APLD",
+    "tier" : "focus",
+    "close" : 11.49,
+    "changePct" : -17.8
+  }, {
+    "ticker" : "SNDK",
+    "tier" : "general",
+    "close" : 79.24,
+    "changePct" : -16.1
+  }, {
+    "ticker" : "NVTS",
+    "tier" : "general",
+    "close" : 6.08,
+    "changePct" : -15.2
+  }, {
+    "ticker" : "NVDA",
+    "tier" : "focus",
+    "close" : 125.53,
+    "changePct" : -14.0
+  }, {
+    "ticker" : "MU",
+    "tier" : "focus",
+    "close" : 594.51,
+    "changePct" : -13.9
+  }, {
+    "ticker" : "DOCN",
+    "tier" : "general",
+    "close" : 66.76,
+    "changePct" : -13.4
+  }, {
+    "ticker" : "INFQ",
+    "tier" : "focus",
+    "close" : 6.32,
+    "changePct" : -13.4
+  }, {
+    "ticker" : "AMD",
+    "tier" : "focus",
+    "close" : 424.39,
+    "changePct" : -13.2
+  }, {
+    "ticker" : "DRAM",
+    "tier" : "focus",
+    "close" : 33.36,
+    "changePct" : -13.2
+  }, {
+    "ticker" : "SKHY",
+    "tier" : "general",
+    "close" : 103.57,
+    "changePct" : -13.1
+  }, {
+    "ticker" : "STX",
+    "tier" : "general",
+    "close" : 457.01,
+    "changePct" : -12.3
+  }, {
+    "ticker" : "AVGO",
+    "tier" : "focus",
+    "close" : 304.41,
+    "changePct" : -12.2
+  }, {
+    "ticker" : "WDC",
+    "tier" : "focus",
+    "close" : 261.11,
+    "changePct" : -12.0
+  }, {
+    "ticker" : "ANET",
+    "tier" : "focus",
+    "close" : 167.62,
+    "changePct" : -11.6
+  }, {
+    "ticker" : "RGTI",
+    "tier" : "general",
+    "close" : 7.16,
+    "changePct" : -11.2
+  }, {
+    "ticker" : "ONDS",
+    "tier" : "focus",
+    "close" : 3.76,
+    "changePct" : -11.1
+  }, {
+    "ticker" : "QBTS",
+    "tier" : "general",
+    "close" : 6.52,
+    "changePct" : -10.8
+  }, {
+    "ticker" : "QUBT",
+    "tier" : "general",
+    "close" : 4.40,
+    "changePct" : -9.8
+  }, {
+    "ticker" : "NET",
+    "tier" : "focus",
+    "close" : 274.96,
+    "changePct" : -9.5
+  }, {
+    "ticker" : "HOOD",
+    "tier" : "focus",
+    "close" : 62.17,
+    "changePct" : -9.4
+  }, {
+    "ticker" : "SMCI",
+    "tier" : "focus",
+    "close" : 21.65,
+    "changePct" : -9.2
+  }, {
+    "ticker" : "IONQ",
+    "tier" : "focus",
+    "close" : 20.72,
+    "changePct" : -8.8
+  }, {
+    "ticker" : "USAR",
+    "tier" : "general",
+    "close" : 6.27,
+    "changePct" : -8.7
+  }, {
+    "ticker" : "ORCL",
+    "tier" : "focus",
+    "close" : 101.19,
+    "changePct" : -8.5
+  }, {
+    "ticker" : "CRCL",
+    "tier" : "general",
+    "close" : 47.51,
+    "changePct" : -8.4
+  }, {
+    "ticker" : "INTC",
+    "tier" : "general",
+    "close" : 51.28,
+    "changePct" : -8.0
+  }, {
+    "ticker" : "SOFI",
+    "tier" : "focus",
+    "close" : 12.48,
+    "changePct" : -7.8
+  }, {
+    "ticker" : "SPCX",
+    "tier" : "general",
+    "close" : 127.79,
+    "changePct" : -7.7
+  }, {
+    "ticker" : "TSLA",
+    "tier" : "focus",
+    "close" : 345.82,
+    "changePct" : -7.6
+  }, {
+    "ticker" : "MP",
+    "tier" : "general",
+    "close" : 33.95,
+    "changePct" : -7.4
+  }, {
+    "ticker" : "VST",
+    "tier" : "focus",
+    "close" : 115.25,
+    "changePct" : -7.2
+  }, {
+    "ticker" : "RBRK",
+    "tier" : "focus",
+    "close" : 106.73,
+    "changePct" : -6.8
+  }, {
+    "ticker" : "ASML",
+    "tier" : "focus",
+    "close" : 1266.22,
+    "changePct" : -6.6
+  }, {
+    "ticker" : "PLTR",
+    "tier" : "focus",
+    "close" : 143.49,
+    "changePct" : -6.6
+  }, {
+    "ticker" : "IMSR",
+    "tier" : "focus",
+    "close" : 2.16,
+    "changePct" : -6.1
+  }, {
+    "ticker" : "META",
+    "tier" : "focus",
+    "close" : 560.84,
+    "changePct" : -5.9
+  }, {
+    "ticker" : "CRWD",
+    "tier" : "focus",
+    "close" : 229.44,
+    "changePct" : -5.8
+  }, {
+    "ticker" : "PANW",
+    "tier" : "focus",
+    "close" : 343.32,
+    "changePct" : -5.1
+  }, {
+    "ticker" : "CBRS",
+    "tier" : "general",
+    "close" : 82.67,
+    "changePct" : -4.9
+  }, {
+    "ticker" : "OKLO",
+    "tier" : "focus",
+    "close" : 19.85,
+    "changePct" : -4.8
+  }, {
+    "ticker" : "AMZN",
+    "tier" : "focus",
+    "close" : 246.82,
+    "changePct" : -4.1
+  }, {
+    "ticker" : "DEFT",
+    "tier" : "general",
+    "close" : 0.2691,
+    "changePct" : 3.9
+  }, {
+    "ticker" : "VOO",
+    "tier" : "general",
+    "close" : 635.54,
+    "changePct" : -3.4
+  }, {
+    "ticker" : "UBER",
+    "tier" : "general",
+    "close" : 63.47,
+    "changePct" : -3.2
+  }, {
+    "ticker" : "NFLX",
+    "tier" : "focus",
+    "close" : 56.73,
+    "changePct" : -3.0
+  }, {
+    "ticker" : "MSFT",
+    "tier" : "focus",
+    "close" : 484.52,
+    "changePct" : -2.8
+  }, {
+    "ticker" : "GOOGL",
+    "tier" : "focus",
+    "close" : 265.29,
+    "changePct" : -2.7
+  }, {
+    "ticker" : "GOOG",
+    "tier" : "focus",
+    "close" : 264.00,
+    "changePct" : -2.6
+  }, {
+    "ticker" : "PATH",
+    "tier" : "focus",
+    "close" : 10.96,
+    "changePct" : -2.4
+  }, {
+    "ticker" : "AAPL",
+    "tier" : "focus",
+    "close" : 342.56,
+    "changePct" : -1.9
+  }, {
+    "ticker" : "RELY",
+    "tier" : "general",
+    "close" : 19.83,
+    "changePct" : -1.1
+  } ],
+  "pricesMissing" : [ "LKNCY" ],
+  "earnings" : [ {
+    "ticker" : "RBRK",
+    "date" : "2026-11-30",
+    "time" : "after the close"
+  }, {
+    "ticker" : "CRWD",
+    "date" : "2026-12-01",
+    "time" : "after the close"
+  }, {
+    "ticker" : "PATH",
+    "date" : "2026-12-03",
+    "time" : "after the close"
+  } ],
+  "reportedYesterday" : [ ],
+  "earningsResults" : [ ],
+  "macro" : [ {
+    "date" : "2026-11-25",
+    "event" : "GDP for the third quarter, second estimate (8:30 a.m. ET)"
+  }, {
+    "date" : "2026-11-25",
+    "event" : "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)"
+  }, {
+    "date" : "2026-11-26",
+    "event" : "U.S. stock markets closed for Thanksgiving"
+  }, {
+    "date" : "2026-11-27",
+    "event" : "U.S. stock markets close early, at 1:00 p.m. ET"
+  }, {
+    "date" : "2026-12-04",
+    "event" : "Jobs report for November (8:30 a.m. ET)"
+  } ],
+  "candidates" : [ {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "All Delta Flights Through Atlanta Delayed as Automated System Falters",
+    "url" : "https://www.nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html",
+    "published" : "2026-11-22T19:51:46Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "What Happened to Silicon Valley?",
+    "url" : "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+    "published" : "2026-11-22T19:20:15Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+    "url" : "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+    "published" : "2026-11-22T19:10:34Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Dirac's Theorem at a Dinner Party",
+    "url" : "https://prideout.net/blog/dirac-dinner-party/",
+    "published" : "2026-11-22T18:50:27Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Was software just always too complex for humans?",
+    "url" : "https://anil.recoil.org/notes/software-too-complex-for-humans",
+    "published" : "2026-11-22T17:32:41Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Perplexity and Intelligence",
+    "url" : "https://openai.com/index/perplexity-and-intelligence/",
+    "published" : "2026-11-22T17:06:27Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "C++26 is done (again): November 2026 ISO C++ meeting trip report",
+    "url" : "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+    "published" : "2026-11-22T15:59:59Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+    "url" : "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+    "published" : "2026-11-22T15:42:40Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "I joined the NTP Pool, but not with my Stratum 1 Pi",
+    "url" : "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+    "published" : "2026-11-22T15:35:24Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Fascism and Monopoly (2020)",
+    "url" : "https://repository.law.umich.edu/mlr/vol118/iss7/2/",
+    "published" : "2026-11-22T15:25:29Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Open Social Web Alliance",
+    "url" : "https://osw-alliance.net/en/",
+    "published" : "2026-11-22T15:24:32Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Backblaze customers worried of personal data sale/sharing after policy update",
+    "url" : "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
+    "published" : "2026-11-22T15:16:02Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Show HN: I built a game where you are an LLM's subagent",
+    "url" : "https://github.com/gulivan/worker755",
+    "published" : "2026-11-22T13:56:58Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Testing Terraform with AWS Emulator",
+    "url" : "https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/",
+    "published" : "2026-11-22T13:00:36Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+    "url" : "https://simonwillison.net/2026/Nov/21/muru/",
+    "published" : "2026-11-22T09:57:01Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+    "url" : "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+    "published" : "2026-11-22T08:57:34Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+    "url" : "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-22T12:54:00Z",
+    "excerpt" : "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+    "url" : "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-22T11:00:00Z",
+    "excerpt" : "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+    "url" : "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-22T06:30:00Z",
+    "excerpt" : "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+    "url" : "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-22T06:27:00Z",
+    "excerpt" : "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-Jan Wiggers"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks",
+    "url" : "https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-21T14:30:00Z",
+    "excerpt" : "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations. By Mark Silvester"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "QCon San Francisco 2026: Scaling Tech by Aligning Humans",
+    "url" : "https://www.infoq.com/news/2026/11/scalling-tech-humans/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-21T13:30:00Z",
+    "excerpt" : "At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy. By Daniel Dominguez"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug",
+    "url" : "https://www.infoq.com/news/2026/11/gke-kernel-network-bug/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-21T09:44:00Z",
+    "excerpt" : "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures, blocking around 800 developers from deploying to production. By Renato Losio"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+    "url" : "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+    "published" : "2026-11-22T18:45:37Z",
+    "excerpt" : "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+    "url" : "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+    "published" : "2026-11-22T15:43:04Z",
+    "excerpt" : "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+    "url" : "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+    "published" : "2026-11-22T15:15:25Z",
+    "excerpt" : "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+    "url" : "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+    "published" : "2026-11-21T22:59:58Z",
+    "excerpt" : "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+    "url" : "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+    "published" : "2026-11-21T18:01:58Z",
+    "excerpt" : "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+    "url" : "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+    "published" : "2026-11-21T15:17:27Z",
+    "excerpt" : "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "FBI reportedly hacked again, this time targeting nationwide police database",
+    "url" : "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+    "published" : "2026-11-21T14:26:04Z",
+    "excerpt" : "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "OpenAI News",
+    "title" : "Perplexity and Intelligence",
+    "url" : "https://openai.com/index/perplexity-and-intelligence",
+    "published" : "2026-11-22T00:00:00Z",
+    "excerpt" : "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities."
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Why the next phase of the data center buildout runs on light",
+    "url" : "https://www.datacenterdynamics.com/en/opinions/why-the-next-phase-of-the-data-center-buildout-runs-on-light/",
+    "published" : "2026-11-22T15:00:32Z",
+    "excerpt" : "Copper is running out of reach"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Britain is hosting the AI boom, not owning it",
+    "url" : "https://www.datacenterdynamics.com/en/opinions/britain-is-hosting-the-ai-boom-not-owning-it/",
+    "published" : "2026-11-22T11:00:43Z",
+    "excerpt" : "Is there a flaw in the logic"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Sponsored: The hidden efficiency gap in data center containment",
+    "url" : "https://www.datacenterdynamics.com/en/opinions/the-hidden-efficiency-gap-in-data-center-containment/",
+    "published" : "2026-11-21T16:00:00Z",
+    "excerpt" : "How a small seam above the hot aisle or missing roof over the cold aisle has been covertly inflating cooling costs, and how to close it without breaking fire code"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Securing the turbine is only half the battle: the emissions monitoring path to data center power",
+    "url" : "https://www.datacenterdynamics.com/en/opinions/securing-the-turbine-is-only-half-the-battle-the-emissions-monitoring-path-to-data-center-power/",
+    "published" : "2026-11-21T11:00:28Z",
+    "excerpt" : "Demonstrating compliance is what turns it into power"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "As cars go digital, US consumers pay an extra $12 billion a year for repairs",
+    "url" : "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412",
+    "published" : "2026-11-22T16:08:00Z",
+    "excerpt" : "Today's vehicles need software tools to make repairs, and the subscriptions inflate insurance fees"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "Passive 'ghost' radar can detect airborne threats without revealing its own position",
+    "url" : "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+    "published" : "2026-11-22T09:15:00Z",
+    "excerpt" : "BAE Systems is developing a passive radar system it claims could track airborne threats at a fraction of the cost of conventional radar, using existing broadcasts rather than transmitting signals that could reveal its position. The defense biz says its covert radar technology detects reflections of television, radio, and mobile network transmissions from airborne objects. That lets it monitor airspace without broadcasting its own radar signal. Conventional active radar transmits radio waves and…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "Come for the science, stay for the big iron: Supercomputer admin on why he loves the job",
+    "url" : "https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247",
+    "published" : "2026-11-22T08:48:00Z",
+    "excerpt" : "Web hosting might seem like an unlikely on-ramp to supercomputer administration, but it set Mark O'Shea on his way to running some of Australia's most powerful machines. O'Shea is team leader for supercomputing operations and senior supercomputing systems administrator at Australia's Pawsey Supercomputing Research Centre . Pawsey is home to Setonix, an HPE Cray EX supercomputer with more than 200,000 AMD EPYC CPU cores and hundreds of AMD Instinct MI250X accelerators. Its GPU partition ranks…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "AWS got hit by an outage too. Here's why you didn't hear about it",
+    "url" : "https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511",
+    "published" : "2026-11-21T14:35:00Z",
+    "excerpt" : "My editor asked me this week \"why is everything except AWS breaking?\" It's a great question! They haven't been in the headlines! In fact, as they are wont to do, AWS spokesperson Patrick Neighorn g ot salty to a reporter about how unreliable Downdetector is when it started showing them as impacted. If you'll permit me a small digression, this stems from a misunderstanding of what Downdetector is for. Historically the AWS status site was so hilariously slow to reflect the lived customer…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "ChatGPT shrunk down to run on a Super Nintendo",
+    "url" : "https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418",
+    "published" : "2026-11-21T11:46:00Z",
+    "excerpt" : "If you’ve ever wondered how small an instance of ChatGPT could get, wonder no longer. Someone has actually rigged up a tiny version of the chatbot to run on a Super Nintendo cartridge. Tech journalist and retro tech enthusiast Benj Edwards is responsible for ChatGPT for SNES . He's published it online running in an emulator, complete with SNES-era music and sound effects, and for download as an SNES ROM, too. It’s not a big model, mind you, and performance is thus pretty limited: According to…"
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Give Thanks to Inverse Billionaires",
+    "url" : "https://www.wsj.com/opinion/give-thanks-to-inverse-billionaires-0a839607?mod=rss_markets_main",
+    "published" : "2026-11-22T17:58:00Z",
+    "excerpt" : "Tech leaders capture only 4% of the wealth they create. Everyone else splits the rest."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Has the AI Bubble Already Burst?",
+    "url" : "https://www.wsj.com/finance/stocks/has-the-ai-bubble-already-burst-2f1dcca8?mod=rss_markets_main",
+    "published" : "2026-11-22T10:30:00Z",
+    "excerpt" : "The AI selloff ravaging the stock market in recent weeks is remarkably like the bursting of the dot-com bubble."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "James Bond’s Bare Wrist Sets Off Watch Industry War",
+    "url" : "https://www.wsj.com/business/retail/james-bonds-bare-wrist-sets-off-watch-industry-war-b6b179a9?mod=rss_markets_main",
+    "published" : "2026-11-22T10:30:00Z",
+    "excerpt" : "007 has worn an Omega watch for three decades, but the brand was missing from the big reveal."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Boomers Are Rewriting the Playbook for Old Age. It Doesn’t Include Winding Down.",
+    "url" : "https://www.wsj.com/personal-finance/retirement/baby-boomers-aging-eec29458?mod=rss_markets_main",
+    "published" : "2026-11-22T10:00:00Z",
+    "excerpt" : "Richer and more adventurous than their predecessors, baby boomers are living it up: “Somebody like me never retires like my parents did.”"
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "5 of the Top Financial Advisor Companies for Retirees: Well-Known Fiduciary Firms to Consider",
+    "url" : "https://www.wsj.com/buyside/personal-finance/financial-advisors/top-financial-advisors-for-retirees?mod=rss_markets_main",
+    "published" : "2026-11-21T20:45:00Z",
+    "excerpt" : "We analyzed everything from estate planning to retirement income options at some of the larger registered investment advisor firms to help retirees select a firm that could best connect them with a fiduciary financial advisor."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "What It’s Like to Retire in Thailand",
+    "url" : "https://www.wsj.com/personal-finance/retirement/retire-in-thailand-6853f4a7?mod=rss_markets_main",
+    "published" : "2026-11-21T17:00:00Z",
+    "excerpt" : "It’s hot, humid and costs a bit more than we anticipated. But we love the life we’ve built here."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "What Comes Next After Anthropic’s Historic IPO",
+    "url" : "https://www.wsj.com/tech/ai/what-comes-next-after-anthropics-historic-ipo-464368c1?mod=rss_Technology",
+    "published" : "2026-11-22T15:55:00Z",
+    "excerpt" : "Plus, the best tech gifts of 2026, New York City’s new high-tech public restrooms, the culture inside Jensen Huang’s Nvidia and more."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "The 15 Best Tech Gifts of 2026, According to Our In-House Guru",
+    "url" : "https://www.wsj.com/tech/personal-tech/tech-gift-guide-holiday-2026-1a021f58?mod=rss_Technology",
+    "published" : "2026-11-22T11:00:00Z",
+    "excerpt" : "WSJ’s Personal Tech columnist rounds up her top tested-and-loved gadgets from the year, at a wide range of prices."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "The Alice Huang Associate Accused of Funneling Nvidia Chips to China",
+    "url" : "https://www.wsj.com/tech/li-ming-megaspeed-nvidia-chips-china-6260d836?mod=rss_Technology",
+    "published" : "2026-11-22T02:00:00Z",
+    "excerpt" : "The defendant in a case involving chip smuggling worked with Jensen Huang’s romantic partner."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "How to Protect Yourself From Scammers Exploiting Outage Chaos",
+    "url" : "https://www.wsj.com/tech/personal-tech/cyber-scams-tech-outages-tips-a5500927?mod=rss_Technology",
+    "published" : "2026-11-21T16:00:00Z",
+    "excerpt" : "When you get an urgent message about a travel or service disruption, the first rule is: Don’t panic."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "The Danger of Jensen Huang’s Handshake Deals at Nvidia",
+    "url" : "https://www.wsj.com/business/nvidia-jensen-huang-deals-8750daf4?mod=rss_Technology",
+    "published" : "2026-11-21T10:30:00Z",
+    "excerpt" : "The ousted CEO once celebrated his no-contract deals but now they look like red flags."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "Social Security should be shut down, this Republican senator says",
+    "url" : "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+    "published" : "2026-11-22T20:26:00Z",
+    "excerpt" : "The program’s trust funds are forecast to run out of money in the next six years."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
+    "url" : "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
+    "published" : "2026-11-22T19:24:00Z",
+    "excerpt" : "The plan would free up hospital and nursing-home beds — and lower costs."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "These little-known investments could be among the best bargains in a crash",
+    "url" : "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+    "published" : "2026-11-22T18:23:00Z",
+    "excerpt" : "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "Private equity has been buying up hospice centers — with striking consequences",
+    "url" : "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+    "published" : "2026-11-22T17:22:00Z",
+    "excerpt" : "Medicare costs are higher and patients stay longer at hospice providers owned by private-equity firms, new research has found."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+    "url" : "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+    "published" : "2026-11-22T17:00:00Z",
+    "excerpt" : "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+    "url" : "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+    "published" : "2026-11-22T16:32:00Z",
+    "excerpt" : "“We have a house worth $450,000. Our combined annual income is $125,000.”"
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
+    "url" : "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
+    "published" : "2026-11-22T16:18:00Z",
+    "excerpt" : "The late-night comedy sketch does the impossible by making female caregivers feel seen."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "‘Never too late to start’: Practical investing advice from some of the top women in finance",
+    "url" : "https://www.marketwatch.com/story/never-too-late-to-start-practical-investing-advice-from-some-of-the-top-women-in-finance-e01f0755?mod=mw_rss_topstories",
+    "published" : "2026-11-22T16:15:00Z",
+    "excerpt" : "There are plenty of rich and influential women in the U.S. Their time may be coming."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+    "url" : "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+    "published" : "2026-11-22T18:55:05Z",
+    "excerpt" : "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "I’ve studied over 200 kids—to avoid raising a people pleaser, ditch 6 parenting habits: It starts in ‘ordinary, well-intentioned moments’",
+    "url" : "https://www.cnbc.com/make-it/2026/11/22/parenting-habits-people-pleaser.html",
+    "published" : "2026-11-22T17:33:25Z",
+    "excerpt" : "Reem Raouda, a conscious parenting coach who's worked with over 200 families, shares six habits worth reconsidering, like treating disagreement as disrespect."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+    "url" : "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+    "published" : "2026-11-22T17:14:03Z",
+    "excerpt" : "Clayton’s warning comes ahead of Thanksgiving travel, after separate outages disrupted air travel, Microsoft 365 and some bank transactions."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Social Security benefits are rising in 2027, but other changes could affect what you keep",
+    "url" : "https://www.cnbc.com/2026/11/22/social-security-changes-cola-taxes-medicare.html",
+    "published" : "2026-11-22T14:30:01Z",
+    "excerpt" : "A 3.6% Social Security cost-of-living adjustment for 2027 will increase benefits across the board. But Medicare and tax changes will also affect retirees."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "26-year-old Google worker earns $323,000 a year—but lives on less than minimum wage",
+    "url" : "https://www.cnbc.com/make-it/2026/11/22/google-worker-earns-323000-a-yearbut-he-lives-on-minimum-wage.html",
+    "published" : "2026-11-22T14:00:01Z",
+    "excerpt" : "Charles Broomfield set a post-college goal of reaching $750,000 in investments by age 30. Now 26, he expects to get there within the next year."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
+    "url" : "https://www.cnbc.com/2026/11/22/saudi-houthi-bahrain-iran-attacks-araghchi-talks.html",
+    "published" : "2026-11-22T13:25:47Z",
+    "excerpt" : "Saudi Arabia said it destroyed a drone launched by Iran-backed Houthis, while Bahrain said an industrial facility was hit by Iranian projectiles."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+    "url" : "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+    "published" : "2026-11-22T13:00:01Z",
+    "excerpt" : "Domino's, Papa Johns and Pizza Hut face weaker demand, more delivery competition and changing eating habits, including GLP-1 use."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+    "url" : "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+    "published" : "2026-11-22T12:13:56Z",
+    "excerpt" : "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials. "
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "The Nasdaq is in freefall. Here's one stock to look at",
+    "url" : "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+    "published" : "2026-11-22T12:10:39Z",
+    "excerpt" : "Elevated options premiums are creating an opportunity in Amazon"
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
+    "url" : "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+    "published" : "2026-11-22T06:00:01Z",
+    "excerpt" : "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Trump says there could be a 'positive spin' from the latest FBI database hack",
+    "url" : "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+    "published" : "2026-11-21T16:57:34Z",
+    "excerpt" : "This would make the second recent intrusion into the FBI system."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+    "url" : "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+    "published" : "2026-11-21T16:40:05Z",
+    "excerpt" : "Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "How the U.S. Economy Is Tied to A.I.",
+    "url" : "https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
+    "published" : "2026-11-22T19:58:06Z",
+    "excerpt" : "Artificial intelligence has become a huge piece of the U.S. economy. Ben Casselman, the chief economics correspondent for The New York Times, explains why that is and how it might be risky."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Why Nostalgia for Tamagotchis, the Virtual Pets, Won’t Die",
+    "url" : "https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
+    "published" : "2026-11-22T19:57:43Z",
+    "excerpt" : "Millennials are answering the beeping call of the pocket-size game that caused a sensation 30 years ago. But analog-craving Gen Zers are, too."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Rather Than Sell Their House, They Became Landlords Instead",
+    "url" : "https://www.nytimes.com/2026/11/22/business/mortgage-rates-housing-landlords.html",
+    "published" : "2026-11-22T18:05:48Z",
+    "excerpt" : "Homeowners say the rental income helps them cover their mortgage payments, but they must also learn to handle needed repairs and confront bad tenants."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
+    "url" : "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
+    "published" : "2026-11-22T17:55:31Z",
+    "excerpt" : "The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the company’s chief executive."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "‘Hunger Games’ Rebounds With $120 Million Opening for ‘Sunrise on the Reaping’ at Box Office",
+    "url" : "https://www.nytimes.com/2026/11/22/business/media/hunger-games-box-office.html",
+    "published" : "2026-11-22T17:53:44Z",
+    "excerpt" : "“The Hunger Games: Sunrise on the Reaping” had nearly three times the domestic opening box office total of its predecessor, extending a Lionsgate hot streak."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "How Six Americans Under 40 Are Saving for Retirement",
+    "url" : "https://www.nytimes.com/2026/11/22/business/retirement-millennials-gen-z.html",
+    "published" : "2026-11-22T14:35:24Z",
+    "excerpt" : "Whether they take a traditional path or go their own way, some younger workers are managing to build a nest egg while juggling other financial challenges."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Zohran Mamdani on Trump, Wall Street and Wealth Taxes",
+    "url" : "https://www.nytimes.com/2026/11/22/business/dealbook/zohran-mamdani-dealbook-summit.html",
+    "published" : "2026-11-22T13:00:02Z",
+    "excerpt" : "The mayor of New York City spoke with Andrew Ross Sorkin at the DealBook Summit."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Looking for the Formula to Stop an Apocalypse",
+    "url" : "https://www.nytimes.com/2026/11/22/magazine/looking-for-the-formula-to-stop-an-apocalypse.html",
+    "published" : "2026-11-22T12:27:46Z",
+    "excerpt" : "Mike Winer and his colleagues are trying to build a mathematical safeguard to keep A.I. under human control. They fear they are running out of time."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "G.T.A. VI Is a Monumental Human Achievement",
+    "url" : "https://www.nytimes.com/2026/11/20/podcasts/hardfork-gta6-nvidia-anthropic.html",
+    "published" : "2026-11-21T19:12:00Z",
+    "excerpt" : "Anthropic goes public, Jensen Huang wants back in at Nvidia, and software patches seem to be breaking everything. But first, let’s talk about G.T.A."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Tech Outages Are Only the Beginning. A.I. Will Bring More Disruptions.",
+    "url" : "https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html",
+    "published" : "2026-11-21T19:11:51Z",
+    "excerpt" : "Cybersecurity has been an afterthought since the early days of the internet. Now A.I. is uncovering dormant problems, making the bill come due for decades of vulnerable code."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "How Jensen Huang Made Humiliation Routine at Nvidia",
+    "url" : "https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html",
+    "published" : "2026-11-21T15:55:46Z",
+    "excerpt" : "The Nvidia co-founder’s belittling behavior toward employees goes back decades. It once led to a confidential settlement agreement with an executive who said Mr. Huang “terrorized” staff."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+    "url" : "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
+    "published" : "2026-11-21T14:31:30Z",
+    "excerpt" : "At an all-hands meeting with employees, Colette Kress sought to put the indiscretions of Nvidia’s co-founder, Jensen Huang, behind them."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley",
+    "url" : "https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html",
+    "published" : "2026-11-21T10:03:45Z",
+    "excerpt" : "The A.I. giant broke records with its initial public offering this week before a rocky first full day of trading, as the markets plunged on worries about artificial intelligence spending."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "A New Era of A.I.-Driven Chaos? That Might Just Be Progress.",
+    "url" : "https://www.nytimes.com/2026/11/21/science/outages-tech-history.html",
+    "published" : "2026-11-21T10:02:10Z",
+    "excerpt" : "If artificial intelligence is giving rise to outages, cyberattacks and more, it’s consistent with history, in that it shows how new innovations often set off calamitous failure before they make life better."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
+    "url" : "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+    "published" : "2026-11-22T18:58:57Z",
+    "excerpt" : "Chainflip offered the attacker a 10% bounty to return the remainder of the $12 million in stolen BTC, ETH, and stablecoins by Monday."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
+    "url" : "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
+    "published" : "2026-11-21T21:17:36Z",
+    "excerpt" : "Kalshi, which is headquartered in New York, has said the order would shut it down nationwide, though NY's AG said that's not her goal. "
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
+    "url" : "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+    "published" : "2026-11-21T18:51:14Z",
+    "excerpt" : "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "Chainflip’s FLIP drops 34% after attacker drains $12 million from vaults with suspected key compromise",
+    "url" : "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+    "published" : "2026-11-21T15:24:14Z",
+    "excerpt" : "Chainflip's FLIP token dropped 34% in price in the wake of the apparently automated attack, per The Block's price data. "
+  }, {
+    "beat" : "markets",
+    "source" : "The Diff",
+    "title" : "Longreads + Open Thread",
+    "url" : "https://www.thediff.co/archive/longreads-open-thread-210/",
+    "published" : "2026-11-21T17:00:00Z",
+    "excerpt" : "Disease, Politics, Parties, Socialism, GTA VI, AI Detectors, Intelligence, Newspapers"
+  }, {
+    "beat" : "health-tech",
+    "source" : "STAT",
+    "title" : "Opinion: When should medical school start?",
+    "url" : "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/?utm_campaign=rss",
+    "published" : "2026-11-21T12:00:00Z",
+    "excerpt" : "STAT readers weigh in on shortening medical school, fixing pediatric emergency care, and more."
+  }, {
+    "beat" : "health-tech",
+    "source" : "STAT",
+    "title" : "Opinion: How Kennedy and MAHA could help stop measles",
+    "url" : "https://www.statnews.com/2026/11/21/rfk-jr-maha-measles-outbreak-elimination-status-promote-mmr-vaccine/?utm_campaign=rss",
+    "published" : "2026-11-21T09:30:00Z",
+    "excerpt" : "Kennedy and MAHA say they aren’t anti-vaccine. They can prove it by promoting the MMR vaccine, writes Brinda Adhikari."
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "Week in Review: Most popular stories on GeekWire for the week of Nov. 15, 2026",
+    "url" : "https://www.geekwire.com/2026/geekwire-weekly-roundup-2026-11-15/",
+    "published" : "2026-11-22T16:00:01Z",
+    "excerpt" : "See the technology stories that people were reading on GeekWire for the week of Nov. 15, 2026. Read More"
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "Etzioni on AI: The outage conspiracy theories are wrong — our rush to patch and upgrade is the culprit",
+    "url" : "https://www.geekwire.com/2026/etzioni-on-ai-the-outage-conspiracy-theories-are-wrong-our-rush-to-patch-and-upgrade-is-the-culprit/",
+    "published" : "2026-11-22T15:04:53Z",
+    "excerpt" : "Oren Etzioni argues this month's outages at Microsoft, the FAA, Chase, Apple and the NSA weren't a coordinated attack. Each traces to its own bug, patch or upgrade, as AI finds security holes faster than anyone can safely fix them. Read More"
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "After the Outlook outage: Mary Jo Foley on Ignite, Microsoft’s AI pitch, and a new approach to the press",
+    "url" : "https://www.geekwire.com/2026/after-the-outlook-outage-mary-jo-foley-on-ignite-microsofts-ai-pitch-and-a-new-approach-to-the-press/",
+    "published" : "2026-11-21T18:09:42Z",
+    "excerpt" : "Longtime Microsoft reporter Mary Jo Foley joins the GeekWire Podcast to discuss the Outlook outage fallout and Microsoft's Ignite pitch against OpenAI and Anthropic on price. We also talk about its new approach to the press and who from Microsoft could lead Nvidia. Read More"
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "Microsoft’s final Outlook outage report details testing gaps and safeguards that backfired",
+    "url" : "https://www.geekwire.com/2026/microsofts-final-outlook-outage-report-details-testing-gaps-and-safeguards-that-backfired/",
+    "published" : "2026-11-21T17:31:16Z",
+    "excerpt" : "Microsoft says the bug behind last week's global Outlook outage hit only newer servers in a key part of its network, and tests run on older ones missed it. Its final report lists 13 fixes, including steps to keep a failure in one part of the world from spreading. Read More"
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
+    "url" : "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
+    "published" : "2026-11-22T18:20:39Z",
+    "excerpt" : "European and vulnerable nations rejected a proposed agreement after Saudi Arabia and other oil producers blocked any mention of phasing out coal, oil and gas."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "How Melania Trump Found a Diplomatic Opening in the War in Ukraine",
+    "url" : "https://www.nytimes.com/2026/11/22/us/politics/melania-trump-ukraine-diplomacy.html",
+    "published" : "2026-11-22T18:12:18Z",
+    "excerpt" : "The first lady, who has little experience in international affairs, developed back channels to key figures on both sides of the conflict through her longtime agent."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Deadly Protests Erupt in Bangladesh Over Exiled Former Leader. What to Know.",
+    "url" : "https://www.nytimes.com/2026/11/21/world/asia/bangladesh-protests-sheikh-hasina-what-to-know.html",
+    "published" : "2026-11-22T14:34:02Z",
+    "excerpt" : "Supporters of the deposed prime minister, Sheikh Hasina, who was sentenced to death in absentia, have waged a small-scale insurgency to destabilize the current government."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "American vs. Chinese Mahjong: Why the Rivalry Is Stirring Controversy",
+    "url" : "https://www.nytimes.com/2026/11/22/world/asia/mahjong-american-chinese-controversy.html",
+    "published" : "2026-11-22T12:32:25Z",
+    "excerpt" : "American mahjong, with its own tiles and rules, has overshadowed the traditional Chinese game. The rivalry has fueled anger and cultural misunderstanding."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Canada’s Boreal Forest Is Reshaped by Logging and Climate Change",
+    "url" : "https://www.nytimes.com/2026/11/22/world/canada/canada-boreal-forest-degradation-deforestation-logging.html",
+    "published" : "2026-11-22T12:29:34Z",
+    "excerpt" : "Canada has framed the preservation of its boreal forest as a model for the world, but commercial logging combined with climate change is inflicting severe damage."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
+    "url" : "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html",
+    "published" : "2026-11-22T11:03:04Z",
+    "excerpt" : "China’s espionage agency has been running a secret campaign to help the country’s companies acquire advanced A.I. chips and to gather intelligence on the sector, officials say."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
+    "url" : "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html",
+    "published" : "2026-11-22T10:16:39Z",
+    "excerpt" : "The kingpin, Fausto Isidro Meza Flores, was captured in a violent operation in Mexico. He was one of the F.B.I.’s 10 most wanted fugitives."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "South Korea’s Education Minister Resigns Over Anti-A.I. Cheating Rules",
+    "url" : "https://www.nytimes.com/2026/11/22/world/asia/korea-csat-exam-ai-cheating.html",
+    "published" : "2026-11-22T08:35:05Z",
+    "excerpt" : "Two days before South Korea’s college entrance exam, new measures were announced, including loud phone alerts and eyeglass inspections. Public backlash came fast."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Taiwanese Comedian Targeted for Mocking Xi Jinping Is Drawing Sellout Crowds",
+    "url" : "https://www.nytimes.com/2026/11/22/world/asia/china-taiwan-comedian-xi-jinping.html",
+    "published" : "2026-11-22T06:58:18Z",
+    "excerpt" : "“Xi Jinping is my comedy muse,” said Huang Yi-hao, who survived a car crash the authorities say was meant to silence him."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Drones, Texts and Diversions: How Mexico Captured a Most Wanted Man",
+    "url" : "https://www.nytimes.com/2026/11/21/world/americas/mexico-captures-drug-kingpin.html",
+    "published" : "2026-11-22T01:56:16Z",
+    "excerpt" : "U.S. and Mexican authorities shared intelligence for weeks to track Fausto Isidro Meza Flores, a drug cartel leader that a U.S. official called the most dangerous man in Mexico."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina",
+    "url" : "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html",
+    "published" : "2026-11-22T18:37:10Z",
+    "excerpt" : "Chuck Hubbard, a retired journalist, defeated Representative Virginia Foxx in a conservative district."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Democrats Clinch 258 House Seats, an Election-Year Record This Century",
+    "url" : "https://www.nytimes.com/2026/11/22/us/politics/democrats-midterm-house-majority-record.html",
+    "published" : "2026-11-22T18:23:08Z",
+    "excerpt" : "After sweeping midterm wins, Democrats have secured the largest House majority in a national election for either party in three decades."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Is Annie Andrews Too Real for the Senate? South Carolinians Are About to Find Out.",
+    "url" : "https://www.nytimes.com/2026/11/22/us/politics/annie-andrews-south-carolina-senate.html",
+    "published" : "2026-11-22T16:56:08Z",
+    "excerpt" : "The pediatrician, who once compared JD Vance to the herpes virus, notched one of the most shocking upsets of the midterm elections by defeating Senator Darline Graham."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Republicans Debate Why They Lost the Midterms, and if Trump Is to Blame",
+    "url" : "https://www.nytimes.com/2026/11/22/us/politics/republican-midterm-loss-debate-trump.html",
+    "published" : "2026-11-22T12:30:24Z",
+    "excerpt" : "A divide is emerging in the party over what caused its wipeout midterm defeats, foreshadowing a battle over how to move forward before 2028."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Fact-Checking Stephen Miller, the New White House Chief of Staff",
+    "url" : "https://www.nytimes.com/2026/11/22/us/politics/stephen-miller-fact-check.html",
+    "published" : "2026-11-22T10:02:17Z",
+    "excerpt" : "Mr. Miller has promoted some of the second Trump administration’s most egregious falsehoods about immigration policy, the economy and political opposition."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Trump Moves to Restrict Congressional Oversight of Contractors",
+    "url" : "https://www.nytimes.com/2026/11/21/us/politics/trump-congressional-oversight-contractors.html",
+    "published" : "2026-11-22T01:29:53Z",
+    "excerpt" : "The president’s executive order is the latest effort to blunt Democratic plans to investigate the administration’s actions."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | The Guatemalan Lawyer Who Beat Putin",
+    "url" : "https://www.wsj.com/opinion/the-guatemalan-lawyer-who-beat-putin-59b34daa?mod=rss_worldnews",
+    "published" : "2026-11-22T17:57:00Z",
+    "excerpt" : "Victoria Sandoval stood up to Russia’s human-rights harassment in her country."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "U.N. Climate Talks Collapse Over Fossil Fuel Rift",
+    "url" : "https://www.wsj.com/world/u-n-climate-talks-collapse-over-fossil-fuel-rift-c70ee620?mod=rss_worldnews",
+    "published" : "2026-11-22T16:59:00Z",
+    "excerpt" : "Europe and some nations rejected a draft text that would have made no mention of the need to wean economies off fossil fuels."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "A New Figure Emerges in the Nvidia Chip-Smuggling Saga",
+    "url" : "https://www.wsj.com/articles/a-new-figure-emerges-in-the-nvidia-chip-smuggling-saga-c62265ce?mod=rss_worldnews",
+    "published" : "2026-11-22T16:46:00Z",
+    "excerpt" : "Plus, Kim Jong Un is getting away with building nukes and ghosting Trump, and baby boomers rewrite the rules of growing old"
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Iran Doubles Down on Its Nuclear Ambitions",
+    "url" : "https://www.wsj.com/opinion/iran-doubles-down-on-its-nuclear-ambitions-3d3ca7d3?mod=rss_worldnews",
+    "published" : "2026-11-22T16:43:00Z",
+    "excerpt" : "Perceiving America as weakened, Tehran shifts from ‘no war, no peace’ to ‘maximum deterrence.’"
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Vladimir Putin’s Existential Fight for Ukraine",
+    "url" : "https://www.wsj.com/opinion/vladimir-putins-existential-fight-for-ukraine-5b9383b1?mod=rss_worldnews",
+    "published" : "2026-11-22T15:49:00Z",
+    "excerpt" : "President Trump’s inexplicable pressure on Ukraine only encourages the Russian leader while leaving the western alliance rudderless."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Ukraine Is Racing to Keep Its Booming Defense Industry From Stalling",
+    "url" : "https://www.wsj.com/world/ukraine-is-racing-to-keep-its-booming-defense-industry-from-stalling-7e8f4b8c?mod=rss_worldnews",
+    "published" : "2026-11-22T03:00:00Z",
+    "excerpt" : "Kyiv is struggling to further build out its reborn defense industry amid heavy bombardment from Russia and a dire need for capital."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Mexican Drug Gangs Have Found a New Cash Cow in Microfinancing",
+    "url" : "https://www.wsj.com/world/americas/mexican-drug-gangs-have-found-a-new-cash-cow-in-microfinancing-31a3e07a?mod=rss_worldnews",
+    "published" : "2026-11-22T03:00:00Z",
+    "excerpt" : "Narcotraffickers are forcibly taking over small lenders and jacking up interest rates to diversify their income."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "How Kim Jong Un Gets Away With Building Nukes and Ghosting Trump",
+    "url" : "https://www.wsj.com/world/asia/kim-jong-un-north-korea-trump-2920ff49?mod=rss_worldnews",
+    "published" : "2026-11-22T02:00:00Z",
+    "excerpt" : "The nuclear arsenal controlled by the North Korean dictator has grown stronger while Washington falls further behind in its quest to dismantle it."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "The Alice Huang Associate Accused of Funneling Nvidia Chips to China",
+    "url" : "https://www.wsj.com/tech/li-ming-megaspeed-nvidia-chips-china-6260d836?mod=rss_worldnews",
+    "published" : "2026-11-22T02:00:00Z",
+    "excerpt" : "The defendant in a case involving chip smuggling worked with Jensen Huang’s romantic partner."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Defining Genocide Down at the International Court of Justice",
+    "url" : "https://www.wsj.com/opinion/international-court-of-justice-genocide-definition-israel-1f650a2e?mod=rss_worldnews",
+    "published" : "2026-11-21T21:19:00Z",
+    "excerpt" : "An international court redefines the meaning to target the U.S. and Israel."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+    "url" : "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-22T20:28:09Z",
+    "excerpt" : "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+    "url" : "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-22T20:26:24Z",
+    "excerpt" : "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "What's next after no deal at COP31 climate talks?",
+    "url" : "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-22T18:57:24Z",
+    "excerpt" : "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+    "url" : "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-22T18:29:46Z",
+    "excerpt" : "The Army says \"swift action\" is necessary to protect its personnel and nearby communities around its ammunition plant in Iowa."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "COP31 fails to reach major climate deal as talks expose deep divisions",
+    "url" : "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-22T18:17:59Z",
+    "excerpt" : "The talks fail to make a breakthrough on tackling climate change after a row about mentioning fossil fuels."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+    "url" : "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-22T17:57:43Z",
+    "excerpt" : "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+    "url" : "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-22T17:18:26Z",
+    "excerpt" : "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Three killed and dozens missing after fire at Indonesian factory",
+    "url" : "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-22T14:05:20Z",
+    "excerpt" : "At least three people were killed and many more feared dead after a fire at a confectionary factory."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Lebanese villagers return to wrecked homes as the Israeli army pulls back",
+    "url" : "https://www.npr.org/2026/11/22/nx-s1-6048710/lebanon-israel-army-conflict-homes",
+    "published" : "2026-11-22T17:44:52Z",
+    "excerpt" : "In a pilot project in a village in southern Lebanon, Israeli forces have left and the Lebanese army moved it. But villagers who return find their houses wrecked."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Meet the young authors! A literacy program inspires kids in South Africa",
+    "url" : "https://www.npr.org/2026/11/22/g-s1-154387/books-children-authors-south-africa-literacy",
+    "published" : "2026-11-22T17:34:20Z",
+    "excerpt" : "South Africa is working to overcome a children's literacy crisis. In one Johannesburg township, a reading club is instilling a love of books in kids — and inspiring them to become authors."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Climate change talks fall apart in final hours over fossil fuels",
+    "url" : "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+    "published" : "2026-11-22T16:33:22Z",
+    "excerpt" : "Some 200 countries gathered in Antalya, Turkey, for COP31, the annual climate negotiations. Countries failed to reach an agreement over fossil fuels - the primary driver of global warming."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Medicare looks a bit different in 2027, so don't miss open enrollment",
+    "url" : "https://www.npr.org/2026/11/22/nx-s1-6036735/medicare-open-enrollment-2027",
+    "published" : "2026-11-22T13:11:04Z",
+    "excerpt" : "Open enrollment for Medicare runs through Dec. 7, and there are a few different pitfalls people should watch out for this year. Your drug plan or Medicare Advantage plan could be changing a lot."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "He expected a small-business loan. He got a 7-year nightmare",
+    "url" : "https://www.npr.org/2026/11/22/nx-s1-5752261/small-business-loan-merchant-cash-advance",
+    "published" : "2026-11-22T10:00:00Z",
+    "excerpt" : "America's fastest-growing source of funding for small businesses is also one of the least regulated. One man has waged a long, lonely fight to recoup its punishing cost."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "NPR's Senior Podcast Challenge: Early entries we love",
+    "url" : "https://www.npr.org/2026/11/22/nx-s1-6044221/npr-senior-podcast-challenge-early-entries",
+    "published" : "2026-11-22T10:00:00Z",
+    "excerpt" : "People 65 and older have been submitting stories for a chance to win our grand prize — a visit to NPR watch your podcast air live on Weekend Edition . There's still time to enter!"
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Trump orders federal contractors to check with White House before responding to Congress",
+    "url" : "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress",
+    "published" : "2026-11-21T22:40:36Z",
+    "excerpt" : "President Trump is directing federal contractors to consult the White House about inquiries from Congress and to withhold any communications that his administration considers privileged."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Google employees protest AI in schools policy",
+    "url" : "https://www.npr.org/2026/11/21/nx-s1-6048599/google-employees-protest-ai-in-schools-policy",
+    "published" : "2026-11-21T22:01:40Z",
+    "excerpt" : "More than 550 Google employees signed a petition to allow schools access to Search without AI. Parents and educators protested outside Google offices in 6 cities last week for the same ask."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "COP31 negotiations break down as countries fail to agree on climate deal",
+    "url" : "https://www.washingtonpost.com/climate-environment/2026/11/22/cop31-negotiations-break-down-countries-fail-agree-climate-deal/",
+    "published" : "2026-11-22T19:07:33Z",
+    "excerpt" : "A fight over whether to mention fossil fuels caused the talks, which had become the longest in summit history, to fall apart. It was the first such collapse in over a decade."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Mark Carney brings Trump impersonator onstage to joke about U.S.-Canada ties",
+    "url" : "https://www.washingtonpost.com/world/2026/11/22/mark-carney-brings-trump-impersonator-onstage-joke-about-us-canada-ties/",
+    "published" : "2026-11-22T16:45:30Z",
+    "excerpt" : "The Trump impersonator appeared at an annual press dinner where the Canadian prime minister typically delivers a roast."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Ukrainian city moves to remote learning as Russian strikes disrupt utilities",
+    "url" : "https://www.washingtonpost.com/world/2026/11/22/ukrainian-city-moves-remote-learning-russian-strikes-disrupt-utilities/",
+    "published" : "2026-11-22T16:05:40Z",
+    "excerpt" : "The southern Odesa region has suffered the most extensive damage to its energy infrastructure amid a wave of recent Russian airstrikes."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Arson attacks by Israeli settlers in West Bank add to tense political debate",
+    "url" : "https://www.washingtonpost.com/world/2026/11/22/arson-attacks-by-israeli-settlers-west-bank-add-tense-political-debate/",
+    "published" : "2026-11-22T12:44:16Z",
+    "excerpt" : "Opposition leader Gadi Eisenkot called the attacks “Jewish terrorism,” while Netanyahu backers accused Eisenkot of courting Arab parties to form a government."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "China is becoming easier to visit but harder to leave",
+    "url" : "https://www.washingtonpost.com/world/2026/11/22/china-is-becoming-easier-visit-harder-leave/",
+    "published" : "2026-11-22T10:00:00Z",
+    "excerpt" : "Amid a tech race with Washington, Beijing is pledging “openness and integration” while increasing its say over who can depart the country."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Poland says Russian missiles hit its territory; Trump calls it a mistake",
+    "url" : "https://www.washingtonpost.com/world/2026/11/21/poland-says-russian-missiles-hit-its-territory-trump-calls-it-mistake/",
+    "published" : "2026-11-21T22:28:30Z",
+    "excerpt" : "Poland also joined other European countries in expressing outrage over allegations of a thwarted plot linked to Moscow to kill a U.S.-Ukrainian rapper on Danish soil."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Researchers tracked a long-legged bird’s migration. He flew 6,800 miles.",
+    "url" : "https://www.washingtonpost.com/the-seven/2026/11/21/researchers-tracked-bar-tailed-godwit-called-phil-migrating-6800-miles/",
+    "published" : "2026-11-21T22:00:00Z",
+    "excerpt" : "Conservationists say the journey made by the bird, a bar-tailed godwit called Phil, was an \"incredible feat.\""
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Zelensky suggests new round of peace talks could happen during G-20 summit",
+    "url" : "https://www.washingtonpost.com/world/2026/11/21/zelensky-suggests-new-round-peace-talks-could-happen-during-g-20-summit/",
+    "published" : "2026-11-21T20:45:00Z",
+    "excerpt" : "The Ukrainian president wants to join President Donald Trump and Russian President Vladimir Putin for trilateral peace talks next month in Miami."
+  }, {
+    "beat" : "world",
+    "source" : "Semafor",
+    "title" : "COP’s fossil fuel consensus falls apart",
+    "url" : "https://www.semafor.com/article/11/22/2026/cops-fossil-fuel-consensus-falls-apart",
+    "published" : "2026-11-22T15:33:10Z",
+    "excerpt" : "Negotiations collapsed at the last minute over deep disagreements on their most basic provision."
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Takshashila University confers honorary doctorates on author S. Ramakrishnan and playback singer K.S. Chithra",
+    "url" : "https://www.thehindu.com/news/national/tamil-nadu/takshashila-university-confers-honorary-doctorates-on-author-s-ramakrishnan-and-playback-singer-ks-chithra/article71731261.ece",
+    "published" : "2026-11-22T19:41:33Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Man injured in crocodile attack near Chidambaram",
+    "url" : "https://www.thehindu.com/news/national/tamil-nadu/man-injured-in-crocodile-attack-near-chidambaram/article71730998.ece",
+    "published" : "2026-11-22T19:40:27Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Pattabiram residents urge Highways dept. to build roundabouton CTH Road junction",
+    "url" : "https://www.thehindu.com/news/national/tamil-nadu/pattabiram-residents-urge-highways-dept-to-build-roundabouton-cth-road-junction/article71732070.ece",
+    "published" : "2026-11-22T19:38:16Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Six sent to juvenile home after Mumbai assault; Maharashtra SP leader seeks age change",
+    "url" : "https://www.thehindu.com/news/national/maharashtra/six-sent-to-juvenile-home-after-mumbai-assault-maharashtra-sp-leader-seeks-age-change/article71730888.ece",
+    "published" : "2026-11-22T19:34:02Z",
+    "excerpt" : "Police registered a case and produced all eight before the Board, and notices were sent to parents; the case was registered under sections 189(2), 189(4), 118(1), 352 and 351(2) of the Bharatiya Nyaya Sanhita, 2023, says Deputy Commissioner of Police"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Over 40% Group A posts vacant at PGIMS Rohtak, says former Minister",
+    "url" : "https://www.thehindu.com/news/national/haryana/over-40-group-a-posts-vacant-atpgimsrohtak-says-former-minister/article71731991.ece",
+    "published" : "2026-11-22T19:31:11Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "CMC honours essay, painting, quiz competition winners in Vellore",
+    "url" : "https://www.thehindu.com/news/national/tamil-nadu/cmc-honours-essay-painting-quiz-competition-winners-in-vellore/article71731390.ece",
+    "published" : "2026-11-22T19:30:16Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "CM Vijay to hold meeting with MLAs of allies, supporting parties",
+    "url" : "https://www.thehindu.com/news/national/tamil-nadu/cm-vijay-to-hold-meeting-with-mlas-of-allies-supporting-parties/article71731205.ece",
+    "published" : "2026-11-22T19:28:19Z",
+    "excerpt" : "Sources said that the meeting would focus on the implementation of infrastructure and welfare measures in their constituencies"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "VCK chief Thirumavalavan visits former LTTE chief Prabhakaran’s razed home in Sri Lanka",
+    "url" : "https://www.thehindu.com/news/national/tamil-nadu/vck-chief-thirumavalavan-visits-former-ltte-chief-prabhakarans-razed-home-in-sri-lanka/article71732023.ece",
+    "published" : "2026-11-22T19:26:37Z",
+    "excerpt" : "The VCK leader also visited a flower exhibition conducted by Tamil Desiya Pasumai Iyakkam with plant manufacturers on the occasion of tree planting month held in Northern provinces"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Core accountability: On core sector performance",
+    "url" : "https://www.thehindu.com/opinion/editorial/core-accountability/article71731259.ece",
+    "published" : "2026-11-22T19:39:58Z",
+    "excerpt" : "Even a low base effect could not push India’s oil and gas sectors into growth"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Rampur’s Lavi Fair: Storytelling through 300 years of Himalayan trade and tradition",
+    "url" : "https://www.thehindu.com/society/lavi-fair-rampur-himachal-pradesh-story/article71660853.ece",
+    "published" : "2026-11-22T17:09:44Z",
+    "excerpt" : "Rampur Bushahr’s Lavi Fair in Himachal Pradesh traces a Himalayan journey from wool and barter to women entrepreneurs and digital payments"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Congress attacks government over SEBI’s proposal to remove disclosure norms for FPIs",
+    "url" : "https://www.thehindu.com/business/markets/sebi-proposals-will-open-window-to-foreign-funds-with-opaque-offshore-ownership-structures-says-congress/article71730702.ece",
+    "published" : "2026-11-22T12:44:57Z",
+    "excerpt" : "Ease of doing business cannot come at the cost of capital market integrity, says Jairam Ramesh"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "India-EU trade pact likely to be signed on December 16",
+    "url" : "https://www.thehindu.com/news/national/india-eu-trade-pact-likely-to-be-signed-on-december-16/article71731223.ece",
+    "published" : "2026-11-22T11:39:31Z",
+    "excerpt" : "European Union's Ambassador to India, Jean-Eric Paquet, recently said the FTA will be signed during PM Modi's visit to Brussels in December, and it will come into force in 2027"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Must balance ‘economic patriotism’ with cultural heritage: GJC on PM Modi’s call to stop gold purchases",
+    "url" : "https://www.thehindu.com/business/must-balance-economic-patriotism-with-cultural-heritage-gjc-on-pm-modis-call-to-stop-gold-purchases/article71423466.ece",
+    "published" : "2026-11-22T11:23:51Z",
+    "excerpt" : "The All India Gem & Jewellery Domestic Council (GJC) argued that the gold jewellery sector contributes nearly 7-8% to the economy and supports millions of livelihoods"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Gold, copper, aluminium dive to at least 7-month lows",
+    "url" : "https://www.thehindu.com/business/gold-copper-aluminium-dive-to-at-least-7-month-lows/article71729065.ece",
+    "published" : "2026-11-22T09:49:41Z",
+    "excerpt" : "Hawkish commentary from U.S. Fed and concerns over global economic growth have been among the more prominent concerns."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "₹3 crore salary but less than ₹18.6 lakh in annual expenses: How this Google employee is saving nearly 90% of his income",
+    "url" : "https://www.livemint.com/news/us-news/3-crore-salary-but-less-than-18-6-lakh-in-annual-expenses-how-this-google-employee-is-saving-nearly-90-of-his-income-11795369630690.html",
+    "published" : "2026-11-22T18:29:46Z",
+    "excerpt" : "Broomfield's core living expenses have remained below $20,000 for the past few years, against an estimated annual minimum-wage income of $23,700 across all 50 states."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "Chandigarh man shares first-month Blinkit earnings of ₹39,000, offers advice to aspiring delivery partners",
+    "url" : "https://www.livemint.com/news/trends/chandigarh-man-shares-first-month-blinkit-earnings-of-39-000-offers-advice-to-aspiring-delivery-partners-11795369666247.html",
+    "published" : "2026-11-22T18:15:11Z",
+    "excerpt" : "The man said the platform's incentive structure and bonus targets were manageable. He added that tips received from customers provided an additional boost to his overall earnings."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "₹2.11 lakh, $1,000, Sri Lankan rupees: What Vande Bharat staff found in a tourist’s bag and returned",
+    "url" : "https://www.livemint.com/news/india/211-lakh-1-000-sri-lankan-rupees-what-vande-bharat-staff-found-in-a-tourist-s-bag-and-returned-11795368311000.html",
+    "published" : "2026-11-22T17:42:37Z",
+    "excerpt" : "A Singaporean tourist accidentally left behind a bag aboard the New Delhi-Varanasi Vande Bharat Express. Railway cleaning staff later found it during routine maintenance, discovering ₹2.11 lakh, $1,000 and cash in Sri Lankan and Singapore currencies.&nbsp;"
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "Scenic Vande Bharat routes to explore this winter: From Delhi to Vaishno Devi to Bengaluru-Goa",
+    "url" : "https://www.livemint.com/news/trends/scenic-vande-bharat-routes-to-explore-this-winter-from-delhi-to-vaishno-devi-to-bengalurugoa-11795367876365.html",
+    "published" : "2026-11-22T17:29:45Z",
+    "excerpt" : "While Vande Bharat trains are widely recognised for their airline-style comfort, they also offer passengers something beyond modern amenities — stunning views of India's diverse landscapes along the way."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "Car owners, beware! How thieves can steal your vehicle without touching the keys and why aluminium foil may help",
+    "url" : "https://www.livemint.com/news/trends/car-owners-beware-how-thieves-can-steal-your-vehicle-without-touching-the-keys-and-why-aluminium-foil-may-help-11795358142562.html",
+    "published" : "2026-11-22T17:22:20Z",
+    "excerpt" : "Aluminium foil can act as a basic shield against radio-frequency signals, potentially preventing the key fob's signal from being detected or relayed when the key is not in use."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "Couple pays over ₹2.5L to move to 3BHK in Bengaluru, sparks debate over ₹1.5L house deposit: ‘Higher cost in Delhi’",
+    "url" : "https://www.livemint.com/news/india/couple-pays-over-rs-2-5l-to-move-to-3bhk-in-bengaluru-sparks-debate-over-rs-1-5l-house-deposit-higher-cost-in-delhi-11795360931715.html",
+    "published" : "2026-11-22T16:34:21Z",
+    "excerpt" : "A couple shared how much it took them to shift to a new flat in Bengaluru, including packers and movers, rent, brokerage and more. Their biggest expense, however, was the security deposit of ₹1.5 lakh for the house."
+  }, {
+    "beat" : "india",
+    "source" : "Finshots",
+    "title" : "Indian open-world games, animals that get the right of way, & more...",
+    "url" : "https://finshots.in/archive/indian-open-world-games-animals-that-get-the-right-of-way-more/",
+    "published" : "2026-11-22T01:30:16Z",
+    "excerpt" : "Indian open-world games, animals that get the right of way, & more in this week's Sunny Side Up."
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "VinFast To Build Dedicated E-Scooter Assembly Line At TN Plant",
+    "url" : "https://inc42.com/buzz/vinfast-to-build-dedicated-e-scooter-assembly-line-at-tn-plant/",
+    "published" : "2026-11-22T13:03:22Z",
+    "excerpt" : "Electric vehicle (EV) giant VinFast is building a dedicated electric two-wheeler production line at its Thoothukudi manufacturing facility in Tamil&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "The GTA VI-Sized Hole In Indian Gaming",
+    "url" : "https://inc42.com/features/the-gta-vi-sized-hole-in-indian-gaming/",
+    "published" : "2026-11-22T05:30:37Z",
+    "excerpt" : "At midnight on Thursday, when Grand Theft Auto VI finally launched, India was just another market waiting to play the&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "Indian Startup IPO Tracker 2026",
+    "url" : "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
+    "published" : "2026-11-21T23:31:54Z",
+    "excerpt" : "Dalal Street emerged as a founder’s paradise in 2025, with 18 Indian startups listing on the bourses and collectively mopping&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "Budget 2027: Industry Body BWA Seeks Tax Relief For Crypto Startups",
+    "url" : "https://inc42.com/buzz/budget-2027-industry-body-bwa-seeks-tax-relief-for-crypto-startups/",
+    "published" : "2026-11-21T21:27:16Z",
+    "excerpt" : "Industry body Bharat Web3 Association (BWA) has submitted its recommendations to the finance ministry ahead of the upcoming Union Budget&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "Atomberg & Voltas Execute JV Agreement To Build AC Compressors",
+    "url" : "https://inc42.com/buzz/atomberg-voltas-execute-jv-agreement-to-build-ac-compressors/",
+    "published" : "2026-11-21T20:41:00Z",
+    "excerpt" : "IPO-bound consumer appliances startup Atomberg has executed a joint venture (JV) agreement with Tata-owned Voltas to manufacture compressors for room&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "Stalled Withdrawals, Millions Stolen: Inside India’s Crypto Exchange Troubles",
+    "url" : "https://inc42.com/buzz/stalled-withdrawals-millions-stolen-inside-indias-crypto-exchange-troubles/",
+    "published" : "2026-11-21T18:23:17Z",
+    "excerpt" : "India’s cryptocurrency exchanges are facing turbulence on multiple fronts, with banking disruptions, regulatory scrutiny, and cybersecurity incidents exposing vulnerabilities across&#8230;"
+  }, {
+    "beat" : "career",
+    "source" : "The Pragmatic Engineer",
+    "title" : "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+    "url" : "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+    "published" : "2026-11-19T17:08:59Z",
+    "excerpt" : "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more"
+  }, {
+    "beat" : "career",
+    "source" : "The Pragmatic Engineer",
+    "title" : "Software factories and code reviews with Harjot Gill",
+    "url" : "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+    "published" : "2026-11-18T18:08:52Z",
+    "excerpt" : "CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI."
+  }, {
+    "beat" : "career",
+    "source" : "The Pragmatic Engineer",
+    "title" : "Inference engineering for software engineers",
+    "url" : "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+    "published" : "2026-11-17T16:11:23Z",
+    "excerpt" : "When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive"
+  }, {
+    "beat" : "career",
+    "source" : "The Pragmatic Engineer",
+    "title" : "Software engineering after code becomes cheap with Satya Nadella",
+    "url" : "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
+    "published" : "2026-11-16T13:33:48Z",
+    "excerpt" : "Microsoft CEO Satya Nadella on AI’s impact on software engineering, code verification, and engineers’ careers."
+  }, {
+    "beat" : "career",
+    "source" : "Irrational Exuberance",
+    "title" : "Shipping 100+ PRs to production in a week",
+    "url" : "https://lethain.com/passing-100-prs-in-a-week/",
+    "published" : "2026-11-22T12:00:00Z",
+    "excerpt" : "After pushing towards the goal for some time, I finally shipped 100+ pull requests to production in a week, reaching 115 the week of November 9th. Because I&rsquo;m vain, I&rsquo;ll cook the numbers slightly to take the highest seven day period rather than calendar week, which up to this point peaks at 170 merged PRs. Of those 170, 17 nuanced and UX-centric PRs were written on a harness running on my laptop, and the remaining 153 were written on Imprint &rsquo;s internal cloud harness called…"
+  }, {
+    "beat" : "career",
+    "source" : "Irrational Exuberance",
+    "title" : "The Explorer Pattern for product invention and development.",
+    "url" : "https://lethain.com/explorer-pattern/",
+    "published" : "2026-11-21T15:00:00Z",
+    "excerpt" : "tl;dr: the Explorer Pattern is one individual or team building a functional implementation that minimizes cross-team and cross-functional impacts as much as humanly possible, and then reconciling the details with other teams after that prototype is completed, accepting that this approach can require very substantial rework to that initial development. Why write this? Imprint previously called this the &ldquo;Tech-led&rdquo; or &ldquo;Engineering-led&rdquo; development model, but it&rsquo;s…"
+  }, {
+    "beat" : "career",
+    "source" : "Irrational Exuberance",
+    "title" : "Self-reinforcing quality / adopting verification pattern",
+    "url" : "https://lethain.com/adopting-verification-pattern/",
+    "published" : "2026-10-30T12:00:00Z",
+    "excerpt" : "After implementing the small-change pattern, Imprint Engineering&rsquo;s next focus in improving our development loop has been implementing a verification loop for our software development. This is an increasingly common pattern, particularly popularized by poteto&rsquo;s pstack , but you&rsquo;ll find similar ideas emerging in other places as well, e.g. Niko Matsakis&rsquo; post on the correctness ratchet , among others. This captures some of the confusion I&rsquo;ve seen in our initial…"
+  }, {
+    "beat" : "career",
+    "source" : "Martin Fowler",
+    "title" : "Fragments: November 20",
+    "url" : "https://martinfowler.com/fragments/2026-11-20.html",
+    "published" : "2026-11-20T18:38:00Z",
+    "excerpt" : "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review . Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds up to 22 to 35%. The measures of health come from CodeScene. The experiment looked at three LLMs, 465 pull requests on 246 open source repositories. Each pull request was put through a review and fix pipeline involving five agents. They also looked at which code smells led to increased costs: they…"
+  }, {
+    "beat" : "career",
+    "source" : "Martin Fowler",
+    "title" : "Data Contracts",
+    "url" : "https://martinfowler.com/articles/data-contracts.html",
+    "published" : "2026-11-18T14:02:00Z",
+    "excerpt" : "Data contracts are a way to describe the contents and guarantees of datasets. Simon Harrer and Arif Wider describe in detail what they are and how to use them. They apply practices from API design to data by treating them as data-providing services - such as data products - whose interfaces we want to define as clearly as possible. This approach significantly increases the robustness of large-scale data landscapes, and gives both people and AI agents the explicit, trustworthy metadata they need…"
+  }, {
+    "beat" : "career",
+    "source" : "Martin Fowler",
+    "title" : "Deterministic Simulation Testing",
+    "url" : "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+    "published" : "2026-11-17T14:33:00Z",
+    "excerpt" : "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing real clocks, networks, and storage with simulated components driven by a single-threaded execution loop. This allows simulating both hard failures and routine slowdowns&#x2014;such as network and disk latency spikes&#x2014;and more importantly…"
+  }, {
+    "beat" : "career",
+    "source" : "Martin Fowler",
+    "title" : "Bliki: Generated Glossary",
+    "url" : "https://martinfowler.com/bliki/GeneratedGlossary.html",
+    "published" : "2026-11-12T14:15:00Z",
+    "excerpt" : "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain. One technique to aid this is to use an LLM to generate a glossary of the terminology in that domain, and make this glossary available for any LLMs doing work in those…"
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "How to coach engineers from different backgrounds",
+    "url" : "https://leaddev.com/career-development/how-to-coach-engineers-from-different-backgrounds?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-19T07:56:11Z",
+    "excerpt" : "Great work doesn’t speak for itself. The post How to coach engineers from different backgrounds appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "AI coding rules matter more than your model",
+    "url" : "https://leaddev.com/software-quality/ai-coding-rules-matter-more-than-your-model?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-18T08:40:58Z",
+    "excerpt" : "Treat your AI rules like code. The post AI coding rules matter more than your model appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Microsoft’s outage started with a fix",
+    "url" : "https://leaddev.com/technical-direction/microsofts-outage-started-with-a-fix?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-17T11:55:29Z",
+    "excerpt" : "The bug testing never caught. The post Microsoft’s outage started with a fix appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Stop blaming AI tools for flat velocity",
+    "url" : "https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-17T08:34:34Z",
+    "excerpt" : "Test your habits before tools. The post Stop blaming AI tools for flat velocity appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Systems thinking outlasts frameworks",
+    "url" : "https://leaddev.com/technical-direction/systems-thinking-outlasts-frameworks?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-16T11:04:45Z",
+    "excerpt" : "Think beyond the component level. The post Systems thinking outlasts frameworks appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Everyone’s a software engineer now",
+    "url" : "https://leaddev.com/management/everyones-a-software-engineer-now?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-16T08:25:57Z",
+    "excerpt" : "What happens when anyone can code? The post Everyone’s a software engineer now appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "InfoQ Architecture",
+    "title" : "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+    "url" : "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+    "published" : "2026-11-22T06:30:00Z",
+    "excerpt" : "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio"
+  }, {
+    "beat" : "career",
+    "source" : "InfoQ Architecture",
+    "title" : "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+    "url" : "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+    "published" : "2026-11-22T06:27:00Z",
+    "excerpt" : "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-Jan Wiggers"
+  }, {
+    "beat" : "career",
+    "source" : "InfoQ Architecture",
+    "title" : "How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug",
+    "url" : "https://www.infoq.com/news/2026/11/gke-kernel-network-bug/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+    "published" : "2026-11-21T09:44:00Z",
+    "excerpt" : "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures, blocking around 800 developers from deploying to production. By Renato Losio"
+  }, {
+    "beat" : "career",
+    "source" : "InfoQ Architecture",
+    "title" : "Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency Below 1 MS",
+    "url" : "https://www.infoq.com/news/2026/11/uber-go-translation-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+    "published" : "2026-11-20T14:38:00Z",
+    "excerpt" : "Uber redesigned its Go-based translation cache to reduce its initial memory footprint by more than 90% while maintaining a cache hit rate above 99.9% and p99 disk-backed cache miss latency below 100 microseconds. The hybrid architecture combines in-memory keys and frequently accessed values with disk-backed storage, reducing garbage-collection overhead and memory consumption. By Leela Kumili"
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "Donald Hooton Sr., Who Crusaded Against Steroids in Sports, Has Died",
+    "url" : "https://www.nytimes.com/2026/11/22/us/donald-hooton-sr-dead.html",
+    "published" : "2026-11-22T19:10:04Z",
+    "excerpt" : "After the suicide of his son, a high school pitcher who used steroids, Donald Hooton Sr. delivered blistering testimony before Congress. He was 76."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "Patient Marks One Year Living With Pig Kidney, a Transplant Milestone",
+    "url" : "https://www.nytimes.com/2026/11/22/well/pig-kidney-transplant-milestone.html",
+    "published" : "2026-11-22T10:00:57Z",
+    "excerpt" : "Experts hope that genetically modified pigs could one day provide a vast supply of organs for patients in need."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "A Short Workout to Strengthen Your Neck",
+    "url" : "https://www.nytimes.com/2026/11/21/well/move/neck-strengthening-workout.html",
+    "published" : "2026-11-22T00:09:48Z",
+    "excerpt" : "Build muscle and fight the effects of bad posture with a few simple exercises."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "Marsha Linehan Has Died. She Transformed Treatment for Personality Disorder.",
+    "url" : "https://www.nytimes.com/2026/11/19/well/mind/marsha-linehan-dead.html",
+    "published" : "2026-11-21T01:28:24Z",
+    "excerpt" : "After her methods proved effective, she revealed that she had battled her own borderline personality disorder as a child."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "Powerful Health Panel Has Tumultuous First Meeting With RFK Jr’s Appointees",
+    "url" : "https://www.nytimes.com/2026/11/20/well/rfk-jr-uspstf-panel-meeting.html",
+    "published" : "2026-11-20T22:29:07Z",
+    "excerpt" : "Since March 2025, the work of the U.S. Preventive Services Task Force has been at a standstill."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "Will Salmon Sperm Make You Look Younger?",
+    "url" : "https://www.nytimes.com/2026/11/18/well/pdrn-skin-treatment-salmon-dna.html",
+    "published" : "2026-11-20T11:29:08Z",
+    "excerpt" : "Sellers of PDRN claim that fragments of fish DNA can absorb into the skin and revitalize it. Is that true?"
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "E.R. Doctors on Avoiding Thanksgiving Hazards",
+    "url" : "https://www.nytimes.com/2026/11/20/well/thanksgiving-emergency-room-er.html",
+    "published" : "2026-11-20T10:04:08Z",
+    "excerpt" : "Don’t deep-fry a frozen turkey, for starters."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "I’m Sad That My Boyfriend Uses A.I. to Write Love Notes",
+    "url" : "https://www.nytimes.com/2026/11/19/well/mind/ask-therapist-ai-love-notes.html",
+    "published" : "2026-11-19T17:11:05Z",
+    "excerpt" : "Our Ask the Therapist columnist, Lori Gottlieb, advises a reader who wishes a lover would use his own words to express his feelings."
+  }, {
+    "beat" : "live-well",
+    "source" : "Peter Attia",
+    "title" : "Vitamin D and cardiovascular disease: A missed TARGET?",
+    "url" : "https://peterattiamd.com/vitamin-d-and-cardiovascular-disease/",
+    "published" : "2026-11-21T12:00:00Z",
+    "excerpt" : "A new trial intended to address old problems introduces new ones The post Vitamin D and cardiovascular disease: A missed TARGET? appeared first on Peter Attia MD ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Peter Attia",
+    "title" : "Guarding and reinvigorating the senses to protect against dementia",
+    "url" : "https://peterattiamd.com/guarding-and-reinvigorating-the-senses-to-protect-against-dementia/",
+    "published" : "2026-11-18T05:00:00Z",
+    "excerpt" : "Living fully in a shrinking world The post Guarding and reinvigorating the senses to protect against dementia appeared first on Peter Attia MD ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Peter Attia",
+    "title" : "#416 ‒ The science of mitochondria: their role in health, aging, and disease, and what the evidence says about drugs and supplements aimed at improving their function | Navdeep Chandel, Ph.D. ",
+    "url" : "https://peterattiamd.com/navchandel2/",
+    "published" : "2026-11-16T05:15:00Z",
+    "excerpt" : "“If mitochondrial dysfunction is related to aging, it isn't simply about running out of ATP or running out of metabolites. It could be this miscommunication.”‒ Nav Chandel The post #416 ‒ The science of mitochondria: their role in health, aging, and disease, and what the evidence says about drugs and supplements aimed at improving their function | Navdeep Chandel, Ph.D.  appeared first on Peter Attia MD ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Peter Attia",
+    "title" : "Does raw milk offer meaningful health benefits?",
+    "url" : "https://peterattiamd.com/does-raw-milk-offer-meaningful-health-benefits/",
+    "published" : "2026-11-14T12:00:00Z",
+    "excerpt" : "An in-depth analysis of the most common claims around raw milk The post Does raw milk offer meaningful health benefits? appeared first on Peter Attia MD ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Cal Newport",
+    "title" : "In Search of the Deep Life",
+    "url" : "https://calnewport.com/in-search-of-the-deep-life/",
+    "published" : "2026-11-16T11:00:00Z",
+    "excerpt" : "Early in the coronavirus pandemic, as I sat at home channeling my anxiety into publishing daily essays on this newsletter (a streak I kept up ... Read more The post In Search of the Deep Life appeared first on Cal Newport ."
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "How a Plant-Based Diet Could Help Close Racial Health Gaps",
+    "url" : "https://nutritionfacts.org/blog/how-a-plant-based-diet-could-help-close-racial-health-gaps/",
+    "published" : "2026-11-19T13:00:04Z",
+    "excerpt" : "Why are Black Americans sicker and die younger than their white counterparts, and what can we do about it? During the COVID-19 pandemic, the death [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Is Bone Density Linked to Diet? It May Come Down to Body Size",
+    "url" : "https://nutritionfacts.org/blog/is-bone-density-linked-to-diet-it-may-come-down-to-body-size/",
+    "published" : "2026-11-17T13:00:15Z",
+    "excerpt" : "Those eating a plant-based diet tend to be so much slimmer that their bone mass may suffer. Osteoporosis affects an estimated 200 million people worldwide. [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Do Meat-Eaters Have More Antibiotic Resistance in Their Guts?",
+    "url" : "https://nutritionfacts.org/blog/do-meat-eaters-have-more-antibiotic-resistance-in-their-guts/",
+    "published" : "2026-11-12T13:00:27Z",
+    "excerpt" : "Those eating plant-based have a reduced load of antibiotic resistance genes in their gut. There are nearly one million Salmonella and Campylobacter infections in children [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Are Rare Sugars Like Allulose Actually Healthy?",
+    "url" : "https://nutritionfacts.org/blog/are-rare-sugars-like-allulose-actually-healthy/",
+    "published" : "2026-11-10T13:00:44Z",
+    "excerpt" : "Are rare sugars like allulose a healthy alternative to traditional sweeteners? Allulose is a kind of low-calorie sugar that exists naturally in very small quantities [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Can Allulose Replace Sugar?",
+    "url" : "https://nutritionfacts.org/blog/can-allulose-replace-sugar/",
+    "published" : "2026-11-05T13:00:52Z",
+    "excerpt" : "How safe are fourth-generation sweeteners, such as the rare sugar allulose? First, there was sugar and high-fructose corn syrup, the original industrial sweeteners. They were [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "A Simple Protein Swap for Healthy Aging",
+    "url" : "https://nutritionfacts.org/blog/a-simple-protein-swap-for-healthy-aging/",
+    "published" : "2026-11-03T13:00:33Z",
+    "excerpt" : "Swapping just 1% of plant protein in place of animal protein was associated with signiﬁcantly less age-related deﬁcit accumulation. Based on a study of more [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "‘SNL’ ‘Sister’ sketch nails the failures of US healthcare policy",
+    "url" : "https://theconversation.com/snl-sister-sketch-nails-the-failures-of-us-healthcare-policy-297022",
+    "published" : "2026-11-20T13:45:11Z",
+    "excerpt" : "Medicare and Medicaid provide limited help with caregiving for older adults – and that means unpaid relatives often bear big burdens."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Preventable vision loss affects more than a billion people globally - and uneven access to care is the major culprit",
+    "url" : "https://theconversation.com/preventable-vision-loss-affects-more-than-a-billion-people-globally-and-uneven-access-to-care-is-the-major-culprit-294770",
+    "published" : "2026-11-20T13:43:49Z",
+    "excerpt" : "As the global population ages, the number of people suffering from vision loss is expected to increase."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Paid sick leave laws are no guarantee for Philly’s immigrant restaurant workers",
+    "url" : "https://theconversation.com/paid-sick-leave-laws-are-no-guarantee-for-phillys-immigrant-restaurant-workers-295534",
+    "published" : "2026-11-20T13:43:39Z",
+    "excerpt" : "Doctor’s note requirements, industry norms and fear of retaliation prevent many immigrant restaurant workers in Philadelphia from using paid sick leave."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "A doctor’s guide to surviving — and enjoying — holiday feasting while on GLP-1 medication",
+    "url" : "https://theconversation.com/a-doctors-guide-to-surviving-and-enjoying-holiday-feasting-while-on-glp-1-medication-295301",
+    "published" : "2026-11-19T19:09:59Z",
+    "excerpt" : "By minding your body’s fullness cues you can indulge in your favorite holiday foods and traditions while maintaining your progress with these drugs."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "What is ‘intergenerational trauma’? A social worker explains how one generation’s experiences can affect descendants",
+    "url" : "https://theconversation.com/what-is-intergenerational-trauma-a-social-worker-explains-how-one-generations-experiences-can-affect-descendants-295045",
+    "published" : "2026-11-19T13:40:19Z",
+    "excerpt" : "Effects of a traumatic event or long-term traumatic circumstances can cross generations – but resilience can too."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Type 1 and Type 2 diabetes therapies show great promise – but treatment is only effective if people can access it",
+    "url" : "https://theconversation.com/type-1-and-type-2-diabetes-therapies-show-great-promise-but-treatment-is-only-effective-if-people-can-access-it-296795",
+    "published" : "2026-11-19T13:39:52Z",
+    "excerpt" : "More than 830 million people across the world live with diabetes, and the numbers are climbing – but cures could be within reach."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "Bing Gordon: Learning From Bezos, Jobs, and Spielberg ",
+    "url" : "https://fs.blog/knowledge-project-podcast/bing-gordon/",
+    "published" : "2026-11-19T10:55:00Z",
+    "excerpt" : "Bing Gordon is the former Chief Creative Officer of Electronic Arts and a partner at Kleiner Perkins. He served on Amazon’s board for more than a decade, a seat he earned after giving Jeff Bezos five ideas. The first was Amazon Prime. Bing describes the week two directors told him they wanted to resign, and &#8230; The post Bing Gordon: Learning From Bezos, Jobs, and Spielberg  appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "Jon McNeill: How Elon Musk Makes Decisions",
+    "url" : "https://fs.blog/knowledge-project-podcast/jon-mcneill/",
+    "published" : "2026-11-05T10:55:00Z",
+    "excerpt" : "Jon McNeill is the former President of Tesla and the co-founder and CEO of DVx Ventures. He is also the author of the book, The Algorithm. Elon Musk believes speed creates a competitive advantage, whether it’s speed of decision, speed of cash, or speed of response. But what does that look like day to day, &#8230; The post Jon McNeill: How Elon Musk Makes Decisions appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "[Outliers] K.C. Irving: Competing with Giants",
+    "url" : "https://fs.blog/knowledge-project-podcast/outliers-kc-irving/",
+    "published" : "2026-10-29T09:50:00Z",
+    "excerpt" : "K.C. Irving refused to be stopped. When a railway raised his shipping costs, he bought a ship. When oil suppliers tried to squeeze him, he built a refinery. When a plant went on strike, he pulled up to the picket line, took off his coat, and challenged the much larger union boss to a fight. &#8230; The post [Outliers] K.C. Irving: Competing with Giants appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Letting Go of Regrets",
+    "url" : "https://zenhabits.net/regrets/",
+    "published" : "2026-11-20T00:00:00Z",
+    "excerpt" : "By Leo Babauta Someone recently asked me about dealing with regrets — something from the past that bothers them on a daily basis. I’m asking about choices I made in the past that brought me to a place where my life changed completely. I’m still trying to fix the consequences of those choices, but I find myself constantly bothered by them. As you read this, I invite you to notice what regrets you are still bothered by on a regular basis. What still feels painful? Today I’m going to share 3 truths…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Sacred Bow: My Yearly Intentional Ritual",
+    "url" : "https://zenhabits.net/sacred-bow/",
+    "published" : "2026-11-16T00:00:00Z",
+    "excerpt" : "By Leo Babauta Every year for the last 7 years, I’ve done a year-end ritual called Sacred Bow … and I’ve invited members of my Fearless Living Academy to do it with me every year. It’s one of the most powerful things we do. And it’s a beautiful way to close out the year. I share a process with everyone that I do personally … it’s about four things, and we do it over four weeks in December: Review : We start by reviewing our year … what did we accomplish, what challenges did we face, what did we…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Do Less, But Care More",
+    "url" : "https://zenhabits.net/less-more/",
+    "published" : "2026-11-13T00:00:00Z",
+    "excerpt" : "By Leo Babauta Most of us feel spread too thin, overwhelmed, with not enough time for all the things we care about. It might be that we’re spreading our care too thin — we’re trying to care about everything. We say yes to so many things, so that everything then gets a thin layer of our attention. And that’s tough to sustain for long. Let’s talk about simplifying — but not just as a way to off-load our commitments … and instead focus on ways to make room to actually care more about what we choose…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "You Don’t Have to Earn Your Rest",
+    "url" : "https://zenhabits.net/earn-rest/",
+    "published" : "2026-11-06T00:00:00Z",
+    "excerpt" : "By Leo Babauta Something I’ve noticed is that a lot of us have an ingrained belief that we can take some time off to rest if we’ve worked hard enough. Or often it’s like, “I’ll rest now so I can be more productive tomorrow.” The mindset we have ingrained in us is that rest has to be justified by how productive it will help us to be . This is so deeply ingrained in us that we don’t even notice it. It comes from the mindset that we need to be more productive, and that our lives have to be built…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "The Joy of Falling Behind",
+    "url" : "https://zenhabits.net/falling-behind/",
+    "published" : "2026-10-30T00:00:00Z",
+    "excerpt" : "By Leo Babauta A lot of people right now are feeling like they just can’t keep up with everything — it’s just too much. And it feels like the pace of everything we have to keep up with is accelerating. There’s more and more, and it’s coming at us faster and faster. Technology is like fuel to the fire: more never-ending feeds, and quick replies to messages and emails means there’s too much to reply to. What if we simply refused to try to keep up with it all? What if we rejected the premise that…"
+  } ],
+  "sourcesReached" : 56,
+  "sourcesFailed" : [ {
+    "source" : "Ground Truths",
+    "reason" : "HTTP 403"
+  }, {
+    "source" : "The Seattle Times",
+    "reason" : "HTTP 202"
+  }, {
+    "source" : "The Indian Express",
+    "reason" : "HTTP 403"
+  } ],
+  "recentHeadlines" : [ {
+    "date" : "2026-11-18",
+    "headline" : "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC",
+    "url" : "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO",
+    "url" : "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=rss_Technology"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Vance scraps schedule to address tech outages as Trump admin insists incidents aren't linked",
+    "url" : "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+    "url" : "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+    "url" : "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+    "url" : "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=rss_Technology"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "U.S. Stocks Mixed, Nvidia Falls, Ahead of Anthropic IPO",
+    "url" : "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-nvidia-falls-ahead-of-anthropic-ipo-c7de4692?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+    "url" : "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Copper at Lowest Since April Amid AI Market Turmoil, Chinese Demand Concerns",
+    "url" : "https://www.wsj.com/finance/commodities-futures/copper-at-lowest-since-april-amid-ai-market-turmoil-chinese-demand-concerns-4325361e?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Tencent Profit Flatlines Amid Surging AI Investments, Revenue Growth Slows",
+    "url" : "https://www.wsj.com/tech/ai/tencent-profit-flatlines-amid-surging-ai-investments-revenue-growth-slows-0c1cfc57?mod=rss_Technology"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "AI Boom Seen as Supporting Dollar in Coming Months",
+    "url" : "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-weighed-by-risk-off-sentiment-d2acd03c?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "GPT‑6.2 Astra and GPT‑6.2 Sol",
+    "url" : "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Advancing chip design with OpenAI models",
+    "url" : "https://openai.com/index/advancing-chip-design-with-our-models"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "External sandboxes for coding agents",
+    "url" : "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Data center slowdown would raise risks for utility investments",
+    "url" : "https://www.utilitydive.com/news/data-center-slowdown-raises-risks-for-utility-investments/874924/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Cleanview: US data center construction slows in Q3 2026 following record-breaking Q2",
+    "url" : "https://www.datacenterdynamics.com/en/news/cleanview-us-data-center-construction-slows-in-q3-2026-following-record-breaking-q2/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Argentum AI and Kyndryl ink $630m AI infrastructure deal",
+    "url" : "https://www.datacenterdynamics.com/en/news/argentum-ai-and-kyndryl-ink-630m-ai-infrastructure-deal/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+    "url" : "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Cloud keys leaked in Docker Hub images are stolen within seconds",
+    "url" : "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Apache warns of Roller RCE vulnerability exploited in attacks",
+    "url" : "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+    "url" : "https://therecord.media/russia-cyber-espionage-google"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Formal Verification of the Signal Protocol Using AI",
+    "url" : "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Lawmakers call on White House to develop defensive AI cyber systems",
+    "url" : "https://therecord.media/ai-cyber-white-house"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+    "url" : "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+    "url" : "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+    "url" : "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Deterministic Simulation Testing",
+    "url" : "https://martinfowler.com/articles/deterministic-simulation-testing.html"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "How Shopify Orchestrates AI-Powered Mobile App Development without Overloading Developers' Machines",
+    "url" : "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Morning Headlines 11/18/26",
+    "url" : "https://histalk2.com/2026/11/17/morning-headlines-11-18-26/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Heidi Overton’s FDA nomination pulled by White House",
+    "url" : "https://www.fiercehealthcare.com/pharma/overtons-fda-nomination-has-been-pulled-white-house"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "STAT+: The emerging winners and losers in the AI scribe market",
+    "url" : "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/?utm_campaign=rss"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Medicare Shared Savings Program saved $2.5B last year: CMS",
+    "url" : "https://www.fiercehealthcare.com/regulatory/medicare-shared-savings-program-saved-25b-last-year-cms"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Microsoft jabs at OpenAI and Anthropic, touting cheaper, customizable AI models of its own",
+    "url" : "https://www.geekwire.com/2026/microsoft-jabs-at-openai-and-anthropic-touting-cheaper-customizable-ai-models-of-its-own/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "‘Absurd ambition’: Pulumi expands into software delivery with AI agents that ship and fix code",
+    "url" : "https://www.geekwire.com/2026/absurd-ambition-pulumi-expands-into-software-delivery-with-ai-agents-that-ship-and-fix-code/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "‘Do not search Amazon’: Meta’s Muse now shops elsewhere by default",
+    "url" : "https://www.geekwire.com/2026/do-not-search-amazon-metas-muse-now-shops-elsewhere-by-default/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Latest findings point to fuel supply, not Blue Origin’s engines, in loss of Amazon Leo satellites",
+    "url" : "https://www.geekwire.com/2026/latest-findings-point-to-fuel-supply-not-blue-origins-engines-in-loss-of-amazon-leo-satellites/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Battery startup Sila lands potential $1B Panasonic deal, plans Central Wash. expansion adding 500 jobs",
+    "url" : "https://www.geekwire.com/2026/battery-startup-sila-lands-potential-1b-panasonic-deal-plans-central-wash-expansion-adding-500-jobs/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+    "url" : "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+    "url" : "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait",
+    "url" : "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+    "url" : "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "New video shows explosions moments before part of Crimea Bridge collapses",
+    "url" : "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Hakeem Jeffries wins big in speaker nomination vote",
+    "url" : "https://www.semafor.com/article/11/18/2026/hakeem-jeffries-wins-big-in-speaker-nomination-vote"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "India imposes 162.5% duty and tax on bulk Scotch imports amid UK trade pact dispute",
+    "url" : "https://www.thehindu.com/business/india-imposes-1625-duty-and-tax-on-bulk-scotch-imports-amid-uk-trade-pact-dispute/article71717239.ece"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "India’s Oct. crude import bill soars 87.5% to $19.5-bn amid West Asia tensions, volumes up 11%",
+    "url" : "https://www.thehindu.com/business/Economy/indias-oct-crude-import-bill-soars-875-to-195-bn-amid-west-asia-tensions-volumes-up-11/article71716652.ece"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "ACME seals $3.6-billion deal for Odisha green ammonia project",
+    "url" : "https://www.thehindu.com/business/acme-seals-36-billion-deal-for-odisha-green-ammonia-project/article71717139.ece"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Bombay HC sets aside ICICI Bank Board of Directors’ sanction order on Chanda Kochhar",
+    "url" : "https://www.thehindu.com/business/Industry/bombay-high-court-quashes-icici-banks-nod-to-prosecute-ex-ceo-chanda-kochhar-in-loan-fraud-case/article71715652.ece"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Software engineering after code becomes cheap with Satya Nadella",
+    "url" : "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Self-reinforcing quality / adopting verification pattern",
+    "url" : "https://lethain.com/adopting-verification-pattern/"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Tests as data: ensuring AI-generated code does what we want",
+    "url" : "https://martinfowler.com/articles/tests-as-data.html"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Inference engineering for software engineers",
+    "url" : "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers"
+  }, {
+    "date" : "2026-11-18",
+    "headline" : "Microsoft’s outage started with a fix",
+    "url" : "https://leaddev.com/technical-direction/microsofts-outage-started-with-a-fix?utm_source=leaddev&utm_medium=RSS"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading",
+    "url" : "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+    "url" : "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "AMD dives on short-seller report of alleged China exposure",
+    "url" : "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+    "url" : "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+    "url" : "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "European Commission confirms cyberattack, says hackers used AI tool",
+    "url" : "https://therecord.media/european-commission-confirms-cyberattack-using-ai"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon hit the ETF market",
+    "url" : "https://www.cnbc.com/2026/11/18/ai-credit-default-swaps-coreweave-debt.html"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
+    "url" : "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Intel signs first external customer for advanced 18A chips",
+    "url" : "https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Dollar Has Further Scope to Rally as Fed Could Out-Hike Peers",
+    "url" : "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-face-drag-from-fed-rate-bets-50c20e86?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Gold's bad year is getting worse. Why its price keeps falling",
+    "url" : "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "UnitedHealth’s stock keeps plunging after government signals crackdown on Medicare Advantage fraud",
+    "url" : "https://www.marketwatch.com/story/unitedhealths-stock-keeps-plunging-after-government-signals-crackdown-on-medicare-advantage-fraud-c4770a45?mod=mw_rss_topstories"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Qualcomm offers test drive of its rack-scale Nvidia AI challenger",
+    "url" : "https://www.theregister.com/systems/2026/11/19/qualcomm-offers-test-drive-of-its-rack-scale-nvidia-ai-challenger/5310966"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "NAND prices tipped to fall as Chinese cloud giants cut SSD orders",
+    "url" : "https://www.theregister.com/systems/2026/11/19/nand-prices-tipped-to-fall-as-chinese-cloud-giants-cut-ssd-orders/5311116"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Google signs 50-MW superhot geothermal PPA with Quaise Energy",
+    "url" : "https://www.utilitydive.com/news/google-signs-50-mw-superhot-geothermal-ppa-with-quaise-energy/875217/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "PJM urged to delay base capacity auction until data centers cut from forecast",
+    "url" : "https://www.utilitydive.com/news/ratepayer-advocates-pjm-market-monitor-capacity-auction/875165/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Everpure revenues surge 51% as AI demand drives more hyperscaler wins",
+    "url" : "https://www.datacenterdynamics.com/en/news/everpure-revenues-surge-51-as-ai-demand-drives-more-hyperscaler-wins/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "llm-gemini 0.38",
+    "url" : "https://simonwillison.net/2026/Nov/18/llm-gemini/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+    "url" : "https://blog.cloudflare.com/java4shell-waf-protection/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+    "url" : "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "NVIDIA investigating Gentlemen ransomware breach claims",
+    "url" : "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Europe's biggest gas supplier battling cyberattack – with no timeline for recovery",
+    "url" : "https://www.theregister.com/cyber-crime/2026/11/19/europes-biggest-gas-supplier-battling-cyberattack-with-no-timeline-for-recovery/5311026"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "UK court confirms British government served Apple with secret encryption notice",
+    "url" : "https://therecord.media/apple-uk-encryption-notice"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+    "url" : "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Throwing Out The Phonebook",
+    "url" : "https://fly.io/blog/throwing-out-the-phonebook/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework",
+    "url" : "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Producing Healthy Code with Artificial Intelligence Costs Fewer Tokens",
+    "url" : "https://www.infoq.com/news/2026/11/healthy-code-AI-tokens/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Engineering AI Discover",
+    "url" : "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : ".NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components",
+    "url" : "https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "STAT+: Epic defends competitive practices; promises AI access to records",
+    "url" : "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/?utm_campaign=rss"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "STAT+: Merck, Isomorphic Labs partner to develop oncology drug candidates",
+    "url" : "https://www.statnews.com/2026/11/19/merck-isomorphic-labs-partner-to-develop-oncology-drug-candidates/?utm_campaign=rss"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "HLTH 2026: Noom, Hims & Hers roll out peptide offerings",
+    "url" : "https://www.fiercehealthcare.com/health-tech/hlth-2026-hims-hers-noom-launch-peptide-brands"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "UnitedHealthcare's new care model leans on community pharmacies",
+    "url" : "https://www.fiercehealthcare.com/payers/unitedhealthcare-unveils-new-care-model-leans-community-pharmacies"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Amazon’s $18B bet on Anthropic tops $200B, for a moment, in the Claude maker’s historic market debut",
+    "url" : "https://www.geekwire.com/2026/amazons-18b-bet-on-anthropic-tops-200b-in-the-claude-makers-historic-market-debut/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Amazon threatens to leave NYC again, this time over delivery bill, as it rallies customers to fight it",
+    "url" : "https://www.geekwire.com/2026/amazon-threatens-to-leave-nyc-again-this-time-over-delivery-bill-as-it-rallies-customers-to-fight-it/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Latest findings point to fuel supply, not Blue Origin’s engines, in loss of Amazon Leo satellites",
+    "url" : "https://www.geekwire.com/2026/latest-findings-point-to-fuel-supply-not-blue-origins-engines-in-loss-of-amazon-leo-satellites/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "‘Absurd ambition’: Pulumi expands into software delivery with AI agents that ship and fix code",
+    "url" : "https://www.geekwire.com/2026/absurd-ambition-pulumi-expands-into-software-delivery-with-ai-agents-that-ship-and-fix-code/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Battery startup Sila lands potential $1B Panasonic deal, plans Central Wash. expansion adding 500 jobs",
+    "url" : "https://www.geekwire.com/2026/battery-startup-sila-lands-potential-1b-panasonic-deal-plans-central-wash-expansion-adding-500-jobs/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Google acquires Seattle startup Howie and its AI scheduling assistant",
+    "url" : "https://www.geekwire.com/2026/google-acquires-seattle-startup-howie-and-its-ai-scheduling-assistant/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+    "url" : "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Putin touts Russia’s economy at APEC as Ukraine sends it toward a fuel crisis",
+    "url" : "https://www.washingtonpost.com/world/2026/11/18/putin-touts-russias-economy-apec-ukraine-sends-it-toward-fuel-crisis/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Trump is trying to put the Iran war behind him, but it’s not over",
+    "url" : "https://www.washingtonpost.com/world/2026/11/18/trump-is-trying-put-iran-war-behind-him-its-not-over/"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "U.S. Consortium Wins Bid to Prospect at $62 Billion Kenyan Rare-Earth Deposit",
+    "url" : "https://www.wsj.com/world/africa/u-s-consortium-wins-bid-to-prospect-at-62-billion-kenyan-rare-earth-deposit-5700b009?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Poland Nears Construction Deal With U.S. Consortium for $50 Billion Nuclear Plant",
+    "url" : "https://www.wsj.com/world/europe/poland-expects-deal-with-u-s-consortium-for-50-billion-nuclear-power-plant-8cd6a356?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "PM Modi pulls up industry leaders over static wages, employment, manufacturing standards",
+    "url" : "https://www.thehindu.com/business/pm-modi-ficci-india-inc-ficci-annual-general-meeting-and-annual-convention-november-19-2026/article71719140.ece"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "OPEC share in India’s crude imports drops to 27.4% in Apr-Oct amid West Asia flare-ups",
+    "url" : "https://www.thehindu.com/business/Economy/opec-share-in-indias-crude-imports-drops-to-274-in-apr-oct-amid-west-asia-flare-ups/article71720869.ece"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "SEBI, PFRDA call for deeper capital markets to fund Viksit Bharat 2047",
+    "url" : "https://www.thehindu.com/business/deep-capital-markets-long-term-financing-key-to-funding-indias-growth-says-sebis-murty/article71721459.ece"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Software factories and code reviews with Harjot Gill",
+    "url" : "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Data Contracts",
+    "url" : "https://martinfowler.com/articles/data-contracts.html"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+    "url" : "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture"
+  }, {
+    "date" : "2026-11-19",
+    "headline" : "Stop blaming AI tools for flat velocity",
+    "url" : "https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&utm_medium=RSS"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Anthropic stock falls 9% to open first full day of trading amid AI sell-off",
+    "url" : "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Anthropic Stock Slides as Tech Rout Intensifies",
+    "url" : "https://www.wsj.com/finance/stocks/nasdaq-set-for-fresh-decline-as-ai-selloff-intensifies-e974bbb5?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Cyber Director Cairncross out as White House resets cyber leadership",
+    "url" : "https://therecord.media/sean-cairncross-out-as-national-cyber-director"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "VMware patches vCenter zero-day exploited in attacks since September",
+    "url" : "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
+    "url" : "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "California Attorney General Issues Investigative Subpoena to Nvidia",
+    "url" : "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e?mod=rss_Technology"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "What Trump, Putin and Xi Left on the Table",
+    "url" : "https://www.nytimes.com/2026/11/20/podcasts/the-daily/trump-putin-xi-summit-ai.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Tech rout drags down global bourses",
+    "url" : "https://www.semafor.com/article/11/20/2026/tech-rout-hits-asian-shares-with-us-market-likely-to-follow"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+    "url" : "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+    "url" : "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
+    "url" : "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Gold, Silver Drop to Lowest Levels in Over a Year",
+    "url" : "https://www.wsj.com/finance/commodities-futures/gold-silver-drop-to-lowest-levels-in-over-a-year-c657402c?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Senate passes bipartisan energy bill amid environmental concerns",
+    "url" : "https://www.npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Microsoft becomes first company to use Intel’s EMIB packaging technology for Azure hardware",
+    "url" : "https://www.datacenterdynamics.com/en/news/microsoft-becomes-first-company-to-use-intels-emib-packaging-technology-for-azure-hardware/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "PJM plan could cut data center and power plant grid connection times to 12 months",
+    "url" : "https://www.datacenterdynamics.com/en/news/pjm-plan-could-cut-data-center-and-power-plant-grid-connection-times-to-12-months/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "PJM urged to delay base capacity auction until data centers cut from forecast",
+    "url" : "https://www.utilitydive.com/news/ratepayer-advocates-pjm-market-monitor-capacity-auction/875165/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Data center electricity use could double by 2030, IEA says",
+    "url" : "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Google signs 50-MW superhot geothermal PPA with Quaise Energy",
+    "url" : "https://www.utilitydive.com/news/google-signs-50-mw-superhot-geothermal-ppa-with-quaise-energy/875217/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "F5 releases emergency patches for critical BIG-IP RCE flaws",
+    "url" : "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+    "url" : "https://blog.cloudflare.com/nginx2root/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Dozens of credit unions hit by supplier breach that went unnoticed for six weeks",
+    "url" : "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "N-able says recent security breach led to major service outage",
+    "url" : "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "PHP security updates fix 18 flaws, including critical RCE bugs",
+    "url" : "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Transport for London breach exposes 265,000 Oyster card users' data",
+    "url" : "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency Below 1 MS",
+    "url" : "https://www.infoq.com/news/2026/11/uber-go-translation-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "AWS Releases a Free Local Emulator of AWS Built Entirely by Agents",
+    "url" : "https://www.infoq.com/news/2026/11/aws-emulator-local-testing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "PostgreSQL 19 Released",
+    "url" : "https://simonwillison.net/2026/Nov/19/postgresql-19/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Deterministic Simulation Testing",
+    "url" : "https://martinfowler.com/articles/deterministic-simulation-testing.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "QCon San Francisco 2026: The Future of Apache Iceberg",
+    "url" : "https://www.infoq.com/news/2026/11/iceberg-v4-metadata/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "STAT+: UnitedHealth sues to reverse downgraded Medicare Advantage quality scores",
+    "url" : "https://www.statnews.com/2026/11/20/unitedhealth-cms-medicare-advantage-lawsuit-star-rating/?utm_campaign=rss"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Consumers believe AI will be key in making healthcare simpler: survey",
+    "url" : "https://www.fiercehealthcare.com/payers/consumers-believe-ai-will-be-key-making-healthcare-simpler-survey"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "HLTH 2026: Elsevier upgrades ClinicalKey AI with full patient EHR context",
+    "url" : "https://www.fiercehealthcare.com/health-tech/hlth-2026-elsevier-upgrades-clinicalkey-ai-full-patient-ehr-context"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "So you got a Microsoft Voluntary Exit Offer? Here’s what to do next",
+    "url" : "https://www.geekwire.com/2026/so-you-got-a-microsoft-voluntary-exit-offer-heres-what-to-do-next/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Amazon threatens to leave NYC again, this time over delivery bill, as it rallies customers to fight it",
+    "url" : "https://www.geekwire.com/2026/amazon-threatens-to-leave-nyc-again-this-time-over-delivery-bill-as-it-rallies-customers-to-fight-it/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Amazon’s $18B bet on Anthropic tops $200B, for a moment, in the Claude maker’s historic market debut",
+    "url" : "https://www.geekwire.com/2026/amazons-18b-bet-on-anthropic-tops-200b-in-the-claude-makers-historic-market-debut/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "RBC Signals brings in $10M investment to expand strategic frontiers for satellite services",
+    "url" : "https://www.geekwire.com/2026/rbc-signals-10m-investment-satellite-services/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Zeno Power makes progress on an underwater power system that will eventually go nuclear",
+    "url" : "https://www.geekwire.com/2026/zeno-power-underwater-power-system-nuclear/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "U.S. Has Floated NATO Membership for Ukraine in Recent Meetings",
+    "url" : "https://www.wsj.com/world/europe/u-s-has-floated-nato-membership-for-ukraine-in-recent-meetings-d5c8243a?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+    "url" : "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Britain Announces Brexit Reset Deal at E.U. Summit: What to Know",
+    "url" : "https://www.nytimes.com/2026/11/20/world/europe/uk-eu-summit-brexit.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "U.S. Auctions 31.5 Million Acres of Pacific Ocean to Deep Sea Mining Company",
+    "url" : "https://www.nytimes.com/2026/11/19/climate/metals-company-seafloor-mining-auction.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Iran war has worsened U.S. munitions shortage, government watchdog finds",
+    "url" : "https://www.washingtonpost.com/national-security/2026/11/19/gao-report-finds-iran-war-has-worsened-us-munitions-shortage/"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+    "url" : "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "SEBI mulls review of additional disclosure norms for FPIs; floats consultation paper",
+    "url" : "https://www.thehindu.com/business/markets/sebi-mulls-review-of-additional-disclosure-norms-for-fpis-floats-consultation-paper/article71724977.ece"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "CEA flags need to align capital markets with India’s development priorities",
+    "url" : "https://www.thehindu.com/business/markets/cea-flags-need-to-align-capital-markets-with-indias-development-priorities/article71725057.ece"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "U.S. FDA issues VAI classification to Natco Pharma’s FDF unit in Vizag",
+    "url" : "https://www.thehindu.com/business/Industry/us-fda-issues-vai-classification-to-natco-pharmas-fdf-unit-in-vizag/article71724838.ece"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "India exposes Pakistani Army’s resource grab at UN: From Asim Munir’s mineral box to political unrest, what’s at stake?",
+    "url" : "https://www.livemint.com/news/world/india-exposes-pakistani-army-s-resource-grab-at-un-from-asim-munir-s-mineral-box-to-political-unrest-what-s-at-stake-11795178901221.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
+    "url" : "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+    "url" : "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Tests as data: ensuring AI-generated code does what we want",
+    "url" : "https://martinfowler.com/articles/tests-as-data.html"
+  }, {
+    "date" : "2026-11-20",
+    "headline" : "Stop blaming AI tools for flat velocity",
+    "url" : "https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&utm_medium=RSS"
+  } ],
+  "learnTitlesUsed" : [ "Making verification a loop, not a gate", "Why a faster kube-proxy backend is being retired", "Where an AI coding agent's reach should end", "When the disclosure clock runs faster than the patch", "How a quiet bug became a global cascade" ],
+  "problems" : [ ]
+}
