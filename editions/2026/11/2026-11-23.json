@@ -1,0 +1,541 @@
+{
+  "date": "2026-11-23",
+  "kind": "weekday",
+  "generatedAt": "2026-11-23T19:30:00Z",
+  "frontPage": [
+    {
+      "headline": "Nvidia Board Reinstates Jensen Huang as CEO",
+      "summary": "Nvidia's board reinstated Jensen Huang as chief executive. The company said the board had received input from senior levels of the United States government.",
+      "whyItMatters": "The government's role in a chipmaker's leadership decision is a new kind of dependency for anyone planning around Nvidia's roadmap and supply.",
+      "url": "https://www.wsj.com/articles/nvidia-board-reinstates-jensen-huang-as-ceo-a6b49914?mod=rss_Technology",
+      "source": "The Wall Street Journal",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Tech stocks rally after Nvidia board approves Jensen Huang's return as CEO",
+      "summary": "CNBC reports that tech stocks rallied after the board approved Huang's return. The Nasdaq had slid 10% the previous week, its worst week since the early days of Covid in 2020.",
+      "whyItMatters": "A single personnel decision reversing a sector-wide selloff shows how concentrated AI infrastructure sentiment has become.",
+      "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+      "source": "CNBC",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+      "summary": "CrowdStrike said it will acquire Zscaler in an all-stock transaction that values Zscaler at approximately $43.9 billion.",
+      "whyItMatters": "Combining endpoint and cloud-access security under one vendor would change platform choices for teams designing zero-trust architectures.",
+      "url": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "tags": [
+        "CRWD"
+      ]
+    },
+    {
+      "headline": "Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi",
+      "summary": "Norway's cybersecurity authorities said Equinor and Skagerak Energi were affected by a Microsoft cloud vulnerability that hackers exploited to target sensitive credentials.",
+      "whyItMatters": "A flaw in a managed cloud control-plane service exposes credentials across tenants, which is the failure mode cloud security reviews should assume.",
+      "url": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+      "source": "The Record",
+      "tags": [
+        "MSFT"
+      ]
+    },
+    {
+      "headline": "Trump says he won't allow US companies to build datacenters abroad",
+      "summary": "President Trump threatened a 'tremendous tax' on US companies that build data centers abroad. The Register notes that analysts question how such restrictions would work.",
+      "whyItMatters": "Siting rules for data centers would constrain how multi-region and data-residency architectures can be built and priced.",
+      "url": "https://www.theregister.com/off-prem/2026/11/23/trump-says-he-wont-allow-us-companies-to-build-datacenters-abroad/5311640",
+      "source": "The Register"
+    },
+    {
+      "headline": "Microsoft mega outage: Report reveals testing gaps and emails that never arrived",
+      "summary": "A report on Microsoft's large outage describes testing gaps and emails that never arrived. A July bug overwhelmed newer servers, and Microsoft promised stronger safeguards and faster recovery.",
+      "whyItMatters": "The account is a useful case of a latent bug surfacing under a rollout, which is worth checking against your own canary and rollback practice.",
+      "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
+      "source": "The Register",
+      "tags": [
+        "MSFT"
+      ]
+    },
+    {
+      "headline": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild.",
+      "whyItMatters": "Internet-facing collaboration gateways are a common entry point, so patch status there deserves priority.",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "source": "BleepingComputer"
+    },
+    {
+      "headline": "Anthropic Committed to Spend $900 Billion. Wall Street Expects Its Debt to Be Junk.",
+      "summary": "The Wall Street Journal reports that after a turbulent IPO, Anthropic's credit rating will affect its capital plans, and Wall Street expects its debt to be rated junk.",
+      "whyItMatters": "The cost of financing at that scale bears on how fast frontier-model capacity, and the GPU orders behind it, can grow.",
+      "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main",
+      "source": "The Wall Street Journal"
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 20 close",
+    "openAsOf": "Nov 23, 2026 11:17 AM ET",
+    "movers": [
+      {
+        "ticker": "NVDA",
+        "changePct": -14.0,
+        "openPct": 32.1,
+        "reason": "Motley Fool headline says Nvidia stock skyrocketed Monday; that matches the opening move, and the headline does not explain Friday's session.",
+        "url": "https://www.nasdaq.com/articles/why-nvidia-stock-skyrocketed-today"
+      },
+      {
+        "ticker": "APLD",
+        "changePct": -17.8,
+        "openPct": 25.0,
+        "reason": "Sector-wide: a Barchart market wrap headline describes a meltdown as the AI trade unravels; it does not name this company.",
+        "url": "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels"
+      },
+      {
+        "ticker": "MU",
+        "changePct": -13.9,
+        "openPct": 19.8,
+        "reason": "A Motley Fool headline ties the Monday jump in Micron to Nvidia rehiring Jensen Huang; it speaks to the opening move, not Friday's session.",
+        "url": "https://www.nasdaq.com/articles/why-nvidia-rehiring-jensen-huang-making-micron-stock-skyrocket-today"
+      },
+      {
+        "ticker": "DRAM",
+        "changePct": -13.2,
+        "openPct": 19.7,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "MARA",
+        "changePct": -18.6,
+        "openPct": 14.3,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "IONQ",
+        "changePct": -8.8,
+        "openPct": 15.9,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "WDC",
+        "changePct": -12.0,
+        "openPct": 15.9,
+        "reason": "Sector-wide: a Barchart market wrap headline describes a meltdown as the AI trade unravels; it does not name this company.",
+        "url": "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels"
+      },
+      {
+        "ticker": "SMCI",
+        "changePct": -9.2,
+        "openPct": 15.2,
+        "reason": "Sector-wide: a Motley Fool headline frames the Nasdaq's worst week since 2020; it does not name this company's move.",
+        "url": "https://www.nasdaq.com/articles/nasdaqs-worst-week-2020-5-ai-tech-stocks-buy-dip"
+      },
+      {
+        "ticker": "INFQ",
+        "changePct": -13.4,
+        "openPct": 12.9,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "TSLA",
+        "changePct": -7.6,
+        "openPct": 13.4,
+        "reason": "Market-wide: a Barchart wrap headline describes a meltdown as the AI trade unravels; it does not name this company.",
+        "url": "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels"
+      },
+      {
+        "ticker": "AMD",
+        "changePct": -13.2,
+        "openPct": 8.1,
+        "reason": "Sector-wide: a Barchart market wrap headline describes a meltdown as the AI trade unravels; it does not name this company.",
+        "url": "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels"
+      },
+      {
+        "ticker": "ORCL",
+        "changePct": -8.5,
+        "openPct": 13.1,
+        "reason": "Sector-wide: a Barchart market wrap headline describes a meltdown as the AI trade unravels; it does not name this company.",
+        "url": "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels"
+      },
+      {
+        "ticker": "AVGO",
+        "changePct": -12.2,
+        "openPct": 2.2,
+        "reason": "Sector-wide: a Barchart market wrap headline describes a meltdown as the AI trade unravels; it does not name this company.",
+        "url": "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels"
+      },
+      {
+        "ticker": "ANET",
+        "changePct": -11.6,
+        "openPct": 8.3,
+        "reason": "Sector-wide: a Barchart market wrap headline describes a meltdown as the AI trade unravels; it does not name this company.",
+        "url": "https://www.nasdaq.com/articles/stocks-meltdown-ai-trade-unravels"
+      },
+      {
+        "ticker": "ONDS",
+        "changePct": -11.1,
+        "openPct": 11.6,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "PLTR",
+        "changePct": -6.6,
+        "openPct": 11.5,
+        "reason": "No headline found."
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "RBRK",
+        "date": "2026-11-30",
+        "note": "after the close"
+      },
+      {
+        "ticker": "CRWD",
+        "date": "2026-12-01",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PATH",
+        "date": "2026-12-03",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": [
+      {
+        "date": "2026-11-25",
+        "event": "GDP for the third quarter, second estimate (8:30 a.m. ET)",
+        "note": "Second estimate of third-quarter growth."
+      },
+      {
+        "date": "2026-11-25",
+        "event": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)",
+        "note": "Inflation reading for October."
+      },
+      {
+        "date": "2026-11-26",
+        "event": "U.S. stock markets closed for Thanksgiving",
+        "note": ""
+      },
+      {
+        "date": "2026-11-27",
+        "event": "U.S. stock markets close early, at 1:00 p.m. ET",
+        "note": ""
+      },
+      {
+        "date": "2026-12-04",
+        "event": "Jobs report for November (8:30 a.m. ET)",
+        "note": "Labor-market data for November."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
+          "summary": "Nvidia's stock rose on Monday by the most in a decade after the decision to reinstate Huang as president and chief executive.",
+          "url": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
+          "source": "MarketWatch"
+        },
+        {
+          "headline": "Wall Street's 'Fear Gauge' just flashed a buy sign",
+          "summary": "CNBC reports that Friday's large spike in the VIX could signal a buying opportunity, if history is any guide.",
+          "url": "https://www.cnbc.com/2026/11/23/wall-streets-fear-gauge-just-flashed-a-buy-sign.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market",
+          "summary": "A new tokenized-securities venue, OKXICE, is set to debut Monday despite objections from 90% of the companies whose stocks it initially proposed to list.",
+          "url": "https://www.cnbc.com/2026/11/23/tokenized-stocks-face-pushback-as-nyse-nasdaq-pivot-for-a-new-market-.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Gold Rebounds After Sharpest Weekly Decline Since March",
+          "summary": "Gold prices surged nearly 5%, extending earlier gains after the steepest weekly decline since March, as markets rebounded on Nvidia's reinstatement of Huang.",
+          "url": "https://www.wsj.com/finance/commodities-futures/gold-rebounds-after-sharpest-weekly-decline-since-march-deaa4b87?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "Spain approves decree on data centers to curb electricity costs",
+          "summary": "Spain's government approved a decree on data centers aimed at curbing electricity costs, after several months of debate with companies in the sector.",
+          "url": "https://www.datacenterdynamics.com/en/news/spain-approves-decree-on-data-centers-to-curb-electricity-costs/",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "headline": "FERC approves MISO plan to speed legacy interconnection study process",
+          "summary": "FERC approved a MISO plan to speed its legacy interconnection study process. MISO said that without the changes, queue cycles totaling about 125 GW of generation and storage would have been delayed.",
+          "url": "https://www.utilitydive.com/news/ferc-miso-interconnection-queue-study/875449/",
+          "source": "Utility Dive"
+        },
+        {
+          "headline": "SpaceX’s subsidiary Cursor tells lawmakers it's considering phasing out Chinese AI models",
+          "summary": "SpaceX's Cursor told lawmakers it is considering phasing out Chinese-developed open-weight AI models over geopolitical risk, according to a House report reviewed by CNBC.",
+          "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+          "summary": "GL.iNet confirmed that hackers exploited a vulnerability in its cloud remote management service to install custom malware on customers' routers and KVM devices. Some users reported backdoors and reverse shells.",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+          "summary": "Payments platform Cleverbridge warned that hackers breached its systems and stole customers' payment card information, including card numbers and CVV codes.",
+          "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "How Bee implemented Zero Operator Access for personal AI on AWS",
+          "summary": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators to reach customer data. It uses EC2 instance attestation and the AWS Nitro System to do so.",
+          "url": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/",
+          "source": "AWS Architecture Blog"
+        },
+        {
+          "headline": "Risky Bulletin: Security products start moving out of the Windows kernel",
+          "summary": "Risky Business reports that security products are starting to move out of the Windows kernel. The bulletin also notes further government network compromises, including the FBI and the US Department of Agriculture.",
+          "url": "https://news.risky.biz/risky-bulletin-security-products-start-moving-out-of-the-windows-kernel/",
+          "source": "Risky Business"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "QCon San Francisco 2026: The Harness Is the New Operating System",
+          "summary": "At QCon San Francisco, Manju Rajashekhar argued that the harness around an AI model, not the model itself, decides what an agent can do and how safely. He mapped context, tools, state, permissions and feedback loops onto jobs operating systems already perform.",
+          "url": "https://www.infoq.com/news/2026/11/harness-new-operating-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents",
+          "summary": "Netflix's Commerce team retrofitted its development lifecycle for AI coding agents. It wrote 45 architecture decision records for people and agents, added a review agent that posts only verified blockers, and serves per-domain GraphRAG context through a single MCP tool.",
+          "url": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Agoda Reduces API Code Review Time by 64% with Modular Architecture",
+          "summary": "Agoda introduced a modular monolith framework in its post-booking API to cut coupling without a full rewrite. Framework-backed changes showed 64% shorter median code reviews and 34% faster initial feedback than legacy changes.",
+          "url": "https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Probing DNS at Cloudflare",
+          "summary": "Cloudflare describes how it extended its internal testing framework to build test tooling for networking protocols, using DNS as the example.",
+          "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+          "source": "Cloudflare Blog"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "Opinion: If the AI bubble bursts, it could create a serious problem for health care",
+          "summary": "A STAT opinion piece by David Adler argues that a health AI company's market value and the medical value of its technology are two different things.",
+          "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/?utm_campaign=rss",
+          "source": "STAT"
+        },
+        {
+          "headline": "Morning Headlines 11/23/26",
+          "summary": "HIStalk reports that Kaiser Permanente researchers found existing electronic health record data can help train AI models to identify first-trimester patients at higher risk of pregnancy complications.",
+          "url": "https://histalk2.com/2026/11/22/morning-headlines-11-23-26/",
+          "source": "HIStalk"
+        },
+        {
+          "headline": "Monday Morning Update 11/23/26",
+          "summary": "HIStalk reports that Banner Health is investing in clinical registry software developer Layer Health and will consolidate and automate its registry program with the vendor's technology.",
+          "url": "https://histalk2.com/2026/11/22/news-11-23-26/",
+          "source": "HIStalk"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "Microsoft’s Brad Smith on Trump’s data center tax threat: ‘You can’t support Helsinki from New Jersey’",
+          "summary": "Microsoft President Brad Smith responded to the data center tax threat, saying most data centers must be close to their customers. GeekWire says he also addressed Microsoft's ballroom commitment and reported ByteDance talks.",
+          "url": "https://www.geekwire.com/2026/microsofts-brad-smith-on-trumps-data-center-tax-threat-you-cant-support-helsinki-from-new-jersey/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Beyond Nvidia: Convoy co-founder and former Microsoft leader raise $277M to rethink AI infrastructure",
+          "summary": "Marlowe, a new startup from Convoy co-founder Dan Lewis and former Microsoft AI leader Kutta Srinivasan, raised $277 million in seed funding at a $1.15 billion valuation. It will run AI on infrastructure tuned for specific models, with its first site live in December.",
+          "url": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Etzioni on AI: The outage conspiracy theories are wrong — our rush to patch and upgrade is the culprit",
+          "summary": "Oren Etzioni argues in GeekWire that this month's outages at Microsoft, the FAA, Chase, Apple and the NSA were not a coordinated attack. He says each traces to its own bug, patch or upgrade.",
+          "url": "https://www.geekwire.com/2026/etzioni-on-ai-the-outage-conspiracy-theories-are-wrong-our-rush-to-patch-and-upgrade-is-the-culprit/",
+          "source": "GeekWire"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "Asian Regulators Step Up Efforts to Calm AI-Driven Market Turmoil",
+          "summary": "The Wall Street Journal reports that regulators and market operators in China, South Korea and Taiwan rolled out emergency measures to arrest turmoil from the global rout in AI stocks.",
+          "url": "https://www.wsj.com/finance/stocks/asian-regulators-step-up-efforts-to-calm-ai-driven-market-turmoil-95ea6cf8?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency During Nvidia Affair",
+          "summary": "The New York Times reports that US intelligence is said to show Alice Huang was in touch with China's Ministry of State Security while in a relationship with Jensen Huang.",
+          "url": "https://www.nytimes.com/2026/11/22/us/politics/alice-huang-china-spy-agency-nvidia.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+          "summary": "CNBC reports the US is investigating Megaspeed and Alice Huang after a former associate of hers was reportedly deeply involved in the firm's activities.",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Ukraine Sinks Russian Warship, Hits Cargo Vessels Far From Warzone",
+          "summary": "The Wall Street Journal reports Ukraine sank a Russian warship and hit cargo vessels far from the war zone, the latest in a series of drone strikes on Russian vessels.",
+          "url": "https://www.wsj.com/world/europe/russian-ships-struck-in-attacks-far-from-ukraine-as-wars-fallout-spreads-a51964cb?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Five takeaways from the failed climate talks COP31",
+          "summary": "BBC News lists five takeaways from the failed COP31 climate talks in Antalya, the longest-running in UN history.",
+          "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "IRDAI forms expert panel on distribution, commission reforms",
+          "summary": "India's insurance regulator IRDAI formed an expert panel on distribution and commission reforms. It will recommend transition pathways, including phased implementation, to address concerns of smaller insurers and distributors.",
+          "url": "https://www.thehindu.com/business/Industry/irdai-forms-expert-panel-on-distribution-commission-reforms/article71735880.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Nasscom seeks three-Year AI Transformation Scheme in Budget 2027-28",
+          "summary": "Nasscom asked for a three-year AI Transformation Scheme in Budget 2027-28, saying new AI delivery models need heavy upfront investment from startups and MSMEs before returns arrive.",
+          "url": "https://www.thehindu.com/business/Industry/nasscom-seeks-three-year-ai-transformation-scheme-in-budget-2027-28/article71735294.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Barrier-less tolling offers NHAI a revenue boost",
+          "summary": "Mint reports that barrier-less tolling offers NHAI a revenue boost, with NHAI preparing to invite bids for hundreds of additional plazas.",
+          "url": "https://www.livemint.com/news/barrierless-tolling-nhai-revenue-traffic-congestion-highways-in-india-11795436211440.html",
+          "source": "Mint"
+        },
+        {
+          "headline": "India announces ₹15k-cr package for Nepal as PM Shah wraps up maiden visit",
+          "summary": "India announced a development cooperation package for Nepal, aimed at reconstruction after the devastating floods in August and at improving its capacity to deal with future disasters.",
+          "url": "https://www.livemint.com/news/india/india-announces-rs-15k-cr-package-for-nepal-as-pm-shah-wraps-up-maiden-visit-11795437079875.html",
+          "source": "Mint"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "Fragments: November 20",
+          "summary": "Martin Fowler relays an experiment finding that healthy code is cheaper for AI agents to review: between a typical unhealthy and a typical healthy pull request the saving is 22 to 35%. It covered three LLMs and 465 pull requests on 246 open source repositories.",
+          "url": "https://martinfowler.com/fragments/2026-11-20.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "Shipping 100+ PRs to production in a week",
+          "summary": "Will Larson describes shipping 100+ pull requests to production in a week, reaching 115 in the week of November 9th, mostly written on Imprint's internal cloud harness.",
+          "url": "https://lethain.com/passing-100-prs-in-a-week/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "The Explorer Pattern for product invention and development.",
+          "summary": "Larson's Explorer Pattern has one person or team build a working implementation with minimal cross-team impact, then reconcile details with other teams afterwards, accepting that this can require substantial rework.",
+          "url": "https://lethain.com/explorer-pattern/",
+          "source": "Irrational Exuberance"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "Distributed systems",
+    "format": "explainer",
+    "title": "Replaying failure on purpose",
+    "body": "Distributed systems are hard to test because partial failures overlap with live traffic, and the same fault can produce a different execution trace on every run. A test that fails once in a thousand runs is nearly useless, because you cannot reproduce it, and so you cannot confirm a fix.\n\nDeterministic simulation testing, as Unmesh Joshi describes it in Martin Fowler's collection of articles, attacks the problem by removing the sources of nondeterminism. The real clock, the real network and the real storage are replaced with simulated components. All of them are driven by one single-threaded execution loop. Because nothing runs in parallel and nothing reads real time, the whole run is a function of its starting inputs. If a run fails, running it again with the same inputs reproduces the failure exactly.\n\nThe simulation can then do things a live cluster cannot do on demand. It can inject hard failures such as a crashed node or a dropped link. It can also inject the routine slowdowns that often cause real incidents, such as network and disk latency spikes, and it can do so at the exact step where the protocol is most fragile. Since simulated time costs nothing, a test can cover hours or days of cluster behaviour in seconds, and run many thousands of differently seeded schedules overnight.\n\nA concrete case: consider a leader election protocol with a lease. In the simulator, you let a node pause just past its lease expiry while a message from its successor is delayed. If two nodes ever believe they are leader, the run fails, and its seed becomes a regression test you keep.\n\nWhat to take into a design: build the component interfaces for time, network and storage from the start, so a simulator can stand in for them later. Retrofitting is possible but costly. Keep the core logic single-threaded or schedulable by an external loop. Treat every failing seed as a permanent test. Be aware of the limits: the simulator only finds bugs in the behaviours you modelled, so it complements, rather than replaces, tests on real hardware and failure drills in production. This note is based on the article's summary; the full page could not be opened today, so details beyond the summary are the editor's framing of the technique.",
+    "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html"
+  },
+  "liveWell": {
+    "health": {
+      "tip": "A few simple neck-strengthening exercises can build muscle and counter the effects of bad posture from desk work.",
+      "url": "https://www.nytimes.com/2026/11/21/well/move/neck-strengthening-workout.html"
+    },
+    "eating": {
+      "tip": "Savoring food is enjoyable in the moment and may support long-term well-being, so eating for pleasure need not stop at the holidays.",
+      "url": "https://www.nytimes.com/2026/11/23/well/eat/food-pleasure-joy-benefits-holidays.html"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-25",
+      "note": "GDP for the third quarter, second estimate (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-25",
+      "note": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-26",
+      "note": "U.S. stock markets closed for Thanksgiving"
+    },
+    {
+      "date": "2026-11-27",
+      "note": "U.S. stock markets close early, at 1:00 p.m. ET"
+    },
+    {
+      "date": "2026-11-30",
+      "note": "RBRK reports earnings, after the close"
+    },
+    {
+      "date": "2026-12-01",
+      "note": "CRWD reports earnings, after the close"
+    },
+    {
+      "date": "2026-12-03",
+      "note": "PATH reports earnings, after the close"
+    },
+    {
+      "date": "2026-12-04",
+      "note": "Jobs report for November (8:30 a.m. ET)"
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 61,
+    "fetchesFailed": [
+      "The Seattle Times",
+      "The Indian Express",
+      "Martin Fowler"
+    ],
+    "sectionsShort": [],
+    "fullReads": 0
+  }
+}
