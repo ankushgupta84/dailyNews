@@ -1,0 +1,615 @@
+{
+  "date": "2026-11-24",
+  "kind": "weekday",
+  "generatedAt": "2026-11-24T15:28:26Z",
+  "frontPage": [
+    {
+      "headline": "Nvidia shares fall over 5% after Huang comeback rally",
+      "summary": "Nvidia shares fell more than 5% after the rally that followed Jensen Huang's reinstatement as CEO. Huang had resigned after acknowledging an extramarital affair.",
+      "whyItMatters": "The stock's swings now track governance news as much as AI demand, which matters to anyone sizing exposure to Nvidia's roadmap.",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+      "source": "CNBC",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+      "summary": "The U.S. added Megaspeed and six other companies to its trade blacklist over concerns about possible diversion of advanced computing products. The move came amid the Nvidia controversy.",
+      "whyItMatters": "Export-control enforcement on resellers is a live constraint on GPU supply chains and on who ends up running advanced clusters.",
+      "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+      "source": "CNBC",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "CrowdStrike splashes $44B on Zscaler, customers brace for the bill",
+      "summary": "The Register reports CrowdStrike is buying Zscaler for $44B, a record cybersecurity deal that promises tighter integration. Sysadmins quoted expect higher prices and vendor lock-in.",
+      "whyItMatters": "Consolidating endpoint and network security under one vendor changes procurement leverage and architecture choices for cloud security teams.",
+      "url": "https://www.theregister.com/security/2026/11/24/crowdstrike-splashes-44b-on-zscaler-customers-brace-for-the-bill/5311877",
+      "source": "The Register",
+      "tags": [
+        "CRWD"
+      ]
+    },
+    {
+      "headline": "Anthropic stock falls below $83 IPO price, but analysts are still largely positive",
+      "summary": "Anthropic stock fell below its $83 IPO price. It has slid steadily since opening at $111.50 on the Nasdaq on Nov. 19, though CNBC says analysts remain largely positive.",
+      "whyItMatters": "A fast slide after a record listing shows how fragile sentiment is toward AI-lab valuations, which feeds into cloud and chip demand expectations.",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+      "source": "CNBC"
+    },
+    {
+      "headline": "Applied Digital signs $5.4bn 18-year lease with unnamed hyperscaler",
+      "summary": "Applied Digital signed an 18-year lease worth $5.4bn with an unnamed hyperscaler. It covers 150MW of capacity.",
+      "whyItMatters": "Long, large leases show hyperscalers still locking in power-backed capacity even as AI equities swing.",
+      "url": "https://www.datacenterdynamics.com/en/news/applied-digital-signs-54bn-18-year-lease-with-unnamed-hyperscaler/",
+      "source": "Data Center Dynamics",
+      "tags": [
+        "APLD"
+      ]
+    },
+    {
+      "headline": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "summary": "Microsoft warned that a flaw in Azure API Management Classic tiers was exploited to steal stored API credentials. Norwegian authorities linked the flaw to attacks on energy companies.",
+      "whyItMatters": "Credentials stored in gateway services are a high-value target; rotating secrets and reviewing what an API gateway can hold is now urgent for Azure users.",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "source": "BleepingComputer",
+      "tags": [
+        "MSFT"
+      ]
+    },
+    {
+      "headline": "Amazon is buying Decart’s AI chip software for a reported $7.5B and bringing its founders aboard",
+      "summary": "Amazon is buying Decart's AI optimization technology and hiring its founders and engineers, in a deal Bloomberg reported at about $7.5 billion. Amazon says the software will help improve performance on its Trainium chips.",
+      "whyItMatters": "Software that closes the performance gap on in-house accelerators is how hyperscalers try to loosen dependence on Nvidia.",
+      "url": "https://www.geekwire.com/2026/amazon-is-buying-decarts-ai-chip-software-for-a-reported-7-5b-and-bringing-its-founders-aboard/",
+      "source": "GeekWire",
+      "tags": [
+        "AMZN"
+      ]
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 23 close",
+    "openAsOf": "Nov 24, 2026 10:16 AM ET",
+    "movers": [
+      {
+        "ticker": "NVDA",
+        "changePct": 31.5,
+        "openPct": -6.9,
+        "reason": "Barchart's market wrap ties the session's rebound to Nvidia reinstating CEO Huang.",
+        "url": "https://www.nasdaq.com/articles/stocks-rebound-sharply-nvidia-reinstates-ceo-huang-0"
+      },
+      {
+        "ticker": "APLD",
+        "changePct": 20.3,
+        "openPct": -9.8,
+        "reason": "A Motley Fool headline attributes the surge to a hyperscaler deal.",
+        "url": "https://www.nasdaq.com/articles/applied-digital-stock-surged-20-hyperscaler-deal-what-know-about-its-41-billion-leases"
+      },
+      {
+        "ticker": "MU",
+        "changePct": 19.0,
+        "openPct": -9.9,
+        "reason": "Sector-wide: a market wrap ties the rebound to Nvidia reinstating CEO Huang; no Micron-specific cause named.",
+        "url": "https://www.nasdaq.com/articles/stocks-rebound-sharply-nvidia-reinstates-ceo-huang-0"
+      },
+      {
+        "ticker": "DRAM",
+        "changePct": 18.6,
+        "openPct": -8.4,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "WDC",
+        "changePct": 13.8,
+        "openPct": -7.1,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "SMCI",
+        "changePct": 13.3,
+        "openPct": -7.9,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "IONQ",
+        "changePct": 12.6,
+        "openPct": -2.2,
+        "reason": "A Motley Fool headline reports the stock gaining but its title names no cause.",
+        "url": "https://www.nasdaq.com/articles/why-ionq-stock-gaining-today"
+      },
+      {
+        "ticker": "ORCL",
+        "changePct": 12.3,
+        "openPct": -2.6,
+        "reason": "A Motley Fool headline reports the stock rising but its title names no cause.",
+        "url": "https://www.nasdaq.com/articles/why-oracle-stock-rising-today"
+      },
+      {
+        "ticker": "TSLA",
+        "changePct": 11.5,
+        "openPct": -1.3,
+        "reason": "Sector-wide: a market wrap ties the rebound to Nvidia reinstating CEO Huang; no Tesla-specific cause named.",
+        "url": "https://www.nasdaq.com/articles/stocks-rebound-sharply-nvidia-reinstates-ceo-huang-0"
+      },
+      {
+        "ticker": "PLTR",
+        "changePct": 11.1,
+        "openPct": 1.5,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "AMD",
+        "changePct": 6.8,
+        "openPct": -9.8,
+        "reason": "A Motley Fool market note says AMD climbed on an AI-chip rebound after Nvidia reinstated Huang as CEO.",
+        "url": "https://www.nasdaq.com/articles/stock-market-today-nov-23-advanced-micro-devices-climbs-ai-chip-rebound-after-nvidia"
+      },
+      {
+        "ticker": "MARA",
+        "changePct": 9.7,
+        "openPct": -8.1,
+        "reason": "Sector-wide: a market wrap ties the rebound to Nvidia reinstating CEO Huang; no MARA-specific cause named.",
+        "url": "https://www.nasdaq.com/articles/stocks-rebound-sharply-nvidia-reinstates-ceo-huang-0"
+      },
+      {
+        "ticker": "ASML",
+        "changePct": 9.3,
+        "openPct": -3.4,
+        "reason": "A Motley Fool headline reports the stock popping but its title names no cause.",
+        "url": "https://www.nasdaq.com/articles/why-asml-stock-popped-today"
+      },
+      {
+        "ticker": "CRWD",
+        "changePct": -8.9,
+        "openPct": 0.6,
+        "reason": "Headlines report CrowdStrike agreed to acquire Zscaler; they do not tie the deal to this move.",
+        "url": "https://www.nasdaq.com/articles/crowdstrike-acquire-zscaler-can-it-boost-falcon-platform-growth"
+      },
+      {
+        "ticker": "HOOD",
+        "changePct": 8.4,
+        "openPct": -3.8,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "PATH",
+        "changePct": 8.0,
+        "openPct": 1.1,
+        "reason": "No headline found."
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "RBRK",
+        "date": "2026-11-30",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PATH",
+        "date": "2026-12-03",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": [
+      {
+        "date": "2026-11-25",
+        "event": "GDP for the third quarter, second estimate (8:30 a.m. ET)",
+        "note": "Second estimate of third-quarter growth."
+      },
+      {
+        "date": "2026-11-25",
+        "event": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)",
+        "note": "PCE is the Fed's preferred inflation gauge."
+      },
+      {
+        "date": "2026-11-26",
+        "event": "U.S. stock markets closed for Thanksgiving",
+        "note": ""
+      },
+      {
+        "date": "2026-11-27",
+        "event": "U.S. stock markets close early, at 1:00 p.m. ET",
+        "note": ""
+      },
+      {
+        "date": "2026-12-04",
+        "event": "Jobs report for November (8:30 a.m. ET)",
+        "note": ""
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday’s Rally",
+          "summary": "Stocks slipped as Nvidia and AI shares gave back part of Monday's rally. The Times says shares have swung wildly for days amid the Nvidia drama and Anthropic's post-IPO moves.",
+          "url": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+          "summary": "Fed official John Williams said higher interest rates are likely over time to address inflation. He expressed confidence that inflation will move closer to the Fed's 2% target in 2027.",
+          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag",
+          "summary": "Sanofi agreed to pay $41 billion for U.S. biotech Insmed, the biggest biotech deal in nearly three years. MarketWatch says the price helps offset the patent expiration on a key Sanofi drug.",
+          "url": "https://www.marketwatch.com/story/the-biggest-biotech-deal-in-nearly-three-years-carries-a-hefty-41-billion-price-tag-dd7fa228?mod=mw_rss_topstories",
+          "source": "MarketWatch"
+        },
+        {
+          "headline": "Bitcoin ETFs see another $570 million in net outflows as November total nears $5 billion and BTC dips below $60K",
+          "summary": "Bitcoin ETFs saw another $570 million in net outflows, with the November total nearing $5 billion. BlackRock's IBIT led, and BTC dipped below $60K.",
+          "url": "https://www.theblock.co/news/markets/2026-11-24-bitcoin-etfs-another-570-million-net-outflows-november-total-nears-5-billion-btc-dips-below-60k-445548",
+          "source": "The Block"
+        },
+        {
+          "headline": "Stripe’s Valuation Set to Top $200 Billion in Latest Investor Talks",
+          "summary": "Stripe's valuation is set to top $200 billion in the latest investor talks, according to the Journal. A tender offer for employees' shares would likely be completed early next year.",
+          "url": "https://www.wsj.com/business/stripes-valuation-set-to-top-200-billion-in-latest-investor-talks-122c9027?mod=rss_Technology",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "OpenAI and Cisco introduce Shirudo",
+          "summary": "OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+          "whyItMatters": "Runtime mitigations buy time between disclosure and patching, a gap architects otherwise absorb as risk.",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "source": "OpenAI News"
+        },
+        {
+          "headline": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "summary": "Chinese AI lab Z.ai released GLM 5.4, its first model to use a looped transformer architecture.",
+          "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+          "source": "Simon Willison"
+        },
+        {
+          "headline": "TSMC files application for proposed 2nm chip fab in Brazos County, Texas",
+          "summary": "TSMC filed an application for a proposed 2nm chip fab in Brazos County, Texas. The company said no final decision has been made about building there.",
+          "url": "https://www.datacenterdynamics.com/en/news/tsmc-files-application-for-proposed-2nm-chip-fab-in-brazos-county-texas/",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "headline": "LTN Compute to deploy 10,000-GPU cluster at Chennai Data Center",
+          "summary": "LTN Compute will deploy a 10,000-GPU cluster at a Chennai data center. The cluster is for an unnamed inference infrastructure provider.",
+          "url": "https://www.datacenterdynamics.com/en/news/ltn-compute-to-deploy-10000-gpu-cluster-at-chennai-data-center/",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "headline": "Researchers Fit Quantum Circuits Into a 30 Billion-Parameter AI Model",
+          "summary": "Researchers replaced layers of a 30 billion-parameter AI model with quantum circuits in an experiment. Scientists caution that a lot of work remains before quantum computers could serve as a partner to chatbots.",
+          "url": "https://thequantuminsider.com/2026/11/24/researchers-fit-quantum-circuits-into-a-30-billion-parameter-ai-model/",
+          "source": "The Quantum Insider"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines",
+          "summary": "Versions 1.26.1 and 1.26.2 of Microsoft's agent-framework PyPI package were published on November 17, 2026 with an added credential stealer. Wiz says the package gets almost 200k downloads a month and the malicious versions have been quarantined.",
+          "whyItMatters": "A credential stealer aimed at Azure and CI pipelines in an agent SDK is the supply-chain scenario for AI tooling made concrete: pin versions and scope CI secrets.",
+          "url": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+          "source": "Wiz Blog",
+          "tags": [
+            "MSFT"
+          ]
+        },
+        {
+          "headline": "CISA warns of exploited N-able bug as company restores email platform",
+          "summary": "CISA warned that an N-able bug in a critical email security platform is being exploited. Government departments have until Thanksgiving to patch.",
+          "url": "https://therecord.media/cisa-nable-cybersecurity-bug",
+          "source": "The Record"
+        },
+        {
+          "headline": "UK cyber agency seeing ‘marked rise’ in AI-driven attacks",
+          "summary": "Britain's NCSC said it has seen a marked rise since September in cyberattacks assisted by artificial intelligence. It warned the technology is increasing attackers' speed, scale and persistence.",
+          "url": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
+          "source": "The Record"
+        },
+        {
+          "headline": "OpenRouter drops AI providers over leaked prompts and secrets",
+          "summary": "OpenRouter removed three AI providers from its platform after finding they violated their stated data-handling policies and exposed sensitive data.",
+          "whyItMatters": "Routing prompts through aggregators extends your trust boundary to every downstream provider, so data-handling terms need verification, not assumption.",
+          "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007",
+          "summary": "Wiz describes two critical HTTP/2 flaws in NGINX that can allow unauthenticated remote code execution against servers, putting sites, APIs and the data they handle at risk.",
+          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "source": "Wiz Blog"
+        },
+        {
+          "headline": "Agentic Attacks: In The Wild",
+          "summary": "Wiz Research says agentic offensive frameworks like ARTEX are driving a surge in cloud intrusions. It shares cases from the wild, including one attack seen from both sides via the operator's leaked logs.",
+          "url": "https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks",
+          "source": "Wiz Blog"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "OpenAI Scales Git for Coding Agents with Pando",
+          "summary": "OpenAI detailed Pando, a backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. It reports nearly 80% lower median push latency by coordinating branch updates independently and reusing stored packfiles across fetches.",
+          "url": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+          "summary": "CNCF and Linux Foundation research finds VMs host an average of 53% of production applications. AI and agentic workloads are adding demand for virtualisation where stronger execution isolation is required.",
+          "url": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Probing DNS at Cloudflare",
+          "summary": "Cloudflare describes how it built tools that let teams extend its internal testing framework to network protocols, and how it used them to probe DNS.",
+          "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "headline": "JEP 545 Moves ZGC Memory Preparation off the Startup Path in JDK 28",
+          "summary": "JEP 545 was integrated into JDK 28, moving heap memory preparation onto concurrent worker threads. The 38% startup and 90% warmup gains depend on a 2 MB initial heap that requires the adaptive heap sizing flag from JEP 546, which is off by default.",
+          "url": "https://www.infoq.com/news/2026/11/jep-545-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Claude Ship puts AI at the helm of pull request approvals",
+          "summary": "Anthropic has released Claude Ship, an agent for approving pull requests, according to The Register.",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/24/claude-ship-puts-ai-at-the-helm-of-pull-request-approvals/5311883",
+          "source": "The Register"
+        },
+        {
+          "headline": "Deterministic Simulation Testing",
+          "summary": "Unmesh Joshi describes deterministic simulation testing, which replaces real clocks, networks and storage with simulated components driven by a single-threaded loop. That lets teams reproduce both hard failures and routine slowdowns such as latency spikes.",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "source": "Martin Fowler"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
+          "summary": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate whether AI-drafted radiology reports will make care better and safer.",
+          "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
+          "source": "STAT"
+        },
+        {
+          "headline": "Innovaccer integrates Grok Voice into Gravity Voice AI agents",
+          "summary": "Innovaccer integrated Grok Voice into its Gravity Voice AI agents. Executives say patient voice interactions have grown from roughly 250,000 to more than five million in six months.",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/innovaccer-integrates-grok-voice-gravity-voice-ai-agents",
+          "source": "Fierce Healthcare"
+        },
+        {
+          "headline": "Unpacking the implications from CMS' latest proposed Medicare Advantage changes",
+          "summary": "Analysts project that proposed CMS changes to Medicare Advantage's star ratings program would cut more than $100 billion in federal spending over the next decade.",
+          "url": "https://www.fiercehealthcare.com/regulatory/unpacking-implications-cms-latest-proposed-medicare-advantage-changes",
+          "source": "Fierce Healthcare"
+        },
+        {
+          "headline": "Florida sues The Leapfrog Group for 'misrepresenting' its hospital safety grades to consumers",
+          "summary": "Florida sued The Leapfrog Group for allegedly misrepresenting its hospital safety grades to consumers. The complaint follows a similar suit by Tenet hospitals.",
+          "url": "https://www.fiercehealthcare.com/providers/florida-sues-leapfrog-group-misrepresenting-its-hospital-safety-grades-consumers",
+          "source": "Fierce Healthcare"
+        },
+        {
+          "headline": "WebMD Ignite brings OpenAI’s ChatGPT to platform for healthcare advertising",
+          "summary": "WebMD Ignite is bringing OpenAI's ChatGPT to its platform for healthcare advertising, combining platform support with campaign strategy.",
+          "url": "https://www.fiercehealthcare.com/health-tech/webmd-ignite-brings-openais-chatgpt-platform-healthcare-org-advertising",
+          "source": "Fierce Healthcare"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "Beyond Nvidia: Convoy co-founder and former Microsoft leader raise $277M to rethink AI infrastructure",
+          "summary": "Marlowe, a startup from Convoy co-founder Dan Lewis and ex-Microsoft AI leader Kutta Srinivasan, raised $277 million in seed funding at a $1.15 billion valuation. It aims to run AI on infrastructure tuned for specific models and workloads, with its first site going live in December.",
+          "url": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Microsoft’s Brad Smith on Trump’s data center tax threat: ‘You can’t support Helsinki from New Jersey’",
+          "summary": "Microsoft President Brad Smith pushed back politely on President Trump's threat to tax U.S. companies that build data centers abroad, saying most data centers must be close to their customers.",
+          "whyItMatters": "Location-sensitive latency and data-residency needs make the tax threat a real constraint on global cloud footprint planning.",
+          "url": "https://www.geekwire.com/2026/microsofts-brad-smith-on-trumps-data-center-tax-threat-you-cant-support-helsinki-from-new-jersey/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Copilot without M365, and more news you didn’t hear (but maybe should have) at Microsoft Ignite",
+          "summary": "Starting Dec. 1, businesses can buy Microsoft's Copilot without a Microsoft 365 subscription, a change not mentioned at Ignite. Mary Jo Foley also flags Azure Linux 4.0 and a Windows Server 2028 preview that drops 32-bit app support by default.",
+          "url": "https://www.geekwire.com/2026/copilot-without-m365-and-more-news-you-didnt-hear-but-maybe-should-have-at-microsoft-ignite/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Tech Moves: AWS nabs Salesforce exec; former OpenAI employees launch Seattle startup; Portal hire",
+          "summary": "Muralidhar Krishnaprasad leaves Salesforce to join AWS as VP of analytics, storage and databases. Three former OpenAI employees left to launch a stealth startup in Seattle.",
+          "url": "https://www.geekwire.com/2026/tech-moves-aws-nabs-salesforce-exec-former-openai-employees-launch-seattle-startup-portal-hire/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "From dorm delivery robots to real‑world video games, UW students show off inventions",
+          "summary": "UW student club CSEED showed off 30 student-built inventions at its Demo Day, including an autonomous robot that delivers dining hall food to dorms and a wearable gaming console.",
+          "url": "https://www.geekwire.com/2026/from-dorm-delivery-robots-to-real-world-video-games-uw-students-show-off-inventions/",
+          "source": "GeekWire"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "China Takes Down Shanghai Party Boss Once Seen as Potential Leader",
+          "summary": "China placed Shanghai party secretary Chen Jining under investigation on suspicion of severe violations of party discipline and state laws. The Journal notes he was once seen as a potential leader.",
+          "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "China to Suspend Some Critical-Material Export Curbs to U.S. Until January",
+          "summary": "China extended its suspension of export restrictions on some critical materials to the U.S. until January, days after last week's Shenzhen summit between President Trump and Chinese leader Xi Jinping.",
+          "url": "https://www.wsj.com/economy/trade/china-to-suspend-some-critical-material-export-curbs-to-u-s-until-january-35bc8dca?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Russia accuses NATO member Estonia of hostile actions ‘on the verge of unleashing open war’",
+          "summary": "Russia accused Estonia of hostile actions and warned its border measures risk open war, as Tallinn prepares to close road crossings from Dec. 1.",
+          "url": "https://www.cnbc.com/2026/11/24/russia-estonia-ukraine-war-nato-finland.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "NATO calls urgent meeting as string of incidents escalates Russia tensions",
+          "summary": "NATO called an urgent meeting as a string of incidents escalated tensions with Russia, after Russian missiles crashed onto Polish territory, the Post reports.",
+          "url": "https://www.washingtonpost.com/world/2026/11/23/nato-calls-urgent-meeting-string-incidents-escalates-russia-tensions/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "Collapse of U.N. summit intensifies calls for new approach to climate talks",
+          "summary": "The COP31 summit collapsed after a dispute over whether a fossil fuel phaseout could even be mentioned. The failure has intensified calls for climate talks that rely less on consensus.",
+          "url": "https://www.washingtonpost.com/world/2026/11/23/collapse-un-summit-intensifies-calls-new-approach-climate-talks/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "Russian Warplanes Trigger Alarm Among U.S. Partners in Asia",
+          "summary": "Russian military aircraft have skirted or entered the airspace of U.S. allies in Asia several times in recent days, prompting Japan and South Korea to scramble jet fighters.",
+          "url": "https://www.wsj.com/world/russian-warplanes-trigger-alarm-among-u-s-partners-in-asia-8c2a2157?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "India may review wheat export policy amid concerns over lower acreage",
+          "summary": "India may review its wheat export policy amid concerns over lower acreage. Wheat sowing stood at 50.07 lakh hectares as of 13 November, down 15.3% from 59.10 lakh hectares a year earlier, after a monsoon that ended with a 13% rainfall deficit.",
+          "url": "https://www.livemint.com/news/india-wheat-export-curbs-lower-production-sowing-southwest-monsoon-rainfall-deficit-policy-11795516567962.html",
+          "source": "Mint"
+        },
+        {
+          "headline": "India AI funding nearly doubles to $1.6 billion in nine months of 2026: Tracxn report",
+          "summary": "India's AI funding nearly doubled to $1.6 billion in the first nine months of 2026, per Tracxn. Mumbai overtook Bengaluru as the largest recipient, and India ranks ninth globally.",
+          "url": "https://www.thehindu.com/news/national/karnataka/india-ai-funding-nearly-doubles-to-16-billion-in-nine-months-of-2026-tracxn-report/article71738125.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Why is the Indian Railways abandoning Tatkal?",
+          "summary": "Indian Railways excluded the Tatkal quota from its Vande Bharat Sleeper trains, and Finshots explains how the railway can earn more revenue as a result.",
+          "url": "https://finshots.in/archive/indian-railways-abandoning-tatkal/",
+          "source": "Finshots"
+        },
+        {
+          "headline": "Rising input costs drive Tata Motors, Hyundai, Audi and Maruti to raise vehicle prices",
+          "summary": "Tata Motors, Hyundai, Audi and Maruti are raising vehicle prices, underlining the challenge of managing elevated input costs while protecting profitability.",
+          "url": "https://www.thehindu.com/business/Industry/rising-input-costs-drive-tata-motors-hyundai-audi-and-maruti-to-raise-vehicle-prices/article71738772.ece",
+          "source": "The Hindu"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+          "summary": "The Pragmatic Engineer's weekly Pulse asks whether Amazon's writing culture is collapsing because of AI. It also covers Anthropic's IPO and Meta reversing a shutdown of the AI coding harness Conductor.",
+          "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+          "source": "The Pragmatic Engineer"
+        },
+        {
+          "headline": "Shipping 100+ PRs to production in a week",
+          "summary": "Will Larson writes about shipping 100+ pull requests to production in a week, reaching 115 the week of November 9th.",
+          "url": "https://lethain.com/passing-100-prs-in-a-week/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "The Explorer Pattern for product invention and development.",
+          "summary": "The Explorer Pattern has one individual or team build a functional implementation that minimizes cross-team impact, then reconcile details with other teams afterwards.",
+          "url": "https://lethain.com/explorer-pattern/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "Fragments: November 20",
+          "summary": "Martin Fowler relays an experiment on whether healthy code is cheaper for agents to review: 465 pull requests across 246 open source repositories, comparing a typical unhealthy pull request (CodeHealth 2.8) with a healthy one (9.7), with a 22 to 35% difference in cost.",
+          "url": "https://martinfowler.com/fragments/2026-11-20.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "Lies our engineering metrics tell us",
+          "summary": "LeadDev argues the metrics aren't the problem; how you use them is.",
+          "url": "https://leaddev.com/reporting/lies-our-engineering-metrics-tell-us?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "Security",
+    "format": "explainer",
+    "title": "Treating an AI agent as an insider",
+    "body": "Google's Amanda Walker, speaking at QCon San Francisco, framed AI agents as an insider-risk problem operating at machine speed. That framing is useful because it tells you which existing controls to reach for.\n\nAn insider is someone already inside the perimeter, holding legitimate access, who can do damage by mistake or by being manipulated. An agent fits: it runs with credentials, calls internal tools and acts without waiting for a person. Its mistakes and its compromises are the same shape as an insider's, only faster and repeated more often. Tuning a prompt does not fix that. Limiting what the agent can do does.\n\nThe talk, as InfoQ summarises it, groups the defences into three patterns: identity, credentials and containment.\n\nIdentity means each agent has its own verifiable identity, separate from the human who launched it, so every action can be attributed and every permission granted to it can be reviewed or revoked independently. A shared service account makes an agent indistinguishable from the user it serves.\n\nCredentials means the agent should not hold long-lived secrets. Prefer short-lived, narrowly scoped tokens issued per task, so that a stolen or leaked token expires quickly and unlocks little. Compare that with this week's news: stored API credentials stolen from a gateway, and a package that shipped a credential stealer aimed at CI pipelines.\n\nContainment means assuming the agent will eventually do something unintended and limiting the blast radius in advance: sandboxed execution, restricted network egress, and approval gates on irreversible actions.\n\nA concrete example: a coding agent that opens pull requests. Give it its own identity, a token scoped to one repository that expires when the task ends, and a sandbox with no route to production networks. If a poisoned dependency or a malicious instruction takes over the agent, the damage stops at that repository.\n\nThe design takeaway is to review an agent's access the way you would review a new contractor's: what it can reach, for how long, and what you can see and revoke. Note that this piece rests on InfoQ's summary of the talk, not on the full session.",
+    "url": "https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  },
+  "liveWell": {
+    "productivity": {
+      "tip": "Spread attention over fewer commitments: pick the few things you truly care about and say no to the rest, rather than caring a little about everything.",
+      "url": "https://zenhabits.net/less-more/"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-25",
+      "note": "GDP for the third quarter, second estimate (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-25",
+      "note": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-26",
+      "note": "U.S. stock markets closed for Thanksgiving"
+    },
+    {
+      "date": "2026-11-27",
+      "note": "U.S. stock markets close early, at 1:00 p.m. ET"
+    },
+    {
+      "date": "2026-11-30",
+      "note": "RBRK reports earnings after the close"
+    },
+    {
+      "date": "2026-12-03",
+      "note": "PATH reports earnings after the close"
+    },
+    {
+      "date": "2026-12-04",
+      "note": "Jobs report for November (8:30 a.m. ET)"
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 60,
+    "fetchesFailed": [
+      "The Seattle Times",
+      "The Indian Express",
+      "InfoQ"
+    ],
+    "sectionsShort": [],
+    "fullReads": 0
+  }
+}
