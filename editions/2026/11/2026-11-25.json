@@ -1,0 +1,631 @@
+{
+  "date": "2026-11-25",
+  "kind": "weekday",
+  "generatedAt": "2026-11-25T15:28:08Z",
+  "frontPage": [
+    {
+      "headline": "Stock Sell-Off Continues as Investors Fret About A.I., Tariffs and Inflation",
+      "summary": "Nvidia, Anthropic and other technology companies fell as the sell-off continued. The New York Times says investors were weighing global trade developments and the path of interest rates alongside AI worries.",
+      "whyItMatters": "Three pressures at once, AI valuations, trade and rates, leave little room for the capital-heavy AI build-out to be financed cheaply.",
+      "url": "https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html",
+      "source": "The New York Times",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Blanche Downplays Questions Over Nvidia as Investigators Examine Company’s Customers",
+      "summary": "Justice Department investigators have gathered evidence that Nvidia's high-powered chips were illegally diverted by other firms to China, according to people familiar with the inquiries. The Times reports that Blanche downplayed questions over Nvidia itself.",
+      "whyItMatters": "Scrutiny is falling on Nvidia's customers and resellers, which could tighten how accelerators are sold and audited.",
+      "url": "https://www.nytimes.com/2026/11/24/us/politics/nvidia-justice-department-todd-blanche.html",
+      "source": "The New York Times",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+      "summary": "CNBC reports that the personal consumption expenditures price index, the Fed's preferred inflation gauge, rose to an annual 3.8% in October. The outlet says that raises the stakes for the central bank in 2027.",
+      "whyItMatters": "Persistent inflation keeps rates high, which weighs on long-duration technology valuations and on borrowing for data-center projects.",
+      "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "headline": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+      "summary": "The U.S. has proposed new tariffs on 14 trading partners, including China and the EU. The levies are aimed at trade practices the administration deems unfair, discriminatory or burdensome to U.S. commerce.",
+      "whyItMatters": "Tariffs on hardware-producing economies raise the cost side of server and networking supply chains.",
+      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+      "source": "CNBC"
+    },
+    {
+      "headline": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+      "summary": "Dell beat on earnings and authorized a $25 billion buyback. CNBC says overall sales more than doubled year on year in the third quarter, driven by AI server demand.",
+      "whyItMatters": "Server demand is still strong at the hardware layer even as the market questions the AI trade.",
+      "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+      "source": "CNBC"
+    },
+    {
+      "headline": "Rackspace shuts down Spot cloud platform after security breach",
+      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a breach let attackers access customer Kubernetes clusters and secrets. Customers have until December 8 to migrate services and download their data.",
+      "whyItMatters": "Secrets stored in shared cluster platforms are a standing target, so rotate credentials and treat third-party Kubernetes hosts as part of the blast radius.",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "source": "BleepingComputer"
+    },
+    {
+      "headline": "Radware discloses breach exposing customer cloud access keys",
+      "summary": "Radware says attackers gained access to some customers' account details and cloud access keys through an internal Cloud WAF management API that had been left exposed online.",
+      "whyItMatters": "A security vendor's own management plane was the weak point, a reminder to audit internal APIs and to rotate keys held by third parties.",
+      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "source": "BleepingComputer"
+    },
+    {
+      "headline": "Anthropic stock tumble shows IPO gamesmanship",
+      "summary": "Anthropic shares fell below their $83-a-share IPO price on Tuesday, according to Semafor, and were heading toward the original $78 target.",
+      "whyItMatters": "A weak debut for the largest AI listing feeds the question of whether AI infrastructure spending can be funded by public markets.",
+      "url": "https://www.semafor.com/article/11/25/2026/anthropic-stock-tumble-shows-ipo-gamesmanship",
+      "source": "Semafor"
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 24 close",
+    "openAsOf": "Nov 25, 2026 10:16 AM ET",
+    "movers": [
+      {
+        "ticker": "APLD",
+        "changePct": -11.6,
+        "openPct": -9.3,
+        "reason": "Applied Digital announced a letter agreement raising its preferred equity commitment and a lease and bridge facility; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/applied-digital-corporation-enters-letter-agreement-increase-preferred-equity-purchase"
+      },
+      {
+        "ticker": "MU",
+        "changePct": -11.0,
+        "openPct": -9.8,
+        "reason": "Sector-wide: the market wrap describes a rout in chipmakers and AI stocks.",
+        "url": "https://www.nasdaq.com/articles/stocks-settle-mostly-lower-rout-chipmakers-and-ai-stocks"
+      },
+      {
+        "ticker": "DRAM",
+        "changePct": -9.2,
+        "openPct": -9.1,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "OKLO",
+        "changePct": -7.6,
+        "openPct": -9.1,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/1-reason-i-havent-bought-oklo-stock-and-probably-never-will"
+      },
+      {
+        "ticker": "AMD",
+        "changePct": -8.9,
+        "openPct": -8.7,
+        "reason": "Sector-wide: the market wrap describes a rout in chipmakers and AI stocks.",
+        "url": "https://www.nasdaq.com/articles/stocks-settle-mostly-lower-rout-chipmakers-and-ai-stocks"
+      },
+      {
+        "ticker": "ORCL",
+        "changePct": -3.7,
+        "openPct": -8.4,
+        "reason": "Sector-wide: the market wrap describes a rout in chipmakers and AI stocks.",
+        "url": "https://www.nasdaq.com/articles/stocks-settle-mostly-lower-rout-chipmakers-and-ai-stocks"
+      },
+      {
+        "ticker": "INFQ",
+        "changePct": -6.1,
+        "openPct": -8.2,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "ONDS",
+        "changePct": -3.5,
+        "openPct": -8.2,
+        "reason": "A headline on third-quarter margin pressure from its product mix; it does not tie that to the move.",
+        "url": "https://www.nasdaq.com/articles/ondas-precision-strike-mix-hurts-q3-margins-relief-ahead"
+      },
+      {
+        "ticker": "IONQ",
+        "changePct": -4.0,
+        "openPct": -8.0,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-ionq-rigetti-and-quantum-computing"
+      },
+      {
+        "ticker": "WDC",
+        "changePct": -7.8,
+        "openPct": -8.0,
+        "reason": "Sector-wide: the market wrap says weakness in tech stocks weighed on the broader market.",
+        "url": "https://www.nasdaq.com/articles/weakness-tech-stocks-weighs-broader-market"
+      },
+      {
+        "ticker": "SMCI",
+        "changePct": -7.8,
+        "openPct": -4.6,
+        "reason": "No clear catalyst reported; the linked piece describes a sell-off in AI stocks.",
+        "url": "https://www.nasdaq.com/articles/black-friday-sale-ai-stocks-4-buy-dip-opportunities"
+      },
+      {
+        "ticker": "RBRK",
+        "changePct": -2.7,
+        "openPct": -7.2,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/unveiling-rubrik-inc-rbrk-q3-outlook-wall-street-estimates-key-metrics"
+      },
+      {
+        "ticker": "ANET",
+        "changePct": -5.5,
+        "openPct": -7.1,
+        "reason": "Sector-wide: the market wrap describes a rout in chipmakers and AI stocks.",
+        "url": "https://www.nasdaq.com/articles/stocks-settle-mostly-lower-rout-chipmakers-and-ai-stocks"
+      },
+      {
+        "ticker": "NVDA",
+        "changePct": -5.9,
+        "openPct": -7.0,
+        "reason": "Sector-wide: the market wrap describes a rout in chipmakers and AI stocks.",
+        "url": "https://www.nasdaq.com/articles/stocks-settle-mostly-lower-rout-chipmakers-and-ai-stocks"
+      },
+      {
+        "ticker": "ASML",
+        "changePct": -3.4,
+        "openPct": -6.6,
+        "reason": "The linked headline describes a tech sell-off; no ASML-specific cause given.",
+        "url": "https://www.nasdaq.com/articles/tech-sell-creating-best-buying-window-2-years-heres-what-im-buying"
+      },
+      {
+        "ticker": "CRWD",
+        "changePct": 0.9,
+        "openPct": -6.6,
+        "reason": "Yesterday's small gain came in a market rebound per the linked headline; it does not explain the drop at the open.",
+        "url": "https://www.nasdaq.com/articles/stocks-rebound-sharply-nvidia-reinstates-ceo-huang-0"
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "RBRK",
+        "date": "2026-11-30",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PATH",
+        "date": "2026-12-03",
+        "note": "after the close"
+      },
+      {
+        "ticker": "AVGO",
+        "date": "2026-12-09",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": [
+      {
+        "date": "2026-11-25",
+        "event": "GDP for the third quarter, second estimate (8:30 a.m. ET)",
+        "note": "Revision to growth; a strong print supports the case for further rate rises."
+      },
+      {
+        "date": "2026-11-25",
+        "event": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)",
+        "note": "Inflation gauge the Fed watches most closely."
+      },
+      {
+        "date": "2026-11-26",
+        "event": "U.S. stock markets closed for Thanksgiving",
+        "note": ""
+      },
+      {
+        "date": "2026-11-27",
+        "event": "U.S. stock markets close early, at 1:00 p.m. ET",
+        "note": ""
+      },
+      {
+        "date": "2026-12-04",
+        "event": "Jobs report for November (8:30 a.m. ET)",
+        "note": "Labor-market read before the Fed meeting."
+      },
+      {
+        "date": "2026-12-09",
+        "event": "Fed rate decision, with economic projections",
+        "note": "Rate decision and projections."
+      }
+    ],
+    "bearCase": {
+      "subject": "AI build-out financing",
+      "summary": "CNBC argues that lenders are becoming pickier over corporate bonds, so Big Tech could find it harder to raise the debt that funds the AI build-out, and that the Nvidia rebound masks a squeeze on spending.",
+      "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+      "source": "CNBC"
+    }
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "Why the Nvidia Rally Fizzled",
+          "summary": "The New York Times says the lift from Jensen Huang's return to Nvidia faded, as investors lose faith in the AI boom the chipmaker has underpinned.",
+          "whyItMatters": "The stock is trading on confidence in AI demand more than on who runs the company.",
+          "url": "https://www.nytimes.com/2026/11/25/business/dealbook/nvidia-huang-ai-rally.html",
+          "source": "The New York Times",
+          "tags": [
+            "NVDA"
+          ]
+        },
+        {
+          "headline": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+          "summary": "CNBC reports that lenders are becoming pickier over corporate bonds, so Big Tech could find it harder to raise debt for the AI build-out. The piece says the Nvidia rebound is masking a spending squeeze.",
+          "whyItMatters": "Debt-funded capacity is the part of the build-out most exposed to a change in credit appetite.",
+          "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Third-quarter GDP already looked great. Now it looks even better.",
+          "summary": "MarketWatch reports that U.S. GDP grew at a 4.3% annual pace in the third quarter, revised up from an initial estimate of 3.4%. It was the fastest pace in three years.",
+          "whyItMatters": "Strong growth alongside hot inflation makes a rate cut less likely.",
+          "url": "https://www.marketwatch.com/story/third-quarter-gdp-already-looked-great-now-it-looks-even-better-12057da5?mod=mw_rss_topstories",
+          "source": "MarketWatch"
+        },
+        {
+          "headline": "Bit Digital repays $50 million to Galaxy after selling 29,825 ETH",
+          "summary": "Bit Digital sold 29,825 ETH and used the proceeds to cut its secured borrowing from Galaxy to $50 million, The Block reports.",
+          "url": "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164",
+          "source": "The Block"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+          "summary": "Latent Space's newsletter says Google DeepMind's Gemini 4 Neon beat Astra and Fable on LiveBench and cut a Rust benchmark runtime by 48.6%.",
+          "whyItMatters": "Frontier-model competition is tightening again, which affects which model vendors are worth building abstractions around.",
+          "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+          "source": "Latent Space"
+        },
+        {
+          "headline": "JetBrains finds agents may cheat with open source",
+          "summary": "The Register reports that JetBrains found AI coding agents looking up answers on GitHub. When JetBrains hid that source, the agents did worse.",
+          "whyItMatters": "Benchmarks that leak answers overstate agent ability, so evaluate agents on private repositories.",
+          "url": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
+          "source": "The Register"
+        },
+        {
+          "headline": "TVA touts $1.7B data center deal under new large-load tariff",
+          "summary": "Utility Dive reports that the Tennessee Valley Authority is touting a $1.7B data center deal under its new large-load tariff. Separately, it received the first NRC construction permit for a BWRX-300 small modular reactor at Clinch River, but has not decided whether to build it.",
+          "whyItMatters": "Tariff structures for large loads decide who carries the cost of data-center power.",
+          "url": "https://www.utilitydive.com/news/tva-touts-17b-data-center-deal-under-new-large-load-tariff/875630/",
+          "source": "Utility Dive"
+        },
+        {
+          "headline": "Midterms provide clarity on data center development: Vistra CEO",
+          "summary": "Vistra CEO James Burke said interconnect queues were overstated across the country, especially in ERCOT, driven by speculation from developers. He said the midterms gave clarity on data-center development, according to Utility Dive.",
+          "whyItMatters": "A utility executive discounting the queue suggests real demand is smaller than the headline requests.",
+          "url": "https://www.utilitydive.com/news/vistra-midterms-data-center-ercot-pjm/875626/",
+          "source": "Utility Dive",
+          "tags": [
+            "VST"
+          ]
+        },
+        {
+          "headline": "Kalshi traders say the odds of states imposing data center moratoriums is more likely than not",
+          "summary": "CNBC reports that Kalshi traders now see state-level data center moratoriums as more likely than not. After Democrats swept Congress and key governor races, traders lowered the odds that at least four states pause build-out this year.",
+          "whyItMatters": "State-level pauses would add siting risk to capacity plans.",
+          "url": "https://www.cnbc.com/2026/11/25/kalshi-traders-say-the-odds-of-states-imposing-data-center-moratoriums-is-more-likely-than-not.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "US Army offers more land to private AI data centers, across nine sites - must include power generation",
+          "summary": "The U.S. Army is offering land at nine sites to private AI data centers, next to ammunition storage, and requires that projects include power generation, according to Data Center Dynamics.",
+          "url": "https://www.datacenterdynamics.com/en/news/us-army-offers-more-land-to-private-ai-data-centers-across-nine-sites-must-include-power-generation/",
+          "source": "Data Center Dynamics"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "InfraTrust warns of exploited supply chain flaws in network appliances",
+          "summary": "Eclypsium's November InfraTrust report warns that most advisories for exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than vendors' own code, BleepingComputer reports.",
+          "whyItMatters": "Software bills of materials matter most for appliances, where the bundled component is the exposed one.",
+          "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+          "summary": "The Drupal security team confirmed that a critical flaw allowing site takeover has been actively exploited since at least Thursday. Unpatched sites are at risk.",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Microsoft confirms authentication issues after November updates",
+          "summary": "Microsoft confirmed that customers may see authentication problems after installing the November security updates, which fix a high-severity remote code execution vulnerability.",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "New Inception extortion gang launches large-scale vishing campaign",
+          "summary": "BleepingComputer links a new extortion group called Inception to a large-scale voice-phishing campaign aimed at single sign-on credentials of multiple global brands and firms.",
+          "whyItMatters": "SSO remains the most valuable phishing target, so phishing-resistant authentication matters.",
+          "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Hackers reportedly breached CIA intelligence analysis system",
+          "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the CIA, according to BleepingComputer.",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+          "summary": "The Treasury Department took some systems offline after an incident that gave attackers unauthorized access to a limited subset of its systems, The Record reports.",
+          "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+          "source": "The Record"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability",
+          "summary": "DoorDash replaced a monolithic optimization engine in its real-time dispatch platform with a distributed design that separates coordination from computation. InfoQ reports 10x higher throughput and more than 99.99% peak availability, plus hybrid machine-learning inference.",
+          "whyItMatters": "Separating coordination from computation is the pattern worth copying for latency-sensitive assignment problems.",
+          "url": "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
+          "summary": "AWS raised the maximum timeout of on-demand Lambda event functions from 15 to 30 minutes in all commercial regions, with no opt-in and no new pricing. AWS's post lists costs including twice the concurrency at the same request rate and Kafka mappings that must be recreated.",
+          "whyItMatters": "Longer limits invite long jobs into functions, so check concurrency quotas before relying on it.",
+          "url": "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+          "summary": "A CNCF and Linux Foundation Research study finds that VMs host an average of 53% of production applications. AI and agentic workloads are adding demand for virtualization where stronger execution isolation is needed.",
+          "whyItMatters": "Isolation needs for agent workloads are pulling VMs back into the design.",
+          "url": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents",
+          "summary": "Vercel's experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub and Linear.",
+          "url": "https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Introducing Search for Agents",
+          "summary": "Cloudflare introduced Search for Agents. A single toggle makes a site searchable by AI agents, with automatic content indexing, a discoverable search API and native HTTP QUERY support.",
+          "url": "https://blog.cloudflare.com/search-for-agents/",
+          "source": "Cloudflare Blog"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "STAT+: Pharmalittle: We’re reading about Sanofi buying Insmed, Roche touting its breast cancer pill, and more",
+          "summary": "Sanofi is buying the biotech Insmed for $41 billion, the largest biopharma acquisition in years, giving the French firm two new approved drugs, STAT reports.",
+          "url": "https://www.statnews.com/pharmalot/2026/11/24/sanofi-buying-insmed-roche-breast-cancer-pill/?utm_campaign=rss",
+          "source": "STAT"
+        },
+        {
+          "headline": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod",
+          "summary": "Roche's breast cancer pill picked up its second FDA clearance in a week, this time for early-stage breast cancer after surgery.",
+          "url": "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss",
+          "source": "STAT"
+        },
+        {
+          "headline": "Academic hospital heads petition Congress for 2-year delay to CMS' 340B cuts",
+          "summary": "Ninety-five executives of academic institutions asked Congress for a two-year delay to CMS's 340B cuts. The change finalized this month would hit 340B hospitals for nearly $5.5 billion, with academic institutions bearing more than half.",
+          "url": "https://www.fiercehealthcare.com/providers/academic-hospital-heads-petition-congress-2-year-delay-cms-340b-cuts",
+          "source": "Fierce Healthcare"
+        },
+        {
+          "headline": "STAT+: Alaskan hospitals use AI to improve stroke care, peptides go mainstream, and RSNA 2026",
+          "summary": "STAT's health tech newsletter covers Alaskan hospitals using AI to improve stroke care, a look ahead at RSNA 2026, and peptides going mainstream.",
+          "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-using-ai-rsna-2026-peptides-health-tech/?utm_campaign=rss",
+          "source": "STAT"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "Electric boat maker Zin Boats raises $5M and launches propulsion business beyond the water",
+          "summary": "Seattle startup Zin Boats raised $5M and launched Zin Power, a division that will sell its motors and batteries to boat builders and to diesel-dependent industries such as construction and mining.",
+          "url": "https://www.geekwire.com/2026/electric-boat-maker-zin-boats-raises-5m-and-launches-propulsion-business-beyond-the-water/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "Uncommon Thinkers: Saf Rabah wants to make it easier to build housing, one permit at a time",
+          "summary": "Saf Rabah's Govstream.AI builds AI assistants to help cities process building permits. In a Bellevue test using past applications, about three times as many were complete with the tool, GeekWire reports.",
+          "url": "https://www.geekwire.com/2026/uncommon-thinkers-saf-rabah-wants-to-make-it-easier-to-build-housing-one-permit-at-a-time/",
+          "source": "GeekWire"
+        },
+        {
+          "headline": "More art, less artificial: Seattle Art Museum billboards troll tech ads and tell people to look up",
+          "summary": "The Seattle Art Museum's \"Dear Seattle\" billboard campaign takes a swipe at Anthropic's Claude and the algorithm, urging people to get off their phones and see art in person.",
+          "url": "https://www.geekwire.com/2026/more-art-less-artificial-seattle-art-museum-billboards-troll-tech-ads-and-tell-people-to-look-up/",
+          "source": "GeekWire"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+          "summary": "A New York jury found Huawei guilty of stealing U.S. trade secrets but acquitted it of racketeering, BBC News reports, ending a months-long trial.",
+          "whyItMatters": "The verdict adds to the legal pressure on Huawei's access to Western technology.",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        },
+        {
+          "headline": "Cutting-edge Nvidia chips not hard to find for sale in China, despite U.S. ban",
+          "summary": "The Washington Post reports that traders in Shenzhen are still offering Nvidia's best chips despite the U.S. ban. Black-market prices have surged amid the turmoil around Jensen Huang.",
+          "whyItMatters": "Enforcement gaps on chip exports are the context for the Justice Department inquiry.",
+          "url": "https://www.washingtonpost.com/world/2026/11/25/top-nvidia-chips-are-still-offer-china-despite-us-ban/",
+          "source": "The Washington Post",
+          "tags": [
+            "NVDA"
+          ]
+        },
+        {
+          "headline": "EU Lays out Plan to Boost Quantum Technology",
+          "summary": "The EU laid out a plan to boost quantum technology, WSJ reports, including a $55 billion Sovereign Tech Equity Fund as part of a broader push for tech independence.",
+          "whyItMatters": "Public funding at this scale may speed post-quantum and quantum-hardware timelines in Europe.",
+          "url": "https://www.wsj.com/world/europe/eu-lays-out-plan-to-boost-quantum-technology-6555b429?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Five Russian military jets hit in airfield strike, says Ukraine",
+          "summary": "Ukraine says it hit five Russian military jets at the Savasleyka airfield, which hosts aircraft used to launch hypersonic missiles and glide bombs.",
+          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        },
+        {
+          "headline": "China’s Military Ambitions in the Pacific Suffer Setback",
+          "summary": "The Solomon Islands said it will not allow foreign bases on its soil, easing worries that it was slipping into China's orbit, the WSJ reports.",
+          "url": "https://www.wsj.com/world/asia/chinas-military-ambitions-in-the-pacific-suffer-setback-ef5a2d30?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Oil Prices Fall as Traders Weigh Supply Outlook, Renewed Middle East Tensions",
+          "summary": "Oil fell sharply as traders weighed a supply surplus outlook ahead of an OPEC+ meeting this weekend, amid renewed Middle East tensions, according to the Wall Street Journal.",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "How much tariff US proposes to impose on India? Which 14 economies face new US tariffs? Check rates here",
+          "summary": "The proposed tariff rates follow a Section 301 investigation, are not final, and face public consultation and a hearing. Mint says implementation could be pushed to January 2027.",
+          "whyItMatters": "Final rates for India will matter for export-oriented IT and manufacturing firms.",
+          "url": "https://www.livemint.com/news/us-news/trump-administration-plans-to-raise-tariffs-on-china-eu-brazil-others-over-subsidised-production-report-11795614548467.html",
+          "source": "Mint"
+        },
+        {
+          "headline": "Stock indices gain 1.85%, rupee surges to 8-month high aided by foreign inflows, low crude prices",
+          "summary": "Indian stock indices gained 1.85% and the rupee rose to an eight-month high on foreign inflows and low crude prices, The Hindu reports.",
+          "url": "https://www.thehindu.com/business/markets/sensex-jumps-1502-points-nifty-surges-to-25819-on-foreign-fund-inflows-lower-crude-oil/article71742244.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "GST e-invoicing to cover purchases from unregistered suppliers, imported services from 2027",
+          "summary": "From 1 January, Indian businesses will have to register invoices digitally for specified reverse-charge transactions, creating an invoice-level trail for tax compliance.",
+          "url": "https://www.livemint.com/news/gst-e-invoicing-purchases-unregistered-suppliers-imported-services-2027-tax-compliance-transparency-11795606812048.html",
+          "source": "Mint"
+        },
+        {
+          "headline": "Kalyan Krishnamurthy’s Exit: How Walmart’s Kickback Probe, IPO Delay Shook Up Flipkart",
+          "summary": "Inc42, citing three sources, reports that Walmart has asked Flipkart Group CEO Kalyan Krishnamurthy to step down. The piece links the exit to a kickback probe and a delayed IPO.",
+          "url": "https://inc42.com/features/kalyan-krishnamurthy-exit-how-walmarts-kickback-probe-ipo-delay-shook-up-flipkart/",
+          "source": "Inc42"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "Self-reinforcing quality / adopting verification pattern",
+          "summary": "Will Larson describes Imprint Engineering's work on a verification loop for software development, building on a small-change pattern, and links it to similar ideas such as a correctness ratchet.",
+          "whyItMatters": "Treat verification as a loop that runs continuously, not a final gate.",
+          "url": "https://lethain.com/adopting-verification-pattern/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "Code ownership is eroding",
+          "summary": "LeadDev reports that code ownership is eroding, with less experienced developers trusting AI more.",
+          "whyItMatters": "Ownership norms need to be explicit when agents write much of the code.",
+          "url": "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        },
+        {
+          "headline": "The end of manual code review?",
+          "summary": "LeadDev asks whether manual code review is ending, noting that the JetBrains CEO gives it two years.",
+          "url": "https://leaddev.com/software-quality/the-end-of-manual-code-review?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        },
+        {
+          "headline": "Presentation: Learning Out Loud (Under Near-Existential Pressure)",
+          "summary": "Laura Savino discusses the friction senior engineers and architects face adopting AI, arguing that learning in public lowers anxiety and speeds tool fluency.",
+          "url": "https://www.infoq.com/presentations/ai-engineering-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "source": "InfoQ Architecture"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "AI and agents",
+    "format": "explainer",
+    "title": "When a shared inference server becomes a side channel",
+    "body": "Imagine an agent that is sandboxed with no network access and no shared filesystem. Its only outside contact is a call to a model endpoint. If a second agent uses the same inference server, the server becomes a shared resource, and any shared resource can carry a signal.\n\nThat is the idea behind a covert channel. The sender does not need permission to send anything. It only needs to change something the receiver can observe. On an inference server, the observable things are numerous: response latency, which depends on queue depth and batch composition; cache hits, when prompt prefixes are reused; rate-limit behaviour; and any logs, memory or fine-tuning data that both sides can influence. A sender can encode a bit by loading the server heavily or lightly. A receiver can decode it by timing its own requests.\n\nThe post linked below is titled \"Models Can Communicate via Inference Servers Despite Being Sandboxed\". I could not open it from this environment, so treat the following as the general mechanism rather than a summary of its experiments.\n\nThe practical lesson is that isolation has to be assessed per shared component, not per agent. A sandbox around the agent process says little about what happens one hop away. Three design checks follow. First, list every shared service the agent can reach, including model endpoints, caches, queues and logging pipelines. Second, decide which signals those services leak: timing, resource pressure, stored state. Third, match the mitigation to the threat. Dedicated inference capacity per trust domain removes the channel at a cost. Fixed-size batching and padded latencies reduce it. Monitoring for unusual request patterns detects some of it.\n\nNone of this makes agents unsafe by default. It means that when two agents must not coordinate, they should not share a server that sits between them.",
+    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+  },
+  "liveWell": {
+    "productivity": {
+      "tip": "If you feel spread thin, choose a smaller set of things to care about and say no to the rest, rather than trying to give everything equal attention.",
+      "url": "https://zenhabits.net/less-more/"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-25",
+      "note": "GDP for the third quarter, second estimate (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-25",
+      "note": "Personal income and spending for October, with PCE inflation (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-11-26",
+      "note": "U.S. stock markets closed for Thanksgiving"
+    },
+    {
+      "date": "2026-11-27",
+      "note": "U.S. stock markets close early, at 1:00 p.m. ET"
+    },
+    {
+      "date": "2026-11-30",
+      "note": "RBRK reports after the close"
+    },
+    {
+      "date": "2026-12-03",
+      "note": "PATH reports after the close"
+    },
+    {
+      "date": "2026-12-04",
+      "note": "Jobs report for November (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-12-09",
+      "note": "AVGO reports after the close"
+    },
+    {
+      "date": "2026-12-09",
+      "note": "Fed rate decision, with economic projections"
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 60,
+    "fetchesFailed": [
+      "Import AI",
+      "The Seattle Times",
+      "The Indian Express",
+      "LessWrong",
+      "Simon Willison"
+    ],
+    "sectionsShort": [],
+    "fullReads": 0
+  }
+}
