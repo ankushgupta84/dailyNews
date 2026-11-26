@@ -1,0 +1,525 @@
+{
+  "date": "2026-11-26",
+  "kind": "weekday",
+  "generatedAt": "2026-11-26T15:26:35Z",
+  "frontPage": [
+    {
+      "headline": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+      "summary": "Nvidia has halted shipments to four Southeast Asian countries, the New York Times reports. The move follows a new U.S. rule that would require licenses for companies in those countries to buy advanced A.I. chips.",
+      "whyItMatters": "Export rules that reach third-country buyers add licensing risk to data-center capacity plans in the region.",
+      "url": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
+      "source": "The New York Times",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+      "summary": "S&P Global Ratings said Nvidia's credit rating could be cut by one notch. The agency flagged \"rising\" management and governance risk at the chipmaker, CNBC reports.",
+      "whyItMatters": "Nvidia's borrowing standing sits near the center of AI financing, so a downgrade would matter beyond one company.",
+      "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+      "source": "CNBC",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price",
+      "summary": "Nvidia and other AI-linked stocks fell as investors weighed AI spending, inflation and higher-rate risks, but closed well off their lows. Anthropic shares struggled to rebound above the IPO price, CNBC reports.",
+      "whyItMatters": "The selloff is increasingly about financing costs and rates, not only demand for AI compute.",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+      "source": "CNBC",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "BOE Warns Scale and Breadth Of AI Financing Poses Threat to Financial Stability",
+      "summary": "The Bank of England said the AI investment boom is supporting global economic growth. It added that the scale and breadth of the financing it requires is making the global financial system more vulnerable to setbacks.",
+      "whyItMatters": "A central bank naming AI financing as a stability risk ties data-center build-out plans to credit-market conditions.",
+      "url": "https://www.wsj.com/world/uk/boe-warns-scale-and-breadth-of-ai-financing-poses-threat-to-financial-stability-005ad739?mod=rss_worldnews",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "headline": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "summary": "SpaceX won FCC approval to put 1 million orbital data center satellites into space, CNBC reports. Amazon and other groups opposed the proposal.",
+      "whyItMatters": "The approval is a licence, not proof that the economics or the power and cooling logistics work; ground-based constraints remain the near-term story.",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+      "source": "CNBC",
+      "tags": [
+        "SPCX"
+      ]
+    },
+    {
+      "headline": "1Password customer data stolen after employee GitHub account breach",
+      "summary": "1Password disclosed a data breach after an employee's corporate GitHub account was hacked. According to BleepingComputer, the account was used to deploy malicious code to the company's backend services to steal customer data.",
+      "whyItMatters": "A single developer identity able to reach production deploys is the supply-chain pattern worth auditing in any CI/CD design.",
+      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "source": "BleepingComputer"
+    },
+    {
+      "headline": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+      "summary": "The U.S. planned a fresh tariff salvo on 14 trading partners, CNBC reports. It is offering lower rates to some countries that secure trade deals with Washington.",
+      "whyItMatters": "Tariff escalation adds cost and uncertainty to the hardware supply chains that cloud and chip companies rely on.",
+      "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+      "source": "CNBC"
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 25 close",
+    "movers": [
+      {
+        "ticker": "IMSR",
+        "changePct": 5.6,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "IONQ",
+        "changePct": 5.1,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "ORCL",
+        "changePct": -5.1,
+        "reason": "Sector-wide: a Barchart wrap describes stocks sharply lower on AI angst; no Oracle-specific headline was found.",
+        "url": "https://www.nasdaq.com/articles/stocks-sharply-lower-ai-angst"
+      },
+      {
+        "ticker": "MU",
+        "changePct": -4.5,
+        "reason": "A Motley Fool headline cites HPE saying memory will stay scarce into 2028; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/micron-stock-buy-after-hpe-said-memory-will-stay-scarce-2028"
+      },
+      {
+        "ticker": "NVDA",
+        "changePct": -3.9,
+        "reason": "Headlines center on Jensen Huang's return as CEO; this one asks what the market's reaction says about his worth but does not tie it to the day's drop.",
+        "url": "https://www.nasdaq.com/articles/how-much-jensen-huang-worth-nvidia-stock-market-just-gave-clear-answer"
+      },
+      {
+        "ticker": "PATH",
+        "changePct": 3.7,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "META",
+        "changePct": 3.4,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "AMZN",
+        "changePct": -3.1,
+        "reason": "A German union called for a strike at Amazon sites on Black Friday; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/german-union-verdi-calls-strike-amazon-sites-black-friday"
+      },
+      {
+        "ticker": "SMCI",
+        "changePct": 3.1,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "DRAM",
+        "changePct": -3.0,
+        "reason": "No headline found."
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "RBRK",
+        "date": "2026-11-30",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PATH",
+        "date": "2026-12-03",
+        "note": "after the close"
+      },
+      {
+        "ticker": "AVGO",
+        "date": "2026-12-09",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": [
+      {
+        "date": "2026-11-26",
+        "event": "U.S. stock markets closed for Thanksgiving",
+        "note": "Prices shown are from the Nov 25 close."
+      },
+      {
+        "date": "2026-11-27",
+        "event": "U.S. stock markets close early, at 1:00 p.m. ET",
+        "note": "Shortened session."
+      },
+      {
+        "date": "2026-12-04",
+        "event": "Jobs report for November (8:30 a.m. ET)",
+        "note": "Labor-market reading ahead of the Fed."
+      },
+      {
+        "date": "2026-12-09",
+        "event": "Fed rate decision, with economic projections",
+        "note": "Rate decision plus new projections."
+      },
+      {
+        "date": "2026-12-10",
+        "event": "Consumer Price Index for November (8:30 a.m. ET)",
+        "note": "Inflation reading after the jobs report."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank",
+          "summary": "Deutsche Bank sees the S&P 500 reaching 9,000 points by the end of 2027, a 25% rally, as focus shifts from capital expenditure to monetization from artificial intelligence. It expects the tech rout to bottom soon.",
+          "whyItMatters": "A bank forecast, not a result; it shows the bull case now rests on AI revenue rather than spending.",
+          "url": "https://www.marketwatch.com/story/the-tech-rout-should-bottom-soon-with-a-25-rally-for-the-s-p-500-to-follow-says-deutsche-bank-c9070bf6?mod=mw_rss_topstories",
+          "source": "MarketWatch"
+        },
+        {
+          "headline": "Banks look to dump AI debt",
+          "summary": "Banks including Citi and JPMorgan are marketing portfolios of loans to manage risk, Semafor reports. In some cases they are readying to take on even more.",
+          "whyItMatters": "Lenders trimming AI-linked exposure while others add it suggests credit is being repriced unevenly.",
+          "url": "https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt",
+          "source": "Semafor"
+        },
+        {
+          "headline": "What to watch for as volatility in markets spikes",
+          "summary": "Stock market jitters are freezing IPOs and tightening trading limits across Wall Street, Semafor reports.",
+          "whyItMatters": "A frozen IPO window slows funding for newer infrastructure and security companies.",
+          "url": "https://www.semafor.com/article/11/26/2026/what-to-watch-for-as-volatility-in-markets-spikes",
+          "source": "Semafor"
+        },
+        {
+          "headline": "U.S. Stock Futures Higher as AI Trade Steadies for Thanksgiving Break",
+          "summary": "U.S. stock futures rose, extending a late rally from the previous session, with sentiment helped by an upward revision to third-quarter GDP, the Wall Street Journal reports. U.S. stock markets are closed today for Thanksgiving.",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stock-futures-higher-as-ai-trade-steadies-for-thanksgiving-break-8f712d82?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Altria Considers $157 Billion Tobacco Tie-Up With Imperial Brands",
+          "summary": "Altria said it was considering a takeover offer to buy its smaller London-listed peer Imperial Brands, in a tie-up the Wall Street Journal headlines at $157 billion.",
+          "url": "https://www.wsj.com/business/deals/altria-considering-possible-offer-for-imperial-brands-7cef494b?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Spot bitcoin ETFs on track for worst month on record as bear market drags on",
+          "summary": "Spot bitcoin ETFs have recorded record monthly net outflows of $5.39 billion in November, with several trading days remaining, The Block reports.",
+          "url": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814",
+          "source": "The Block"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "The Mad Dash for Memory Chips—and the Pain It’s Causing Holiday Shoppers",
+          "summary": "A global memory chip shortage has companies scrambling and has sent prices on electronics soaring, the Wall Street Journal reports.",
+          "whyItMatters": "Memory scarcity raises server and device costs and favors suppliers with committed capacity.",
+          "url": "https://www.wsj.com/tech/memory-chip-shortage-ai-electronics-prices-e58a065a?mod=rss_Technology",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Bright Horizon utility lands Microsoft data center deals amid Wyoming buildout",
+          "summary": "Cheyenne Light, with a 439-MW peak load record, is working on a 3-GW near-term data center pipeline plus 2.5 GW in emerging opportunities, according to company officials cited by Utility Dive. The utility has landed Microsoft data center deals.",
+          "url": "https://www.utilitydive.com/news/cheyenne-light-microsoft-google-data-center-bright-horizon/875739/",
+          "source": "Utility Dive"
+        },
+        {
+          "headline": "Data Center Developer Wanted to Build Up, Not Out. Kansas City Said No.",
+          "summary": "Data centers that power A.I. are in high demand but widely despised, the New York Times reports. Some developers are trying to build up instead of out, and a vertical project in Kansas City was turned down.",
+          "url": "https://www.nytimes.com/2026/11/26/business/energy-environment/vertical-data-center-kansas-city.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "Evaluating Recent Model Releases on GDPx",
+          "summary": "SemiAnalysis evaluated recent model releases on its GDPx benchmark. It says GPT-6.2 Astra takes the crown but is bad at software engineering, calls Gemini 4 Neon an impressive improvement but still overrated, and says Fable 5.2 is smart but expensive.",
+          "url": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases",
+          "source": "SemiAnalysis"
+        },
+        {
+          "headline": "Prologis sells industrial facility to Fluidstack for data center in Pennsylvania",
+          "summary": "Prologis sold an industrial facility in Pennsylvania to Fluidstack for a data center, with the property sold for $162.9m, Data Center Dynamics reports.",
+          "url": "https://www.datacenterdynamics.com/en/news/prologis-sells-industrial-facility-to-fluidstack-for-data-center-in-pennsylvania/",
+          "source": "Data Center Dynamics"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "Rackspace pulls plug on Spot cloud service after security breach",
+          "summary": "Rackspace is shutting down its Spot cloud service after a security breach, The Register reports. Customers face a scramble to migrate workloads and rotate compromised credentials.",
+          "whyItMatters": "Credential rotation under a vendor shutdown is a reminder to keep workloads portable and secrets short-lived.",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
+          "source": "The Register"
+        },
+        {
+          "headline": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+          "summary": "Microsoft says China's Salt Typhoon hackers are using Artex, an AI tool implicated in several high-profile breaches, The Record reports. Microsoft said the tool is rapidly being integrated into the hacking suites of groups from China and North Korea.",
+          "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+          "source": "The Record"
+        },
+        {
+          "headline": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+          "summary": "Palo Alto Networks warned that threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target PAN-OS devices whose management interfaces are exposed to the internet, BleepingComputer reports.",
+          "whyItMatters": "Internet-exposed management interfaces remain the recurring weakness in network appliances.",
+          "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+          "source": "BleepingComputer",
+          "tags": [
+            "PANW"
+          ]
+        },
+        {
+          "headline": "InfraTrust warns of exploited supply chain flaws in network appliances",
+          "summary": "Eclypsium's November InfraTrust report warns that most advisories for exploited vulnerabilities over the past month involve flaws in third-party software bundled into products, not code developed by the vendors themselves, BleepingComputer reports.",
+          "whyItMatters": "Appliance patching depends on a vendor's component inventory as much as on its own code.",
+          "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+          "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents that target critical infrastructure organizations, BleepingComputer reports.",
+          "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+          "summary": "The Drupal security team confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday, BleepingComputer reports.",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+          "source": "BleepingComputer"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "Deterministic Simulation Testing",
+          "summary": "Unmesh Joshi describes deterministic simulation testing, which replaces real clocks, networks and storage with simulated components driven by a single-threaded execution loop. This allows simulating hard failures and routine slowdowns such as network and disk latency spikes.",
+          "whyItMatters": "Reproducible failure runs make rare distributed-systems bugs debuggable.",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "Holding the Door for Agents",
+          "summary": "Fly.io says at least 55% of deployments to its platform are now performed by agents. It also notes that bots passed humans in web traffic for the first time this year.",
+          "whyItMatters": "Platform APIs and guardrails increasingly need to assume an agent is the caller.",
+          "url": "https://fly.io/blog/holding-the-door-for-agents/",
+          "source": "Fly.io Blog"
+        },
+        {
+          "headline": "GitHub Ditches CSS-in-JS for CSS Modules, Reports 55% Faster SSR After Three-Year Migration",
+          "summary": "GitHub migrated github.com from styled-components to CSS Modules over three years, reporting a 55% cut in server-side rendering time and 25% faster component initialisation, InfoQ reports. Primer components were converted behind feature flags.",
+          "url": "https://www.infoq.com/news/2026/11/github-css-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Kubernetes v1.38 Sneak Peek",
+          "summary": "The Kubernetes project outlined planned changes for the v1.38 release, including features that may be deprecated, removed or replaced.",
+          "url": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+          "source": "Kubernetes Blog"
+        },
+        {
+          "headline": "Introducing Search for Agents",
+          "summary": "Cloudflare introduced Search for Agents. One toggle makes a site searchable by AI agents, with automatic content indexing, a discoverable search API and native HTTP QUERY support.",
+          "url": "https://blog.cloudflare.com/search-for-agents/",
+          "source": "Cloudflare Blog"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "Rural communities face heavier chronic disease burden, increasing pressure on PCPs: athenaInstitute",
+          "summary": "An athenaInstitute report analysed athenahealth data across 12.3 million rural patients between 2021 and 2025. It finds rural communities carry a heavier chronic disease burden, increasing pressure on primary care physicians, Fierce Healthcare reports.",
+          "url": "https://www.fiercehealthcare.com/providers/rural-communities-face-heavier-chronic-disease-burden-increasing-pressure-pcps",
+          "source": "Fierce Healthcare"
+        },
+        {
+          "headline": "Why Medicare’s 2027 physician pay changes worry some specialists",
+          "summary": "STAT reports that cuts to Medicare physician payment rates for certain same-day services in 2027 could affect some specialists more than others.",
+          "url": "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/?utm_campaign=rss",
+          "source": "STAT"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": []
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+          "summary": "Spain's Pablo Hernández de Cos has the backing needed to succeed Christine Lagarde as head of the European Central Bank next year, CNBC reports. He will lead the ECB into a period of political uncertainty and choppy growth.",
+          "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "New UK-EU treaty has 10-year termination clause",
+          "summary": "The new UK-EU treaty has a 10-year termination clause, the BBC reports. The treaty text is to be published alongside legislation designed to enact the bulk of the deal.",
+          "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News"
+        },
+        {
+          "headline": "Iran imposes sweeping austerity measures as U.S. economic pressure mounts",
+          "summary": "Iran is rolling back subsidies on bread and gasoline, deepening discontent amid a worsening economic crisis after nearly nine months of war, the Washington Post reports.",
+          "url": "https://www.washingtonpost.com/world/2026/11/26/tehran-imposes-austerity-under-us-pressure-iranians-frustrations-grow/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
+          "summary": "The Washington Post reports that the administration faces growing bipartisan calls to be tougher on U.S. chip exports and China after backing Nvidia's Huang.",
+          "url": "https://www.washingtonpost.com/politics/2026/11/25/backing-jensen-huang-trump-delivers-setback-china-hawks/",
+          "source": "The Washington Post",
+          "tags": [
+            "NVDA"
+          ]
+        },
+        {
+          "headline": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "summary": "North Korea's Kim Jong Un reportedly visited facilities that produce nuclear ingredients and called for building more nuclear weapons, NPR reports. The report says he ignored Trump's overture.",
+          "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+          "source": "NPR"
+        },
+        {
+          "headline": "Bipartisan Desire to Regulate A.I. Faces Obstacles in Congress",
+          "summary": "Members of both parties say they want to tackle A.I. policy, but the slow pace of legislating and turf battles could stand in the way, the New York Times reports.",
+          "url": "https://www.nytimes.com/2026/11/26/us/politics/ai-regulation-congress-nvidia.html",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "C-DAC targets indigenous 32,000-core GPU by mid-2028, seeks private partners; to put pressure on rival chip prices",
+          "summary": "C-DAC aims for an indigenous 32,000-core GPU by mid-2028 and is seeking private partners to take its functional GPU model from FPGA to silicon, The Hindu reports. It says volume production should put pressure on competing suppliers.",
+          "url": "https://www.thehindu.com/business/Industry/c-dac-targets-indigenous-32000-core-gpu-by-mid-2028-seeks-private-partners-to-put-pressure-on-rival-chip-prices/article71746677.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Stock markets rally for 2nd day on foreign fund inflows, buying in IT shares",
+          "summary": "Indian stock markets rose for a second day on foreign fund inflows and buying in IT shares, The Hindu reports. Foreign Institutional Investors bought equities worth ₹4,479.08 crore on November 25, according to exchange data.",
+          "url": "https://www.thehindu.com/business/markets/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-buying-in-it-shares/article71746150.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Yes Bank AT1 bond verdict: 60 lakh retail shareholders face ₹8,415-crore bill",
+          "summary": "Nearly 60 lakh small investors could be affected by the Yes Bank AT1 bond verdict, according to independent market analyst Ambareesh Baliga cited by The Hindu. The paper's headline puts the bill for retail shareholders at ₹8,415 crore.",
+          "url": "https://www.thehindu.com/business/yes-bank-at1-bond-verdict-60-lakh-retail-shareholders-face-8415-crore-bill/article71746924.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Parliament to reconvene from November 30 to ‘transact essential business’, says Rijiju",
+          "summary": "Union Parliamentary Affairs Minister Kiren Rijiju said Parliament will reconvene to transact essential business. The Lok Sabha will convene on November 30, 2026, and the Rajya Sabha on December 2, 2026.",
+          "url": "https://www.thehindu.com/news/national/government-to-reconvene-parliament-from-november-30-to-december-3-kiren-rijiju/article71747089.ece",
+          "source": "The Hindu"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "Engineering leaders can’t prove AI is paying off",
+          "summary": "LeadDev reports on what 165 engineering leaders told it at LeadDev Berlin 2026: they cannot prove AI is paying off.",
+          "whyItMatters": "Measuring AI's effect on delivery is an open problem, so claims of gains deserve a stated baseline.",
+          "url": "https://leaddev.com/leadership/engineering-leaders-cant-prove-ai-is-paying-off?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        },
+        {
+          "headline": "Fragments: November 20",
+          "summary": "Martin Fowler's fragments recount Marcus Borg's experiment on whether healthy code is cheaper for agents to review. Between a typical unhealthy pull request and a typical healthy one the difference adds up to 22 to 35%, across three LLMs and 465 pull requests on 246 open source repositories.",
+          "whyItMatters": "Code health may be a cost lever for agent-assisted review, not only a human-maintainability concern.",
+          "url": "https://martinfowler.com/fragments/2026-11-20.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "The Explorer Pattern for product invention and development.",
+          "summary": "The post describes the Explorer Pattern: one individual or team builds a functional implementation that minimizes cross-team and cross-functional impacts, then reconciles the details with other teams after the prototype exists.",
+          "url": "https://lethain.com/explorer-pattern/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "Shipping 100+ PRs to production in a week",
+          "summary": "The author reports shipping 100+ pull requests to production in a week, reaching 115 the week of November 9th.",
+          "url": "https://lethain.com/passing-100-prs-in-a-week/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "Inside Capital One’s multi-agent system",
+          "summary": "LeadDev's piece on Capital One's multi-agent system argues that multi-agent AI is a platform problem.",
+          "url": "https://leaddev.com/ai/inside-capital-ones-multi-agent-system?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "System design",
+    "format": "explainer",
+    "title": "Splitting the decider from the doer in a dispatch system",
+    "body": "A dispatch system for delivery has to decide, again and again, which courier should take which order. The InfoQ report on DoorDash's redesign describes replacing a monolithic optimization engine with a distributed architecture that separates coordination from computation. DoorDash reports 10x higher throughput and more than 99.99% peak availability.\n\nThe concept worth taking from this is the split itself. In a monolith, the part that decides what to do (matching orders to couriers) shares a process, a deployment and a failure domain with the part that tracks what is happening (who is available, what is in flight). When load rises, you can only scale both together, and a slow or crashed optimizer takes the state with it.\n\nSeparating them gives each side its own contract. The coordination layer owns state and ordering: it accepts events, assigns work units and guarantees that an order is not assigned twice. The computation layer is stateless workers that receive a batch, solve the assignment and return a proposal. Because workers hold no authoritative state, they can be added, restarted or run in parallel, and a failed worker costs one retry instead of an outage. That is the usual route to high availability: the component that must always be up becomes small and simple, while the expensive, variable-latency work moves where failure is cheap.\n\nThe report also says the new system supports hybrid machine learning inference and multi-agent reinforcement learning to optimize delivery assignments dynamically. Pluggable computation is what makes that practical, since models can change without touching the coordinator.\n\nFor your own designs, ask three questions. Which component must never be down, and can it be made small? Which work is expensive and tolerant of retries? What is the interface between them: a versioned request and an idempotent result, or shared memory? Check also what the coordinator does when computation is slow: a deadline with a cheaper fallback assignment keeps the system useful under stress.\n\nNote: this piece is written from the InfoQ summary; the underlying DoorDash write-up has more detail on how the split is implemented.",
+    "url": "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design"
+  },
+  "liveWell": {
+    "productivity": {
+      "tip": "When you feel spread too thin, narrow what you commit to: decide on a few things you will really care about instead of saying yes to everything.",
+      "url": "https://zenhabits.net/less-more/"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-30",
+      "note": "RBRK reports earnings after the close"
+    },
+    {
+      "date": "2026-12-03",
+      "note": "PATH reports earnings after the close"
+    },
+    {
+      "date": "2026-12-09",
+      "note": "AVGO reports earnings after the close"
+    },
+    {
+      "date": "2026-11-27",
+      "note": "U.S. stock markets close early, at 1:00 p.m. ET"
+    },
+    {
+      "date": "2026-12-04",
+      "note": "Jobs report for November (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-12-09",
+      "note": "Fed rate decision, with economic projections"
+    },
+    {
+      "date": "2026-12-10",
+      "note": "Consumer Price Index for November (8:30 a.m. ET)"
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 62,
+    "fetchesFailed": [
+      "The Chip Letter",
+      "The Seattle Times",
+      "The Indian Express",
+      "InfoQ"
+    ],
+    "sectionsShort": [
+      "seattle"
+    ],
+    "fullReads": 0
+  }
+}
