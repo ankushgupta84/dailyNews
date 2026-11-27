@@ -1,0 +1,560 @@
+{
+  "date": "2026-11-27",
+  "kind": "weekday",
+  "generatedAt": "2026-11-27T15:26:51Z",
+  "frontPage": [
+    {
+      "headline": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+      "summary": "CNBC reports the November sell-off has so far pushed the S&P 500 into a correction, and notes that history shows a correction does not always lead to a bear market or a recession.",
+      "url": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+      "source": "CNBC",
+      "whyItMatters": "A correction is a drawdown, not a verdict; the AI-spending and funding questions behind it decide whether it deepens."
+    },
+    {
+      "headline": "Nvidia’s stock has tumbled 28% over one chaotic month. The next big test lies in the week ahead",
+      "summary": "MarketWatch reports Nvidia's stock has tumbled 28% over one chaotic month, and that Jensen Huang faces tough questions from Congress this week.",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-has-tumbled-27-over-one-chaotic-month-the-next-big-test-lies-in-the-week-ahead-06449777?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "whyItMatters": "Congressional scrutiny of the leading AI chip supplier adds policy risk on top of export-rule uncertainty for AI infrastructure plans.",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+      "summary": "The New York Times reports Nvidia halted sales to four Southeast Asian countries after a new U.S. rule that would require licenses for companies there to buy advanced AI chips.",
+      "url": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
+      "source": "The New York Times",
+      "whyItMatters": "Teams planning GPU capacity that touches Southeast Asia should expect delays and stricter checks on who may buy or rent it.",
+      "tags": [
+        "NVDA"
+      ]
+    },
+    {
+      "headline": "Software giant SAP confirms cyber incident amid reports of source code breach",
+      "summary": "The Record reports SAP confirmed a cybersecurity incident after reports that hackers infiltrated its software development infrastructure, potentially reaching its source code. BleepingComputer reports SAP said it took urgent action to protect customers after detecting suspicious activity in its IT environment.",
+      "url": "https://therecord.media/sap-germany-cyberattack-github",
+      "source": "The Record",
+      "whyItMatters": "Source-code exposure at a major enterprise vendor is a supply-chain concern for every customer running its software in production."
+    },
+    {
+      "headline": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "summary": "BleepingComputer reports hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of attacks on US government agencies including the FBI, CIA and Treasury Department.",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "source": "BleepingComputer",
+      "whyItMatters": "A run of federal cloud breaches raises the bar for tenant isolation and credential hygiene on government-hosted platforms."
+    },
+    {
+      "headline": "FCC approves SpaceX application to deploy one million satellites for data centers in space",
+      "summary": "Data Center Dynamics reports the FCC approved SpaceX's application to deploy one million satellites for data centers in space.",
+      "url": "https://www.datacenterdynamics.com/en/news/fcc-approves-spacex-application-to-deploy-one-million-satellites-for-data-centers-in-space/",
+      "source": "Data Center Dynamics",
+      "whyItMatters": "Approval grants permission, not capacity; whether orbital compute can match terrestrial power and cooling economics is unproven.",
+      "tags": [
+        "SPCX"
+      ]
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 25 close",
+    "openAsOf": "Nov 27, 2026 10:17 AM ET",
+    "movers": [
+      {
+        "ticker": "INFQ",
+        "changePct": 2.4,
+        "openPct": 6.9,
+        "reason": "Zacks published a piece on Infleqtion's Q3 earnings call; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/infleqtion-q3-earnings-call-points-bigger-computing-business"
+      },
+      {
+        "ticker": "IONQ",
+        "changePct": 5.1,
+        "openPct": 6.6,
+        "reason": "A Zacks headline reports IonQ's QKD systems passed IDEMIA validation; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/ionqs-qkd-systems-pass-idemia-validation-critical-communications"
+      },
+      {
+        "ticker": "IMSR",
+        "changePct": 5.6,
+        "openPct": 2.0,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "ONDS",
+        "changePct": 0.3,
+        "openPct": 5.2,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/ondas-vs-kratos-which-defense-drone-stock-better-pick-now"
+      },
+      {
+        "ticker": "ORCL",
+        "changePct": -5.1,
+        "openPct": 1.2,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/how-will-oracles-heavy-ai-spending-shape-stocks-cash-flow-trend"
+      },
+      {
+        "ticker": "DRAM",
+        "changePct": -3.0,
+        "openPct": 4.8,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "MU",
+        "changePct": -4.5,
+        "openPct": 4.0,
+        "reason": "A Motley Fool headline asks whether Micron is a buy after HPE said memory will stay scarce into 2028; the headline does not tie that to the move.",
+        "url": "https://www.nasdaq.com/articles/micron-stock-buy-after-hpe-said-memory-will-stay-scarce-2028"
+      },
+      {
+        "ticker": "OKLO",
+        "changePct": 1.4,
+        "openPct": 4.2,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/oklo-has-more-cash-nuscale-better-nuclear-stock"
+      },
+      {
+        "ticker": "NVDA",
+        "changePct": -3.9,
+        "openPct": -1.5,
+        "reason": "A Motley Fool headline says President Trump floated the U.S. government buying a stake in Nvidia; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/president-donald-trump-just-floated-idea-us-government-buying-stake-nvidia-it-wouldnt-fix"
+      },
+      {
+        "ticker": "PATH",
+        "changePct": 3.7,
+        "openPct": 3.7,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-uipath-inc-path-trending-stock-0"
+      },
+      {
+        "ticker": "PLTR",
+        "changePct": 1.5,
+        "openPct": 3.7,
+        "reason": "A Motley Fool headline reports a Palantir co-founder bought $122 million of the stock on Nov. 20; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/palantir-co-founder-bought-122-million-stock-nov-20-heres-what-i-think-palantir-stock-now"
+      },
+      {
+        "ticker": "WDC",
+        "changePct": -0.5,
+        "openPct": 3.7,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/western-digital-vs-ibm-which-data-storage-stock-smarter-bet"
+      },
+      {
+        "ticker": "TSLA",
+        "changePct": -1.2,
+        "openPct": 3.6,
+        "reason": "An RTTNews headline reports the EU delayed its vote on Tesla's assisted driving system to December 15; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/eu-delays-vote-teslas-assisted-driving-system-december-15-reports"
+      },
+      {
+        "ticker": "META",
+        "changePct": 3.4,
+        "openPct": 3.2,
+        "reason": "A Motley Fool headline says Meta partnered with Walmart; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/meta-platforms-just-partnered-walmart-heres-why-investors-should-pay-attention"
+      },
+      {
+        "ticker": "AMZN",
+        "changePct": -3.1,
+        "openPct": 3.0,
+        "reason": "A Motley Fool headline says Amazon reportedly weighs letting its AI shopping agent back in; the headline does not tie it to the move.",
+        "url": "https://www.nasdaq.com/articles/meta-stock-buy-amazon-reportedly-weighs-letting-its-ai-shopping-agent-back"
+      },
+      {
+        "ticker": "SMCI",
+        "changePct": 3.1,
+        "openPct": -0.6,
+        "reason": "No headline found."
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "RBRK",
+        "date": "2026-11-30",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PATH",
+        "date": "2026-12-03",
+        "note": "after the close"
+      },
+      {
+        "ticker": "AVGO",
+        "date": "2026-12-09",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [
+      {
+        "ticker": "PLTR",
+        "note": "A Motley Fool piece reports a Palantir co-founder bought $122 million of the stock on Nov. 20.",
+        "url": "https://www.nasdaq.com/articles/palantir-co-founder-bought-122-million-stock-nov-20-heres-what-i-think-palantir-stock-now"
+      }
+    ],
+    "macro": [
+      {
+        "date": "2026-11-27",
+        "event": "U.S. stock markets close early, at 1:00 p.m. ET",
+        "note": "Early close after Thanksgiving."
+      },
+      {
+        "date": "2026-12-04",
+        "event": "Jobs report for November (8:30 a.m. ET)",
+        "note": "First read on labor conditions before the Fed meets."
+      },
+      {
+        "date": "2026-12-09",
+        "event": "Fed rate decision, with economic projections",
+        "note": "Rate decision comes with new economic projections."
+      },
+      {
+        "date": "2026-12-10",
+        "event": "Consumer Price Index for November (8:30 a.m. ET)",
+        "note": "Inflation reading arrives the day after the Fed decision."
+      }
+    ],
+    "bearCase": {
+      "subject": "AI lab economics",
+      "summary": "MarketWatch argues that while consumption of AI tokens is exploding, which helps frontier model labs, they do not appear to be generating revenue from it at the same rate.",
+      "url": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
+      "source": "MarketWatch"
+    }
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "Tech Stocks Rise as Investors Take a Break From AI Jitters",
+          "summary": "The Wall Street Journal reports shares rebounded at the start of a shorter trading session, with all three major indexes poised to end the week strong.",
+          "url": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+          "summary": "CNBC reports SAP is reportedly considering cutting 10,000 jobs as it reshapes its software business around AI.",
+          "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+          "summary": "CNBC reports Chinese stocks rebounded sharply after a rare intraday state media readout cheered investors, as top policymakers pledged market liquidity support.",
+          "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "Week Ahead for FX, Bonds: Key Labor Data in Focus Ahead of Fed’s December Rate Decision",
+          "summary": "The Wall Street Journal says U.S. labor market data, including the key nonfarm payrolls report, will be in focus in the week starting Nov. 30.",
+          "url": "https://www.wsj.com/finance/investing/week-ahead-for-fx-bonds-key-labor-data-in-focus-ahead-of-feds-december-rate-decision-52cad754?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Allstate Joins Growing List of Companies Hit by Tech Outages",
+          "summary": "The Wall Street Journal reports a multiday outage has left Allstate customers struggling to reach the insurer during one of the year's busiest travel weeks.",
+          "url": "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488?mod=rss_markets_main",
+          "source": "The Wall Street Journal"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "AI boom leaves network operators waiting up to 18 months for kit",
+          "summary": "The Register reports network operators face waits of up to 18 months for equipment as telcos compete with datacenters for components. RETN says optical equipment prices are up around 50% this year.",
+          "url": "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366",
+          "source": "The Register"
+        },
+        {
+          "headline": "SpaceX installs $250m worth of Tesla Megapack batteries at Starbase data center site in Texas - report",
+          "summary": "Data Center Dynamics reports, citing a report, that SpaceX installed $250m of Tesla Megapack batteries at its Starbase data center site in Texas. The company is seeking to develop up to $24bn of data center and natural gas power plant there.",
+          "url": "https://www.datacenterdynamics.com/en/news/spacex-installs-250m-worth-of-tesla-megapack-batteries-at-starbase-data-center-site-in-texas-report/",
+          "source": "Data Center Dynamics",
+          "tags": [
+            "TSLA",
+            "SPCX"
+          ]
+        },
+        {
+          "headline": "Galaxy Digital files for next phase of development at Helios data center campus in Texas",
+          "summary": "Data Center Dynamics reports Galaxy Digital filed for the next phase of development at its Helios data center campus in Texas, looking to build another building at the CoreWeave-leased campus.",
+          "url": "https://www.datacenterdynamics.com/en/news/galaxy-digital-files-for-next-phase-of-development-at-helios-data-center-campus-in-texas/",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "headline": "Europe's AI sovereignty push: Lots of cloud, not much silver lining",
+          "summary": "The Register reports datacenter spending in Europe is booming, but the models, the chips and the clout all live in the US and Asia.",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120",
+          "source": "The Register"
+        },
+        {
+          "headline": "UK government rejects national consultation on AI datacenters",
+          "summary": "The Register reports the UK government rejected a national consultation on AI datacenters, pointing to project-level environmental checks as a petition passed 39,000 signatures.",
+          "url": "https://www.theregister.com/off-prem/2026/11/27/uk-government-rejects-national-consultation-on-ai-datacenters/5312501",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "Risky Bulletin: Hackers breach Erlang and Elixir package manager",
+          "summary": "Risky Business reports hackers breached the Erlang and Elixir package manager. The bulletin also notes FinCEN is investigating a security breach and 1Password was hacked through an employee GitHub account.",
+          "url": "https://news.risky.biz/risky-bulletin-hackers-breach-erlang-and-elixir-package-manager/",
+          "source": "Risky Business"
+        },
+        {
+          "headline": "British government takes services offline following ‘cyber incident’",
+          "summary": "The Record reports the UK Department for Work and Pensions said it experienced a cyber incident and took several services down as a precaution.",
+          "url": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+          "source": "The Record"
+        },
+        {
+          "headline": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+          "summary": "BleepingComputer reports a 12-year-old critical vulnerability in the Linux kernel's NFS server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges.",
+          "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Drupal warns of new site takeover flaw exploited in attacks",
+          "summary": "BleepingComputer reports the Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites.",
+          "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "Bank of England Urges Firms to Move Faster on Quantum Security",
+          "summary": "The Quantum Insider reports the Bank of England urged the financial firms most important to UK stability to move faster than the national timetable for adopting quantum-resistant cryptography, warning that delays at a single technology provider could disrupt several firms at once.",
+          "url": "https://thequantuminsider.com/2026/11/27/bank-of-england-urges-firms-to-move-faster-on-quantum-security/",
+          "source": "The Quantum Insider"
+        },
+        {
+          "headline": "Guest Post: Why Critical Infrastructure Must Prepare for Cryptographic Uncertainty",
+          "summary": "In a guest post for The Quantum Insider, Scott Aaronson argues that companies preparing for quantum computers may face a cryptographic threat that requires no quantum computer at all, and addresses operators of critical infrastructure.",
+          "url": "https://thequantuminsider.com/2026/11/27/critical-infrastructure-cryptographic-agility/",
+          "source": "The Quantum Insider"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+          "summary": "InfoQ reports PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on Meta's RADAR, which auto-lands low-risk diffs after safety checks, a risk score and an LLM review.",
+          "url": "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "whyItMatters": "Automated approval for low-risk changes shifts human review toward risky diffs, which makes the risk-scoring step the control to design carefully.",
+          "tags": [
+            "META"
+          ]
+        },
+        {
+          "headline": "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+          "summary": "InfoQ reports Netflix built Quasar, an internal tool that combines semantic code indexing and API comparisons to find downstream consumers affected by library changes. It uses SCIP, Amazon S3 and Athena, and Netflix is exploring agent-assisted consumer migrations.",
+          "url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "whyItMatters": "Knowing the blast radius of an API change before release is a practical way to cut migration risk in a large service estate.",
+          "tags": [
+            "NFLX"
+          ]
+        },
+        {
+          "headline": "QCon San Francisco 2026: How to Kill the Code Review",
+          "summary": "InfoQ reports Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge without human review. His team reports merging four times more PRs with about 40% fewer reverts.",
+          "url": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Deterministic Simulation Testing",
+          "summary": "Martin Fowler's site hosts Unmesh Joshi's description of deterministic simulation testing, which replaces real clocks, networks and storage with simulated components driven by a single-threaded execution loop. This allows simulating hard failures and routine slowdowns such as latency spikes.",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+          "summary": "InfoQ publishes a talk in which Saranya Vedagiri explains designing low-latency distributed APIs under 100ms, drawing on her work at eBay. Topics include hop-by-hop latency budgets, async fan-out tradeoffs, thread pool sizing, caching and circuit breakers.",
+          "url": "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "source": "InfoQ Architecture"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": []
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "‘Aether & Iron’: Seattle-area indie game studio builds a noir detective RPG in the sky",
+          "summary": "GeekWire reports Issaquah, Wash., studio Seismic Squirrel is building Aether & Iron, a 30-hour noir detective RPG set in a flying 1938 New York, with turn-based combat fought from customized cars.",
+          "url": "https://www.geekwire.com/2026/aether-iron-seattle-area-indie-game-studio-builds-a-noir-detective-rpg-in-the-sky/",
+          "source": "GeekWire"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "Trump defends Putin friendship that Zelensky calls ‘strange’",
+          "summary": "The Washington Post reports President Trump defended his friendship with Putin, which Zelensky calls strange, saying \"We want to make a deal\" and blaming the Russian and Ukrainian leaders' hate as the biggest obstacle to peace.",
+          "url": "https://www.washingtonpost.com/world/2026/11/27/trump-defends-putin-friendship-that-zelensky-calls-strange/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "Iran imposes sweeping austerity measures as U.S. economic pressure mounts",
+          "summary": "The Washington Post reports Iran is rolling back subsidies on bread and gasoline, deepening discontent amid a worsening economic crisis after nearly nine months of war.",
+          "url": "https://www.washingtonpost.com/world/2026/11/26/tehran-imposes-austerity-under-us-pressure-iranians-frustrations-grow/",
+          "source": "The Washington Post"
+        },
+        {
+          "headline": "France Slips Into Recession as Exports Sag",
+          "summary": "The Wall Street Journal reports the French economy tipped into recession in the third quarter as summer heat waves slowed Airbus's factories.",
+          "url": "https://www.wsj.com/world/europe/french-economy-slips-into-recession-as-exports-sag-47e934c5?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Bipartisan Desire to Regulate A.I. Faces Obstacles in Congress",
+          "summary": "The New York Times reports members of both parties say they want to tackle AI policy, but the slow pace of legislating and turf battles could stand in the way.",
+          "url": "https://www.nytimes.com/2026/11/26/us/politics/ai-regulation-congress-nvidia.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "EU leaders fail to break $1.7 trillion budget deadlock as political pressure mounts",
+          "summary": "CNBC reports EU leaders failed to break a deadlock over the bloc's $1.7 trillion budget, with talks set to resume in December as a key deadline looms.",
+          "url": "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "India-U.S. trade deal is close to culmination: Goyal",
+          "summary": "The Hindu reports Commerce Minister Goyal said the process and pathway for finalising a trade pact with the U.S. is taking shape, after a USTR report proposed 25% tariffs on Indian imports, capped at 17% if a deal is agreed.",
+          "url": "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Rupee nosedives 60 paise to settle at 92.98 against U.S. dollar",
+          "summary": "The Hindu reports the rupee fell 60 paise to settle at 92.98 against the U.S. dollar (provisional), after touching a day's low of 93.01.",
+          "url": "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "RBI cuts daily CRR maintenance to 90%, to unlock over ₹40,000 crore",
+          "summary": "The Hindu reports the RBI cut the daily CRR maintenance requirement to 90%, which is expected to unlock over ₹40,000 crore and improve banks' liquidity flexibility.",
+          "url": "https://www.thehindu.com/business/Economy/rbi-cuts-daily-crr-maintenance-to-90-to-unlock-over-40000-crore/article71751043.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "MeitY plans to expand national computing capacity for AI inference",
+          "summary": "The Hindu reports MeitY plans to expand national computing capacity for AI inference, to meet the government's own needs as well as those of research institutions, academic institutions and innovators.",
+          "url": "https://www.thehindu.com/business/Industry/meity-plans-to-expand-national-computing-capacity-for-ai-inference/article71750812.ece",
+          "source": "The Hindu"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "Shipping 100+ PRs to production in a week",
+          "summary": "Will Larson of Irrational Exuberance reports shipping 100+ pull requests to production in a week, reaching 115 the week of November 9th.",
+          "url": "https://lethain.com/passing-100-prs-in-a-week/",
+          "source": "Irrational Exuberance"
+        },
+        {
+          "headline": "Engineering leaders can’t prove AI is paying off",
+          "summary": "LeadDev reports what 165 engineering leaders said at LeadDev Berlin 2026, under the headline that they cannot prove AI is paying off.",
+          "url": "https://leaddev.com/leadership/engineering-leaders-cant-prove-ai-is-paying-off?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        },
+        {
+          "headline": "How Anthropic builds software in 2026 with Katelyn Lesse",
+          "summary": "The Pragmatic Engineer interviews Katelyn Lesse, who explains how Anthropic rewrote Claude's API in Rust and how AI agents are changing engineering at the company.",
+          "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+          "source": "The Pragmatic Engineer"
+        },
+        {
+          "headline": "Fragments: November 20",
+          "summary": "Martin Fowler's fragments relay an experiment by Marcus Borg on whether healthy code is cheaper for agents to review. Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), the difference adds up to 22 to 35%; it covered three LLMs and 465 pull requests on 246 open source repositories.",
+          "url": "https://martinfowler.com/fragments/2026-11-20.html",
+          "source": "Martin Fowler"
+        },
+        {
+          "headline": "Code ownership is eroding",
+          "summary": "LeadDev reports that less experienced developers trust AI more, under the headline that code ownership is eroding.",
+          "url": "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "Leadership",
+    "format": "explainer",
+    "title": "Build first, reconcile later: the Explorer Pattern",
+    "body": "The Explorer Pattern is a way of building something new without waiting for every team to agree first. One person or team builds a working implementation while keeping cross-team and cross-functional impact as small as possible. Only after the prototype runs do they reconcile the details with other teams. Will Larson's tl;dr says plainly that this can mean very substantial rework of the first version. Imprint previously called the same approach its \"Tech-led\" or \"Engineering-led\" development model.\n\nThe trade is deliberate. Early alignment meetings are good at surfacing constraints, but they are poor at telling anyone what the product should be. A working prototype turns a debate about hypotheticals into a conversation about something concrete, which is cheaper to argue with. The cost is that the explorer will probably build parts that other teams then ask to change.\n\nA concrete illustration (mine, not from the source): an architect wants a new internal event pipeline. Instead of circulating a design for three weeks, one small team builds a thin end-to-end version against one real producer and one real consumer. Security, data and platform teams then review running code, and their objections arrive as specific changes.\n\nWhat to take into your own work:\n\nFirst, say out loud that the first version is expected to be reworked. If stakeholders treat the prototype as the plan, the pattern fails and the explorer is blamed for rework that was always priced in.\n\nSecond, keep the blast radius small on purpose. The definition hinges on minimising cross-team impact, so the prototype should not touch shared schemas, shared infrastructure or other teams' on-call load.\n\nThird, schedule the reconciliation. The pattern has two halves, and skipping the second turns an experiment into an unreviewed production system.\n\nFourth, choose it selectively. It suits uncertain product invention. It suits well-understood changes to shared systems much less, where early agreement is cheaper than rework.\n\nThis note is written from the article's summary paragraph, as the full page could not be opened in this session.",
+    "url": "https://lethain.com/explorer-pattern/"
+  },
+  "liveWell": {
+    "health": {
+      "tip": "A short brain-health self-assessment can point to a handful of simple habits worth changing; five minutes is enough to start.",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6050867/prevent-dementia-alzheimers-your-turn"
+    },
+    "productivity": {
+      "tip": "Spreading care across everything leaves you thin. Choose a few things to care about fully and do less of the rest.",
+      "url": "https://zenhabits.net/less-more/"
+    }
+  },
+  "calendar": [
+    {
+      "date": "2026-11-27",
+      "note": "U.S. stock markets close early, at 1:00 p.m. ET"
+    },
+    {
+      "date": "2026-11-30",
+      "note": "RBRK reports earnings after the close"
+    },
+    {
+      "date": "2026-12-03",
+      "note": "PATH reports earnings after the close"
+    },
+    {
+      "date": "2026-12-04",
+      "note": "Jobs report for November (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-12-09",
+      "note": "AVGO reports earnings after the close"
+    },
+    {
+      "date": "2026-12-09",
+      "note": "Fed rate decision, with economic projections"
+    },
+    {
+      "date": "2026-12-10",
+      "note": "Consumer Price Index for November (8:30 a.m. ET)"
+    }
+  ],
+  "runReport": {
+    "sourcesReached": 59,
+    "fetchesFailed": [
+      "The Seattle Times",
+      "The Indian Express",
+      "Irrational Exuberance (lethain.com)",
+      "Phil Venables"
+    ],
+    "sectionsShort": [
+      "health-tech",
+      "seattle"
+    ],
+    "fullReads": 0
+  }
+}
