@@ -1,0 +1,485 @@
+{
+  "date": "2026-11-28",
+  "kind": "saturday",
+  "generatedAt": "2026-11-28T15:26:18Z",
+  "frontPage": [
+    {
+      "headline": "Anthropic Introduces Claude Ship to Review, Fix, and Approve Pull Requests by Policy",
+      "summary": "InfoQ reports that Anthropic has launched Claude Ship, a set of agents that review GitHub pull requests, push fixes and approve the changes a team's policy permits. It is offered on Claude Team and Enterprise plans.",
+      "url": "https://www.infoq.com/news/2026/11/anthropic-claude-ship/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "whyItMatters": "Policy-gated approval by an agent moves code review from a human checkpoint to a rules engine, so the policy itself becomes the security boundary to design carefully."
+    },
+    {
+      "headline": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+      "summary": "The BBC reports that OpenAI has counter-sued Apple, alleging Apple stole trade secrets through a former employee.",
+      "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "whyItMatters": "A trade-secrets fight between a leading model maker and a major device platform could shape how the two cooperate on AI features.",
+      "tags": [
+        "AAPL"
+      ]
+    },
+    {
+      "headline": "AWS Introduces Centralized Workforce Access to IAM Roles Across Accounts",
+      "summary": "InfoQ reports that AWS has introduced Account Access Manager, which assigns workforce users and groups to existing IAM roles across an organization. It keeps custom trust policies and ABAC configurations and improves individual attribution and auditability.",
+      "url": "https://www.infoq.com/news/2026/11/aws-centralized-workforce-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "whyItMatters": "Central assignment that preserves existing trust policies lowers the cost of cleaning up multi-account access without rewriting roles.",
+      "tags": [
+        "AMZN"
+      ]
+    },
+    {
+      "headline": "pCloud confirms password manager hack after suspicious login alerts",
+      "summary": "BleepingComputer reports that pCloud confirmed a cyberattack on its pCloud Pass password manager. Users said unknown devices had connected to their accounts even with two-factor authentication enabled.",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "source": "BleepingComputer",
+      "whyItMatters": "Logins that succeed despite 2FA point to session or device-trust weaknesses rather than stolen passwords, which is the part of the design worth reviewing."
+    },
+    {
+      "headline": "U.S. repelled drone incursion at British air base",
+      "summary": "The Washington Post reports that drones were deflected by U.S. electronic jamming and other defenses during a mid-November incident at RAF Lakenheath, according to officials speaking Saturday.",
+      "url": "https://www.washingtonpost.com/world/2026/11/28/us-military-repelled-drone-incursion-british-air-base/",
+      "source": "The Washington Post",
+      "whyItMatters": "Defending a fixed site against drones relies on electronic countermeasures, a theme that increasingly reaches into infrastructure and data-center security planning."
+    },
+    {
+      "headline": "A Critic of Beijing Falls Short in Taiwan’s Key Mayoral Election",
+      "summary": "The New York Times reports that a critic of Beijing lost Taipei's mayoral race, part of broader local elections in Taiwan. The paper says the result will probably bring relief in China, which claims the island.",
+      "url": "https://www.nytimes.com/2026/11/28/world/asia/taiwan-election-taipei-china.html",
+      "source": "The New York Times",
+      "whyItMatters": "Taiwan's politics bear on chip supply-chain risk assessments even though local elections do not set cross-strait policy directly."
+    },
+    {
+      "headline": "AI data center boom strains construction labor across the U.S.",
+      "summary": "CNBC visited Abilene, Texas, to see how the AI data-center construction boom is affecting the local economy, both positively and negatively. It reports on the strain on construction labor across the U.S.",
+      "url": "https://www.cnbc.com/2026/11/28/ai-data-center-construction-worker-shortage-texas.html",
+      "source": "CNBC",
+      "whyItMatters": "Labor, not only chips and power, can set the pace at which AI capacity comes online."
+    }
+  ],
+  "watchlist": {
+    "asOf": "Nov 25 close",
+    "movers": [
+      {
+        "ticker": "IMSR",
+        "changePct": 5.6,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "IONQ",
+        "changePct": 5.1,
+        "reason": "Zacks reported that IonQ's QKD systems passed IDEMIA validation for critical communications; the headline does not tie this to the move.",
+        "url": "https://www.nasdaq.com/articles/ionqs-qkd-systems-pass-idemia-validation-critical-communications"
+      },
+      {
+        "ticker": "ORCL",
+        "changePct": -5.1,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "MU",
+        "changePct": -4.5,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "NVDA",
+        "changePct": -3.9,
+        "reason": "No clear catalyst reported.",
+        "url": "https://www.nasdaq.com/articles/nvidia-faces-yet-another-risk-heres-what-it-means-investors"
+      },
+      {
+        "ticker": "PATH",
+        "changePct": 3.7,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "META",
+        "changePct": 3.4,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "AMZN",
+        "changePct": -3.1,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "SMCI",
+        "changePct": 3.1,
+        "reason": "No headline found."
+      },
+      {
+        "ticker": "DRAM",
+        "changePct": -3.0,
+        "reason": "No headline found."
+      }
+    ],
+    "earnings": [
+      {
+        "ticker": "RBRK",
+        "date": "2026-11-30",
+        "note": "after the close"
+      },
+      {
+        "ticker": "PATH",
+        "date": "2026-12-03",
+        "note": "after the close"
+      },
+      {
+        "ticker": "AVGO",
+        "date": "2026-12-09",
+        "note": "after the close"
+      }
+    ],
+    "analystAndInsider": [],
+    "macro": [
+      {
+        "date": "2026-12-04",
+        "event": "Jobs report for November (8:30 a.m. ET)",
+        "note": "Labor-market read ahead of the Fed meeting."
+      },
+      {
+        "date": "2026-12-09",
+        "event": "Fed rate decision, with economic projections",
+        "note": "Rate decision plus the economic projections."
+      },
+      {
+        "date": "2026-12-10",
+        "event": "Consumer Price Index for November (8:30 a.m. ET)",
+        "note": "Inflation read after the Fed decision."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "markets",
+      "items": [
+        {
+          "headline": "Citigroup’s $35 Billion Bookkeeping Snafu Sparks Shake-Up in Upper Ranks",
+          "summary": "The Wall Street Journal reports that several London-based executives are leaving Citigroup as a top risk official oversees cleanup from the bank's trading hub, after a $35 billion bookkeeping error.",
+          "url": "https://www.wsj.com/finance/banking/citigroups-35-billion-bookkeeping-snafu-sparks-shake-up-in-upper-ranks-71d8afe9?mod=rss_markets_main",
+          "source": "The Wall Street Journal",
+          "whyItMatters": "A ledger error of this size is a reminder that reconciliation controls are a core system requirement, not back-office plumbing."
+        },
+        {
+          "headline": "The Iran war could shatter rising expectations of surplus oil supply in coming months",
+          "summary": "CNBC reports that oil prices sold off in November as investors saw a recovery in Middle East exports leading to surpluses for the first time since the war began. The piece examines how the Iran war could upend that expectation.",
+          "url": "https://www.cnbc.com/2026/11/28/oil-price-iran-war-strait-hormuz-surplus.html",
+          "source": "CNBC"
+        },
+        {
+          "headline": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+          "summary": "CNBC reports that AI shopping agents from OpenAI, Meta, Google and Instinct are meeting roadblocks at Amazon and other retailers that block them.",
+          "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+          "source": "CNBC",
+          "whyItMatters": "Retailers blocking agents shows that agent access is becoming a negotiated and enforced boundary, much like API terms.",
+          "tags": [
+            "AMZN",
+            "META",
+            "GOOGL"
+          ]
+        },
+        {
+          "headline": "AI math breakthroughs revive Bitcoin security fears, but practical threat remains unproven: K33",
+          "summary": "The Block reports that K33 said recent mathematical advances have not demonstrated a compromise of Bitcoin's cryptography, while urging closer attention to AI.",
+          "url": "https://www.theblock.co/news/ecosystems/2026-11-27-ai-math-breakthroughs-revive-bitcoin-security-fears-but-practical-threat-remains-unproven-k33-447549",
+          "source": "The Block"
+        }
+      ]
+    },
+    {
+      "id": "ai-datacenter",
+      "items": [
+        {
+          "headline": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+          "summary": "A post on Google Research's blog, shared on Hacker News, describes DeepCrossAttention, which the headline says achieves comparable model quality up to 3x faster by changing transformer residual connections.",
+          "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+          "source": "Hacker News",
+          "whyItMatters": "Architectural changes that cut training cost matter to anyone sizing GPU clusters.",
+          "tags": [
+            "GOOGL"
+          ]
+        },
+        {
+          "headline": "AI debt boom could push up funding costs for South Africa",
+          "summary": "Semafor reports that tech giants are tapping global debt markets for hundreds of billions of dollars at the same time as governments, which could raise funding costs for South Africa as it approaches refinancing.",
+          "url": "https://www.semafor.com/article/11/27/2026/ai-debt-boom-could-push-up-funding-costs-as-south-africa-approaches-refinancing",
+          "source": "Semafor",
+          "whyItMatters": "AI capital spending is now large enough to compete with sovereign borrowers for the same pool of money."
+        },
+        {
+          "headline": "Federal state of Vienna, Austria, publishes new data center strategy",
+          "summary": "Data Center Dynamics reports that Vienna has published a new data-center strategy designed to boost the sustainability and efficiency of projects in the Austrian capital.",
+          "url": "https://www.datacenterdynamics.com/en/news/sebastian-gemkow/",
+          "source": "Data Center Dynamics"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "items": [
+        {
+          "headline": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+          "summary": "BleepingComputer reports that a zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed with a proof-of-concept exploit. It lets unauthenticated attackers execute commands on vulnerable servers.",
+          "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+          "source": "BleepingComputer",
+          "whyItMatters": "Monitoring servers sit deep inside networks, so an unauthenticated remote-execution flaw with a public exploit warrants immediate isolation."
+        },
+        {
+          "headline": "New Boston Scientific data breach exposes personal, medical info",
+          "summary": "BleepingComputer reports that Boston Scientific is sending breach notices to individuals affected by a cyberattack on the company, which exposed personal and medical information.",
+          "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+          "source": "BleepingComputer"
+        },
+        {
+          "headline": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+          "summary": "A write-up on malspark.com, shared on Hacker News, says GGUF model files with hidden malware hosted on Hugging Face reached 2400 victims. The brief carries only the headline, so details are not summarised here.",
+          "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+          "source": "Hacker News",
+          "whyItMatters": "Model files are executable-adjacent artifacts and belong in the same supply-chain controls as packages and containers."
+        },
+        {
+          "headline": "Japan’s education ministry discloses breach of government procurement system",
+          "summary": "The Record reports that Japan's education ministry disclosed this week that hackers breached its government procurement system, potentially exposing records with business information and email addresses.",
+          "url": "https://therecord.media/japan-education-ministry-cyberattack",
+          "source": "The Record"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "items": [
+        {
+          "headline": "Azure AI Gateway Reaches General Availability as a Standalone Service",
+          "summary": "InfoQ reports that Microsoft has made Azure AI Gateway generally available as a standalone service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month, paid billing starts January 1, 2027, and private networking remains in preview.",
+          "url": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "whyItMatters": "A gateway in front of models and MCP tools gives a single place to enforce agent access policy, though private networking is not yet generally available.",
+          "tags": [
+            "MSFT"
+          ]
+        },
+        {
+          "headline": "Grafana Begins Its Biggest UI Refresh Since Version 7",
+          "summary": "InfoQ reports that Grafana Labs has released the first phase of its biggest visual refresh since Grafana 7, with updated themes, more consistent components and a clearer visual hierarchy.",
+          "url": "https://www.infoq.com/news/2026/11/grfana-ui-refresh/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        },
+        {
+          "headline": "Article: Engineering Reliable Telematics from Smartphone Sensors",
+          "summary": "InfoQ carries an article on telematics from smartphone sensors. It says phones combine location, motion sensors and connectivity, but device placement, platform-managed sampling and differing timing semantics complicate measurements.",
+          "url": "https://www.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ"
+        }
+      ]
+    },
+    {
+      "id": "health-tech",
+      "items": [
+        {
+          "headline": "The doctor, the patient and the smartwatch: What physicians think of the third voice at your appointment",
+          "summary": "CNBC reports that many Americans use smartwatches or fitness trackers to collect health data, and doctors say the devices are increasingly part of annual checkups.",
+          "url": "https://www.cnbc.com/make-it/2026/11/28/wearable-health-trackers-doctors.html",
+          "source": "CNBC",
+          "whyItMatters": "Consumer device data reaching clinical visits raises interoperability and data-governance questions for health systems.",
+          "tags": [
+            "AAPL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "items": [
+        {
+          "headline": "Amazon discriminated against Iranian job candidate under global hiring policy, Ontario tribunal rules",
+          "summary": "GeekWire reports that an Ontario tribunal ruled Amazon discriminated against a Toronto engineer because of his Iranian citizenship. Amazon's global policy barred some Iranian citizens from jobs involving access to its encrypted technology.",
+          "url": "https://www.geekwire.com/2026/amazon-discriminated-against-iranian-job-candidate-under-global-hiring-policy-ontario-tribunal-rules/",
+          "source": "GeekWire",
+          "whyItMatters": "Export-control-driven hiring rules can collide with local anti-discrimination law.",
+          "tags": [
+            "AMZN"
+          ]
+        },
+        {
+          "headline": "This Seattle Engineering Marvel Hid a Mystery: Pyramids of Dead Fish",
+          "summary": "The New York Times reports on piles of dead fish found beneath the mile-and-a-half-long floating bridge that extended Seattle's light rail across a lake, and asks what caused them.",
+          "url": "https://www.nytimes.com/2026/11/28/us/dead-fish-mystery-seattle.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "Companies want AI-ready workers. Are they willing to adapt, too?",
+          "summary": "GeekWire reports that a new Washington study shows a wide gap between what employers expect of AI skills and how prepared young adults feel, and quotes Arif Gursel of 8genC on employers needing to be AI-ready workplaces.",
+          "url": "https://www.geekwire.com/2026/companies-want-ai-ready-workers-are-they-willing-to-adapt-too/",
+          "source": "GeekWire"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "headline": "COP31 climate talks fail to reach an agreement on fossil fuel language",
+          "summary": "NPR reports that U.N. climate talks collapsed over whether to mention fossil fuels. Several countries and the E.U. would not accept a final proposal without that language.",
+          "url": "https://www.npr.org/2026/11/28/nx-s1-6050187/cop31-talks-fall-apart",
+          "source": "NPR"
+        },
+        {
+          "headline": "S&P Revises Outlook on France’s Credit Rating to Negative From Stable",
+          "summary": "The Wall Street Journal reports that S&P revised its outlook on France's credit rating to negative from stable, paving the way for a possible downgrade as public debt and political uncertainty mount.",
+          "url": "https://www.wsj.com/world/europe/s-p-revises-outlook-on-french-credit-rating-to-negative-from-stable-eab7384f?mod=rss_worldnews",
+          "source": "The Wall Street Journal"
+        },
+        {
+          "headline": "Ukraine’s Deep Strikes Grow in Scale and Scope Across Russia and Beyond",
+          "summary": "The New York Times reports that Ukraine's long-range strikes across Russia and beyond are growing in scale, aimed at depriving Moscow of fuel, weapons and money. The Trump administration has criticized the campaign.",
+          "url": "https://www.nytimes.com/2026/11/28/world/europe/ukraine-russia-long-range-strikes.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "Trump’s Embrace of Xi and Huang Stuns China Critics in Washington",
+          "summary": "The New York Times reports that President Trump's embrace of Xi Jinping and Nvidia's Jensen Huang has stunned China critics in Washington, and that hard-liners' warnings have grown more urgent amid a race for A.I. dominance.",
+          "url": "https://www.nytimes.com/2026/11/28/us/politics/trump-china-critics-nvidia.html",
+          "source": "The New York Times",
+          "whyItMatters": "Export-policy swings are a direct input to Nvidia's China revenue risk and to chip supply planning.",
+          "tags": [
+            "NVDA"
+          ]
+        },
+        {
+          "headline": "Israeli Strike Kills 2 Workers at Gaza Clinic, Doctors Without Borders Says",
+          "summary": "The New York Times reports that Doctors Without Borders says an Israeli strike killed two workers at a Gaza clinic. Israel said it targeted two security guards it described as Hamas operatives.",
+          "url": "https://www.nytimes.com/2026/11/28/world/middleeast/israeli-strike-kills-two-workers-at-gaza-clinic.html",
+          "source": "The New York Times"
+        },
+        {
+          "headline": "Abroad, Spain’s Leader Is a Left-Wing Hero. Will He Lose Power at Home?",
+          "summary": "The New York Times reports that Prime Minister Pedro Sánchez faces an uphill task against a right-wing challenge in Spain's national election on Sunday.",
+          "url": "https://www.nytimes.com/2026/11/28/world/europe/spain-pedro-sanchez-conservatives-election.html",
+          "source": "The New York Times"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "items": [
+        {
+          "headline": "Bombay High Court gives go-ahead for Tata Sons board meeting on November 30",
+          "summary": "The Hindu reports that the Bombay High Court allowed the Tata Sons board meeting on November 30, saying any outcome is subject to its final orders. It declined urgent relief on pleas challenging Chandrasekaran's reappointment as executive chairman.",
+          "url": "https://www.thehindu.com/business/bombay-high-court-gives-go-ahead-for-tata-sons-board-meeting-on-november-30/article71752235.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "India must build domestic AI infrastructure to manufacture tokens: Sarvam AI co-founder",
+          "summary": "The Hindu reports that a Sarvam AI co-founder said India must build domestic AI infrastructure to manufacture tokens, and that the country has the talent, demand and demographics to be a significant AI builder by 2035.",
+          "url": "https://www.thehindu.com/business/Industry/india-must-build-domestic-ai-infrastructure-to-manufacture-tokens-sarvam-ai-co-founder/article71754741.ece",
+          "source": "The Hindu"
+        },
+        {
+          "headline": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+          "summary": "The Hindu reports that between November 1 and 18 brands diverted about $254 million worth of orders from Bangladesh amid unrest, with most moving to India, according to owners.",
+          "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
+          "source": "The Hindu"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "items": [
+        {
+          "headline": "Lies our engineering metrics tell us",
+          "summary": "LeadDev argues that the metrics themselves are not the problem; how organisations use them is.",
+          "url": "https://leaddev.com/reporting/lies-our-engineering-metrics-tell-us?utm_source=leaddev&utm_medium=RSS",
+          "source": "LeadDev"
+        },
+        {
+          "headline": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
+          "summary": "The Pragmatic Engineer publishes excerpts from three category winners of its essay contest on how AI is changing the way software is built, with links to 40 more essays.",
+          "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+          "source": "The Pragmatic Engineer"
+        }
+      ]
+    }
+  ],
+  "learn": {
+    "track": "Paper or postmortem of the week",
+    "format": "explainer",
+    "title": "Writing down what a dataset promises",
+    "url": "https://martinfowler.com/articles/data-contracts.html",
+    "body": "A data contract describes the contents of a dataset and the guarantees its producer makes about it. Simon Harrer and Arif Wider, writing on Martin Fowler's site, borrow practices from API design: treat a dataset as a service whose interface is defined as clearly as possible, and publish that definition where consumers can read it.\n\nThe page itself could not be opened in this run, so this piece rests on the article's published abstract and on general practice.\n\nThe idea is easiest to see by comparison. An API has a schema, versioning rules and an owner who answers for breaking changes. A table that feeds ten dashboards and three models usually has none of these. A column is renamed, a unit changes from dollars to cents, and nothing fails until a report is wrong. A contract moves those expectations from tribal knowledge into a file that can be reviewed and checked.\n\nA workable contract has four parts: structure (fields and types), meaning (what each field represents and its units), quality guarantees (freshness, completeness, allowed ranges) and ownership with a change process. The abstract adds that explicit, trustworthy metadata helps people and AI agents alike, which matters as agents begin to query data without a colleague nearby to explain it.\n\nFor a system designer, the practical steps are modest. Put the contract in version control next to the producing code. Validate producer output against it in CI so a breaking change fails the build before it reaches consumers. Let consumers declare what they depend on, so the producer can see the blast radius of a change. Version the contract and allow old and new shapes to run side by side during migrations.\n\nThe trade-off is effort: contracts need an owner and maintenance, and a contract nobody enforces is documentation that drifts. Start with the few datasets that many teams depend on."
+  },
+  "liveWell": {},
+  "calendar": [
+    {
+      "date": "2026-11-30",
+      "note": "RBRK reports earnings after the close"
+    },
+    {
+      "date": "2026-12-03",
+      "note": "PATH reports earnings after the close"
+    },
+    {
+      "date": "2026-12-04",
+      "note": "Jobs report for November (8:30 a.m. ET)"
+    },
+    {
+      "date": "2026-12-09",
+      "note": "AVGO reports earnings after the close"
+    },
+    {
+      "date": "2026-12-09",
+      "note": "Fed rate decision, with economic projections"
+    },
+    {
+      "date": "2026-12-10",
+      "note": "Consumer Price Index for November (8:30 a.m. ET)"
+    }
+  ],
+  "weekend": {
+    "weekInReview": "Markets ended a volatile, holiday-shortened week with a rally. The Wall Street Journal reported that the Nasdaq composite finished its best week since April, with the Dow and S&P 500 also strong, as investors took a break from AI jitters. MarketWatch noted that Nvidia's stock soared this week on Jensen Huang's return but was still down nearly 28% for November. The price table in this edition describes the Nov 25 close, before the holiday.\n\nThemes: first, AI capital spending and financing remained the market's central worry, with commentary on debt, supply bottlenecks and the labor needed to build data centers. Second, security incidents kept landing on enterprise software and infrastructure, including a confirmed SAP incident and a flaw in Cacti monitoring software with a public exploit. Third, agentic development tooling advanced: Anthropic's Claude Ship and Meta's PyTorch GreenLight both extend automated pull-request approval under policy.\n\nAhead: Rubrik reports on Nov 30 after the close, UiPath on Dec 3 and Broadcom on Dec 9, the same day as the Fed rate decision with projections. The November jobs report arrives Dec 4 and consumer prices on Dec 10.",
+    "longReads": [
+      {
+        "headline": "Recent Outages Have Economic Causes",
+        "summary": "Bruce Schneier's essay, first published in The Guardian, argues that a run of outages at Microsoft, the FAA, banks, United Airlines and other organisations has economic causes, expanding on his earlier post 'We Get the Infrastructure We Pay For'.",
+        "url": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+        "source": "Schneier on Security"
+      },
+      {
+        "headline": "Supply and Demand",
+        "summary": "Net Interest opens with a Stan Druckenmiller line about having little clarity on where things will be in 12 months, and reports on the mood at the TomorrowX investment conference in Austin, whose theme was AI.",
+        "url": "https://www.netinterest.co/p/supply-and-demand",
+        "source": "Net Interest"
+      },
+      {
+        "headline": "Unkernel and Trynix just transported computing to 2035",
+        "summary": "The Register argues that quick-and-dirty demo hacks are often the jobs that end up transforming computing, and follows a blog post titled '2035 came early' about Unkernel and Trynix.",
+        "url": "https://www.theregister.com/software/2026/11/28/unkernel-and-trynix-just-transported-computing-to-2035/5313200",
+        "source": "The Register"
+      },
+      {
+        "headline": "Why Some A.I. Evangelists Aren’t Bothered by the Potential for Human Extinction",
+        "summary": "The New York Times Magazine examines the set of beliefs driving Silicon Valley's AI vanguard, including its attitude toward the possibility of human extinction.",
+        "url": "https://www.nytimes.com/2026/11/27/magazine/ai-silicon-valley-human-extinction.html",
+        "source": "The New York Times"
+      }
+    ],
+    "listen": {
+      "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+      "summary": "Dwarkesh Patel says Ege Erdil and Daniel Kokotajlo agreed on more than he expected. Their main disagreement is how likely an intelligence explosion is that yields AIs more competent than any human expert before 2029.",
+      "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil"
+    }
+  },
+  "runReport": {
+    "sourcesReached": 60,
+    "fetchesFailed": [
+      "Malspark",
+      "Google Research",
+      "Martin Fowler"
+    ],
+    "sectionsShort": [
+      "health-tech"
+    ],
+    "fullReads": 0
+  }
+}
