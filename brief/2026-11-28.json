@@ -1,0 +1,3104 @@
+{
+  "date" : "2026-11-28",
+  "kind" : "saturday",
+  "learnTrack" : "Paper or postmortem of the week",
+  "asOf" : "Nov 25 close",
+  "asOfDate" : "2026-11-25",
+  "movers" : [ {
+    "ticker" : "IMSR",
+    "changePct" : 5.6
+  }, {
+    "ticker" : "IONQ",
+    "changePct" : 5.1
+  }, {
+    "ticker" : "ORCL",
+    "changePct" : -5.1
+  }, {
+    "ticker" : "MU",
+    "changePct" : -4.5
+  }, {
+    "ticker" : "NVDA",
+    "changePct" : -3.9
+  }, {
+    "ticker" : "PATH",
+    "changePct" : 3.7
+  }, {
+    "ticker" : "META",
+    "changePct" : 3.4
+  }, {
+    "ticker" : "AMZN",
+    "changePct" : -3.1
+  }, {
+    "ticker" : "SMCI",
+    "changePct" : 3.1
+  }, {
+    "ticker" : "DRAM",
+    "changePct" : -3.0
+  } ],
+  "moverNews" : [ {
+    "ticker" : "IMSR",
+    "headlines" : [ ]
+  }, {
+    "ticker" : "IONQ",
+    "headlines" : [ {
+      "title" : "RGTI vs IONQ: Which Quantum Computing Stock Has More Upside Potential?",
+      "url" : "https://www.nasdaq.com/articles/rgti-vs-ionq-which-quantum-computing-stock-has-more-upside-potential-0",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "Here's How QBTS' Dual-Platform Roadmap Broadens Market Opportunities",
+      "url" : "https://www.nasdaq.com/articles/heres-how-qbts-dual-platform-roadmap-broadens-market-opportunities",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "IonQ's QKD Systems Pass IDEMIA Validation for Critical Communications",
+      "url" : "https://www.nasdaq.com/articles/ionqs-qkd-systems-pass-idemia-validation-critical-communications",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "Huang Is Back as NVDA CEO: Quantum ETFs to Buy Before the Next AI Surge",
+      "url" : "https://www.nasdaq.com/articles/huang-back-nvda-ceo-quantum-etfs-buy-next-ai-surge",
+      "published" : "2026-11-25",
+      "primary" : false,
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "ORCL",
+    "headlines" : [ {
+      "title" : "Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound",
+      "url" : "https://www.nasdaq.com/articles/stocks-settle-sharply-higher-chipmakers-and-ai-stocks-rebound",
+      "published" : "2026-11-28",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Noteworthy Friday Option Activity: DSGR, BA, ORCL",
+      "url" : "https://www.nasdaq.com/articles/noteworthy-friday-option-activity-dsgr-ba-orcl",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "BNK Invest"
+    }, {
+      "title" : "Stock Indices Finish Off Their Lows as Dip Buyers Step In",
+      "url" : "https://www.nasdaq.com/articles/stock-indices-finish-their-lows-dip-buyers-step",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "IWF, NFLX, ORCL, ANET: ETF Inflow Alert",
+      "url" : "https://www.nasdaq.com/articles/iwf-nflx-orcl-anet-etf-inflow-alert",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "BNK Invest"
+    } ]
+  }, {
+    "ticker" : "MU",
+    "headlines" : [ {
+      "title" : "Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound",
+      "url" : "https://www.nasdaq.com/articles/stocks-settle-sharply-higher-chipmakers-and-ai-stocks-rebound",
+      "published" : "2026-11-28",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stocks Supported by a Recovery in the AI Trade",
+      "url" : "https://www.nasdaq.com/articles/stocks-supported-recovery-ai-trade",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Stocks Rally as a Rebound in the AI Trade Gathers Pace",
+      "url" : "https://www.nasdaq.com/articles/stocks-rally-rebound-ai-trade-gathers-pace",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Nvidia, Micron, and Sandisk Trade at Half the S&P 500’s Forward P/E. They Are All Genius Buys.",
+      "url" : "https://www.nasdaq.com/articles/nvidia-micron-and-sandisk-trade-half-sp-500s-forward-p-e-they-are-all-genius-buys",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "NVDA",
+    "headlines" : [ {
+      "title" : "Nvidia Faces Yet Another Risk. Here's What It Means for Investors.",
+      "url" : "https://www.nasdaq.com/articles/nvidia-faces-yet-another-risk-heres-what-it-means-investors",
+      "published" : "2026-11-28",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "The First AI Stock I Plan to Buy in 2027",
+      "url" : "https://www.nasdaq.com/articles/first-ai-stock-i-plan-buy-2027",
+      "published" : "2026-11-28",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Nvidia Stock Has Swung 5% or More in a Single Day 5 Times in November. Here's How Big a Position I Think Makes Sense.",
+      "url" : "https://www.nasdaq.com/articles/nvidia-stock-has-swung-5-or-more-single-day-5-times-november-heres-how-big-position-i",
+      "published" : "2026-11-27",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off.",
+      "url" : "https://www.nasdaq.com/articles/vanguards-growth-etf-has-3-stocks-making-more-third-it-only-1-has-held-tech-sell",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    } ]
+  }, {
+    "ticker" : "PATH",
+    "headlines" : [ {
+      "title" : "C3.ai vs. UiPath: Which Technology Stock Is a Better Buy for 2027?",
+      "url" : "https://www.nasdaq.com/articles/c3ai-vs-uipath-which-technology-stock-better-buy-2027",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Here is What to Know Beyond Why UiPath, Inc. (PATH) is a Trending Stock",
+      "url" : "https://www.nasdaq.com/articles/here-what-know-beyond-why-uipath-inc-path-trending-stock-0",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "META",
+    "headlines" : [ {
+      "title" : "SpaceX Stock Is Trading Below Its $135 IPO Price. History Says What Other Giant IPOs Did From There.",
+      "url" : "https://www.nasdaq.com/articles/spacex-stock-trading-below-its-135-ipo-price-history-says-what-other-giant-ipos-did-there",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Apple Is Beating the Rest of the \"Magnificent Seven\" in 2026. Can It Do It Again in 2027?",
+      "url" : "https://www.nasdaq.com/articles/apple-beating-rest-magnificent-seven-2026-can-it-do-it-again-2027",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stocks Supported by a Recovery in the AI Trade",
+      "url" : "https://www.nasdaq.com/articles/stocks-supported-recovery-ai-trade",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Top Stock Reports for Alphabet, Meta & Bank of America",
+      "url" : "https://www.nasdaq.com/articles/top-stock-reports-alphabet-meta-bank-america",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "AMZN",
+    "headlines" : [ {
+      "title" : "3 Tech Stocks to Buy and Hold for 10 Years",
+      "url" : "https://www.nasdaq.com/articles/3-tech-stocks-buy-and-hold-10-years",
+      "published" : "2026-11-28",
+      "primary" : true,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound",
+      "url" : "https://www.nasdaq.com/articles/stocks-settle-sharply-higher-chipmakers-and-ai-stocks-rebound",
+      "published" : "2026-11-28",
+      "primary" : false,
+      "publisher" : "Barchart"
+    }, {
+      "title" : "Apple Is Beating the Rest of the \"Magnificent Seven\" in 2026. Can It Do It Again in 2027?",
+      "url" : "https://www.nasdaq.com/articles/apple-beating-rest-magnificent-seven-2026-can-it-do-it-again-2027",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "The Motley Fool"
+    }, {
+      "title" : "Stocks Supported by a Recovery in the AI Trade",
+      "url" : "https://www.nasdaq.com/articles/stocks-supported-recovery-ai-trade",
+      "published" : "2026-11-27",
+      "primary" : false,
+      "publisher" : "Barchart"
+    } ]
+  }, {
+    "ticker" : "SMCI",
+    "headlines" : [ {
+      "title" : "DELL's AI Server Sales Surge: Can the Growth Momentum Continue?",
+      "url" : "https://www.nasdaq.com/articles/dells-ai-server-sales-surge-can-growth-momentum-continue",
+      "published" : "2026-11-26",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "NetApp Stock Ahead of Q2 Earnings: Should You Buy, Hold or Sell?",
+      "url" : "https://www.nasdaq.com/articles/netapp-stock-ahead-q2-earnings-should-you-buy-hold-or-sell",
+      "published" : "2026-11-26",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "Zacks.com featured highlights include NVIDIA, Arrow Electronics, Super Micro Computer, BP and Ingram Micro",
+      "url" : "https://www.nasdaq.com/articles/zackscom-featured-highlights-include-nvidia-arrow-electronics-super-micro-computer-bp-and",
+      "published" : "2026-11-25",
+      "primary" : false,
+      "publisher" : "Zacks"
+    }, {
+      "title" : "Black Friday Sale on AI Stocks: 4 Buy-On-Dip Opportunities",
+      "url" : "https://www.nasdaq.com/articles/black-friday-sale-ai-stocks-4-buy-dip-opportunities",
+      "published" : "2026-11-25",
+      "primary" : false,
+      "publisher" : "Zacks"
+    } ]
+  }, {
+    "ticker" : "DRAM",
+    "headlines" : [ ]
+  } ],
+  "prices" : [ {
+    "ticker" : "IMSR",
+    "tier" : "focus",
+    "close" : 2.25,
+    "changePct" : 5.6
+  }, {
+    "ticker" : "SNDK",
+    "tier" : "general",
+    "close" : 73.61,
+    "changePct" : -5.6
+  }, {
+    "ticker" : "DEFT",
+    "tier" : "general",
+    "close" : 0.274,
+    "changePct" : 5.3
+  }, {
+    "ticker" : "IONQ",
+    "tier" : "focus",
+    "close" : 23.54,
+    "changePct" : 5.1
+  }, {
+    "ticker" : "ORCL",
+    "tier" : "focus",
+    "close" : 103.88,
+    "changePct" : -5.1
+  }, {
+    "ticker" : "QUBT",
+    "tier" : "general",
+    "close" : 4.59,
+    "changePct" : 5.0
+  }, {
+    "ticker" : "MU",
+    "tier" : "focus",
+    "close" : 601.25,
+    "changePct" : -4.5
+  }, {
+    "ticker" : "NVTS",
+    "tier" : "general",
+    "close" : 6.80,
+    "changePct" : 4.5
+  }, {
+    "ticker" : "NVDA",
+    "tier" : "focus",
+    "close" : 149.30,
+    "changePct" : -3.9
+  }, {
+    "ticker" : "QBTS",
+    "tier" : "general",
+    "close" : 7.00,
+    "changePct" : 3.9
+  }, {
+    "ticker" : "PATH",
+    "tier" : "focus",
+    "close" : 12.42,
+    "changePct" : 3.7
+  }, {
+    "ticker" : "META",
+    "tier" : "focus",
+    "close" : 609.89,
+    "changePct" : 3.4
+  }, {
+    "ticker" : "RGTI",
+    "tier" : "general",
+    "close" : 7.85,
+    "changePct" : 3.4
+  }, {
+    "ticker" : "AMZN",
+    "tier" : "focus",
+    "close" : 244.43,
+    "changePct" : -3.1
+  }, {
+    "ticker" : "DOCN",
+    "tier" : "general",
+    "close" : 71.72,
+    "changePct" : -3.1
+  }, {
+    "ticker" : "SMCI",
+    "tier" : "focus",
+    "close" : 23.31,
+    "changePct" : 3.1
+  }, {
+    "ticker" : "DRAM",
+    "tier" : "focus",
+    "close" : 34.83,
+    "changePct" : -3.0
+  }, {
+    "ticker" : "ANET",
+    "tier" : "focus",
+    "close" : 163.99,
+    "changePct" : -2.7
+  }, {
+    "ticker" : "UBER",
+    "tier" : "general",
+    "close" : 66.35,
+    "changePct" : 2.6
+  }, {
+    "ticker" : "ASML",
+    "tier" : "focus",
+    "close" : 1303.08,
+    "changePct" : -2.5
+  }, {
+    "ticker" : "INFQ",
+    "tier" : "focus",
+    "close" : 6.49,
+    "changePct" : 2.4
+  }, {
+    "ticker" : "RBRK",
+    "tier" : "focus",
+    "close" : 107.97,
+    "changePct" : -2.4
+  }, {
+    "ticker" : "GOOGL",
+    "tier" : "focus",
+    "close" : 273.10,
+    "changePct" : -2.1
+  }, {
+    "ticker" : "STX",
+    "tier" : "general",
+    "close" : 472.33,
+    "changePct" : -2.1
+  }, {
+    "ticker" : "GOOG",
+    "tier" : "focus",
+    "close" : 270.98,
+    "changePct" : -2.0
+  }, {
+    "ticker" : "AMD",
+    "tier" : "focus",
+    "close" : 406.03,
+    "changePct" : -1.8
+  }, {
+    "ticker" : "MP",
+    "tier" : "general",
+    "close" : 35.30,
+    "changePct" : -1.7
+  }, {
+    "ticker" : "SOFI",
+    "tier" : "focus",
+    "close" : 13.07,
+    "changePct" : 1.6
+  }, {
+    "ticker" : "PLTR",
+    "tier" : "focus",
+    "close" : 163.59,
+    "changePct" : 1.5
+  }, {
+    "ticker" : "NET",
+    "tier" : "focus",
+    "close" : 283.30,
+    "changePct" : -1.4
+  }, {
+    "ticker" : "OKLO",
+    "tier" : "focus",
+    "close" : 19.47,
+    "changePct" : 1.4
+  }, {
+    "ticker" : "SPCX",
+    "tier" : "general",
+    "close" : 127.44,
+    "changePct" : 1.3
+  }, {
+    "ticker" : "USAR",
+    "tier" : "general",
+    "close" : 6.59,
+    "changePct" : -1.3
+  }, {
+    "ticker" : "CRCL",
+    "tier" : "general",
+    "close" : 48.27,
+    "changePct" : 1.2
+  }, {
+    "ticker" : "MSFT",
+    "tier" : "focus",
+    "close" : 489.93,
+    "changePct" : -1.2
+  }, {
+    "ticker" : "TSLA",
+    "tier" : "focus",
+    "close" : 380.14,
+    "changePct" : -1.2
+  }, {
+    "ticker" : "CBRS",
+    "tier" : "general",
+    "close" : 89.68,
+    "changePct" : 1.0
+  }, {
+    "ticker" : "RELY",
+    "tier" : "general",
+    "close" : 21.68,
+    "changePct" : 1.0
+  }, {
+    "ticker" : "NFLX",
+    "tier" : "focus",
+    "close" : 59.41,
+    "changePct" : 0.9
+  }, {
+    "ticker" : "PANW",
+    "tier" : "focus",
+    "close" : 356.14,
+    "changePct" : 0.9
+  }, {
+    "ticker" : "SKHY",
+    "tier" : "general",
+    "close" : 111.14,
+    "changePct" : -0.8
+  }, {
+    "ticker" : "CRWD",
+    "tier" : "focus",
+    "close" : 209.30,
+    "changePct" : -0.7
+  }, {
+    "ticker" : "APLD",
+    "tier" : "focus",
+    "close" : 12.29,
+    "changePct" : 0.6
+  }, {
+    "ticker" : "INTC",
+    "tier" : "general",
+    "close" : 54.47,
+    "changePct" : -0.6
+  }, {
+    "ticker" : "VST",
+    "tier" : "focus",
+    "close" : 121.32,
+    "changePct" : 0.5
+  }, {
+    "ticker" : "WDC",
+    "tier" : "focus",
+    "close" : 272.45,
+    "changePct" : -0.5
+  }, {
+    "ticker" : "AAPL",
+    "tier" : "focus",
+    "close" : 355.58,
+    "changePct" : 0.4
+  }, {
+    "ticker" : "ONDS",
+    "tier" : "focus",
+    "close" : 3.90,
+    "changePct" : 0.3
+  }, {
+    "ticker" : "VOO",
+    "tier" : "general",
+    "close" : 658.87,
+    "changePct" : -0.3
+  }, {
+    "ticker" : "HOOD",
+    "tier" : "focus",
+    "close" : 65.78,
+    "changePct" : 0.2
+  }, {
+    "ticker" : "MARA",
+    "tier" : "focus",
+    "close" : 5.42,
+    "changePct" : 0.2
+  }, {
+    "ticker" : "AVGO",
+    "tier" : "focus",
+    "close" : 300.86,
+    "changePct" : -0.1
+  } ],
+  "pricesMissing" : [ "LKNCY" ],
+  "earnings" : [ {
+    "ticker" : "RBRK",
+    "date" : "2026-11-30",
+    "time" : "after the close"
+  }, {
+    "ticker" : "PATH",
+    "date" : "2026-12-03",
+    "time" : "after the close"
+  }, {
+    "ticker" : "AVGO",
+    "date" : "2026-12-09",
+    "time" : "after the close"
+  } ],
+  "reportedYesterday" : [ ],
+  "earningsResults" : [ ],
+  "macro" : [ {
+    "date" : "2026-12-04",
+    "event" : "Jobs report for November (8:30 a.m. ET)"
+  }, {
+    "date" : "2026-12-09",
+    "event" : "Fed rate decision, with economic projections"
+  }, {
+    "date" : "2026-12-10",
+    "event" : "Consumer Price Index for November (8:30 a.m. ET)"
+  } ],
+  "candidates" : [ {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Physics Breakthrough Simulator",
+    "url" : "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
+    "published" : "2026-11-28T14:52:45Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "AI Isn't That Dangerous",
+    "url" : "https://www.verysane.ai/p/ai-isnt-that-dangerous",
+    "published" : "2026-11-28T14:42:41Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
+    "url" : "https://github.com/RiccardoSottini/AffrescoUI",
+    "published" : "2026-11-28T14:09:39Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "The AI-designed USB-C LTE Modem is built, and it makes calls",
+    "url" : "https://koppar.ai/blog/lte-modem-bring-up/",
+    "published" : "2026-11-28T14:06:19Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "IBM MVS 3.8j Community Edition (52-year old OS)",
+    "url" : "https://github.com/MVS-sysgen/sysgen",
+    "published" : "2026-11-28T13:17:39Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Show HN: Luciole Mono – terminal font designed for legibility",
+    "url" : "https://scriptor-pro.github.io/luciole-mono/",
+    "published" : "2026-11-28T12:50:15Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+    "url" : "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+    "published" : "2026-11-28T11:57:04Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Audible removes download option for purchased audiobooks",
+    "url" : "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
+    "published" : "2026-11-28T11:51:27Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Farewell",
+    "url" : "https://github.com/p-e-w/heretic/issues/601",
+    "published" : "2026-11-28T11:42:26Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Claude Code sabotage: preliminary benchmarking",
+    "url" : "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+    "published" : "2026-11-28T10:37:40Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Diablo II",
+    "url" : "https://www.filfre.net/2026/11/diablo-ii/",
+    "published" : "2026-11-28T09:54:19Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Knuth: Moratorium on Error Reports",
+    "url" : "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+    "published" : "2026-11-28T03:49:21Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Unkernel: Real Linux kernel, compiled to WebAssembly",
+    "url" : "https://unkernel.dev",
+    "published" : "2026-11-28T03:19:20Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+    "url" : "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "published" : "2026-11-27T23:06:29Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+    "url" : "https://tabernet.es/",
+    "published" : "2026-11-27T23:00:30Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "Hacker News",
+    "title" : "Michael Nielsen took down his book on neural nets",
+    "url" : "https://neuralnetworksanddeeplearning.com/",
+    "published" : "2026-11-27T19:31:01Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Anthropic Introduces Claude Ship to Review, Fix, and Approve Pull Requests by Policy",
+    "url" : "https://www.infoq.com/news/2026/11/anthropic-claude-ship/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-28T10:08:00Z",
+    "excerpt" : "Anthropic has introduced Claude Ship, a set of agents that can review GitHub pull requests, push fixes, and approve the changes a team's policy allows, on Claude Team and Enterprise plans. By Daniel Dominguez"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "AWS Introduces Centralized Workforce Access to IAM Roles Across Accounts",
+    "url" : "https://www.infoq.com/news/2026/11/aws-centralized-workforce-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-28T07:57:00Z",
+    "excerpt" : "AWS recently introduced Account Access Manager to centrally assign workforce users and groups to existing IAM roles across an organization, preserving custom trust policies and ABAC configurations while improving individual identity attribution and auditability. By Renato Losio"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Azure AI Gateway Reaches General Availability as a Standalone Service",
+    "url" : "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-28T06:47:00Z",
+    "excerpt" : "Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month; paid billing starts January 1, 2027; and private networking remains in preview. By Steef-Jan Wiggers"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+    "url" : "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-27T14:36:00Z",
+    "excerpt" : "PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk score and an LLM review. OpenAI, Anthropic and Sonar describe similar ways to automate approval while keeping humans on risky changes. By Andrew Hoblitzell"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+    "url" : "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-27T14:35:00Z",
+    "excerpt" : "Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it traces API references across repositories, helping maintainers assess migration impact and make informed release decisions. Netflix is also exploring agent-assisted consumer migrations. By Leela Kumili"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Grafana Begins Its Biggest UI Refresh Since Version 7",
+    "url" : "https://www.infoq.com/news/2026/11/grfana-ui-refresh/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-27T12:00:00Z",
+    "excerpt" : "Grafana Labs has introduced the first phase of its biggest visual refresh since Grafana 7, bringing updated themes, more consistent interface components, and improved visual hierarchy to its observability platform. By Craig Risi"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+    "url" : "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-27T11:00:00Z",
+    "excerpt" : "Saranya Vedagiri explains how to design resilient, low-latency distributed APIs under 100ms. Drawing on practical scale at eBay, she discusses hop-by-hop latency budgets, async fanout tradeoffs, thread pool sizing, caching, and circuit breakers. Learn actionable strategies to eliminate tail-latency bottlenecks and establish performance-first engineering practices. By Saranya Vedagiri"
+  }, {
+    "beat" : "engineering",
+    "source" : "InfoQ",
+    "title" : "Article: Engineering Reliable Telematics from Smartphone Sensors",
+    "url" : "https://www.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "published" : "2026-11-27T09:00:00Z",
+    "excerpt" : "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement varies, sampling behavior is managed by the mobile platform, and measurements have different timing and coordinate semantics. This article explores a six-stage architecture to address these challenges. By Praveen Kumar Gopalakrishnan"
+  }, {
+    "beat" : "engineering",
+    "source" : "SRE Weekly",
+    "title" : "SRE Weekly Issue #544",
+    "url" : "https://sreweekly.com/sre-weekly-issue-544/",
+    "published" : "2026-11-23T04:06:38Z",
+    "excerpt" : "View on sreweekly.com A message from our sponsor, JAMS Software: Our support team moved its on-call off PagerDuty in under an hour. JAMS Incident Management checks your PagerDuty account read-only, then imports: schedules, rotations, and overrides escalation policies, teams, and people without emailing, texting, or calling anyone ☞ Run the PagerDuty conversion, free for 14 [&#8230;]"
+  }, {
+    "beat" : "security",
+    "source" : "The Record",
+    "title" : "Japan’s education ministry discloses breach of government procurement system",
+    "url" : "https://therecord.media/japan-education-ministry-cyberattack",
+    "published" : "2026-11-27T14:15:00Z",
+    "excerpt" : "Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses."
+  }, {
+    "beat" : "security",
+    "source" : "The Record",
+    "title" : "Software giant SAP confirms cyber incident amid reports of source code breach",
+    "url" : "https://therecord.media/sap-germany-cyberattack-github",
+    "published" : "2026-11-27T13:15:00Z",
+    "excerpt" : "German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure, potentially gaining access to the company’s source code."
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "pCloud confirms password manager hack after suspicious login alerts",
+    "url" : "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+    "published" : "2026-11-27T19:26:04Z",
+    "excerpt" : "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "New Boston Scientific data breach exposes personal, medical info",
+    "url" : "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+    "published" : "2026-11-27T18:57:42Z",
+    "excerpt" : "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Unpatched Cacti zero-day with public PoC gives remote code execution",
+    "url" : "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+    "published" : "2026-11-27T17:06:13Z",
+    "excerpt" : "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "US Air Force cloud platform reportedly hacked in latest federal breach",
+    "url" : "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+    "published" : "2026-11-27T15:09:40Z",
+    "excerpt" : "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+    "url" : "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+    "published" : "2026-11-27T15:00:10Z",
+    "excerpt" : "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+    "url" : "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+    "published" : "2026-11-27T14:22:06Z",
+    "excerpt" : "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Microsoft removes WSUS server role in Windows Server 2028",
+    "url" : "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+    "published" : "2026-11-27T11:18:36Z",
+    "excerpt" : "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Drupal warns of new site takeover flaw exploited in attacks",
+    "url" : "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+    "published" : "2026-11-27T10:10:15Z",
+    "excerpt" : "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "SAP confirms security incident after suspicious GitHub activity",
+    "url" : "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+    "published" : "2026-11-27T09:56:36Z",
+    "excerpt" : "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]"
+  }, {
+    "beat" : "security",
+    "source" : "BleepingComputer",
+    "title" : "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+    "url" : "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+    "published" : "2026-11-27T09:08:16Z",
+    "excerpt" : "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]"
+  }, {
+    "beat" : "security",
+    "source" : "Schneier on Security",
+    "title" : "Friday Squid Blogging: Giant Squid in Newfoundland",
+    "url" : "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-giant-squid-in-newfoundland.html",
+    "published" : "2026-11-27T22:01:25Z",
+    "excerpt" : "The two have an interesting history . As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy."
+  }, {
+    "beat" : "security",
+    "source" : "Schneier on Security",
+    "title" : "Recent Outages Have Economic Causes",
+    "url" : "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+    "published" : "2026-11-27T12:02:23Z",
+    "excerpt" : "This essay originally appeared in The Guardian . It’s an expanded version of the one I posted as &#8220; We Get the Infrastructure We Pay For .&#8221; It’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft , the FAA , a handful of banks , United Airlines , an unnamed classified NSA network , and Apple . People should be forgiven for suspecting a coordinated cyberattack, a common cause, or at least a conspiracy. But there is none. The incidents are unrelated.…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Simon Willison",
+    "title" : "datasette-charts 0.4a0",
+    "url" : "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+    "published" : "2026-11-27T23:57:17Z",
+    "excerpt" : "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic. I've also added a website for the plugin, at charts.datasette.io…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Next Platform",
+    "title" : "The Software-Defined Mirage And The Alien Worlds Of Socket Cores And OS Kernels",
+    "url" : "https://www.nextplatform.com/control/2026/11/27/the-software-defined-mirage-and-the-alien-worlds-of-socket-cores-and-os-kernels/5313186",
+    "published" : "2026-11-27T15:04:38Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Federal state of Vienna, Austria, publishes new data center strategy",
+    "url" : "https://www.datacenterdynamics.com/en/news/sebastian-gemkow/",
+    "published" : "2026-11-28T12:00:47Z",
+    "excerpt" : "The new plan is designed to boost the sustainability and efficiency of projects in the capital city"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "The hidden reliability layer in data centers: why physical connections matter more than ever",
+    "url" : "https://www.datacenterdynamics.com/en/opinions/the-hidden-reliability-layer-in-data-centers-why-physical-connections-matter-more-than-ever/",
+    "published" : "2026-11-28T11:00:27Z",
+    "excerpt" : "The infrastructure layer nobody measures until it fails"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Spain's NxN acquires hosting and services firm Occentus Networks",
+    "url" : "https://www.datacenterdynamics.com/en/news/spains-nxn-acquires-hosting-and-services-firm-occentus-networks/",
+    "published" : "2026-11-28T08:00:29Z",
+    "excerpt" : "Acquisition brings in ten professionals, including founders Lucía Mundina and Daniel Rodríguez"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Sponsored: When batteries fail, can data centers contain the fire?",
+    "url" : "https://www.datacenterdynamics.com/en/marketwatch/when-batteries-fail-can-data-centers-contain-the-fire/",
+    "published" : "2026-11-28T08:00:00Z",
+    "excerpt" : "What a full-scale UPS battery fire test reveals about propagation, heat exposure, and re-ignition"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Built different: Inside TRG’s homegrown data center business",
+    "url" : "https://www.datacenterdynamics.com/en/analysis/trg-data-center-houston-atlanta/",
+    "published" : "2026-11-27T17:16:00Z",
+    "excerpt" : "From a family-run hosting business in Atlanta to a growing data center operator in Houston"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Datlantis pitches underwater data centers powered by offshore wind",
+    "url" : "https://www.datacenterdynamics.com/en/news/datlantis-pitches-underwater-data-centers-powered-by-offshore-wind/",
+    "published" : "2026-11-27T16:29:32Z",
+    "excerpt" : "Elsewhere, Russia prepares to send floating data center to the Antarctic"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Prysmian cable-laying ship supports Med Emre vessel in rescue off coast of Ibiza",
+    "url" : "https://www.datacenterdynamics.com/en/news/prysmian-cable-laying-ship-supports-med-emre-vessel-in-rescue-off-coast-of-ibiza/",
+    "published" : "2026-11-27T16:18:29Z",
+    "excerpt" : "The company said that its Monna Lisa vessel was used in efforts to rescue the crew onboard the Med Emre"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Abundant Mines plans landfill-powered Bitcoin mine near Mexico City",
+    "url" : "https://www.datacenterdynamics.com/en/news/abundant-mines-plans-landfill-powered-bitcoin-mine-near-mexico-city/",
+    "published" : "2026-11-27T16:09:38Z",
+    "excerpt" : "Project backed by CH4, more Latin landfills targeted"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "Sponsored: Beyond uptime: How industrial power disturbances disrupt production",
+    "url" : "https://www.datacenterdynamics.com/en/opinions/beyond-uptime-how-industrial-power-disturbances-disrupt-production/",
+    "published" : "2026-11-27T16:00:00Z",
+    "excerpt" : "A power anomaly triggers a chain reaction that freezes production lines. Stopping the cascade starts with identifying what standard defences miss"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Data Center Dynamics",
+    "title" : "BAIT plans 100 cell towers to expand Altán's network in Mexico",
+    "url" : "https://www.datacenterdynamics.com/en/news/bait-will-build-100-radio-bases-to-expand-the-altan-network/",
+    "published" : "2026-11-27T16:00:00Z",
+    "excerpt" : "BAIT will no longer be merely a customer of the wholesale network but help build it"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "Quantum: 'Five years, that's all we got…'",
+    "url" : "https://www.theregister.com/hpc/2026/11/28/quantum-five-years-thats-all-we-got/5312034",
+    "published" : "2026-11-28T09:24:00Z",
+    "excerpt" : "Futuristic computing had a major presence in Chicago supercomputer show this year"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "Unkernel and Trynix just transported computing to 2035",
+    "url" : "https://www.theregister.com/software/2026/11/28/unkernel-and-trynix-just-transported-computing-to-2035/5313200",
+    "published" : "2026-11-28T08:34:00Z",
+    "excerpt" : "What's the difference between just-for-fun demo hacks, and serious carefully designed large-scale software architecture? It's the quick-and-dirty jobs that end up transforming computing. A blog post earlier this week called 2035 came early led the Reg FOSS desk down what we thought was a fascinating, and possibly quite scary, rabbit-hole… but it turned out to be an entire warren. We thought we were still in 2026, but in turns out that in some ways, tech just leaped forward a decade. To try to…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "Smartphone shipments face another bleak year before modest 2028 comeback",
+    "url" : "https://www.theregister.com/personal-tech/2026/11/27/smartphone-shipments-face-another-bleak-year-before-modest-2028-comeback/5312580",
+    "published" : "2026-11-27T15:33:00Z",
+    "excerpt" : "Counterpoint forecasts another 6% shipment drop in 2027, with volumes still below 2025 levels by decade's end"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "Bill for Birmingham's Oracle debacle reaches £128M",
+    "url" : "https://www.theregister.com/public-sector/2026/11/27/bill-for-birminghams-oracle-debacle-reaches-128m/5312563",
+    "published" : "2026-11-27T14:03:00Z",
+    "excerpt" : "True cost may be much higher for delayed SAP replacement that helped bankrupt the city"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "UK government rejects national consultation on AI datacenters",
+    "url" : "https://www.theregister.com/off-prem/2026/11/27/uk-government-rejects-national-consultation-on-ai-datacenters/5312501",
+    "published" : "2026-11-27T12:38:00Z",
+    "excerpt" : "Ministers point to project-level environmental checks as petition passes 39,000 signatures"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "Lloyds and Bank of Scotland apps fall over on payday",
+    "url" : "https://www.theregister.com/applications/2026/11/27/lloyds-and-bank-of-scotland-apps-fall-over-on-payday/5312566",
+    "published" : "2026-11-27T12:01:27Z",
+    "excerpt" : "Lloyds Bank and Bank of Scotland customers reported problems accessing online banking and transferring money on Friday morning. Reports on Downdetector began rising around 1000 UTC. Lloyds also acknowledged problems on its service status page . A reader who supplied the screenshot below noted the particularly awkward timing: the last Friday of the month is payday for many workers. It's also retail silly season: while Brits don't celebrate Thanksgiving, many UK outlets nonetheless participate in…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "Europe's AI sovereignty push: Lots of cloud, not much silver lining",
+    "url" : "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120",
+    "published" : "2026-11-27T11:32:00Z",
+    "excerpt" : "Datacenter spending is booming but the models, the chips, and the clout all live in US and Asia"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Register",
+    "title" : "AI boom leaves network operators waiting up to 18 months for kit",
+    "url" : "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366",
+    "published" : "2026-11-27T10:45:00Z",
+    "excerpt" : "Optical equipment prices up around 50% this year as telcos compete with datacenters for components, says RETN"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Dwarkesh Podcast",
+    "title" : "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+    "url" : "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+    "published" : "2026-11-27T18:01:14Z",
+    "excerpt" : "New podcast episode between Ege Erdil and Daniel Kokotajlo. I thought this was going to be a debate, but they ended up agreeing on a lot more than I expected. Their main point of disagreement is how likely it is that we get some intelligence explosion that gives us AIs more competent than any human expert before 2029. Ege puts this possibility at around 20%, whereas Daniel thinks it’s higher than 50%. They agree that there is not a huge difference in probability, and that, in either case, the…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "Dwarkesh Podcast",
+    "title" : "Responding to objections to recursive self-improvement",
+    "url" : "https://www.dwarkesh.com/p/rsiobjections",
+    "published" : "2026-11-24T21:45:30Z",
+    "excerpt" : "(00:00:00) &#8211; Intro Dwarkesh Patel 00:00:00 Okay, so I recently released this essay and this video about recursive self-improvement and why I expect superintelligence by 2030. A wild claim, and understandably, lots of people had objections. Many of them are actually quite interesting and compelling, and I want to go through them here. And by the way, I’m joined by Max Farrens , who is my General Manager, and we ended up discussing all of these ideas as we were writing them down. And in…"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Quantum Insider",
+    "title" : "Quantum Computing 101: Can a Cat be Alive and Dead at The Same Time?",
+    "url" : "https://thequantuminsider.com/2026/11/27/quantum-computing-101-can-a-cat-be-alive-and-dead-at-the-same-time/",
+    "published" : "2026-11-27T16:51:24Z",
+    "excerpt" : "What is a qubit, why do quantum computers need to be colder than outer space, and what will they really be able to do? A plain-English guide to quantum computing, from Schrödinger’s cat to post-quantum cryptography."
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Quantum Insider",
+    "title" : "Gyeonggi Province Holds Forum on Quantum and Semiconductor Industry Cooperation",
+    "url" : "https://thequantuminsider.com/2026/11/27/gyeonggi-province-quantum-industry-development-forum/",
+    "published" : "2026-11-27T16:07:06Z",
+    "excerpt" : "Insider Brief PRESS RELEASE &#8212; The ‘Gyeonggi Quantum Innovation Forum and 2026 Gyeonggi Quantum-Semiconductor Convergence Industry Networking Day’, hosted by Gyeonggi Province and the Gyeonggi Business and Science Accelerator and organised by Sungkyunkwan University’s Anchor Project Group and the Korea Nanotechnology Institute, was held on the 25th at the Novotel Ambassador Suwon. The event brought [&#8230;]"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Quantum Insider",
+    "title" : "Equal1 Selected to Advance in EIC STEP Scale Up Program For Potential Equity Investment of up to €30 Million",
+    "url" : "https://thequantuminsider.com/2026/11/27/equal1-selected-to-advance-in-eic-step-scale-up-program-for-potential-equity-investment-of-up-to-e30-million/",
+    "published" : "2026-11-27T15:13:24Z",
+    "excerpt" : "Insider Brief PRESS RELEASE &#8212; Equal1 today announced it has been selected to advance to the due-diligence phase with the European Innovation Council (EIC) Fund under the Strategic Technologies for Europe Platform (STEP) Scale Up program. The selection opens the path for a potential equity investment of up to €30 million. The prospective EIC investment [&#8230;]"
+  }, {
+    "beat" : "ai-datacenter",
+    "source" : "The Quantum Insider",
+    "title" : "Guest Post: The Encryption Upgrade Needs a Backup Plan",
+    "url" : "https://thequantuminsider.com/2026/11/27/encryption-upgrade-needs-backup-plan/",
+    "published" : "2026-11-27T13:27:38Z",
+    "excerpt" : "Guest Post By Companies preparing for quantum computers may have to confront a threat that requires no quantum computer at all. For the operators of critical infrastructure, from electric utilities and water systems to hospitals and telecom networks, the lesson is simple: keep the move to quantum-resistant cryptography on schedule, but buy systems that can [&#8230;]"
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Americans Have More Riding on the Stock Market Than Ever",
+    "url" : "https://www.wsj.com/world/americans-have-more-riding-on-the-stock-market-than-ever-69846861?mod=rss_markets_main",
+    "published" : "2026-11-28T12:02:00Z",
+    "excerpt" : "Plus, a family feud as big as Texas hangs over Houston’s NFL team, and inside China’s $4 billion secondhand luxury boom."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Long-Term-Care Insurance Promised Them Peace of Mind. It Became a Nightmare.",
+    "url" : "https://www.wsj.com/personal-finance/long-term-care-insurance-is-it-worth-it-d1e9f610?mod=rss_markets_main",
+    "published" : "2026-11-28T10:00:00Z",
+    "excerpt" : "The policies were pitched as a salve for aging Americans worried about care costs. Except many insurers flubbed the math."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Americans Are More Exposed to the Stock Market Than Ever Before",
+    "url" : "https://www.wsj.com/finance/stocks/us-stock-market-wealth-0caf5bac?mod=rss_markets_main",
+    "published" : "2026-11-28T02:00:00Z",
+    "excerpt" : "A wave of investment in U.S. stock funds has continued even during a dizzying market downturn."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Citigroup’s $35 Billion Bookkeeping Snafu Sparks Shake-Up in Upper Ranks",
+    "url" : "https://www.wsj.com/finance/banking/citigroups-35-billion-bookkeeping-snafu-sparks-shake-up-in-upper-ranks-71d8afe9?mod=rss_markets_main",
+    "published" : "2026-11-28T01:44:00Z",
+    "excerpt" : "Several London-based executives are leaving as a top risk official oversees the cleanup from the bank’s trading hub."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "JPMorgan Plans a Private Club for Well-Heeled Clients in a 1930s Branch",
+    "url" : "https://www.wsj.com/finance/banking/jpmorgan-plans-a-private-club-for-well-heeled-clients-in-a-1930s-branch-c609a03c?mod=rss_markets_main",
+    "published" : "2026-11-28T00:00:00Z",
+    "excerpt" : "The mansion-like historic structure is being renovated for lounges and a dining room, kitchen and bar, city documents show."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Tech Stocks Jump as Investors Take a Break From AI Jitters",
+    "url" : "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846?mod=rss_markets_main",
+    "published" : "2026-11-27T21:16:00Z",
+    "excerpt" : "The Nasdaq composite finished its best week since April, while the Dow and S&P 500 also ended the week strong."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Treasury Yields Gain As U.S. Equities Rally",
+    "url" : "https://www.wsj.com/finance/investing/short-term-jgb-yields-rise-on-elevated-tokyo-inflation-data-713a900b?mod=rss_markets_main",
+    "published" : "2026-11-27T21:10:00Z",
+    "excerpt" : "U.S. Treasury yields recovered from their pre-Thanksgiving retreat and moved higher as equities posted Black Friday gains and the U.S. dollar strengthened."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Oil Futures Settle Lower Ahead of OPEC+ Policy Meeting",
+    "url" : "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1?mod=rss_markets_main",
+    "published" : "2026-11-27T20:47:00Z",
+    "excerpt" : "Oil futures ended the session lower with the market awaiting the weekend meeting of OPEC and its allies to discuss output policy for 2027."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "U.S. Natural Gas Futures Fall on Milder Near-Term Weather Outlook",
+    "url" : "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-fall-as-front-month-shifts-to-january-3b1ef621?mod=rss_markets_main",
+    "published" : "2026-11-27T20:44:00Z",
+    "excerpt" : "U.S. natural gas futures settled lower with the Nymex January contract falling 4.5% to $3.491/mmBtu in its first trading day at the front of the curve."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Precious Metals Rally as AI Trade Revives Risk Appetite",
+    "url" : "https://www.wsj.com/finance/commodities-futures/precious-metals-rally-as-ai-trade-revives-risk-appetite-86477a98?mod=rss_markets_main",
+    "published" : "2026-11-27T20:20:00Z",
+    "excerpt" : "Precious-metal prices surged as investors returned to the artificial-intelligence trade and global stocks rebounded, boosting risk appetite and easing pressure on assets that had been sold to meet liquidity needs."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Auto & Transport Roundup: Market Talk",
+    "url" : "https://www.wsj.com/business/earnings/auto-transport-roundup-market-talk-7ba86b3a?mod=rss_markets_main",
+    "published" : "2026-11-27T18:22:00Z",
+    "excerpt" : "Gain insight on Gulf airlines, Canadian autoworkers and more in the latest Market Talks covering the auto and transport sector."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Energy & Utilities Roundup: Market Talk",
+    "url" : "https://www.wsj.com/finance/investing/energy-utilities-roundup-market-talk-6ec085c9?mod=rss_markets_main",
+    "published" : "2026-11-27T18:15:00Z",
+    "excerpt" : "Find insight on oil futures, Serica Energy and more in the latest Market Talks covering energy and utilities."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "News Quiz for Nov. 28, 2026",
+    "url" : "https://www.wsj.com/articles/news-quiz-for-nov-28-2026-62cce1b4?mod=rss_Technology",
+    "published" : "2026-11-28T11:00:00Z",
+    "excerpt" : "Test your knowledge of the week’s events with The Wall Street Journal News Quiz."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Nvidia and Failing U.S. Export Controls",
+    "url" : "https://www.wsj.com/opinion/nvidia-chips-u-s-export-controls-china-jensen-huang-c457c915?mod=rss_Technology",
+    "published" : "2026-11-27T21:52:00Z",
+    "excerpt" : "New reports show the extent of Chinese access to high-end chips, a good subject for Congress to investigate."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Treasury Aims at China, Hits American Cancer Patients",
+    "url" : "https://www.wsj.com/opinion/treasury-aims-at-china-hits-american-cancer-patients-c6656739?mod=rss_Technology",
+    "published" : "2026-11-27T21:46:00Z",
+    "excerpt" : "A proposed federal ban on U.S. joint ventures with Chinese biotech could cut drug development in oncology by about 20%."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | AI Can Keep Americans Safer",
+    "url" : "https://www.wsj.com/opinion/ai-can-keep-americans-safer-67f03bcc?mod=rss_Technology",
+    "published" : "2026-11-27T16:36:00Z",
+    "excerpt" : "We shouldn’t focus only on the dangers AI presents."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Allstate Joins Growing List of Companies Hit by Tech Outages",
+    "url" : "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488?mod=rss_Technology",
+    "published" : "2026-11-27T12:48:00Z",
+    "excerpt" : "The multiday outage has left customers struggling to reach the insurer during one of the year’s busiest travel weeks."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "Lundbeck, Top Antidepressant Maker, Weighs Move Into Psychedelics",
+    "url" : "https://www.wsj.com/health/pharma/lundbeck-top-antidepressant-maker-weighs-move-into-psychedelics-970e5d96?mod=rss_Technology",
+    "published" : "2026-11-27T12:43:00Z",
+    "excerpt" : "The company’s chief executive said the Danish drugmaker was mapping the space and was looking at early- and late-stage companies for deals to expand into the sector."
+  }, {
+    "beat" : "markets",
+    "source" : "The Wall Street Journal",
+    "title" : "A Buyer’s Guide to Stress-Free Electronics Shopping This Season",
+    "url" : "https://www.wsj.com/tech/personal-tech/a-buyers-guide-to-stress-free-electronics-shopping-this-season-8291ed38?mod=rss_Technology",
+    "published" : "2026-11-27T10:30:00Z",
+    "excerpt" : "By utilizing price-tracking tools and doing some homework, you can complete your tech shopping list without going broke."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+    "url" : "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+    "published" : "2026-11-28T15:00:00Z",
+    "excerpt" : "“Given my age, I never make a major new purchase without thinking about the future.”"
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "What’s the most tax-efficient way to donate to charity?",
+    "url" : "https://www.marketwatch.com/story/whats-the-most-tax-efficient-way-to-donate-to-charity-3f5864bb?mod=mw_rss_topstories",
+    "published" : "2026-11-28T14:27:00Z",
+    "excerpt" : "How to make your donations beneficial for both you and the recipient"
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+    "url" : "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+    "published" : "2026-11-28T14:01:00Z",
+    "excerpt" : "“He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”"
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+    "url" : "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+    "published" : "2026-11-28T13:30:00Z",
+    "excerpt" : "Doing nothing and maintaining an even temperament is often the work of gods."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
+    "url" : "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
+    "published" : "2026-11-28T13:00:00Z",
+    "excerpt" : "Some countercultural advice this Black Friday: stop buying stuff, plus other rules for downsizing."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "These tech stocks may let you play defense without giving up on AI",
+    "url" : "https://www.marketwatch.com/story/these-tech-stocks-may-let-you-play-defense-without-giving-up-on-ai-523ce26d?mod=mw_rss_topstories",
+    "published" : "2026-11-28T12:30:00Z",
+    "excerpt" : "Amphenol, CDW, Sensata Technologies and TE Connectivity stood out when an Evercore analyst did a stress test of the hardware-related stocks he covers."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+    "url" : "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+    "published" : "2026-11-27T20:16:00Z",
+    "excerpt" : "Nvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026."
+  }, {
+    "beat" : "markets",
+    "source" : "MarketWatch",
+    "title" : "Coming next year: Medicare Advantage plans without drug coverage for almost 640,000 people and fewer choices for the rest",
+    "url" : "https://www.marketwatch.com/story/coming-next-year-medicare-advantage-plans-without-drug-coverage-for-almost-640-000-people-and-fewer-choices-for-the-rest-25242d69?mod=mw_rss_topstories",
+    "published" : "2026-11-27T19:55:00Z",
+    "excerpt" : "Medicare Advantage is starting to lose its all-in-one benefit."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "He fought the Education Department — and won back his student loan forgiveness credit. What other borrowers can learn",
+    "url" : "https://www.cnbc.com/2026/11/28/pslf-payment-count-errors-borrower-restored-credit.html",
+    "published" : "2026-11-28T14:34:57Z",
+    "excerpt" : "After the Education Department cut his PSLF count, Nicholas Yund fought to restore it, documenting his payments and seeking help from lawmakers."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "The Iran war could shatter rising expectations of surplus oil supply in coming months",
+    "url" : "https://www.cnbc.com/2026/11/28/oil-price-iran-war-strait-hormuz-surplus.html",
+    "published" : "2026-11-28T14:34:51Z",
+    "excerpt" : "Oil prices have sold off in November as investors see a recovery in Middle East exports leading to surpluses for the first time since the war began."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "AI data center boom strains construction labor across the U.S.",
+    "url" : "https://www.cnbc.com/2026/11/28/ai-data-center-construction-worker-shortage-texas.html",
+    "published" : "2026-11-28T14:00:01Z",
+    "excerpt" : "CNBC traveled to Abilene, Texas to see how the AI data center construction boom is impacting the local economy in both positive and negative ways."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Billions on the line for Berkshire utility as Oregon's high court reviews wildfire claims",
+    "url" : "https://www.cnbc.com/2026/11/28/berkshire-utility-wildfire-claims.html",
+    "published" : "2026-11-28T13:46:46Z",
+    "excerpt" : "Berkshire Hathaway's PacifiCorp and attorneys for thousands of plaintiffs are welcoming a decision by Oregon's Supreme Court to widen its review of a 2023 lower court trial in which a jury awarded more than one billion in damages over four wildfires in 2020."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "The doctor, the patient and the smartwatch: What physicians think of the third voice at your appointment",
+    "url" : "https://www.cnbc.com/make-it/2026/11/28/wearable-health-trackers-doctors.html",
+    "published" : "2026-11-28T13:00:02Z",
+    "excerpt" : "Many Americans use a smartwatch or fitness tracker to collect their health data, and doctors say the devices are increasingly becoming part of annual checkups."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
+    "url" : "https://www.cnbc.com/2026/11/28/saudi-arabia-vision-2030-spending.html",
+    "published" : "2026-11-28T06:00:01Z",
+    "excerpt" : "The Kingdom is moving from \"spending and delivery at any cost\" to \"spending and delivery at the right cost,\" Economic Minister Faisal Alibrahim told CNBC."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+    "url" : "https://www.cnbc.com/2026/11/28/dangote-refinery-oil-ipo-nigeria-africa-energy.html",
+    "published" : "2026-11-28T06:00:01Z",
+    "excerpt" : "Dangote Refinery’s IPO could value the company at about $47 billion, in what is expected to be Africa’s biggest stock market listing."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+    "url" : "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+    "published" : "2026-11-27T22:00:57Z",
+    "excerpt" : "Even as consumers face macroeconomic headwinds, retailers are expecting robust holiday spending through Black Friday and beyond."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
+    "url" : "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+    "published" : "2026-11-27T18:46:20Z",
+    "excerpt" : "Jensen Huang's return sparked a fleeting AI rally, but persistent market volatility gave us another opportunity to put cash to work."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
+    "url" : "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+    "published" : "2026-11-27T18:24:06Z",
+    "excerpt" : "SpaceX shares jumped in trading Friday after Elon Musk said on X that he would donate shares to American children every year."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+    "url" : "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+    "published" : "2026-11-27T18:20:32Z",
+    "excerpt" : "Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+    "url" : "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+    "published" : "2026-11-27T16:43:14Z",
+    "excerpt" : "AI shopping agents from OpenAI, Meta, Google and Instinct promise to help users shop, but they're hitting roadblocks at Amazon and other retailers."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+    "url" : "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+    "published" : "2026-11-27T14:52:40Z",
+    "excerpt" : "SAP is reportedly considering cutting 10,000 jobs as it reshapes its software business around AI."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+    "url" : "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+    "published" : "2026-11-27T12:00:22Z",
+    "excerpt" : "AI stocks have fallen in recent times as investors question the sustainability of the AI boom."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Tech rally lifts stock futures to wrap up a volatile week of trading",
+    "url" : "https://www.cnbc.com/2026/11/27/tech-rally-lifts-stock-futures-to-wrap-up-a-volatile-week-of-trading.html",
+    "published" : "2026-11-27T11:55:41Z",
+    "excerpt" : "President Trump demands a probe into the GDP revision data."
+  }, {
+    "beat" : "markets",
+    "source" : "CNBC",
+    "title" : "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+    "url" : "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+    "published" : "2026-11-27T10:13:44Z",
+    "excerpt" : "Chinese stocks rebounded sharply after a rare intraday state media readout cheered investors as top policymakers pledged market liquidity support."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "A.I. Companies Race for Space in New York, a City That Doesn’t Have Much of It",
+    "url" : "https://www.nytimes.com/2026/11/28/business/ai-offices-nyc-perplexity.html",
+    "published" : "2026-11-28T10:00:44Z",
+    "excerpt" : "The artificial intelligence boom is on track to help lift Manhattan’s office market to its strongest year since 2000. But as the market tightens, A.I. companies have had to get creative for real estate."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "NBC Pulls an Ad That Some Described as Antisemitic",
+    "url" : "https://www.nytimes.com/2026/11/27/business/media/nbc-ad-snl.html",
+    "published" : "2026-11-28T00:46:42Z",
+    "excerpt" : "The commercial appeared during a “Saturday Night Live” holiday special on Wednesday."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "How to Live Calmly, Despite Stock Market Whiplash",
+    "url" : "https://www.nytimes.com/2026/11/27/business/nvidia-jensen-huang-trump-markets.html",
+    "published" : "2026-11-27T22:16:28Z",
+    "excerpt" : "Nvidia has been down, up, and down again, and the market has followed. But there’s no need for long-term, diversified investors to alter their course, our columnist says."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Photos: Macy’s Thanksgiving Day Parade History and Wacky Moments",
+    "url" : "https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-parade-history-timeline.html",
+    "published" : "2026-11-27T19:28:36Z",
+    "excerpt" : "It isn’t always easy to keep New York City’s Thanksgiving parade on track. Here’s a look back at notable moments and mishaps."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Stocks Rally at End of a Week of Wild Swings",
+    "url" : "https://www.nytimes.com/2026/11/27/business/stocks-tech-stocks-ai.html",
+    "published" : "2026-11-27T18:13:54Z",
+    "excerpt" : "Volatility has buffeted investors in an eventful but holiday-shortened series of trading sessions."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "It’s Boom Times for Old TV Shows. New TV, Not So Much.",
+    "url" : "https://www.nytimes.com/2026/11/27/business/media/old-tv-shows-mad-men.html",
+    "published" : "2026-11-27T17:02:48Z",
+    "excerpt" : "Fewer original series, decision fatigue and a desire for comfort have viewers escaping to the past."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Holiday Deals Are Tempting. Here’s How to Avoid Buyer’s Remorse.",
+    "url" : "https://www.nytimes.com/2026/11/27/business/holiday-shopping-deals-spending.html",
+    "published" : "2026-11-27T15:29:56Z",
+    "excerpt" : "Some deals are too good to be true. Experts suggest doing the math, making lists and avoiding using “buy now, pay later” platforms to make purchases."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Black Friday Deals and Holiday Sales Are Big Money for Influencers",
+    "url" : "https://www.nytimes.com/2026/11/27/business/influencers-black-friday-deals-holiday-shopping.html",
+    "published" : "2026-11-27T15:29:06Z",
+    "excerpt" : "A growing part of a brand’s Black Friday and Cyber Monday marketing strategy rests on paying top dollar for social media influencers to post videos."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "How A.I. Is Transforming Mathematics",
+    "url" : "https://www.nytimes.com/2026/11/27/podcasts/hardfork-terence-tao.html",
+    "published" : "2026-11-27T11:00:20Z",
+    "excerpt" : "“One thing that A.I. has done is that it’s given us answers without insight, without understanding.”"
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Jensen Huang Is Back, and So Is His Plaque at Denny’s",
+    "url" : "https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
+    "published" : "2026-11-27T10:17:23Z",
+    "excerpt" : "The chain said it had restored a plaque honoring Mr. Huang above a booth in San Jose, Calif., where he is said to have developed the idea for Nvidia."
+  }, {
+    "beat" : "markets",
+    "source" : "The New York Times",
+    "title" : "Why Some A.I. Evangelists Aren’t Bothered by the Potential for Human Extinction",
+    "url" : "https://www.nytimes.com/2026/11/27/magazine/ai-silicon-valley-human-extinction.html",
+    "published" : "2026-11-27T10:01:01Z",
+    "excerpt" : "Understanding the set of beliefs that drives the Silicon Valley vanguard."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "CZ says Netflix’s ‘The Altruists’ is ‘basically defamation,’ says he is talking to lawyers",
+    "url" : "https://www.theblock.co/news/business/2026-11-28-cz-says-netflixs-the-altruists-is-basically-defamation-says-he-is-talking-to-lawyers-447599",
+    "published" : "2026-11-28T15:16:48Z",
+    "excerpt" : "Zhao said the show may be trying to shift public perception ahead of a possible pardon push for convicted FTX founder Sam Bankman-Fried."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
+    "url" : "https://www.theblock.co/newsletters/the-daily/2026-11-27-bitcoin-recovery-usdt-supply-ai-threat-bitcoin-more-crypto-news-447571",
+    "published" : "2026-11-28T04:11:00Z",
+    "excerpt" : "In today's newsletter, CryptoQuant says bitcoin price recovery needs USDT supply growth; K33 assesses AI's growing threat to Bitcoin security; and more."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "CryptoQuant says bitcoin price recovery needs USDT supply growth",
+    "url" : "https://www.theblock.co/news/markets/2026-11-27-cryptoquant-bitcoin-price-recovery-usdt-supply-growth-447560",
+    "published" : "2026-11-27T18:13:45Z",
+    "excerpt" : "Bitcoin needs USDT supply to start growing again for a sustained price recovery, according to CryptoQuant."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "Tether buys $10 million of Bitdeer shares as stock hovers near all-time low",
+    "url" : "https://www.theblock.co/news/business/2026-11-27-tether-buys-10-million-of-bitdeer-shares-as-stock-hovers-near-all-time-low-447554",
+    "published" : "2026-11-27T15:00:21Z",
+    "excerpt" : "USDT issuer Tether spent about $10 million earlier this week to acquire 3.72 million Bitdeer Class A ordinary shares."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "AI math breakthroughs revive Bitcoin security fears, but practical threat remains unproven: K33",
+    "url" : "https://www.theblock.co/news/ecosystems/2026-11-27-ai-math-breakthroughs-revive-bitcoin-security-fears-but-practical-threat-remains-unproven-k33-447549",
+    "published" : "2026-11-27T14:24:21Z",
+    "excerpt" : "K33 said recent mathematical advances had not demonstrated a compromise of Bitcoin's cryptography, while urging closer attention to AI."
+  }, {
+    "beat" : "markets",
+    "source" : "The Block",
+    "title" : "Bank of Japan official says stablecoins need reserve rules to preserve ‘singleness of money’",
+    "url" : "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
+    "published" : "2026-11-27T10:45:02Z",
+    "excerpt" : "Japan’s central bank warned that stablecoins and tokenized deposits need safeguards to prevent fragmentation across the financial system."
+  }, {
+    "beat" : "markets",
+    "source" : "Net Interest",
+    "title" : "Supply and Demand",
+    "url" : "https://www.netinterest.co/p/supply-and-demand",
+    "published" : "2026-11-23T15:38:25Z",
+    "excerpt" : "&#8220;For fifty years I’ve been doing this. I can’t remember a period where I had less clarity on where we’re going to be in 12 months &#8212; Stan Druckenmiller I spent a few days in Austin last week at the TomorrowX investment conference. Its theme was AI &#8211; what else &#8211; yet while the mood in the room was upbeat, havoc was playing out in markets. Unmoved by the leather-clad executives strutting the stage, the Nasdaq lost 10% of its value over the week, before Jensen Huang’s return…"
+  }, {
+    "beat" : "markets",
+    "source" : "The Diff",
+    "title" : "Fungible Leadership",
+    "url" : "https://www.thediff.co/archive/fungible-leadership/",
+    "published" : "2026-11-27T15:49:35Z",
+    "excerpt" : "Plus! Failure Modes; More Liquidity; The Cycle; Closed-Cycle Businesses; Agentic Shopping"
+  }, {
+    "beat" : "health-tech",
+    "source" : "STAT",
+    "title" : "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+    "url" : "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/?utm_campaign=rss",
+    "published" : "2026-11-27T16:00:54Z",
+    "excerpt" : "The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns."
+  }, {
+    "beat" : "health-tech",
+    "source" : "STAT",
+    "title" : "The stories we’re grateful for this year",
+    "url" : "https://www.statnews.com/2026/11/27/favorite-stat-stories-health-news-morning-rounds/?utm_campaign=rss",
+    "published" : "2026-11-27T15:49:05Z",
+    "excerpt" : "STAT staffers have put together a list of the stories we’re thankful for this year — check out our favorites."
+  }, {
+    "beat" : "health-tech",
+    "source" : "STAT",
+    "title" : "STAT+: Here are some health AI conversation starters for the holidays",
+    "url" : "https://www.statnews.com/2026/11/27/health-ai-conversation-starters-for-holidays-ai-prognosis/?utm_campaign=rss",
+    "published" : "2026-11-27T14:54:22Z",
+    "excerpt" : "In this edition of STAT's AI Prognosis: Health stories that can be conversation starters at family gatherings during for the holidays."
+  }, {
+    "beat" : "health-tech",
+    "source" : "STAT",
+    "title" : "Pregnancy is the ‘perfect storm’ for eating disorders, but doctors keep missing them",
+    "url" : "https://www.statnews.com/2026/11/27/pregnancy-eating-disorders-expanded-doctor-screening-needed/?utm_campaign=rss",
+    "published" : "2026-11-27T09:30:00Z",
+    "excerpt" : "Many women struggle with eating disorders before and after childbirth, but they often slip through the cracks of the U.S. health care system."
+  }, {
+    "beat" : "health-tech",
+    "source" : "STAT",
+    "title" : "Opinion: Montana’s ‘right to try’ law makes patients responsible for bearing costs — and risks",
+    "url" : "https://www.statnews.com/2026/11/27/montana-sb-535-right-to-try-questions-risks-costs-insurance/?utm_campaign=rss",
+    "published" : "2026-11-27T09:30:00Z",
+    "excerpt" : "Montana has become the first state to have its own ‘right to try’ law, but important questions remain, researchers write."
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "Amazon discriminated against Iranian job candidate under global hiring policy, Ontario tribunal rules",
+    "url" : "https://www.geekwire.com/2026/amazon-discriminated-against-iranian-job-candidate-under-global-hiring-policy-ontario-tribunal-rules/",
+    "published" : "2026-11-27T22:21:11Z",
+    "excerpt" : "An Ontario tribunal ruled that Amazon discriminated against a Toronto engineer because of his Iranian citizenship. Amazon's global policy barred some Iranian citizens from jobs involving access to its encrypted technology. Read More"
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "Companies want AI-ready workers. Are they willing to adapt, too?",
+    "url" : "https://www.geekwire.com/2026/companies-want-ai-ready-workers-are-they-willing-to-adapt-too/",
+    "published" : "2026-11-27T21:00:00Z",
+    "excerpt" : "Employers want AI-ready workers. Arif Gursel of 8genC says they need to be AI-ready workplaces, too. A new Washington study shows how wide the gap is between what employers expect and what young adults feel prepared for. Read More"
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "Get a reality check on ‘Blade Runner 2099’ and other AI nightmares",
+    "url" : "https://www.geekwire.com/2026/get-a-reality-check-on-blade-runner-2099-and-other-ai-nightmares/",
+    "published" : "2026-11-27T18:04:29Z",
+    "excerpt" : "Researchers weigh in on the fact and fiction in future-noir sequel — and in the way we think about artificial intelligence amid a fast-changing age of AI. Read More"
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "Seattle skier vibe-codes ‘Pow Pow,’ a new snow report app that doesn’t sugarcoat the conditions",
+    "url" : "https://www.geekwire.com/2026/seattle-skier-vibe-codes-pow-pow-a-new-snow-report-app-that-doesnt-sugarcoat-the-conditions/",
+    "published" : "2026-11-27T16:30:12Z",
+    "excerpt" : "Microsoft product designer Jeremy Sanford used AI tools to build the app he always wanted: snow reports he can trust, with a little attitude. Read More"
+  }, {
+    "beat" : "seattle",
+    "source" : "GeekWire",
+    "title" : "Startup Spotlight: Aventide builds AI client management software for consultants and coaches",
+    "url" : "https://www.geekwire.com/2026/startup-spotlight-aventide-builds-ai-client-management-software-for-consultants-and-coaches/",
+    "published" : "2026-11-27T15:30:00Z",
+    "excerpt" : "Christian Quiver and Eric Baxter met in a grocery store parking lot and agreed to a 90-day trial run. Four years later, their startup is building AI software that drafts proposals, invoices and follow-ups for solo business owners, who approve each one before it goes out. Read More"
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Israeli Strike Kills 2 Workers at Gaza Clinic, Doctors Without Borders Says",
+    "url" : "https://www.nytimes.com/2026/11/28/world/middleeast/israeli-strike-kills-two-workers-at-gaza-clinic.html",
+    "published" : "2026-11-28T15:18:21Z",
+    "excerpt" : "The aid group condemned the attack on a medical facility. Israel said it had conducted a targeted strike that killed two security guards it said were Hamas operatives."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "A Critic of Beijing Falls Short in Taiwan’s Key Mayoral Election",
+    "url" : "https://www.nytimes.com/2026/11/28/world/asia/taiwan-election-taipei-china.html",
+    "published" : "2026-11-28T15:09:10Z",
+    "excerpt" : "The result in the capital was part of broader local elections and will probably bring a sigh of relief in China, which claims the island as its territory."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Ukraine’s Deep Strikes Grow in Scale and Scope Across Russia and Beyond",
+    "url" : "https://www.nytimes.com/2026/11/28/world/europe/ukraine-russia-long-range-strikes.html",
+    "published" : "2026-11-28T13:25:26Z",
+    "excerpt" : "A campaign aimed at depriving Moscow’s war machine of fuel, weapons and money has been criticized by the Trump administration."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Princess Catherine’s Cancer Documentary ‘Heal’: 3 Takeaways",
+    "url" : "https://www.nytimes.com/2026/11/27/world/europe/princess-catherine-kate-heal-cancer-documentary.html",
+    "published" : "2026-11-28T11:26:45Z",
+    "excerpt" : "‘Heal,’ a 30-minute authorized documentary released this week, offers glimpses into Catherine’s recovery since her 2024 cancer diagnosis and treatment."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Retail Therapy",
+    "url" : "https://www.nytimes.com/2026/11/28/briefing/retail-therapy.html",
+    "published" : "2026-11-28T11:19:47Z",
+    "excerpt" : "It’s holiday shopping season. Do not panic."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Behind the Story: Canada’s Border Rules Are Splitting Up Haitian Families",
+    "url" : "https://www.nytimes.com/2026/11/28/world/canada/us-border-haitian-families-third-safe-country.html",
+    "published" : "2026-11-28T11:00:08Z",
+    "excerpt" : "Asylum seekers coming from the U.S. must qualify for an exception to the Safe Third Country Agreement to make a refugee claim at a Canadian border crossing."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Canada’s Arctic Reservists Know the Land. Fewer Young People Do.",
+    "url" : "https://www.nytimes.com/2026/11/28/world/canada/canada-rangers-quebec-arctic-military.html",
+    "published" : "2026-11-28T10:00:44Z",
+    "excerpt" : "Canada relies on Inuit and First Nations Rangers’ traditional knowledge of the land to protect its most inhospitable corners. But that knowledge is disappearing."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Freed From a Notorious Syrian Prison, but Still Trapped by Its Terror",
+    "url" : "https://www.nytimes.com/2026/11/28/world/middleeast/freed-from-a-notorious-syrian-prison-but-still-trapped-by-its-terror.html",
+    "published" : "2026-11-28T10:00:23Z",
+    "excerpt" : "Ahmed al-Shalh expected to perish in Sednaya prison. Abruptly released after a decade, he reveled in marriage and fatherhood but struggled to shake his ghosts."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Far-Right Vigilantes Have Inflamed France’s Unrest, Officials Say",
+    "url" : "https://www.nytimes.com/2026/11/28/world/europe/france-right-gangs-unrest.html",
+    "published" : "2026-11-28T05:01:18Z",
+    "excerpt" : "Through weeks of antigovernment unrest, hard-right activists have fought with left-wing counterparts in at least 10 towns, according to national and regional leaders."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Abroad, Spain’s Leader Is a Left-Wing Hero. Will He Lose Power at Home?",
+    "url" : "https://www.nytimes.com/2026/11/28/world/europe/spain-pedro-sanchez-conservatives-election.html",
+    "published" : "2026-11-28T05:01:10Z",
+    "excerpt" : "Prime Minister Pedro Sánchez, a staunch critic of President Trump, faces an uphill task to overcome a right-wing challenge in the national election on Sunday."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Millions of Children Are Losing Food Stamps",
+    "url" : "https://www.nytimes.com/2026/11/28/us/politics/millions-of-children-are-losing-food-stamps.html",
+    "published" : "2026-11-28T10:02:18Z",
+    "excerpt" : "Republicans said the cuts, part of their domestic policy bill, would root out fraud and push adults to work. But two million children have lost benefits."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "This Seattle Engineering Marvel Hid a Mystery: Pyramids of Dead Fish",
+    "url" : "https://www.nytimes.com/2026/11/28/us/dead-fish-mystery-seattle.html",
+    "published" : "2026-11-28T10:02:01Z",
+    "excerpt" : "What could have caused the piles of carcasses beneath the mile-and-a-half-long floating bridge that extended Seattle’s light rail across a lake?"
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Trump’s Embrace of Xi and Huang Stuns China Critics in Washington",
+    "url" : "https://www.nytimes.com/2026/11/28/us/politics/trump-china-critics-nvidia.html",
+    "published" : "2026-11-28T05:19:36Z",
+    "excerpt" : "Warnings from hard-liners have grown more urgent amid what some call a winner-take-all race for A.I. dominance."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Supreme Court Rulings Cheered by Republicans Wound Up Hurting Them",
+    "url" : "https://www.nytimes.com/2026/11/27/us/politics/supreme-court-rulings-midterms-voting.html",
+    "published" : "2026-11-28T02:46:33Z",
+    "excerpt" : "Decisions on voting rights, immigration and corruption generated a backlash that helped spur turnout that drove the Democratic sweep of Congress."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Planning Board to Hold Last-Minute Meeting to Consider Trump’s D.C. Construction",
+    "url" : "https://www.nytimes.com/2026/11/27/us/politics/planning-board-trump-construction-meeting.html",
+    "published" : "2026-11-28T02:33:52Z",
+    "excerpt" : "President Trump will lose control over the National Capital Planning Commission after Democrats take control of Congress in January. It could give final approval to some of his prized projects."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "For One Stormy Moment, D.C. Reveled in a Blank Wall Where Trump’s Name Once Hung",
+    "url" : "https://www.nytimes.com/2026/11/27/us/politics/kennedy-center-trump-name-tarp.html",
+    "published" : "2026-11-28T01:26:03Z",
+    "excerpt" : "High winds dislodged a section of tarp obscuring the removal of the president’s name from the John F. Kennedy Center for the Performing Arts, whipping up some members of the capital."
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "Five Big Questions for the 2028 Presidential Race",
+    "url" : "https://www.nytimes.com/2026/11/27/us/politics/2028-presidential-race-questions.html",
+    "published" : "2026-11-27T23:51:52Z",
+    "excerpt" : "Will JD Vance and Marco Rubio run? What about Kamala Harris and Alexandria Ocasio-Cortez? And, of course, what role will President Trump play?"
+  }, {
+    "beat" : "world",
+    "source" : "The New York Times",
+    "title" : "In Democrats vs. Trump, the Loser May Be Federal Contractors",
+    "url" : "https://www.nytimes.com/2026/11/27/us/politics/trump-congressional-investigations-contractors.html",
+    "published" : "2026-11-27T15:47:57Z",
+    "excerpt" : "The incoming Democratic majorities have begun targeting businesses and other outsiders in their planned inquiries, but the president has threatened to fire them if they comply without his permission."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Americans Have More Riding on the Stock Market Than Ever",
+    "url" : "https://www.wsj.com/world/americans-have-more-riding-on-the-stock-market-than-ever-69846861?mod=rss_worldnews",
+    "published" : "2026-11-28T12:02:00Z",
+    "excerpt" : "Plus, a family feud as big as Texas hangs over Houston’s NFL team, and inside China’s $4 billion secondhand luxury boom."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "News Quiz for Nov. 28, 2026",
+    "url" : "https://www.wsj.com/articles/news-quiz-for-nov-28-2026-62cce1b4?mod=rss_worldnews",
+    "published" : "2026-11-28T11:00:00Z",
+    "excerpt" : "Test your knowledge of the week’s events with The Wall Street Journal News Quiz."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "S&P Revises Outlook on France’s Credit Rating to Negative From Stable",
+    "url" : "https://www.wsj.com/world/europe/s-p-revises-outlook-on-french-credit-rating-to-negative-from-stable-eab7384f?mod=rss_worldnews",
+    "published" : "2026-11-28T10:19:00Z",
+    "excerpt" : "The decision paves the way for a rating downgrade as mounting public debt and political uncertainty threaten the country’s finances."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "A Handgun on His Hip, Colombia’s New President Turns Drug War Into Theater",
+    "url" : "https://www.wsj.com/world/americas/colombia-president-espriella-military-drug-traffickers-17a62644?mod=rss_worldnews",
+    "published" : "2026-11-28T03:00:00Z",
+    "excerpt" : "Abelardo de la Espriella is waging war on cocaine-fueled guerrillas, but fiscal woes and heavily armed militants pose obstacles."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Why Karl Marx’s Ideas Are Making a Comeback in Europe",
+    "url" : "https://www.wsj.com/world/europe/why-karl-marxs-ideas-are-making-a-comeback-in-europe-79c4330b?mod=rss_worldnews",
+    "published" : "2026-11-28T03:00:00Z",
+    "excerpt" : "From nationalizations to price controls, socialist policies are experiencing a renaissance across Europe."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "How Starlink Limits Force Ukraine to Fight With the Brakes On",
+    "url" : "https://www.wsj.com/world/how-starlink-limits-force-ukraine-to-fight-with-the-brakes-on-3fd1d605?mod=rss_worldnews",
+    "published" : "2026-11-28T03:00:00Z",
+    "excerpt" : "Fly a drone too fast and the connection might cut out. Too slow, and it becomes easier to intercept."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Nvidia and Failing U.S. Export Controls",
+    "url" : "https://www.wsj.com/opinion/nvidia-chips-u-s-export-controls-china-jensen-huang-c457c915?mod=rss_worldnews",
+    "published" : "2026-11-27T21:52:00Z",
+    "excerpt" : "New reports show the extent of Chinese access to high-end chips, a good subject for Congress to investigate."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Vladimir Putin: Grandmaster of Stalemate",
+    "url" : "https://www.wsj.com/opinion/vladimir-putin-grandmaster-of-stalemate-ddd1c304?mod=rss_worldnews",
+    "published" : "2026-11-27T21:48:00Z",
+    "excerpt" : "The Russian president will make no concessions in Ukraine, even as the war he started destroys his country."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Opinion | Treasury Aims at China, Hits American Cancer Patients",
+    "url" : "https://www.wsj.com/opinion/treasury-aims-at-china-hits-american-cancer-patients-c6656739?mod=rss_worldnews",
+    "published" : "2026-11-27T21:46:00Z",
+    "excerpt" : "A proposed federal ban on U.S. joint ventures with Chinese biotech could cut drug development in oncology by about 20%."
+  }, {
+    "beat" : "world",
+    "source" : "The Wall Street Journal",
+    "title" : "Oil Futures Settle Lower Ahead of OPEC+ Policy Meeting",
+    "url" : "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550?mod=rss_worldnews",
+    "published" : "2026-11-27T20:31:00Z",
+    "excerpt" : "Oil futures settled lower with traders weighing renewed threats to Middle Eastern supplies and awaiting a weekend meeting of the Organization of the Petroleum Exporting Countries and its allies to discuss output policy for 2027."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Afghanistan explosion kills 10 students and injures more than 100, official says",
+    "url" : "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T14:10:01Z",
+    "excerpt" : "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Argentina's bid to stop Falklands oil drilling rejected",
+    "url" : "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T13:36:36Z",
+    "excerpt" : "A joint venture between UK-Israeli companies is set to start exploring for oil and gas, but Argentina sought to block it as part of its claim to sovereignty."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "OpenAI counter-sues Apple over alleged theft of trade secrets",
+    "url" : "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T11:35:34Z",
+    "excerpt" : "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+    "url" : "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T10:34:58Z",
+    "excerpt" : "The Israeli military says it targeted \"Hamas terrorists\" in the strike which has been condemned by the World Health Organization."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Australian wrestler Bronson Reed dies aged 38, WWE says",
+    "url" : "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T07:31:14Z",
+    "excerpt" : "Tributes have flooded in for the 38-year-old Australian who is survived by his pregnant wife, Paige, their daughter."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Eight killed in Peruvian military helicopter crash",
+    "url" : "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T04:19:16Z",
+    "excerpt" : "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+    "url" : "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T04:13:45Z",
+    "excerpt" : "The headquarters of Halk TV were raided last month, the latest in a series of crackdowns on news sources deemed critical of the government."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "Nigeria's acting legend who was loved across Africa and beyond",
+    "url" : "https://www.bbc.co.uk/news/articles/cm3vg3lkrk03o?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T01:20:35Z",
+    "excerpt" : "Before becoming a household name in the Nigerian film industry, Edochie built a career in broadcasting."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "'Poison seller' Kenneth Law apologises in court to the families of his victims",
+    "url" : "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T00:56:55Z",
+    "excerpt" : "The Canadian man, who pleaded guilty to 14 counts of aiding and abetting suicide earlier this year, said he was remorseful for his actions."
+  }, {
+    "beat" : "world",
+    "source" : "BBC News",
+    "title" : "The Indian 'Tamasha queen' whose fans paid for a show that never happened",
+    "url" : "https://www.bbc.co.uk/news/articles/cj20q9pw0116o?at_medium=RSS&at_campaign=rss",
+    "published" : "2026-11-28T00:50:11Z",
+    "excerpt" : "A new Bollywood flim spotlights the remarkable life of dancer and singer Vithabhai Narayangaonkar."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "COP31 climate talks fail to reach an agreement on fossil fuel language",
+    "url" : "https://www.npr.org/2026/11/28/nx-s1-6050187/cop31-talks-fall-apart",
+    "published" : "2026-11-28T14:28:45Z",
+    "excerpt" : "U.N. climate talks collapsed over whether to mention fossil fuels that cause global warning. Several countries and the E.U. would not accept a final proposal without this."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Perspective: A hero's name lives on",
+    "url" : "https://www.npr.org/2026/11/28/nx-s1-6045586/perspective-a-heros-name-lives-on",
+    "published" : "2026-11-28T13:00:00Z",
+    "excerpt" : "During Pearl Harbor, sailor Doris Miller carried the wounded to safety and fired a machine gun at Japanese planes. Next week, construction of a new aircraft carrier, the USS Doris Miller, begins."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
+    "url" : "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
+    "published" : "2026-11-28T11:32:37Z",
+    "excerpt" : "Local officials said the blast appeared to have originated in a neighboring depot for mining explosives."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "New wave of Democratic attorneys general may reshape the justice system",
+    "url" : "https://www.npr.org/2026/11/28/g-s1-155837/democratic-attorneys-general-justice-system-texas",
+    "published" : "2026-11-28T10:00:00Z",
+    "excerpt" : "The Democratic victories could have major effects for what alleged crimes are investigated, lawsuits filed and court cases heard across the U.S."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Sudan's lost generation: War is stealing the childhood of millions",
+    "url" : "https://www.npr.org/2026/11/27/nx-s1-6053049/sudans-lost-generation-war-is-stealing-a-generation-of-childhood",
+    "published" : "2026-11-27T22:54:53Z",
+    "excerpt" : "Three years of war have stolen childhood from millions of children in Sudan, leaving them displaced, hungry and fighting for survival instead of learning in a classroom."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+    "url" : "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+    "published" : "2026-11-27T11:59:02Z",
+    "excerpt" : "A powerful storm knocked out power for nearly 1 million customers and flooded streets. And, experts predict inflation will not dampen American spending for the holidays"
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+    "url" : "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
+    "published" : "2026-11-27T11:49:50Z",
+    "excerpt" : "The case has become one of the most prominent in France's reckoning with sexual violence, as the #MeToo movement has faced resistance in the country, particularly in the arts."
+  }, {
+    "beat" : "world",
+    "source" : "NPR",
+    "title" : "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+    "url" : "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday",
+    "published" : "2026-11-27T10:59:36Z",
+    "excerpt" : "A storm battered much of the country on Thursday, knocking out power to thousands of homes and disrupting travel. Today, Black Friday shopping deals kick off, and on Saturday New York City will hold the postponed Macy's Thanksgiving Day Parade."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "U.S. repelled drone incursion at British air base",
+    "url" : "https://www.washingtonpost.com/world/2026/11/28/us-military-repelled-drone-incursion-british-air-base/",
+    "published" : "2026-11-28T14:38:49Z",
+    "excerpt" : "In the mid-November incident at RAF Lakenheath, drones were deflected by U.S. electronic jamming mechanisms and other defenses, officials said Saturday."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Mexico City seethes over repeated viral episodes of ‘gringo racism’",
+    "url" : "https://www.washingtonpost.com/world/2026/11/28/mexico-city-seethes-over-repeated-viral-episodes-gringo-racism/",
+    "published" : "2026-11-28T11:00:00Z",
+    "excerpt" : "The events have inflamed a wider debate over skyrocketing rental prices, gentrification and a flood of tourism."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "This top Ukrainian commander calls withdrawal from Donbas ‘unacceptable.’ He’s not alone.",
+    "url" : "https://www.washingtonpost.com/world/2026/11/28/this-top-ukrainian-commander-calls-withdrawal-donbas-unacceptable-hes-not-alone/",
+    "published" : "2026-11-28T10:00:00Z",
+    "excerpt" : "Uncompromising views like those of Brig. Gen. Andriy Biletsky, the powerful leader of the Vivaldi Offensive, underscore President Volodymyr Zelensky’s limited room to maneuver in peace talks."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Spanish voters are about to get their say on high living costs",
+    "url" : "https://www.washingtonpost.com/world/2026/11/28/spanish-voters-are-about-get-their-say-high-living-costs/",
+    "published" : "2026-11-28T10:00:00Z",
+    "excerpt" : "With a national election Sunday, anger over living costs and a housing crisis could turn younger voters against a leftist government many say they’d otherwise support."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "Mexico condemns DEA tip line asking people to report corrupt officials in Sinaloa",
+    "url" : "https://www.washingtonpost.com/world/2026/11/27/mexico-condemns-dea-tip-line-asking-people-report-corrupt-officials-sinaloa/",
+    "published" : "2026-11-27T20:47:01Z",
+    "excerpt" : "The Mexican president described the tip line as a form of U.S. “interference.”"
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "After heavy strikes by Iran, U.S. naval base in Bahrain faces uncertain future",
+    "url" : "https://www.washingtonpost.com/world/2026/11/27/after-heavy-strikes-by-iran-major-us-naval-base-bahrain-faces-uncertain-future/",
+    "published" : "2026-11-27T20:07:19Z",
+    "excerpt" : "Neighborhoods around a major American naval facility are deserted, and the nearby businesses are wondering what comes next."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "‘GTA VI’ release has swept PlayStation 5 off the shelves worldwide",
+    "url" : "https://www.washingtonpost.com/world/2026/11/27/gta-vi-release-has-swept-playstation-5-off-shelves-worldwide/",
+    "published" : "2026-11-27T18:57:17Z",
+    "excerpt" : "The highly anticipated game landed in an already strained market, where console manufacturers have been hit hard by a global memory chip shortage."
+  }, {
+    "beat" : "world",
+    "source" : "The Washington Post",
+    "title" : "How Israel’s odd-couple politics could be close to toppling Netanyahu",
+    "url" : "https://www.washingtonpost.com/world/2026/11/27/how-israels-odd-couple-politics-could-be-close-toppling-netanyahu/",
+    "published" : "2026-11-27T18:24:12Z",
+    "excerpt" : "Alliances that seemed unthinkable before the Oct. 27 election are now possible or even likely, as campaign trail taboos give way to realpolitik coalition talks."
+  }, {
+    "beat" : "world",
+    "source" : "The Economist",
+    "title" : "Business",
+    "url" : "https://www.economist.com/the-world-this-week/2026/11/26/business",
+    "published" : "2026-11-26T13:45:02Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "world",
+    "source" : "The Economist",
+    "title" : "Cartoon: Donald Trump helps Jensen Huang retake the wheel at Nvidia",
+    "url" : "https://www.economist.com/the-world-this-week/2026/11/26/cartoon-donald-trump-helps-jensen-huang-retake-the-wheel-at-nvidia",
+    "published" : "2026-11-26T13:45:02Z",
+    "excerpt" : "A lighter take on the news"
+  }, {
+    "beat" : "world",
+    "source" : "The Economist",
+    "title" : "Politics",
+    "url" : "https://www.economist.com/the-world-this-week/2026/11/26/politics",
+    "published" : "2026-11-26T13:45:02Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "world",
+    "source" : "The Economist",
+    "title" : "Cover Story newsletter: Axis of malice",
+    "url" : "https://www.economist.com/the-world-this-week/2026/11/23/cover-story-newsletter-axis-of-malice",
+    "published" : "2026-11-23T12:54:57Z",
+    "excerpt" : "An exclusive look at how we designed our cover"
+  }, {
+    "beat" : "world",
+    "source" : "Semafor",
+    "title" : "Borrowing rise could offer economic boost, reportsays",
+    "url" : "https://www.semafor.com/article/11/27/2026/borrowing-rise-offers-economic-boost-according-to-african-union",
+    "published" : "2026-11-27T15:17:02Z",
+    "excerpt" : "A new report outlines how $93 billion of extra investment over the next five years could create more than 13 million jobs."
+  }, {
+    "beat" : "world",
+    "source" : "Semafor",
+    "title" : "Kenya’s Chinese solar imports surge amid diesel volatility",
+    "url" : "https://www.semafor.com/article/11/27/2026/kenyas-chinese-solar-imports-surge-amid-diesel-volatility",
+    "published" : "2026-11-27T14:50:49Z",
+    "excerpt" : "China has exported $576 million worth of solar cells to the East African country so far this year, compared to $5 million for the same period in 2025."
+  }, {
+    "beat" : "world",
+    "source" : "Semafor",
+    "title" : "Senegal speaker urges early elections over debt rift",
+    "url" : "https://www.semafor.com/article/11/27/2026/senegal-speaker-urges-early-elections-deepening-rift-between-parliament-and-president",
+    "published" : "2026-11-27T14:31:22Z",
+    "excerpt" : "Speaker Ousmane Sonko accused his one-time ally President Bassirou Diomaye Faye of sinking into illegality and unconstitutionality."
+  }, {
+    "beat" : "world",
+    "source" : "Semafor",
+    "title" : "Cost is key in Africa’s AI rollout",
+    "url" : "https://www.semafor.com/article/11/27/2026/cost-is-key-in-africas-ai-rollout",
+    "published" : "2026-11-27T14:30:06Z",
+    "excerpt" : "Alexis’s view The impact of AI will vary across the world. In Africa, affordability will have a key role in shaping how the technology plays out. That was a constant theme throughout our Next 3 Billion event in Johannesburg. “Africa will have its own unique solutions,” said Ralph Mupita, CEO of telecoms behemoth MTN, “just like mobile happened differently in Africa.” The continent’s nations and companies lack the funds to join the race for cutting-edge chips, but they also don’t need to: Many…"
+  }, {
+    "beat" : "world",
+    "source" : "Semafor",
+    "title" : "AI debt boom could push up funding costs for South Africa",
+    "url" : "https://www.semafor.com/article/11/27/2026/ai-debt-boom-could-push-up-funding-costs-as-south-africa-approaches-refinancing",
+    "published" : "2026-11-27T14:25:38Z",
+    "excerpt" : "Tech giants are tapping global debt markets to borrow hundreds of billions of dollars at the same time as governments."
+  }, {
+    "beat" : "world",
+    "source" : "Semafor",
+    "title" : "African fintech company M-Kopa aims to boost smartphone sales",
+    "url" : "https://www.semafor.com/article/11/27/2026/african-fintech-company-m-kopa-aims-to-boost-smartphone-sales",
+    "published" : "2026-11-27T14:18:45Z",
+    "excerpt" : "It sold over 10 million handsets in the last five years but now hopes to sell 5 million in 2027, CEO Jesse Moore told Semafor."
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Two private bus workers arrested for alleged gang rape of woman in Kozhikode",
+    "url" : "https://www.thehindu.com/news/national/kerala/two-private-bus-workers-arrested-for-alleged-gang-rape-of-woman-in-kozhikode/article71754478.ece",
+    "published" : "2026-11-28T15:20:52Z",
+    "excerpt" : "In her statement to the police, the woman said she was subjected to repeated sexual assault inside a parked private bus at isolated spots near Adivaram and along the Thamarassery Ghat Road"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Telangana EAGLE inputs lead to seizure of narcotic substances worth ₹1.75 crore in Nagpur, three detained",
+    "url" : "https://www.thehindu.com/news/national/telangana/telangana-eagle-inputs-lead-to-seizure-of-narcotic-substances-worth-175-crore-in-nagpur-three-detained/article71754999.ece",
+    "published" : "2026-11-28T15:19:37Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Vijayendra faces protests at Basavakalyan event over opposition to separate religious status for Lingayats",
+    "url" : "https://www.thehindu.com/news/national/karnataka/vijayendra-faces-protests-at-basavakalyan-event-over-opposition-to-separate-religious-status-for-lingayats/article71754881.ece",
+    "published" : "2026-11-28T15:18:05Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Delimitation Bill fundamentally against minorities, says U.P. forum",
+    "url" : "https://www.thehindu.com/news/national/delimitation-bill-fundamentally-against-minorities-says-up-forum/article71754948.ece",
+    "published" : "2026-11-28T15:17:27Z",
+    "excerpt" : "India Against Unfair Delimitation alleges that the BJP will redraw constituency boundaries to suit its majoritarian agenda, making minority votes politically and electorally irrelevant in Uttar Pradesh and elsewhere"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Jai Raj Ispat’s second phase to bring ₹3,378 crore investment to Kurnool",
+    "url" : "https://www.thehindu.com/news/national/andhra-pradesh/jai-raj-ispats-second-phase-to-bring-3378-crore-investment-to-kurnool/article71754672.ece",
+    "published" : "2026-11-28T15:17:19Z",
+    "excerpt" : "Expansion over 600 acres to create 934 additional jobs, says Nara Lokesh"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Defence objects to admission of documents in Abhimanyu murder trial",
+    "url" : "https://www.thehindu.com/news/national/kerala/defence-objects-to-admission-of-documents-in-abhimanyu-murder-trial/article71754574.ece",
+    "published" : "2026-11-28T15:16:02Z",
+    "excerpt" : "Defence says that copies of the investigating officer’s application seeking the appointment of a tahsildar to conduct an identification parade and the District Collector’s order appointing the official was not furnished to it"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Oocyte racket: Two senior Oasis Fertility executives held, ₹487 crore transactions under scanner",
+    "url" : "https://www.thehindu.com/news/national/telangana/oocyte-racket-two-senior-oasis-fertility-executives-held-487-crore-transactions-under-scanner/article71753824.ece",
+    "published" : "2026-11-28T15:15:28Z",
+    "excerpt" : "Police investigation alleged recruitment of women from multiple States, unauthorised medical procedures and financial transactions worth ₹487.82 crore in company bank account over eight months."
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Workshop lays stress on scientific interventions and community participation to address human-wildlife conflict in Wayanad",
+    "url" : "https://www.thehindu.com/news/national/kerala/workshop-lays-stress-on-scientific-interventions-and-community-participation-to-address-human-wildlife-conflict-in-wayanad/article71754592.ece",
+    "published" : "2026-11-28T15:15:24Z",
+    "excerpt" : "Discussions stress the need for location-specific strategies to balance wildlife conservation with human safety, livelihoods and the concerns of communities living along forest fringes"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Technosport to expand retail footprint",
+    "url" : "https://www.thehindu.com/news/cities/Coimbatore/technosport-to-expand-retail-footprint/article71754966.ece",
+    "published" : "2026-11-28T15:17:41Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "India must build domestic AI infrastructure to manufacture tokens: Sarvam AI co-founder",
+    "url" : "https://www.thehindu.com/business/Industry/india-must-build-domestic-ai-infrastructure-to-manufacture-tokens-sarvam-ai-co-founder/article71754741.ece",
+    "published" : "2026-11-28T15:09:30Z",
+    "excerpt" : "The country had the talent, demand and demographic advantage to emerge as a significant AI builder by 2035"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Tata Sons files caveats after Bombay HC refuses relief to Tata trusts’ plea",
+    "url" : "https://www.thehindu.com/business/Industry/tata-sons-files-caveats-after-bombay-hc-refuses-relief-to-tata-trusts-plea/article71753663.ece",
+    "published" : "2026-11-28T08:11:17Z",
+    "excerpt" : "The two Tata trusts can move the courts in appeal, and the caveats will help Tata Sons present their side in the matter"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Global fashion brands shift orders from Bangladesh to India amid unrest",
+    "url" : "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
+    "published" : "2026-11-28T05:19:35Z",
+    "excerpt" : "Between November 1 and 18, brands diverted about $254 million worth ⁠of orders from Bangladesh, with most moving to neighbouring India, the owners said"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Bombay High Court gives go-ahead for Tata Sons board meeting on November 30",
+    "url" : "https://www.thehindu.com/business/bombay-high-court-gives-go-ahead-for-tata-sons-board-meeting-on-november-30/article71752235.ece",
+    "published" : "2026-11-28T04:47:49Z",
+    "excerpt" : "The High Court says any outcome of the meeting would be subject to its final orders, declines any urgent relief on pleas challenging Chandrasekaran’s reappointment as executive chairman"
+  }, {
+    "beat" : "india",
+    "source" : "The Hindu",
+    "title" : "Cotton output shortfall: SIMA seeks five-year import duty waiver",
+    "url" : "https://www.thehindu.com/business/cotton-output-shortfall-sima-seeks-five-year-import-duty-waiver/article71751172.ece",
+    "published" : "2026-11-27T17:11:59Z",
+    "excerpt" : ""
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "Bengaluru woman wins ₹11.85 lakh refund from Groww after mutual fund portfolio crashes during withdrawal attempt",
+    "url" : "https://www.livemint.com/news/bengaluru-woman-wins-11-85-lakh-refund-from-groww-after-mutual-fund-portfolio-crashes-during-withdrawal-attempt-11795877956883.html",
+    "published" : "2026-11-28T15:06:14Z",
+    "excerpt" : "The Bengaluru (Urban) District Consumer Disputes Redressal Commission has also directed the companies to pay 6% annual interest on the refund amount, along with ₹10,000 as compensation for mental harassment and deficiency in service."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "Bengaluru man gets laid off, struggles to save family house without losing on savings, netizens react",
+    "url" : "https://www.livemint.com/news/trends/bengaluru-man-gets-laid-off-struggles-to-save-family-house-without-losing-on-savings-netizens-react-11795874412770.html",
+    "published" : "2026-11-28T14:46:27Z",
+    "excerpt" : "A 24-year-old talked about having ₹4 lakh in savings while he lost his job. As he struggles to get a new job, his family has to clear dues of ₹4.5 lakh by December 1 to save their home."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "Woman buys new SUV, flags bumper colour mismatch; consumer commission orders showroom to pay ₹70,000",
+    "url" : "https://www.livemint.com/news/india/woman-buys-new-suv-flags-bumper-colour-mismatch-consumer-commission-orders-showroom-to-pay-70000-11795875198386.html",
+    "published" : "2026-11-28T14:22:35Z",
+    "excerpt" : "The complainant had purchased a white SUV on August 27, 2025. However, she noticed a colour mismatch in the car's bumper, prompting her to return to the showroom and seek a replacement."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "CA fresher shares first payout at Amazon on Reddit, claims received ₹208,964; netizens flag relocation bonus inclusion",
+    "url" : "https://www.livemint.com/news/trends/ca-fresher-shares-first-payout-at-amazon-on-reddit-claims-received-208-964-netizens-flag-relocation-bonus-inclusion-11795871199458.html",
+    "published" : "2026-11-28T14:22:14Z",
+    "excerpt" : "A CA fresher’s first payout at Amazon— ₹2,08,964—prompted discussion on Reddit. The employee said it covered 13 days of October work and included a one-time ₹1.5 lakh relocation benefit, while estimating monthly take-home pay at ₹1.3 lakh to ₹1.4 lakh, depending on deductions."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "What is Jagriti Yatra? Mixed veg, puri and chai served to yatris, live session held aboard 15-day train journey",
+    "url" : "https://www.livemint.com/news/trends/what-is-jagriti-yatra-mixed-veg-puri-and-chai-served-to-yatris-live-session-held-aboard-15-day-train-journey-11795866257713.html",
+    "published" : "2026-11-28T13:48:39Z",
+    "excerpt" : "Jagriti Yatra 2026 is a 15-day trip across 12 destinations with 525 travellers. It began from Mumbai on November 23 and will conclude on December 8."
+  }, {
+    "beat" : "india",
+    "source" : "Mint",
+    "title" : "Mumbai Airport cab shows ₹1,500 for 4 km, but man finds a way to bring the fare down to just ₹125",
+    "url" : "https://www.livemint.com/news/trends/mumbai-airport-cab-shows-rs-1-500-for-4-km-but-man-finds-a-way-to-bring-the-fare-down-to-just-rs-125-11795870264411.html",
+    "published" : "2026-11-28T13:39:09Z",
+    "excerpt" : "A Mumbai airport passenger was quoted ₹1,500 for a 4-km cab ride from Terminal 2. After walking for two minutes towards the nearby Fairmont hotel and changing his pickup point, he got a cab for ₹125, including a tip."
+  }, {
+    "beat" : "india",
+    "source" : "Finshots",
+    "title" : "How is SpiceJet surviving, why 7-Eleven failed, and more...",
+    "url" : "https://finshots.in/archive/how-is-spicejet-surviving-why-7-eleven-failed-and-more/",
+    "published" : "2026-11-28T01:30:15Z",
+    "excerpt" : "In this week's wrapup, we talk about SpiceJet's series of unfortunate events, why 7Eleven failed in India, and more."
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "PB Fintech Leads Weekly New-Age Tech Stock Gains, Nazara Falls The Most",
+    "url" : "https://inc42.com/buzz/pb-fintech-leads-weekly-new-age-tech-stock-gains-nazara-falls-the-most/",
+    "published" : "2026-11-28T13:27:01Z",
+    "excerpt" : "New-age tech stocks ended November’s final trading week on a mixed note, with PB Fintech leading the gainers. While 33&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "Last Rites, Booked in Advance: India’s New Funeral Business",
+    "url" : "https://inc42.com/buzz/last-rites-booked-in-advance-indias-new-funeral-business/",
+    "published" : "2026-11-28T12:52:24Z",
+    "excerpt" : "“No time for relationships, no company for parents. After hospitals, even ‘final farewells’ have now become a business,” an X&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
+    "url" : "https://inc42.com/features/indian-listed-new-age-tech-company-tracker-market-cap-revenue-more/",
+    "published" : "2026-11-28T11:21:59Z",
+    "excerpt" : "For years, we at Inc42 have tracked the Indian tech startup ecosystem and seen it grow from a kid to&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "Fintech Startups To Watch: Startups That Caught Our Eye In November",
+    "url" : "https://inc42.com/startups/fintech-startups-to-watch-startups-that-caught-our-eye-in-november/",
+    "published" : "2026-11-28T09:37:11Z",
+    "excerpt" : "It was a stormy November for the Indian fintech sector. Even as the Diwali season brought a surge in digital&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "Personal AI Agents Are Coming: Who Owns The Customer Now?",
+    "url" : "https://inc42.com/features/personal-ai-agents-are-coming-who-owns-the-customer-now/",
+    "published" : "2026-11-28T07:46:51Z",
+    "excerpt" : "Next time you want to order groceries, book a restaurant, or check your bank balance, you may not have to&#8230;"
+  }, {
+    "beat" : "india",
+    "source" : "Inc42",
+    "title" : "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+    "url" : "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
+    "published" : "2026-11-28T07:45:38Z",
+    "excerpt" : "The Indian startup ecosystem continued to mature in FY26, with 22 new-age tech companies making their public market debut as&#8230;"
+  }, {
+    "beat" : "career",
+    "source" : "The Pragmatic Engineer",
+    "title" : "How Anthropic builds software in 2026 with Katelyn Lesse",
+    "url" : "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+    "published" : "2026-11-25T17:31:32Z",
+    "excerpt" : "Katelyn Lesse explains how Anthropic rewrote Claude’s API in Rust and how AI agents are changing engineering at the company."
+  }, {
+    "beat" : "career",
+    "source" : "The Pragmatic Engineer",
+    "title" : "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
+    "url" : "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+    "published" : "2026-11-24T19:16:38Z",
+    "excerpt" : "How is AI changing the way we build software? Excerpts from three category winners of our recent essay contest, with links to 40 more by software engineers and experts"
+  }, {
+    "beat" : "career",
+    "source" : "The Pragmatic Engineer",
+    "title" : "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+    "url" : "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+    "published" : "2026-11-19T17:08:59Z",
+    "excerpt" : "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more"
+  }, {
+    "beat" : "career",
+    "source" : "The Pragmatic Engineer",
+    "title" : "Software factories and code reviews with Harjot Gill",
+    "url" : "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+    "published" : "2026-11-18T18:08:52Z",
+    "excerpt" : "CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI."
+  }, {
+    "beat" : "career",
+    "source" : "Irrational Exuberance",
+    "title" : "Shaping the industry through independent reproduction of results within our companies",
+    "url" : "https://lethain.com/independent-reproduction-of-results/",
+    "published" : "2026-11-27T13:00:00Z",
+    "excerpt" : "A friend who angel invests shared that some of his pre-seed investments are considering shutting down before even trying to raise their next round. This isn&rsquo;t super surprising; many early-stage startups are struggling to hit the growth expectations to raise, which are extremely high at the moment, but what&rsquo;s been interesting is why these companies are losing confidence: they&rsquo;re just not sure there&rsquo;s a need for software anymore, given how rapidly a good harness with a…"
+  }, {
+    "beat" : "career",
+    "source" : "Irrational Exuberance",
+    "title" : "Shipping 100+ PRs to production in a week",
+    "url" : "https://lethain.com/passing-100-prs-in-a-week/",
+    "published" : "2026-11-22T12:00:00Z",
+    "excerpt" : "After pushing towards the goal for some time, I finally shipped 100+ pull requests to production in a week, reaching 115 the week of November 9th. Because I&rsquo;m vain, I&rsquo;ll cook the numbers slightly to take the highest seven day period rather than calendar week, which up to this point peaks at 170 merged PRs. Of those 170, 17 nuanced and UX-centric PRs were written on a harness running on my laptop, and the remaining 153 were written on Imprint &rsquo;s internal cloud harness called…"
+  }, {
+    "beat" : "career",
+    "source" : "Irrational Exuberance",
+    "title" : "The Explorer Pattern for product invention and development.",
+    "url" : "https://lethain.com/explorer-pattern/",
+    "published" : "2026-11-21T15:00:00Z",
+    "excerpt" : "tl;dr: the Explorer Pattern is one individual or team building a functional implementation that minimizes cross-team and cross-functional impacts as much as humanly possible, and then reconciling the details with other teams after that prototype is completed, accepting that this approach can require very substantial rework to that initial development. Why write this? Imprint previously called this the &ldquo;Tech-led&rdquo; or &ldquo;Engineering-led&rdquo; development model, but it&rsquo;s…"
+  }, {
+    "beat" : "career",
+    "source" : "Irrational Exuberance",
+    "title" : "Self-reinforcing quality / adopting verification pattern",
+    "url" : "https://lethain.com/adopting-verification-pattern/",
+    "published" : "2026-10-30T12:00:00Z",
+    "excerpt" : "After implementing the small-change pattern, Imprint Engineering&rsquo;s next focus in improving our development loop has been implementing a verification loop for our software development. This is an increasingly common pattern, particularly popularized by poteto&rsquo;s pstack , but you&rsquo;ll find similar ideas emerging in other places as well, e.g. Niko Matsakis&rsquo; post on the correctness ratchet , among others. This captures some of the confusion I&rsquo;ve seen in our initial…"
+  }, {
+    "beat" : "career",
+    "source" : "Martin Fowler",
+    "title" : "Fragments: November 20",
+    "url" : "https://martinfowler.com/fragments/2026-11-20.html",
+    "published" : "2026-11-20T18:38:00Z",
+    "excerpt" : "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review . Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds up to 22 to 35%. The measures of health come from CodeScene. The experiment looked at three LLMs, 465 pull requests on 246 open source repositories. Each pull request was put through a review and fix pipeline involving five agents. They also looked at which code smells led to increased costs: they…"
+  }, {
+    "beat" : "career",
+    "source" : "Martin Fowler",
+    "title" : "Data Contracts",
+    "url" : "https://martinfowler.com/articles/data-contracts.html",
+    "published" : "2026-11-18T14:02:00Z",
+    "excerpt" : "Data contracts are a way to describe the contents and guarantees of datasets. Simon Harrer and Arif Wider describe in detail what they are and how to use them. They apply practices from API design to data by treating them as data-providing services - such as data products - whose interfaces we want to define as clearly as possible. This approach significantly increases the robustness of large-scale data landscapes, and gives both people and AI agents the explicit, trustworthy metadata they need…"
+  }, {
+    "beat" : "career",
+    "source" : "Martin Fowler",
+    "title" : "Deterministic Simulation Testing",
+    "url" : "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+    "published" : "2026-11-17T14:33:00Z",
+    "excerpt" : "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing real clocks, networks, and storage with simulated components driven by a single-threaded execution loop. This allows simulating both hard failures and routine slowdowns&#x2014;such as network and disk latency spikes&#x2014;and more importantly…"
+  }, {
+    "beat" : "career",
+    "source" : "Martin Fowler",
+    "title" : "Bliki: Generated Glossary",
+    "url" : "https://martinfowler.com/bliki/GeneratedGlossary.html",
+    "published" : "2026-11-12T14:15:00Z",
+    "excerpt" : "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain. One technique to aid this is to use an LLM to generate a glossary of the terminology in that domain, and make this glossary available for any LLMs doing work in those…"
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Engineering leaders can’t prove AI is paying off",
+    "url" : "https://leaddev.com/leadership/engineering-leaders-cant-prove-ai-is-paying-off?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-26T07:52:11Z",
+    "excerpt" : "What 165 engineering leaders told us at LeadDev Berlin 2026. The post Engineering leaders can’t prove AI is paying off appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Code ownership is eroding",
+    "url" : "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-25T12:02:08Z",
+    "excerpt" : "Less experienced developers trust AI more. The post Code ownership is eroding appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Inside Capital One’s multi-agent system",
+    "url" : "https://leaddev.com/ai/inside-capital-ones-multi-agent-system?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-25T08:20:44Z",
+    "excerpt" : "Multi-agent AI is a platform problem. The post Inside Capital One’s multi-agent system appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Your AI coding agent lacks context",
+    "url" : "https://leaddev.com/ai/your-ai-coding-agent-lacks-context?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-24T07:53:22Z",
+    "excerpt" : "Context is where the hours go. The post Your AI coding agent lacks context appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "Lies our engineering metrics tell us",
+    "url" : "https://leaddev.com/reporting/lies-our-engineering-metrics-tell-us?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-23T10:50:49Z",
+    "excerpt" : "The metrics aren’t the problem. How you use them is. The post Lies our engineering metrics tell us appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "LeadDev",
+    "title" : "The end of manual code review?",
+    "url" : "https://leaddev.com/software-quality/the-end-of-manual-code-review?utm_source=leaddev&utm_medium=RSS",
+    "published" : "2026-11-23T08:27:45Z",
+    "excerpt" : "JetBrains CEO gives it two years. The post The end of manual code review? appeared first on LeadDev ."
+  }, {
+    "beat" : "career",
+    "source" : "InfoQ Architecture",
+    "title" : "AWS Introduces Centralized Workforce Access to IAM Roles Across Accounts",
+    "url" : "https://www.infoq.com/news/2026/11/aws-centralized-workforce-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+    "published" : "2026-11-28T07:57:00Z",
+    "excerpt" : "AWS recently introduced Account Access Manager to centrally assign workforce users and groups to existing IAM roles across an organization, preserving custom trust policies and ABAC configurations while improving individual identity attribution and auditability. By Renato Losio"
+  }, {
+    "beat" : "career",
+    "source" : "InfoQ Architecture",
+    "title" : "Azure AI Gateway Reaches General Availability as a Standalone Service",
+    "url" : "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+    "published" : "2026-11-28T06:47:00Z",
+    "excerpt" : "Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month; paid billing starts January 1, 2027; and private networking remains in preview. By Steef-Jan Wiggers"
+  }, {
+    "beat" : "career",
+    "source" : "InfoQ Architecture",
+    "title" : "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+    "url" : "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+    "published" : "2026-11-27T14:35:00Z",
+    "excerpt" : "Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it traces API references across repositories, helping maintainers assess migration impact and make informed release decisions. Netflix is also exploring agent-assisted consumer migrations. By Leela Kumili"
+  }, {
+    "beat" : "career",
+    "source" : "InfoQ Architecture",
+    "title" : "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+    "url" : "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+    "published" : "2026-11-27T11:00:00Z",
+    "excerpt" : "Saranya Vedagiri explains how to design resilient, low-latency distributed APIs under 100ms. Drawing on practical scale at eBay, she discusses hop-by-hop latency budgets, async fanout tradeoffs, thread pool sizing, caching, and circuit breakers. Learn actionable strategies to eliminate tail-latency bottlenecks and establish performance-first engineering practices. By Saranya Vedagiri"
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "It’s the World’s Third Leading Cause of Death. Are Better Treatments Coming?",
+    "url" : "https://www.nytimes.com/2026/11/28/well/copd-treatments.html",
+    "published" : "2026-11-28T10:00:50Z",
+    "excerpt" : "Chronic obstructive pulmonary disease has long been poorly understood and hard to treat, but that’s changing."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "What’s Actually in Those Gas Station Drugs?",
+    "url" : "https://www.nytimes.com/video/well/100000011088461/gas-station-drugs-vape-weed-kratom-hallucinogens.html",
+    "published" : "2026-11-28T06:15:48Z",
+    "excerpt" : "Inside gas station convenience stores and smoke shops across the country, a new generation of drugs is for sale. It can be difficult to know what’s actually inside these items, which come wrapped in candy-colored packaging and are often readily accessible to the everyday consumer. To better understand this phenomenon, The New York Times purchased and lab-tested 28 products. Matt Richtel, a reporter for Well, walks us through the findings. Correction: An earlier version of this video included an…"
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "How to Let Go of Holiday Resentment",
+    "url" : "https://www.nytimes.com/2026/11/27/well/holiday-resentment-family-fights.html",
+    "published" : "2026-11-27T10:03:48Z",
+    "excerpt" : "You may be tempted to score-keep with loved ones, but experts say it’s rarely worthwhile."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "It’s Safe to Cry on the Carousel of Happiness",
+    "url" : "https://www.nytimes.com/2026/11/27/well/veterans-carousel-of-happiness-colorado.html",
+    "published" : "2026-11-27T10:00:46Z",
+    "excerpt" : "A Vietnam War veteran started carving animals to ease his mind. Little by little, he built a destination where veterans and others can find peace and joy."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "To Listen, You Must Stop Talking",
+    "url" : "https://www.nytimes.com/2026/11/27/style/modern-love-to-listen-you-must-stop-talking.html",
+    "published" : "2026-11-27T05:00:32Z",
+    "excerpt" : "I wanted to establish intimacy with my adult son before it was too late."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "How Fitness Experts Make Time to Exercise Over the Holidays",
+    "url" : "https://www.nytimes.com/2026/11/25/well/move/exercise-workout-holidays.html",
+    "published" : "2026-11-26T21:04:10Z",
+    "excerpt" : "Try these strategies to end the year feeling strong."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "The Good List: 5 Things to Add Delight to Your Day",
+    "url" : "https://www.nytimes.com/2026/11/25/briefing/gta-sandwiches-daily.html",
+    "published" : "2026-11-25T22:43:32Z",
+    "excerpt" : "Birding in Vice City, ridiculous sandwiches and less narcissism."
+  }, {
+    "beat" : "live-well",
+    "source" : "The New York Times",
+    "title" : "Joanna Bull Has Died. She Created Gilda’s Club, a Haven for Cancer Patients.",
+    "url" : "https://www.nytimes.com/2026/11/25/well/joanna-bull-dead.html",
+    "published" : "2026-11-25T20:11:17Z",
+    "excerpt" : "She started a network of clubhouses named after the comedian Gilda Radner, offering refuge to anyone touched by cancer. She was 89."
+  }, {
+    "beat" : "live-well",
+    "source" : "Peter Attia",
+    "title" : "How well do aging clocks generalize across populations? ",
+    "url" : "https://peterattiamd.com/how-well-do-aging-clocks-generalize-across-populations/",
+    "published" : "2026-11-28T12:00:00Z",
+    "excerpt" : "Why a biological-age estimate is only as reliable as the population and biology represented in the model behind it. The post How well do aging clocks generalize across populations?  appeared first on Peter Attia MD ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Peter Attia",
+    "title" : "Cold therapy: pros, cons, and its impact on longevity (AMA #47 rebroadcast)",
+    "url" : "https://peterattiamd.com/coldtherapy/",
+    "published" : "2026-11-23T05:15:00Z",
+    "excerpt" : "If we're talking about [activating brown adipose tissue] as a solution for overweight or obesity in adults, it's not a needle mover. The post Cold therapy: pros, cons, and its impact on longevity (AMA #47 rebroadcast) appeared first on Peter Attia MD ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Peter Attia",
+    "title" : "Vitamin D and cardiovascular disease: A missed TARGET?",
+    "url" : "https://peterattiamd.com/vitamin-d-and-cardiovascular-disease/",
+    "published" : "2026-11-21T12:00:00Z",
+    "excerpt" : "A new trial intended to address old problems introduces new ones The post Vitamin D and cardiovascular disease: A missed TARGET? appeared first on Peter Attia MD ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Peter Attia",
+    "title" : "Guarding and reinvigorating the senses to protect against dementia",
+    "url" : "https://peterattiamd.com/guarding-and-reinvigorating-the-senses-to-protect-against-dementia/",
+    "published" : "2026-11-18T05:00:00Z",
+    "excerpt" : "Living fully in a shrinking world The post Guarding and reinvigorating the senses to protect against dementia appeared first on Peter Attia MD ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Cal Newport",
+    "title" : "The Anthropic IPO Concerns Me",
+    "url" : "https://calnewport.com/the-anthropic-ipo-concerns-me/",
+    "published" : "2026-11-23T11:00:00Z",
+    "excerpt" : "Last week, the AI company Anthropic went public in what became the largest IPO in American history. Given my sustained criticism of Anthropic’s beliefs and ... Read more The post The Anthropic IPO Concerns Me appeared first on Cal Newport ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Cal Newport",
+    "title" : "In Search of the Deep Life",
+    "url" : "https://calnewport.com/in-search-of-the-deep-life/",
+    "published" : "2026-11-16T11:00:00Z",
+    "excerpt" : "Early in the coronavirus pandemic, as I sat at home channeling my anxiety into publishing daily essays on this newsletter (a streak I kept up ... Read more The post In Search of the Deep Life appeared first on Cal Newport ."
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Fasting and Chemotherapy: A Potential Double Benefit",
+    "url" : "https://nutritionfacts.org/blog/fasting-and-chemotherapy-a-potential-double-benefit/",
+    "published" : "2026-11-26T13:00:26Z",
+    "excerpt" : "Might short-term fasting during cancer treatment minimize side effects while boosting efficacy? For the last 50 years, chemotherapy has been a major medical treatment for [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Could Fasting Help Cancer Patients?",
+    "url" : "https://nutritionfacts.org/blog/could-fasting-help-cancer-patients/",
+    "published" : "2026-11-24T13:00:08Z",
+    "excerpt" : "What effect does supplemental feeding have on clinical outcomes? In 1974, an influential paper was published decrying “physician-induced malnutrition” as “the skeleton in the hospital [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "How a Plant-Based Diet Could Help Close Racial Health Gaps",
+    "url" : "https://nutritionfacts.org/blog/how-a-plant-based-diet-could-help-close-racial-health-gaps/",
+    "published" : "2026-11-19T13:00:04Z",
+    "excerpt" : "Why are Black Americans sicker and die younger than their white counterparts, and what can we do about it? During the COVID-19 pandemic, the death [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Is Bone Density Linked to Diet? It May Come Down to Body Size",
+    "url" : "https://nutritionfacts.org/blog/is-bone-density-linked-to-diet-it-may-come-down-to-body-size/",
+    "published" : "2026-11-17T13:00:15Z",
+    "excerpt" : "Those eating a plant-based diet tend to be so much slimmer that their bone mass may suffer. Osteoporosis affects an estimated 200 million people worldwide. [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Do Meat-Eaters Have More Antibiotic Resistance in Their Guts?",
+    "url" : "https://nutritionfacts.org/blog/do-meat-eaters-have-more-antibiotic-resistance-in-their-guts/",
+    "published" : "2026-11-12T13:00:27Z",
+    "excerpt" : "Those eating plant-based have a reduced load of antibiotic resistance genes in their gut. There are nearly one million Salmonella and Campylobacter infections in children [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "NutritionFacts.org",
+    "title" : "Are Rare Sugars Like Allulose Actually Healthy?",
+    "url" : "https://nutritionfacts.org/blog/are-rare-sugars-like-allulose-actually-healthy/",
+    "published" : "2026-11-10T13:00:44Z",
+    "excerpt" : "Are rare sugars like allulose a healthy alternative to traditional sweeteners? Allulose is a kind of low-calorie sugar that exists naturally in very small quantities [&#8230;]"
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Mpox cases are on the rise again in Brazil – just as an antiviral drug fails in trials",
+    "url" : "https://theconversation.com/mpox-cases-are-on-the-rise-again-in-brazil-just-as-an-antiviral-drug-fails-in-trials-297434",
+    "published" : "2026-11-24T21:09:17Z",
+    "excerpt" : "The mpox curve has started to rise again, with cases concentrated in Rio and São Paulo. There is no available treatment for this virus strain, which is different from the one in the 2022 outbreak."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Doctors in Congress used to lean Republican – the 120th Congress marks a historic shift",
+    "url" : "https://theconversation.com/doctors-in-congress-used-to-lean-republican-the-120th-congress-marks-a-historic-shift-296633",
+    "published" : "2026-11-24T13:13:40Z",
+    "excerpt" : "Members of Congress who are physicians are more effective in enacting health policy, and many newly elected physicians placed health policy at the center of their campaigns."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Cosmetic surgery is on the rise globally, with social media and celebrities reducing taboos and influencing beauty ideals",
+    "url" : "https://theconversation.com/cosmetic-surgery-is-on-the-rise-globally-with-social-media-and-celebrities-reducing-taboos-and-influencing-beauty-ideals-295431",
+    "published" : "2026-11-24T13:13:23Z",
+    "excerpt" : "‘Instagram face’ is still a thing, but most countries have their own cultural beauty preferences."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "The DRC’s Ebola crisis revives an old ethical question: What do health workers owe patients?",
+    "url" : "https://theconversation.com/the-drcs-ebola-crisis-revives-an-old-ethical-question-what-do-health-workers-owe-patients-296998",
+    "published" : "2026-11-24T13:13:05Z",
+    "excerpt" : "Protecting healthcare workers on the front lines is vital to fighting disease outbreaks."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "‘SNL’ ‘Sister’ sketch nails the failures of US healthcare policy",
+    "url" : "https://theconversation.com/snl-sister-sketch-nails-the-failures-of-us-healthcare-policy-297022",
+    "published" : "2026-11-20T13:45:11Z",
+    "excerpt" : "Medicare and Medicaid provide limited help with caregiving for older adults – and that means unpaid relatives often bear big burdens."
+  }, {
+    "beat" : "live-well",
+    "source" : "The Conversation",
+    "title" : "Preventable vision loss affects more than a billion people globally - and uneven access to care is the major culprit",
+    "url" : "https://theconversation.com/preventable-vision-loss-affects-more-than-a-billion-people-globally-and-uneven-access-to-care-is-the-major-culprit-294770",
+    "published" : "2026-11-20T13:43:49Z",
+    "excerpt" : "As the global population ages, the number of people suffering from vision loss is expected to increase."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "[Outliers] How to Persuade Like David Ogilvy",
+    "url" : "https://fs.blog/knowledge-project-podcast/outliers-david-ogilvy/",
+    "published" : "2026-11-26T10:55:00Z",
+    "excerpt" : "Everyone asks themselves the same thing: what’s in it for me?&#160; David Ogilvy spent his whole career answering that question. People call him the father of advertising, and for good reason. He wrote iconic campaigns for Rolls-Royce, Dove, and Hathaway shirts, and his book, Ogilvy on Advertising, is still in print forty years later.&#160; Yet &#8230; The post [Outliers] How to Persuade Like David Ogilvy appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "Bing Gordon: Learning From Bezos, Jobs, and Spielberg ",
+    "url" : "https://fs.blog/knowledge-project-podcast/bing-gordon/",
+    "published" : "2026-11-19T10:55:00Z",
+    "excerpt" : "Bing Gordon is the former Chief Creative Officer of Electronic Arts, Amazon board member, and a partner at Kleiner Perkins. He served on Amazon’s board for more than a decade, a seat he earned after giving Jeff Bezos five ideas. The first was Amazon Prime. Bing describes the week two directors told him they wanted &#8230; The post Bing Gordon: Learning From Bezos, Jobs, and Spielberg  appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Farnam Street",
+    "title" : "Jon McNeill: How Elon Musk Makes Decisions",
+    "url" : "https://fs.blog/knowledge-project-podcast/jon-mcneill/",
+    "published" : "2026-11-05T10:55:00Z",
+    "excerpt" : "Jon McNeill is the former President of Tesla and the co-founder and CEO of DVx Ventures. He is also the author of the book, The Algorithm. Elon Musk believes speed creates a competitive advantage, whether it’s speed of decision, speed of cash, or speed of response. But what does that look like day to day, &#8230; The post Jon McNeill: How Elon Musk Makes Decisions appeared first on Farnam Street ."
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Know Nothing: Finding Openness in Uncertainty",
+    "url" : "https://zenhabits.net/unknown/",
+    "published" : "2026-11-27T00:00:00Z",
+    "excerpt" : "By Leo Babauta The world is overwhelmed by rapid change, economic stress, wild weather, animosity towards our neighbors, and unprecedented levels of uncertainty. All of us are feeling it in our own way. It’s a lot to deal with. In the midst of this uproarious uncertainty, each of us reaches for our protection mechanisms: the ways we’ve learned to gain some sense of control in the uncontrollable. Those protection mechanisms are familiar: We judge others, and turn to blame and lashing out, instead…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Letting Go of Regrets",
+    "url" : "https://zenhabits.net/regrets/",
+    "published" : "2026-11-20T00:00:00Z",
+    "excerpt" : "By Leo Babauta Someone recently asked me about dealing with regrets — something from the past that bothers them on a daily basis. I’m asking about choices I made in the past that brought me to a place where my life changed completely. I’m still trying to fix the consequences of those choices, but I find myself constantly bothered by them. As you read this, I invite you to notice what regrets you are still bothered by on a regular basis. What still feels painful? Today I’m going to share 3 truths…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Sacred Bow: My Yearly Intentional Ritual",
+    "url" : "https://zenhabits.net/sacred-bow/",
+    "published" : "2026-11-16T00:00:00Z",
+    "excerpt" : "By Leo Babauta Every year for the last 7 years, I’ve done a year-end ritual called Sacred Bow … and I’ve invited members of my Fearless Living Academy to do it with me every year. It’s one of the most powerful things we do. And it’s a beautiful way to close out the year. I share a process with everyone that I do personally … it’s about four things, and we do it over four weeks in December: Review : We start by reviewing our year … what did we accomplish, what challenges did we face, what did we…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "Do Less, But Care More",
+    "url" : "https://zenhabits.net/less-more/",
+    "published" : "2026-11-13T00:00:00Z",
+    "excerpt" : "By Leo Babauta Most of us feel spread too thin, overwhelmed, with not enough time for all the things we care about. It might be that we’re spreading our care too thin — we’re trying to care about everything. We say yes to so many things, so that everything then gets a thin layer of our attention. And that’s tough to sustain for long. Let’s talk about simplifying — but not just as a way to off-load our commitments … and instead focus on ways to make room to actually care more about what we choose…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "You Don’t Have to Earn Your Rest",
+    "url" : "https://zenhabits.net/earn-rest/",
+    "published" : "2026-11-06T00:00:00Z",
+    "excerpt" : "By Leo Babauta Something I’ve noticed is that a lot of us have an ingrained belief that we can take some time off to rest if we’ve worked hard enough. Or often it’s like, “I’ll rest now so I can be more productive tomorrow.” The mindset we have ingrained in us is that rest has to be justified by how productive it will help us to be . This is so deeply ingrained in us that we don’t even notice it. It comes from the mindset that we need to be more productive, and that our lives have to be built…"
+  }, {
+    "beat" : "live-well",
+    "source" : "Zen Habits",
+    "title" : "The Joy of Falling Behind",
+    "url" : "https://zenhabits.net/falling-behind/",
+    "published" : "2026-10-30T00:00:00Z",
+    "excerpt" : "By Leo Babauta A lot of people right now are feeling like they just can’t keep up with everything — it’s just too much. And it feels like the pace of everything we have to keep up with is accelerating. There’s more and more, and it’s coming at us faster and faster. Technology is like fuel to the fire: more never-ending feeds, and quick replies to messages and emails means there’s too much to reply to. What if we simply refused to try to keep up with it all? What if we rejected the premise that…"
+  } ],
+  "sourcesReached" : 60,
+  "sourcesFailed" : [ {
+    "source" : "arXiv cs.DC",
+    "reason" : "not a feed: no <item> or <entry> elements"
+  }, {
+    "source" : "Don't Worry About the Vase",
+    "reason" : "HTTP 403"
+  }, {
+    "source" : "The Transcript",
+    "reason" : "HTTP 403"
+  }, {
+    "source" : "The Seattle Times",
+    "reason" : "HTTP 202"
+  }, {
+    "source" : "The Indian Express",
+    "reason" : "HTTP 403"
+  } ],
+  "recentHeadlines" : [ {
+    "date" : "2026-11-25",
+    "headline" : "Stock Sell-Off Continues as Investors Fret About A.I., Tariffs and Inflation",
+    "url" : "https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Blanche Downplays Questions Over Nvidia as Investigators Examine Company’s Customers",
+    "url" : "https://www.nytimes.com/2026/11/24/us/politics/nvidia-justice-department-todd-blanche.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+    "url" : "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+    "url" : "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+    "url" : "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Rackspace shuts down Spot cloud platform after security breach",
+    "url" : "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Radware discloses breach exposing customer cloud access keys",
+    "url" : "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Anthropic stock tumble shows IPO gamesmanship",
+    "url" : "https://www.semafor.com/article/11/25/2026/anthropic-stock-tumble-shows-ipo-gamesmanship"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Why the Nvidia Rally Fizzled",
+    "url" : "https://www.nytimes.com/2026/11/25/business/dealbook/nvidia-huang-ai-rally.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+    "url" : "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Third-quarter GDP already looked great. Now it looks even better.",
+    "url" : "https://www.marketwatch.com/story/third-quarter-gdp-already-looked-great-now-it-looks-even-better-12057da5?mod=mw_rss_topstories"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Bit Digital repays $50 million to Galaxy after selling 29,825 ETH",
+    "url" : "https://www.theblock.co/news/business/2026-11-25-bit-digital-repays-50-million-to-galaxy-after-selling-29825-eth-446164"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+    "url" : "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "JetBrains finds agents may cheat with open source",
+    "url" : "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "TVA touts $1.7B data center deal under new large-load tariff",
+    "url" : "https://www.utilitydive.com/news/tva-touts-17b-data-center-deal-under-new-large-load-tariff/875630/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Midterms provide clarity on data center development: Vistra CEO",
+    "url" : "https://www.utilitydive.com/news/vistra-midterms-data-center-ercot-pjm/875626/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Kalshi traders say the odds of states imposing data center moratoriums is more likely than not",
+    "url" : "https://www.cnbc.com/2026/11/25/kalshi-traders-say-the-odds-of-states-imposing-data-center-moratoriums-is-more-likely-than-not.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "US Army offers more land to private AI data centers, across nine sites - must include power generation",
+    "url" : "https://www.datacenterdynamics.com/en/news/us-army-offers-more-land-to-private-ai-data-centers-across-nine-sites-must-include-power-generation/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "InfraTrust warns of exploited supply chain flaws in network appliances",
+    "url" : "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+    "url" : "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Microsoft confirms authentication issues after November updates",
+    "url" : "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "New Inception extortion gang launches large-scale vishing campaign",
+    "url" : "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Hackers reportedly breached CIA intelligence analysis system",
+    "url" : "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Treasury's FinCEN takes systems offline after cybersecurity incident",
+    "url" : "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability",
+    "url" : "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
+    "url" : "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+    "url" : "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents",
+    "url" : "https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Introducing Search for Agents",
+    "url" : "https://blog.cloudflare.com/search-for-agents/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "STAT+: Pharmalittle: We’re reading about Sanofi buying Insmed, Roche touting its breast cancer pill, and more",
+    "url" : "https://www.statnews.com/pharmalot/2026/11/24/sanofi-buying-insmed-roche-breast-cancer-pill/?utm_campaign=rss"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod",
+    "url" : "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Academic hospital heads petition Congress for 2-year delay to CMS' 340B cuts",
+    "url" : "https://www.fiercehealthcare.com/providers/academic-hospital-heads-petition-congress-2-year-delay-cms-340b-cuts"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "STAT+: Alaskan hospitals use AI to improve stroke care, peptides go mainstream, and RSNA 2026",
+    "url" : "https://www.statnews.com/2026/11/24/alaskan-hospitals-using-ai-rsna-2026-peptides-health-tech/?utm_campaign=rss"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Electric boat maker Zin Boats raises $5M and launches propulsion business beyond the water",
+    "url" : "https://www.geekwire.com/2026/electric-boat-maker-zin-boats-raises-5m-and-launches-propulsion-business-beyond-the-water/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Uncommon Thinkers: Saf Rabah wants to make it easier to build housing, one permit at a time",
+    "url" : "https://www.geekwire.com/2026/uncommon-thinkers-saf-rabah-wants-to-make-it-easier-to-build-housing-one-permit-at-a-time/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "More art, less artificial: Seattle Art Museum billboards troll tech ads and tell people to look up",
+    "url" : "https://www.geekwire.com/2026/more-art-less-artificial-seattle-art-museum-billboards-troll-tech-ads-and-tell-people-to-look-up/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+    "url" : "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Cutting-edge Nvidia chips not hard to find for sale in China, despite U.S. ban",
+    "url" : "https://www.washingtonpost.com/world/2026/11/25/top-nvidia-chips-are-still-offer-china-despite-us-ban/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "EU Lays out Plan to Boost Quantum Technology",
+    "url" : "https://www.wsj.com/world/europe/eu-lays-out-plan-to-boost-quantum-technology-6555b429?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Five Russian military jets hit in airfield strike, says Ukraine",
+    "url" : "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "China’s Military Ambitions in the Pacific Suffer Setback",
+    "url" : "https://www.wsj.com/world/asia/chinas-military-ambitions-in-the-pacific-suffer-setback-ef5a2d30?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Oil Prices Fall as Traders Weigh Supply Outlook, Renewed Middle East Tensions",
+    "url" : "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "How much tariff US proposes to impose on India? Which 14 economies face new US tariffs? Check rates here",
+    "url" : "https://www.livemint.com/news/us-news/trump-administration-plans-to-raise-tariffs-on-china-eu-brazil-others-over-subsidised-production-report-11795614548467.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Stock indices gain 1.85%, rupee surges to 8-month high aided by foreign inflows, low crude prices",
+    "url" : "https://www.thehindu.com/business/markets/sensex-jumps-1502-points-nifty-surges-to-25819-on-foreign-fund-inflows-lower-crude-oil/article71742244.ece"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "GST e-invoicing to cover purchases from unregistered suppliers, imported services from 2027",
+    "url" : "https://www.livemint.com/news/gst-e-invoicing-purchases-unregistered-suppliers-imported-services-2027-tax-compliance-transparency-11795606812048.html"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Kalyan Krishnamurthy’s Exit: How Walmart’s Kickback Probe, IPO Delay Shook Up Flipkart",
+    "url" : "https://inc42.com/features/kalyan-krishnamurthy-exit-how-walmarts-kickback-probe-ipo-delay-shook-up-flipkart/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Self-reinforcing quality / adopting verification pattern",
+    "url" : "https://lethain.com/adopting-verification-pattern/"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Code ownership is eroding",
+    "url" : "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "The end of manual code review?",
+    "url" : "https://leaddev.com/software-quality/the-end-of-manual-code-review?utm_source=leaddev&utm_medium=RSS"
+  }, {
+    "date" : "2026-11-25",
+    "headline" : "Presentation: Learning Out Loud (Under Near-Existential Pressure)",
+    "url" : "https://www.infoq.com/presentations/ai-engineering-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+    "url" : "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+    "url" : "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price",
+    "url" : "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "BOE Warns Scale and Breadth Of AI Financing Poses Threat to Financial Stability",
+    "url" : "https://www.wsj.com/world/uk/boe-warns-scale-and-breadth-of-ai-financing-poses-threat-to-financial-stability-005ad739?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+    "url" : "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "1Password customer data stolen after employee GitHub account breach",
+    "url" : "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+    "url" : "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank",
+    "url" : "https://www.marketwatch.com/story/the-tech-rout-should-bottom-soon-with-a-25-rally-for-the-s-p-500-to-follow-says-deutsche-bank-c9070bf6?mod=mw_rss_topstories"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Banks look to dump AI debt",
+    "url" : "https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "What to watch for as volatility in markets spikes",
+    "url" : "https://www.semafor.com/article/11/26/2026/what-to-watch-for-as-volatility-in-markets-spikes"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "U.S. Stock Futures Higher as AI Trade Steadies for Thanksgiving Break",
+    "url" : "https://www.wsj.com/finance/stocks/u-s-stock-futures-higher-as-ai-trade-steadies-for-thanksgiving-break-8f712d82?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Altria Considers $157 Billion Tobacco Tie-Up With Imperial Brands",
+    "url" : "https://www.wsj.com/business/deals/altria-considering-possible-offer-for-imperial-brands-7cef494b?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Spot bitcoin ETFs on track for worst month on record as bear market drags on",
+    "url" : "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "The Mad Dash for Memory Chips—and the Pain It’s Causing Holiday Shoppers",
+    "url" : "https://www.wsj.com/tech/memory-chip-shortage-ai-electronics-prices-e58a065a?mod=rss_Technology"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Bright Horizon utility lands Microsoft data center deals amid Wyoming buildout",
+    "url" : "https://www.utilitydive.com/news/cheyenne-light-microsoft-google-data-center-bright-horizon/875739/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Data Center Developer Wanted to Build Up, Not Out. Kansas City Said No.",
+    "url" : "https://www.nytimes.com/2026/11/26/business/energy-environment/vertical-data-center-kansas-city.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Evaluating Recent Model Releases on GDPx",
+    "url" : "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Prologis sells industrial facility to Fluidstack for data center in Pennsylvania",
+    "url" : "https://www.datacenterdynamics.com/en/news/prologis-sells-industrial-facility-to-fluidstack-for-data-center-in-pennsylvania/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Rackspace pulls plug on Spot cloud service after security breach",
+    "url" : "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Microsoft: China’s Salt Typhoon hackers are using Artex",
+    "url" : "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+    "url" : "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "InfraTrust warns of exploited supply chain flaws in network appliances",
+    "url" : "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+    "url" : "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+    "url" : "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Deterministic Simulation Testing",
+    "url" : "https://martinfowler.com/articles/deterministic-simulation-testing.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Holding the Door for Agents",
+    "url" : "https://fly.io/blog/holding-the-door-for-agents/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "GitHub Ditches CSS-in-JS for CSS Modules, Reports 55% Faster SSR After Three-Year Migration",
+    "url" : "https://www.infoq.com/news/2026/11/github-css-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Kubernetes v1.38 Sneak Peek",
+    "url" : "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Introducing Search for Agents",
+    "url" : "https://blog.cloudflare.com/search-for-agents/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Rural communities face heavier chronic disease burden, increasing pressure on PCPs: athenaInstitute",
+    "url" : "https://www.fiercehealthcare.com/providers/rural-communities-face-heavier-chronic-disease-burden-increasing-pressure-pcps"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Why Medicare’s 2027 physician pay changes worry some specialists",
+    "url" : "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/?utm_campaign=rss"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+    "url" : "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "New UK-EU treaty has 10-year termination clause",
+    "url" : "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Iran imposes sweeping austerity measures as U.S. economic pressure mounts",
+    "url" : "https://www.washingtonpost.com/world/2026/11/26/tehran-imposes-austerity-under-us-pressure-iranians-frustrations-grow/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
+    "url" : "https://www.washingtonpost.com/politics/2026/11/25/backing-jensen-huang-trump-delivers-setback-china-hawks/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+    "url" : "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Bipartisan Desire to Regulate A.I. Faces Obstacles in Congress",
+    "url" : "https://www.nytimes.com/2026/11/26/us/politics/ai-regulation-congress-nvidia.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "C-DAC targets indigenous 32,000-core GPU by mid-2028, seeks private partners; to put pressure on rival chip prices",
+    "url" : "https://www.thehindu.com/business/Industry/c-dac-targets-indigenous-32000-core-gpu-by-mid-2028-seeks-private-partners-to-put-pressure-on-rival-chip-prices/article71746677.ece"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Stock markets rally for 2nd day on foreign fund inflows, buying in IT shares",
+    "url" : "https://www.thehindu.com/business/markets/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-buying-in-it-shares/article71746150.ece"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Yes Bank AT1 bond verdict: 60 lakh retail shareholders face ₹8,415-crore bill",
+    "url" : "https://www.thehindu.com/business/yes-bank-at1-bond-verdict-60-lakh-retail-shareholders-face-8415-crore-bill/article71746924.ece"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Parliament to reconvene from November 30 to ‘transact essential business’, says Rijiju",
+    "url" : "https://www.thehindu.com/news/national/government-to-reconvene-parliament-from-november-30-to-december-3-kiren-rijiju/article71747089.ece"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Engineering leaders can’t prove AI is paying off",
+    "url" : "https://leaddev.com/leadership/engineering-leaders-cant-prove-ai-is-paying-off?utm_source=leaddev&utm_medium=RSS"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Fragments: November 20",
+    "url" : "https://martinfowler.com/fragments/2026-11-20.html"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "The Explorer Pattern for product invention and development.",
+    "url" : "https://lethain.com/explorer-pattern/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Shipping 100+ PRs to production in a week",
+    "url" : "https://lethain.com/passing-100-prs-in-a-week/"
+  }, {
+    "date" : "2026-11-26",
+    "headline" : "Inside Capital One’s multi-agent system",
+    "url" : "https://leaddev.com/ai/inside-capital-ones-multi-agent-system?utm_source=leaddev&utm_medium=RSS"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+    "url" : "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Nvidia’s stock has tumbled 28% over one chaotic month. The next big test lies in the week ahead",
+    "url" : "https://www.marketwatch.com/story/nvidias-stock-has-tumbled-27-over-one-chaotic-month-the-next-big-test-lies-in-the-week-ahead-06449777?mod=mw_rss_topstories"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+    "url" : "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Software giant SAP confirms cyber incident amid reports of source code breach",
+    "url" : "https://therecord.media/sap-germany-cyberattack-github"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "US Air Force cloud platform reportedly hacked in latest federal breach",
+    "url" : "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "FCC approves SpaceX application to deploy one million satellites for data centers in space",
+    "url" : "https://www.datacenterdynamics.com/en/news/fcc-approves-spacex-application-to-deploy-one-million-satellites-for-data-centers-in-space/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Tech Stocks Rise as Investors Take a Break From AI Jitters",
+    "url" : "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+    "url" : "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+    "url" : "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Week Ahead for FX, Bonds: Key Labor Data in Focus Ahead of Fed’s December Rate Decision",
+    "url" : "https://www.wsj.com/finance/investing/week-ahead-for-fx-bonds-key-labor-data-in-focus-ahead-of-feds-december-rate-decision-52cad754?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Allstate Joins Growing List of Companies Hit by Tech Outages",
+    "url" : "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488?mod=rss_markets_main"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "AI boom leaves network operators waiting up to 18 months for kit",
+    "url" : "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "SpaceX installs $250m worth of Tesla Megapack batteries at Starbase data center site in Texas - report",
+    "url" : "https://www.datacenterdynamics.com/en/news/spacex-installs-250m-worth-of-tesla-megapack-batteries-at-starbase-data-center-site-in-texas-report/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Galaxy Digital files for next phase of development at Helios data center campus in Texas",
+    "url" : "https://www.datacenterdynamics.com/en/news/galaxy-digital-files-for-next-phase-of-development-at-helios-data-center-campus-in-texas/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Europe's AI sovereignty push: Lots of cloud, not much silver lining",
+    "url" : "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "UK government rejects national consultation on AI datacenters",
+    "url" : "https://www.theregister.com/off-prem/2026/11/27/uk-government-rejects-national-consultation-on-ai-datacenters/5312501"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Risky Bulletin: Hackers breach Erlang and Elixir package manager",
+    "url" : "https://news.risky.biz/risky-bulletin-hackers-breach-erlang-and-elixir-package-manager/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "British government takes services offline following ‘cyber incident’",
+    "url" : "https://therecord.media/uk-department-work-pensions-cyber-incident"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+    "url" : "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Drupal warns of new site takeover flaw exploited in attacks",
+    "url" : "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Bank of England Urges Firms to Move Faster on Quantum Security",
+    "url" : "https://thequantuminsider.com/2026/11/27/bank-of-england-urges-firms-to-move-faster-on-quantum-security/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Guest Post: Why Critical Infrastructure Must Prepare for Cryptographic Uncertainty",
+    "url" : "https://thequantuminsider.com/2026/11/27/critical-infrastructure-cryptographic-agility/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+    "url" : "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+    "url" : "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "QCon San Francisco 2026: How to Kill the Code Review",
+    "url" : "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Deterministic Simulation Testing",
+    "url" : "https://martinfowler.com/articles/deterministic-simulation-testing.html"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+    "url" : "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "‘Aether & Iron’: Seattle-area indie game studio builds a noir detective RPG in the sky",
+    "url" : "https://www.geekwire.com/2026/aether-iron-seattle-area-indie-game-studio-builds-a-noir-detective-rpg-in-the-sky/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Trump defends Putin friendship that Zelensky calls ‘strange’",
+    "url" : "https://www.washingtonpost.com/world/2026/11/27/trump-defends-putin-friendship-that-zelensky-calls-strange/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Iran imposes sweeping austerity measures as U.S. economic pressure mounts",
+    "url" : "https://www.washingtonpost.com/world/2026/11/26/tehran-imposes-austerity-under-us-pressure-iranians-frustrations-grow/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "France Slips Into Recession as Exports Sag",
+    "url" : "https://www.wsj.com/world/europe/french-economy-slips-into-recession-as-exports-sag-47e934c5?mod=rss_worldnews"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Bipartisan Desire to Regulate A.I. Faces Obstacles in Congress",
+    "url" : "https://www.nytimes.com/2026/11/26/us/politics/ai-regulation-congress-nvidia.html"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "EU leaders fail to break $1.7 trillion budget deadlock as political pressure mounts",
+    "url" : "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "India-U.S. trade deal is close to culmination: Goyal",
+    "url" : "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Rupee nosedives 60 paise to settle at 92.98 against U.S. dollar",
+    "url" : "https://www.thehindu.com/business/Industry/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750458.ece"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "RBI cuts daily CRR maintenance to 90%, to unlock over ₹40,000 crore",
+    "url" : "https://www.thehindu.com/business/Economy/rbi-cuts-daily-crr-maintenance-to-90-to-unlock-over-40000-crore/article71751043.ece"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "MeitY plans to expand national computing capacity for AI inference",
+    "url" : "https://www.thehindu.com/business/Industry/meity-plans-to-expand-national-computing-capacity-for-ai-inference/article71750812.ece"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Shipping 100+ PRs to production in a week",
+    "url" : "https://lethain.com/passing-100-prs-in-a-week/"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Engineering leaders can’t prove AI is paying off",
+    "url" : "https://leaddev.com/leadership/engineering-leaders-cant-prove-ai-is-paying-off?utm_source=leaddev&utm_medium=RSS"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "How Anthropic builds software in 2026 with Katelyn Lesse",
+    "url" : "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Fragments: November 20",
+    "url" : "https://martinfowler.com/fragments/2026-11-20.html"
+  }, {
+    "date" : "2026-11-27",
+    "headline" : "Code ownership is eroding",
+    "url" : "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS"
+  } ],
+  "learnTitlesUsed" : [ "Build first, reconcile later: the Explorer Pattern", "Splitting the decider from the doer in a dispatch system", "When a shared inference server becomes a side channel", "Treating an AI agent as an insider", "Replaying failure on purpose", "Making verification a loop, not a gate", "Why a faster kube-proxy backend is being retired", "Where an AI coding agent's reach should end", "When the disclosure clock runs faster than the patch", "How a quiet bug became a global cascade" ],
+  "problems" : [ ]
+}
